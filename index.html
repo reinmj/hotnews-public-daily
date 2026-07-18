@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News Daily</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.js"></script>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f6f7f4;
+            --ink: #16201c;
+            --muted: #6a756f;
+            --line: #dfe5dc;
+            --paper: #ffffff;
+            --accent: #0f766e;
+            --accent-soft: #d9f2ec;
+            --warm: #a15c24;
+        }
+
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background:
+                radial-gradient(circle at 14% 0%, rgba(15, 118, 110, 0.12), transparent 26rem),
+                linear-gradient(180deg, #fbfbf7 0%, var(--bg) 42%, #eef2ed 100%);
+            color: var(--ink);
+            font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+            min-height: 100vh;
+        }
+
+        a { color: inherit; }
+
+        .shell {
+            width: min(1180px, calc(100% - 32px));
+            margin: 0 auto;
+        }
+
+        .hero {
+            padding: 40px 0 24px;
+            border-bottom: 1px solid rgba(22, 32, 28, 0.08);
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 34px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            min-width: 0;
+        }
+
+        .mark {
+            width: 38px;
+            height: 38px;
+            display: grid;
+            place-items: center;
+            border: 1px solid rgba(15, 118, 110, 0.28);
+            background: var(--accent-soft);
+            color: var(--accent);
+            font-weight: 900;
+            border-radius: 8px;
+        }
+
+        .brand-title {
+            font-size: 14px;
+            font-weight: 850;
+            letter-spacing: 0;
+        }
+
+        .brand-subtitle {
+            color: var(--muted);
+            font-size: 12px;
+            margin-top: 2px;
+        }
+
+        .headline {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto;
+            gap: 24px;
+            align-items: end;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(34px, 6vw, 72px);
+            line-height: 0.94;
+            letter-spacing: 0;
+            max-width: 860px;
+        }
+
+        .dek {
+            margin: 18px 0 0;
+            color: var(--muted);
+            font-size: 16px;
+            line-height: 1.7;
+            max-width: 660px;
+        }
+
+        .meter {
+            min-width: 180px;
+            border-left: 1px solid var(--line);
+            padding-left: 22px;
+        }
+
+        .count {
+            font-size: 42px;
+            font-weight: 900;
+            line-height: 1;
+        }
+
+        .count-label {
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 780;
+            text-transform: uppercase;
+            margin-top: 8px;
+        }
+
+        .toolbar {
+            padding: 22px 0;
+        }
+
+        .status {
+            color: var(--muted);
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .feed {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            padding-bottom: 54px;
+        }
+
+        .timeline-item {
+            position: relative;
+            display: grid;
+            grid-template-columns: 92px 28px minmax(0, 1fr);
+            align-items: center;
+            gap: 16px;
+            padding: 0 0 18px;
+        }
+
+        .time {
+            color: var(--warm);
+            font-size: 13px;
+            font-weight: 900;
+            line-height: 1;
+            padding-top: 0;
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .dot-wrap {
+            align-self: stretch;
+            position: relative;
+            display: grid;
+            place-items: center;
+            padding-top: 0;
+        }
+
+        .dot-wrap::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: -18px;
+            width: 1px;
+            transform: translateX(-50%);
+            background: var(--line);
+        }
+
+        .timeline-item:last-child .dot-wrap::before {
+            display: none;
+        }
+
+        .dot {
+            width: 13px;
+            height: 13px;
+            border-radius: 999px;
+            background: var(--paper);
+            border: 3px solid var(--accent);
+            box-shadow: 0 0 0 5px rgba(15, 118, 110, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        .story {
+            border: 1px solid rgba(22, 32, 28, 0.1);
+            background: rgba(255, 255, 255, 0.84);
+            border-radius: 8px;
+            padding: 17px 18px;
+            box-shadow: 0 8px 22px rgba(22, 32, 28, 0.05);
+        }
+
+        .source {
+            display: inline-flex;
+            max-width: 100%;
+            color: var(--accent);
+            background: rgba(15, 118, 110, 0.08);
+            border: 1px solid rgba(15, 118, 110, 0.13);
+            border-radius: 999px;
+            padding: 4px 8px;
+            font-size: 11px;
+            font-weight: 860;
+            line-height: 1;
+            text-transform: uppercase;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .title {
+            margin: 12px 0 0;
+            font-size: 18px;
+            line-height: 1.32;
+            letter-spacing: 0;
+            font-weight: 880;
+        }
+
+        .title-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .title-link:hover {
+            color: var(--accent);
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 3px;
+        }
+
+        .summary {
+            margin: 14px 0 0;
+            color: #39443f;
+            font-size: 14px;
+            line-height: 1.72;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .summary p {
+            margin: 0 0 0.65rem;
+        }
+
+        .summary p:last-child,
+        .summary ul:last-child,
+        .summary ol:last-child {
+            margin-bottom: 0;
+        }
+
+        .summary ul,
+        .summary ol {
+            margin: 0 0 0.65rem;
+            padding-left: 1.2rem;
+        }
+
+        .summary li {
+            margin: 0.2rem 0;
+        }
+
+        .summary strong {
+            color: #19241f;
+            font-weight: 850;
+        }
+
+        .summary code {
+            background: #edf1ec;
+            border: 1px solid #dfe5dc;
+            border-radius: 5px;
+            padding: 0.08rem 0.32rem;
+            font-size: 0.92em;
+        }
+
+        .summary a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(15, 118, 110, 0.32);
+        }
+
+        .story-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 8px;
+            margin-top: 14px;
+        }
+
+        .share-button {
+            appearance: none;
+            border: 1px solid rgba(15, 118, 110, 0.18);
+            background: #f4faf7;
+            color: var(--accent);
+            border-radius: 7px;
+            padding: 7px 10px;
+            font-size: 12px;
+            font-weight: 850;
+            line-height: 1;
+            cursor: pointer;
+            transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+        }
+
+        .share-button:hover {
+            background: var(--accent-soft);
+            border-color: rgba(15, 118, 110, 0.34);
+            transform: translateY(-1px);
+        }
+
+        .share-button:disabled {
+            cursor: wait;
+            color: var(--muted);
+            background: #f3f5f2;
+            transform: none;
+        }
+
+        .share-stage {
+            position: fixed;
+            left: -10000px;
+            top: 0;
+            width: 1200px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .share-card {
+            width: 1200px;
+            min-height: 675px;
+            padding: 54px 60px;
+            background:
+                radial-gradient(circle at 10% 0%, rgba(15, 118, 110, 0.13), transparent 380px),
+                linear-gradient(135deg, #fbfbf7 0%, #f1f5ef 100%);
+            color: var(--ink);
+            border: 1px solid #dde6de;
+            border-radius: 8px;
+            font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+        }
+
+        .share-card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 28px;
+            margin-bottom: 44px;
+        }
+
+        .share-card-brand {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            font-size: 22px;
+            font-weight: 900;
+        }
+
+        .share-card-mark {
+            width: 48px;
+            height: 48px;
+            display: grid;
+            place-items: center;
+            border-radius: 8px;
+            border: 1px solid rgba(15, 118, 110, 0.28);
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+
+        .share-card-meta {
+            color: var(--warm);
+            font-size: 20px;
+            font-weight: 900;
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+        }
+
+        .share-card-source {
+            display: inline-flex;
+            max-width: 720px;
+            color: var(--accent);
+            background: rgba(15, 118, 110, 0.08);
+            border: 1px solid rgba(15, 118, 110, 0.13);
+            border-radius: 999px;
+            padding: 8px 12px;
+            font-size: 18px;
+            font-weight: 900;
+            line-height: 1;
+            text-transform: uppercase;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .share-card-title {
+            margin: 26px 0 0;
+            font-size: 52px;
+            line-height: 1.08;
+            letter-spacing: 0;
+            font-weight: 920;
+            max-height: 226px;
+            overflow: hidden;
+        }
+
+        .share-card-title p {
+            margin: 0;
+        }
+
+        .share-card-title strong,
+        .share-card-title b {
+            color: #0f766e;
+            font-weight: 920;
+        }
+
+        .share-card-title em,
+        .share-card-title i {
+            color: #6b4b2d;
+            font-style: italic;
+        }
+
+        .share-card-summary {
+            margin: 28px 0 0;
+            color: #34413b;
+            font-size: 28px;
+            line-height: 1.42;
+            max-height: 160px;
+            overflow: hidden;
+        }
+
+        .share-card-summary p {
+            margin: 0 0 0.45em;
+        }
+
+        .share-card-summary p:last-child,
+        .share-card-summary ul:last-child,
+        .share-card-summary ol:last-child {
+            margin-bottom: 0;
+        }
+
+        .share-card-summary ul,
+        .share-card-summary ol {
+            margin: 0 0 0.45em;
+            padding-left: 1.2em;
+        }
+
+        .share-card-summary li {
+            margin: 0.12em 0;
+        }
+
+        .share-card-summary strong,
+        .share-card-summary b {
+            color: #16201c;
+            font-weight: 900;
+        }
+
+        .share-card-summary em,
+        .share-card-summary i {
+            color: #6b4b2d;
+        }
+
+        .share-card-summary code {
+            background: #edf1ec;
+            border: 1px solid #dfe5dc;
+            border-radius: 5px;
+            padding: 0.04em 0.22em;
+            font-size: 0.88em;
+        }
+
+        .share-card-summary a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(15, 118, 110, 0.32);
+        }
+
+        .share-card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            gap: 28px;
+            margin-top: 46px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(22, 32, 28, 0.12);
+            color: var(--muted);
+            font-size: 20px;
+            font-weight: 760;
+        }
+
+        .share-card-url {
+            max-width: 760px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: right;
+        }
+
+        .empty, .error {
+            grid-column: 1 / -1;
+            border: 1px dashed var(--line);
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            padding: 36px;
+            color: var(--muted);
+            text-align: center;
+            font-weight: 760;
+        }
+
+        .skeleton {
+            min-height: 132px;
+            border-radius: 8px;
+            background: linear-gradient(90deg, rgba(255,255,255,0.5), rgba(255,255,255,0.9), rgba(255,255,255,0.5));
+            background-size: 220% 100%;
+            animation: shine 1.3s linear infinite;
+            border: 1px solid rgba(22, 32, 28, 0.08);
+            margin-left: 136px;
+            margin-bottom: 18px;
+        }
+
+        @keyframes shine {
+            from { background-position: 220% 0; }
+            to { background-position: -220% 0; }
+        }
+
+        @media (max-width: 760px) {
+            .hero { padding-top: 22px; }
+            .nav, .headline {
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .meter {
+                border-left: 0;
+                border-top: 1px solid var(--line);
+                padding: 18px 0 0;
+            }
+            .timeline-item {
+                grid-template-columns: 58px 22px minmax(0, 1fr);
+                gap: 10px;
+                padding-bottom: 14px;
+            }
+            .time {
+                font-size: 11px;
+            }
+            .story {
+                padding: 15px;
+            }
+            .story-actions {
+                justify-content: flex-start;
+            }
+            .title {
+                font-size: 16px;
+            }
+            .skeleton {
+                margin-left: 90px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="shell">
+            <nav class="nav">
+                <div class="brand">
+                    <div class="mark">AI</div>
+                    <div>
+                        <div class="brand-title">AI News Daily</div>
+                        <div class="brand-subtitle">Published today, summarized for fast reading</div>
+                    </div>
+                </div>
+            </nav>
+            <section class="headline">
+                <div>
+                    <h1>Today’s Signal From the AI Web</h1>
+                    <p class="dek">A focused daily stream based on original publish time. Each item keeps only the source, title, summary, and timestamp.</p>
+                </div>
+                <aside class="meter" aria-label="今日文章数量">
+                    <div id="count" class="count">--</div>
+                    <div class="count-label">published items</div>
+                </aside>
+            </section>
+        </div>
+    </header>
+
+    <main class="shell">
+        <div class="toolbar">
+            <div id="status" class="status">正在加载...</div>
+        </div>
+        <section id="feed" class="feed" aria-live="polite"></section>
+    </main>
+    <div id="shareStage" class="share-stage" aria-hidden="true"></div>
+
+    <script>
+        const feedEl = document.getElementById('feed');
+        const statusEl = document.getElementById('status');
+        const countEl = document.getElementById('count');
+        const shareStageEl = document.getElementById('shareStage');
+        let currentItems = [];
+
+        function todayLocal() {
+            const now = new Date();
+            const offset = now.getTimezoneOffset();
+            const local = new Date(now.getTime() - offset * 60 * 1000);
+            return local.toISOString().slice(0, 10);
+        }
+
+        function escapeHtml(value) {
+            const div = document.createElement('div');
+            div.innerText = value || '';
+            return div.innerHTML;
+        }
+
+        function sanitizeHtml(html) {
+            const template = document.createElement('template');
+            template.innerHTML = html || '';
+            const allowedTags = new Set(['P', 'UL', 'OL', 'LI', 'STRONG', 'B', 'EM', 'I', 'CODE', 'A', 'BR']);
+            const allowedAttrs = new Set(['href', 'title']);
+
+            for (const node of Array.from(template.content.querySelectorAll('*'))) {
+                if (!allowedTags.has(node.tagName)) {
+                    node.replaceWith(...Array.from(node.childNodes));
+                    continue;
+                }
+
+                for (const attr of Array.from(node.attributes)) {
+                    if (!allowedAttrs.has(attr.name) || node.tagName !== 'A') {
+                        node.removeAttribute(attr.name);
+                    }
+                }
+
+                if (node.tagName === 'A') {
+                    const href = node.getAttribute('href') || '';
+                    if (!/^https?:\/\//i.test(href)) {
+                        node.removeAttribute('href');
+                    } else {
+                        node.setAttribute('target', '_blank');
+                        node.setAttribute('rel', 'noopener noreferrer');
+                    }
+                }
+            }
+
+            return template.innerHTML;
+        }
+
+        function renderMarkdown(value) {
+            if (!value) return '';
+            if (!window.marked) return escapeHtml(value).replace(/\n/g, '<br>');
+            return sanitizeHtml(marked.parse(value));
+        }
+
+        function renderInlineMarkdown(value) {
+            const html = renderMarkdown(value || '');
+            const template = document.createElement('template');
+            template.innerHTML = html;
+            if (template.content.children.length === 1 && template.content.firstElementChild.tagName === 'P') {
+                return template.content.firstElementChild.innerHTML;
+            }
+            return template.innerHTML;
+        }
+
+        function safeUrl(value) {
+            const url = String(value || '').trim();
+            if (!/^https?:\/\//i.test(url)) return '#';
+            return escapeHtml(url);
+        }
+
+        function formatTime(value) {
+            if (!value) return '--:--:--';
+            const match = String(value).match(/\d{4}-\d{2}-\d{2}[ T](\d{2}:\d{2}:\d{2})/);
+            return match ? match[1] : String(value);
+        }
+
+        function truncateText(value, maxLength) {
+            const text = String(value || '').replace(/\s+/g, ' ').trim();
+            if (text.length <= maxLength) return text;
+            return `${text.slice(0, maxLength - 1).trim()}...`;
+        }
+
+        function getHost(value) {
+            try {
+                return new URL(value).hostname.replace(/^www\./, '');
+            } catch (err) {
+                return 'original source';
+            }
+        }
+
+        function fileSafeName(value) {
+            return String(value || 'item')
+                .toLowerCase()
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/^-+|-+$/g, '')
+                .slice(0, 48) || 'item';
+        }
+
+        function buildShareCard(item) {
+            const summary = item.summary ? renderMarkdown(item.summary) : 'Open the source article for the full context.';
+            const time = formatTime(item.publish_time_local || item.publish_time);
+            const source = item.source || 'AI News';
+            const url = item.url || '';
+            const card = document.createElement('div');
+            card.className = 'share-card';
+            card.innerHTML = `
+                <div class="share-card-top">
+                    <div class="share-card-brand">
+                        <div class="share-card-mark">AI</div>
+                        <div>AI News Daily</div>
+                    </div>
+                    <div class="share-card-meta">${escapeHtml(time)}</div>
+                </div>
+                <div class="share-card-source">${escapeHtml(source)}</div>
+                <h3 class="share-card-title">${renderInlineMarkdown(truncateText(item.title || 'Untitled', 145))}</h3>
+                <div class="share-card-summary">${summary}</div>
+                <div class="share-card-footer">
+                    <div>Published today, summarized for fast reading</div>
+                    <div class="share-card-url">${escapeHtml(getHost(url))}</div>
+                </div>
+            `;
+            return card;
+        }
+
+        function downloadBlob(blob, filename) {
+            const objectUrl = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = objectUrl;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+            setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+        }
+
+        async function copyImageToClipboard(blob) {
+            if (!navigator.clipboard || typeof ClipboardItem === 'undefined') return false;
+            try {
+                await navigator.clipboard.write([
+                    new ClipboardItem({ 'image/png': blob })
+                ]);
+                return true;
+            } catch (err) {
+                console.warn('图片写入剪贴板失败，回退为下载。', err && (err.name || err.message) ? `${err.name || ''}: ${err.message || ''}` : err);
+                return false;
+            }
+        }
+
+        async function copyImagePromiseToClipboard(blobPromise) {
+            if (!navigator.clipboard || typeof ClipboardItem === 'undefined') return false;
+            try {
+                await navigator.clipboard.write([
+                    new ClipboardItem({ 'image/png': blobPromise })
+                ]);
+                return true;
+            } catch (err) {
+                console.warn('图片 Promise 写入剪贴板失败，回退为下载。', err && (err.name || err.message) ? `${err.name || ''}: ${err.message || ''}` : err);
+                return false;
+            }
+        }
+
+        function openXComposer(item, targetWindow = null) {
+            const url = item.url || window.location.href;
+            const intentUrl = `https://x.com/intent/post?url=${encodeURIComponent(url)}`;
+            if (targetWindow && !targetWindow.closed) {
+                targetWindow.location.href = intentUrl;
+                return targetWindow;
+            }
+            return window.open(intentUrl, '_blank', 'noopener,noreferrer');
+        }
+
+        async function shareItem(index, button) {
+            const item = currentItems[index];
+            if (!item) return;
+            const xWindow = window.open('about:blank', '_blank');
+            if (!window.htmlToImage || typeof window.htmlToImage.toBlob !== 'function') {
+                openXComposer(item, xWindow);
+                return;
+            }
+
+            const originalText = button ? button.textContent : '';
+            if (button) {
+                button.disabled = true;
+                button.textContent = '生成图片中';
+            }
+
+            try {
+                shareStageEl.innerHTML = '';
+                const card = buildShareCard(item);
+                shareStageEl.appendChild(card);
+                const blobPromise = window.htmlToImage.toBlob(card, {
+                    pixelRatio: 2,
+                    backgroundColor: '#fbfbf7',
+                    cacheBust: true
+                }).then((blob) => {
+                    if (!blob) throw new Error('卡片图片生成失败');
+                    return blob;
+                });
+
+                const filename = `ai-news-daily-${todayLocal()}-${fileSafeName(item.source)}-${index + 1}.png`;
+                const copied = await copyImagePromiseToClipboard(blobPromise);
+                if (!copied) {
+                    const blob = await blobPromise;
+                    const copiedAfterRender = await copyImageToClipboard(blob);
+                    if (copiedAfterRender) {
+                        if (button) button.textContent = '图片已复制';
+                        openXComposer(item, xWindow);
+                        return;
+                    }
+                    downloadBlob(blob, filename);
+                    if (button) button.textContent = '已下载图片';
+                } else if (button) {
+                    button.textContent = '图片已复制';
+                }
+                openXComposer(item, xWindow);
+            } catch (err) {
+                console.error(err);
+                openXComposer(item, xWindow);
+            } finally {
+                shareStageEl.innerHTML = '';
+                if (button) {
+                    button.disabled = false;
+                    button.textContent = originalText || '分享已关闭';
+                }
+            }
+        }
+
+        function renderLoading() {
+            feedEl.innerHTML = Array.from({ length: 9 }, () => '<div class="skeleton"></div>').join('');
+            countEl.innerText = '--';
+        }
+
+        function renderItems(items) {
+            currentItems = items;
+            countEl.innerText = items.length;
+
+            if (!items.length) {
+                feedEl.innerHTML = '<div class="empty">这一天还没有可展示的已摘要文章。</div>';
+                return;
+            }
+
+            feedEl.innerHTML = items.map((item, index) => `
+                <article class="timeline-item">
+                    <time class="time">${formatTime(item.publish_time_local || item.publish_time)}</time>
+                    <div class="dot-wrap" aria-hidden="true"><span class="dot"></span></div>
+                    <div class="story">
+                        <span class="source">${escapeHtml(item.source)}</span>
+                        <h2 class="title">
+                            <a class="title-link" href="${safeUrl(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+                        </h2>
+                        <div class="summary">${renderMarkdown(item.summary)}</div>
+                        <!-- Static public export: X sharing is temporarily disabled. -->
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        /*
+         * Static public export: X sharing is temporarily disabled.
+         */
+
+        async function loadDaily() {
+            const targetDate = todayLocal();
+            renderLoading();
+            statusEl.innerText = `今日 ${targetDate} · 正在加载`;
+
+            try {
+                const response = await fetch('data/latest.json', { cache: 'no-store' });
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const data = await response.json();
+                const items = data.items || [];
+                renderItems(items);
+                statusEl.innerText = `今日 ${data.date || targetDate} · 按发布时间倒序`;
+            } catch (err) {
+                countEl.innerText = '0';
+                feedEl.innerHTML = `<div class="error">加载失败：${escapeHtml(err.message)}</div>`;
+                statusEl.innerText = `今日 ${targetDate} · 加载失败`;
+            }
+        }
+
+        loadDaily();
+    </script>
+</body>
+</html>
