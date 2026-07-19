@@ -1,8 +1,32 @@
 {
   "date": "2026-07-19",
-  "count": 378,
-  "generated_at": "2026-07-19T20:36:38+08:00",
+  "count": 383,
+  "generated_at": "2026-07-19T21:43:22+08:00",
   "items": [
+    {
+      "source": "Hacker News",
+      "title": "I burned all my tokens researching how to save tokens",
+      "url": "https://quesma.com/blog/custom-deep-research-pipeline/",
+      "summary": "* **标题**：AI 代理成本失控：构建基于多模型协作的“零边际成本”研究架构\n* **核心摘要**：开发者在 Quesma 研究中遭遇 Claude Max 5x 额度耗尽，通过整合 Codex、Antigravity 等现有订阅，构建共享记忆与自动降级机制。该方案将不同模型按角色分配（如 Sonnet 5 搜索、Opus 4.8 验证、Fable 5 规划），利用 Bash 脚本实现跨模型调用与自动切换，有效解决 Token 通胀问题。\n\n",
+      "publish_time": "2026-07-19 12:01:53",
+      "publish_time_local": "2026-07-19 20:01:53"
+    },
+    {
+      "source": "Hacker News",
+      "title": "Minecraft: Java Edition now uses SDL3",
+      "url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
+      "summary": "* **标题**：Minecraft Java 版切换 SDL3 驱动，窗口与输入架构全面重构\n* **核心摘要**：Minecraft: Java Edition 快照正式将窗口管理、输入及平台集成库从 GLFW 迁移至 SDL3，并新增自定义熔炉燃料组件。此次更新涵盖世界生成、战利品表及数据包的底层技术调整，同时修复了全屏模式崩溃、Wayland 兼容性及字符串格式等已知问题。\n\n",
+      "publish_time": "2026-07-19 11:48:18",
+      "publish_time_local": "2026-07-19 19:48:18"
+    },
+    {
+      "source": "Hacker News",
+      "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
+      "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+      "summary": "* **标题**：硬件开发并非想象中那般艰难：Jamcorder 2500 台量产实战复盘\n* **核心摘要**：作者 Chip Weinberger 在 1.5 年内成功推出 Jamcorder 并售出 2500 台，验证了“硬件难度被高估”的观点。其核心经验在于：通过极简 BOM 设计、简化组装流程、选择中国供应链伙伴及保持高毛利（70% 以上），将硬件开发难度降至可控范围。尽管软件部分耗时 3 年，但硬件制造过程意外顺畅，表明硬件项目的成功关键在于简化设计与供应链策略，而非技术本身的不可逾越。\n\n",
+      "publish_time": "2026-07-19 10:34:58",
+      "publish_time_local": "2026-07-19 18:34:58"
+    },
     {
       "source": "Medium/machine-learning",
       "title": "Master Array Manipulation: From 1D Arrays to Prefix Sums and Difference Arrays",
@@ -466,6 +490,14 @@
       "summary": "* **标题**：Perforce 培训视频定价策略引发争议，$500 起 AI 配音课程\n* **核心摘要**：Perforce 平台推出 P4 (Helix Core) 用户基础课程，定价高达$500，并采用 AI 语音生成视频内容。该定价策略与免费基础课程形成鲜明对比，引发市场对技术工具培训成本与价值的重新审视。\n\n",
       "publish_time": "2026-07-19 08:00:24",
       "publish_time_local": "2026-07-19 16:00:24"
+    },
+    {
+      "source": "Hacker News",
+      "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+      "url": "https://github.com/openai/codex/pull/33972/files",
+      "summary": "* **标题**：OpenAI 推出 Codex CLI 本地代码智能体，支持多平台部署与 API 集成\n* **核心摘要**：OpenAI 正式发布 Codex CLI，一款可在本地运行的代码智能体。用户可通过 npm、Homebrew 或官方安装包在 Mac、Linux 及 Windows 系统上快速部署。该工具支持 ChatGPT 订阅计划及 API 密钥认证，旨在为开发者提供本地化、私有的代码辅助能力。\n\n",
+      "publish_time": "2026-07-19 07:54:39",
+      "publish_time_local": "2026-07-19 15:54:39"
     },
     {
       "source": "Medium/vibe-coding",
@@ -3010,6 +3042,14 @@
       "summary": "* **标题**：轻量级语音交互新范式：Moonshine Voice 实现端侧实时语音处理\n* **核心摘要**：Moonshine Voice 是一款开源 AI 工具包，专为构建实时语音代理与应用设计。其核心优势在于全端侧运行，无需云端 API 密钥或账户认证，显著降低部署门槛。框架支持跨平台集成，涵盖 iOS、Android、Linux 及嵌入式设备，提供从语音识别、文本转语音到对话代理的一站式解决方案。\n\n",
       "publish_time": "2026-07-14 19:25:10",
       "publish_time_local": "2026-07-15 03:25:10"
+    },
+    {
+      "source": "Hacker News",
+      "title": "Blender 5.2 LTS",
+      "url": "https://www.blender.org/download/releases/5-2/",
+      "summary": "* **标题**：Blender 5.2 LTS 发布：节点化物理引擎重塑 3D 模拟新范式\n* **核心摘要**：Blender 5.2 LTS 引入全新的 XPBD 求解器与节点化物理架构，通过新增的 Mesh Bevel、Cloth Dynamics 及 Hair Dynamics 节点，实现布料、毛发及碰撞模拟的完全程序化控制。社区反馈显示，该版本将物理模拟从实验性工具转变为可定制、高性能的工业级工作流，显著提升了 3D 建模与动画制作的效率。\n\n",
+      "publish_time": "2026-07-14 18:22:47",
+      "publish_time_local": "2026-07-15 02:22:47"
     },
     {
       "source": "ShowHN",

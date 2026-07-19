@@ -3,7 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI News Daily</title>
+    <title>AI News Daily | AI 新闻日报、LLM 与 AI 产品动态</title>
+    <meta name="description" content="AI News Daily 每日汇总 AI、LLM、智能体、开源项目、AI 产品、论文和创业动态，提供中文 AI 摘要与原文链接，适合快速追踪人工智能行业信号。">
+    <meta name="keywords" content="AI News Daily, AI 新闻日报, 人工智能新闻, AI 新闻, LLM, 大语言模型, AI Agent, 开源项目, AI 论文, 创业新闻, 机器学习">
+    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+    <meta name="author" content="AI News Daily">
+    <meta name="theme-color" content="#f6f7f4">
+    <link rel="canonical" href="https://aihot.moredreamx.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AI News Daily">
+    <meta property="og:title" content="AI News Daily | AI 新闻日报、LLM 与 AI 产品动态">
+    <meta property="og:description" content="每日汇总 AI、LLM、智能体、开源项目、AI 产品、论文和创业动态，提供中文 AI 摘要与原文链接。">
+    <meta property="og:url" content="https://aihot.moredreamx.com/">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="AI News Daily | AI 新闻日报、LLM 与 AI 产品动态">
+    <meta name="twitter:description" content="每日汇总 AI、LLM、智能体、开源项目、AI 产品、论文和创业动态，提供中文 AI 摘要与原文链接。">
+    <script type="application/ld+json" id="pageSchema">
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "AI News Daily",
+            "alternateName": "AI 新闻日报",
+            "url": "https://aihot.moredreamx.com/",
+            "inLanguage": "zh-CN",
+            "description": "AI News Daily 每日汇总 AI、LLM、智能体、开源项目、AI 产品、论文和创业动态，提供中文 AI 摘要与原文链接。",
+            "about": [
+                "Artificial Intelligence",
+                "Large Language Models",
+                "AI Agents",
+                "Machine Learning",
+                "AI Startups"
+            ],
+            "isAccessibleForFree": true
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.js"></script>
     <style>
@@ -666,6 +700,8 @@
         const countEl = document.getElementById('count');
         const updatedAtEl = document.getElementById('updatedAt');
         const shareStageEl = document.getElementById('shareStage');
+        const CANONICAL_URL = 'https://aihot.moredreamx.com/';
+        const DEFAULT_SEO_DESCRIPTION = 'AI News Daily 每日汇总 AI、LLM、智能体、开源项目、AI 产品、论文和创业动态，提供中文 AI 摘要与原文链接，适合快速追踪人工智能行业信号。';
         let currentItems = [];
 
         function todayLocal() {
@@ -768,6 +804,65 @@
                 .replace(/[^a-z0-9]+/g, '-')
                 .replace(/^-+|-+$/g, '')
                 .slice(0, 48) || 'item';
+        }
+
+        function setMetaContent(selector, content) {
+            const el = document.querySelector(selector);
+            if (el) el.setAttribute('content', content);
+        }
+
+        function updateSeoMetadata(items, targetDate, generatedAt = null) {
+            const topTitles = items
+                .slice(0, 5)
+                .map((item) => String(item.title || '').replace(/\s+/g, ' ').trim())
+                .filter(Boolean);
+            const title = `AI News Daily ${targetDate} | AI 新闻日报、LLM 与 AI 产品动态`;
+            const description = items.length
+                ? `${targetDate} AI 新闻日报：收录 ${items.length} 条 AI、LLM、智能体、开源项目、论文和产品动态。今日重点包括：${truncateText(topTitles.join('、'), 110)}。`
+                : `${targetDate} AI 新闻日报：${DEFAULT_SEO_DESCRIPTION}`;
+
+            document.title = title;
+            setMetaContent('meta[name="description"]', description);
+            setMetaContent('meta[property="og:title"]', title);
+            setMetaContent('meta[property="og:description"]', description);
+            setMetaContent('meta[property="og:url"]', CANONICAL_URL);
+            setMetaContent('meta[name="twitter:title"]', title);
+            setMetaContent('meta[name="twitter:description"]', description);
+
+            const schemaEl = document.getElementById('pageSchema');
+            if (!schemaEl) return;
+            const itemList = items.slice(0, 50).map((item, index) => ({
+                '@type': 'ListItem',
+                position: index + 1,
+                url: /^https?:\/\//i.test(item.url || '') ? item.url : CANONICAL_URL,
+                name: item.title || 'Untitled',
+                datePublished: item.publish_time_local || item.publish_time || undefined,
+                description: truncateText(item.summary || '', 180)
+            }));
+
+            schemaEl.textContent = JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'CollectionPage',
+                name: `AI News Daily ${targetDate}`,
+                alternateName: 'AI 新闻日报',
+                url: CANONICAL_URL,
+                inLanguage: 'zh-CN',
+                description,
+                dateModified: generatedAt || undefined,
+                isAccessibleForFree: true,
+                about: [
+                    'Artificial Intelligence',
+                    'Large Language Models',
+                    'AI Agents',
+                    'Machine Learning',
+                    'AI Startups'
+                ],
+                mainEntity: {
+                    '@type': 'ItemList',
+                    numberOfItems: items.length,
+                    itemListElement: itemList
+                }
+            });
         }
 
         function buildShareCard(item) {
@@ -905,10 +1000,11 @@
             updatedAtEl.innerText = '数据更新时间 --:--:--';
         }
 
-        function renderItems(items, generatedAt = null) {
+        function renderItems(items, generatedAt = null, targetDate = todayLocal()) {
             currentItems = items;
             countEl.innerText = items.length;
             updatedAtEl.innerText = `数据更新于 ${formatGeneratedAt(generatedAt)}`;
+            updateSeoMetadata(items, targetDate, generatedAt);
 
             if (!items.length) {
                 feedEl.innerHTML = '<div class="empty">这一天还没有可展示的已摘要文章。</div>';
@@ -945,7 +1041,7 @@
                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 const data = await response.json();
                 const items = data.items || [];
-                renderItems(items, data.generated_at);
+                renderItems(items, data.generated_at, data.date || targetDate);
                 statusEl.innerText = `今日 ${data.date || targetDate} · 按发布时间倒序`;
             } catch (err) {
                 countEl.innerText = '0';
