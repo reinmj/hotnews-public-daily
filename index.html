@@ -132,6 +132,15 @@
             margin-top: 8px;
         }
 
+        .updated-at {
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 740;
+            line-height: 1.45;
+            margin-top: 10px;
+            font-variant-numeric: tabular-nums;
+        }
+
         .toolbar {
             padding: 22px 0;
         }
@@ -625,6 +634,7 @@
                 <aside class="meter" aria-label="今日文章数量">
                     <div id="count" class="count">--</div>
                     <div class="count-label">published items</div>
+                    <div id="updatedAt" class="updated-at">数据更新时间 --:--:--</div>
                 </aside>
             </section>
         </div>
@@ -654,6 +664,7 @@
         const feedEl = document.getElementById('feed');
         const statusEl = document.getElementById('status');
         const countEl = document.getElementById('count');
+        const updatedAtEl = document.getElementById('updatedAt');
         const shareStageEl = document.getElementById('shareStage');
         let currentItems = [];
 
@@ -728,6 +739,13 @@
             if (!value) return '--:--:--';
             const match = String(value).match(/\d{4}-\d{2}-\d{2}[ T](\d{2}:\d{2}:\d{2})/);
             return match ? match[1] : String(value);
+        }
+
+        function formatGeneratedAt(value) {
+            if (!value) return '动态读取';
+            const text = String(value);
+            const match = text.match(/T(\d{2}:\d{2}:\d{2})(?:[+-]\d{2}:\d{2}|Z)?$/);
+            return match ? match[1] : formatTime(text);
         }
 
         function truncateText(value, maxLength) {
@@ -884,11 +902,13 @@
         function renderLoading() {
             feedEl.innerHTML = Array.from({ length: 9 }, () => '<div class="skeleton"></div>').join('');
             countEl.innerText = '--';
+            updatedAtEl.innerText = '数据更新时间 --:--:--';
         }
 
-        function renderItems(items) {
+        function renderItems(items, generatedAt = null) {
             currentItems = items;
             countEl.innerText = items.length;
+            updatedAtEl.innerText = `数据更新于 ${formatGeneratedAt(generatedAt)}`;
 
             if (!items.length) {
                 feedEl.innerHTML = '<div class="empty">这一天还没有可展示的已摘要文章。</div>';
@@ -925,10 +945,11 @@
                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 const data = await response.json();
                 const items = data.items || [];
-                renderItems(items);
+                renderItems(items, data.generated_at);
                 statusEl.innerText = `今日 ${data.date || targetDate} · 按发布时间倒序`;
             } catch (err) {
                 countEl.innerText = '0';
+                updatedAtEl.innerText = '数据更新时间 --:--:--';
                 feedEl.innerHTML = `<div class="error">加载失败：${escapeHtml(err.message)}</div>`;
                 statusEl.innerText = `今日 ${targetDate} · 加载失败`;
             }
