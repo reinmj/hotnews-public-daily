@@ -1,8 +1,24 @@
 {
   "date": "2026-07-19",
-  "count": 245,
-  "generated_at": "2026-07-19T14:57:20+08:00",
+  "count": 249,
+  "generated_at": "2026-07-19T18:00:00+08:00",
   "items": [
+    {
+      "source": "Hacker News",
+      "title": "Qwen3.8 is launching and going open-weight soon",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "summary": "* **标题**：Qwen3.8 正式发布，2.4T 参数模型即将开放权重\n* **核心摘要**：阿里巴巴 Qwen 团队推出 Qwen3.8 大模型，拥有 2.4T 参数规模，性能仅次于 Fable 5。该模型现已在 Token Plan、Qoder 及 QoderWork 平台上线预览版，并计划近期开放权重，旨在提供与前沿 AI 模型兼容的强能力。\n\n",
+      "publish_time": "2026-07-19 08:44:57",
+      "publish_time_local": "2026-07-19 16:44:57"
+    },
+    {
+      "source": "Hacker News",
+      "title": "Perforce charges $500 for training training videos.. and it's AI narrated",
+      "url": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
+      "summary": "* **标题**：Perforce 培训视频定价策略引发争议，$500 起 AI 配音课程\n* **核心摘要**：Perforce 平台推出 P4 (Helix Core) 用户基础课程，定价高达$500，并采用 AI 语音生成视频内容。该定价策略与免费基础课程形成鲜明对比，引发市场对技术工具培训成本与价值的重新审视。\n\n",
+      "publish_time": "2026-07-19 08:00:24",
+      "publish_time_local": "2026-07-19 16:00:24"
+    },
     {
       "source": "Medium/ai",
       "title": "💎[会员专享] The Inevitable Future Of AI And Why Hosted AI is Probably Doomed",
@@ -218,6 +234,14 @@
       "summary": "* **标题**：高学习率训练范式：通过过参数化触发“弹射”效应以逼近人类智能\n* **核心摘要**：针对当前深度学习模型“聪明但笨拙”与生物大脑“笨拙但聪明”的悖论，提出通过高学习率与强正则化训练过参数化神经网络，利用“弹射”（catapulting）机制触发“顿悟”（grokking）现象。该策略旨在通过调整偏差 - 方差权衡，使模型在训练动态中逼近生物大脑的泛化能力，从而解决当前 AI 在真实世界任务中表现不佳的瓶颈。\n\n",
       "publish_time": "2026-07-18 23:32:44",
       "publish_time_local": "2026-07-19 07:32:44"
+    },
+    {
+      "source": "Hacker News",
+      "title": "Codex Resets",
+      "url": "https://codex-resets.com/",
+      "summary": "* **标题**：OpenAI 发布 Codex 使用量重置追踪工具，累计记录 35 次重置\n* **核心摘要**：追踪者记录 OpenAI 自 2025 年 9 月至 2026 年 7 月期间，为应对高并发、扩容及系统故障，累计 35 次重置 Codex 与 ChatGPT Work 用户用量限制。\n\n",
+      "publish_time": "2026-07-18 23:24:26",
+      "publish_time_local": "2026-07-19 07:24:26"
     },
     {
       "source": "GSSTK",
@@ -1938,6 +1962,14 @@
       "summary": "* **标题**：开源 Claw 工具免费获取渠道\n* **核心摘要**：开发者寻求免费获取开源 Claw 工具，以解决特定需求。\n\n",
       "publish_time": "2026-07-17 20:25:30",
       "publish_time_local": "2026-07-18 04:25:30"
+    },
+    {
+      "source": "Hacker News",
+      "title": "Searchable field-level encryption on Supabase with CipherStash",
+      "url": "https://supabase.com/blog/searchable-field-level-encryption-with-cipherstash",
+      "summary": "* **标题**：Supabase 集成 CipherStash 实现可搜索字段级加密\n* **核心摘要**：针对受监管场景，CipherStash 集成为 Supabase 提供字段级数据访问控制（DLAC），支持对加密数据进行直接搜索与关联查询。通过应用层加密与零知识密钥管理，确保密钥不离开开发者控制，同时保留 Postgres 索引与查询能力，解决传统加密导致索引失效或搜索成本过高的痛点。\n\n",
+      "publish_time": "2026-07-15 13:10:01",
+      "publish_time_local": "2026-07-15 21:10:01"
     },
     {
       "source": "Hacker News",
