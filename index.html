@@ -736,6 +736,12 @@
         const CANONICAL_URL = 'https://aihot.moredreamx.com/';
         const PAGE_LANG = (document.documentElement.lang || 'zh-CN').toLowerCase();
         const LANG_KEY = PAGE_LANG.startsWith('en') ? 'en' : PAGE_LANG.startsWith('ja') ? 'ja' : 'zh';
+        const LANGUAGE_STORAGE_KEY = 'aiNewsDailyLanguage';
+        const LANGUAGE_PATHS = {
+            zh: '/',
+            en: '/en/',
+            ja: '/ja/'
+        };
         const LANGUAGE_CONFIG = {
             zh: {
                 titleSuffix: 'AI 新闻日报、LLM 与 AI 产品动态',
@@ -797,6 +803,46 @@
         };
         const UI = LANGUAGE_CONFIG[LANG_KEY];
         let currentItems = [];
+
+        function getSavedLanguage() {
+            try {
+                const value = window.localStorage.getItem(LANGUAGE_STORAGE_KEY);
+                return LANGUAGE_PATHS[value] ? value : null;
+            } catch (err) {
+                return null;
+            }
+        }
+
+        function saveLanguage(lang) {
+            if (!LANGUAGE_PATHS[lang]) return;
+            try {
+                window.localStorage.setItem(LANGUAGE_STORAGE_KEY, lang);
+            } catch (err) {
+                // Private browsing or strict browser settings may block localStorage.
+            }
+        }
+
+        function normalizeLanguagePath(pathname) {
+            const path = String(pathname || '/');
+            if (path === '/en' || path.startsWith('/en/')) return '/en/';
+            if (path === '/ja' || path.startsWith('/ja/')) return '/ja/';
+            return '/';
+        }
+
+        function applySavedLanguageRedirect() {
+            if (normalizeLanguagePath(window.location.pathname) !== '/') return false;
+            const savedLang = getSavedLanguage();
+            if (!savedLang || savedLang === LANG_KEY) return false;
+            const targetPath = LANGUAGE_PATHS[savedLang];
+            if (normalizeLanguagePath(window.location.pathname) === targetPath) return false;
+            window.location.href = targetPath;
+            return true;
+        }
+
+        const isRedirectingToSavedLanguage = applySavedLanguageRedirect();
+        if (!isRedirectingToSavedLanguage) {
+            saveLanguage(LANG_KEY);
+        }
 
         function todayLocal() {
             const now = new Date();
@@ -1145,18 +1191,22 @@
             }
         }
 
-        if (languageSelectEl) {
-            const currentLanguagePath = LANG_KEY === 'en' ? '/en/' : LANG_KEY === 'ja' ? '/ja/' : '/';
-            languageSelectEl.value = currentLanguagePath;
-            languageSelectEl.addEventListener('change', () => {
-                window.location.href = languageSelectEl.value;
-            });
-        }
+        if (!isRedirectingToSavedLanguage) {
+            if (languageSelectEl) {
+                const currentLanguagePath = LANGUAGE_PATHS[LANG_KEY] || '/';
+                languageSelectEl.value = currentLanguagePath;
+                languageSelectEl.addEventListener('change', () => {
+                    const selectedLang = Object.entries(LANGUAGE_PATHS).find(([, path]) => path === languageSelectEl.value)?.[0];
+                    saveLanguage(selectedLang);
+                    window.location.href = languageSelectEl.value;
+                });
+            }
 
-        document.querySelector('.count-label').innerText = UI.countLabel;
-        document.querySelector('.meter').setAttribute('aria-label', UI.ariaCount);
-        statusEl.innerText = UI.loading;
-        loadDaily();
+            document.querySelector('.count-label').innerText = UI.countLabel;
+            document.querySelector('.meter').setAttribute('aria-label', UI.ariaCount);
+            statusEl.innerText = UI.loading;
+            loadDaily();
+        }
     </script>
 </body>
 </html>

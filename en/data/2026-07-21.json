@@ -1,9 +1,39 @@
 {
   "date": "2026-07-21",
-  "count": 317,
-  "generated_at": "2026-07-21T15:45:55+08:00",
+  "count": 339,
+  "generated_at": "2026-07-21T15:57:26+08:00",
   "lang": "en",
   "items": [
+    {
+      "source": "Lobsters",
+      "url": "https://ervin.ipsquad.net/blog/2026/07/21/kde-for-entreprise-needs-a-strong-pim-infrastructure/",
+      "publish_time": "2026-07-21 07:20:43",
+      "publish_time_local": "2026-07-21 15:20:43",
+      "title": "KDE for Enterprise Needs a Strong PIM Infrastructure",
+      "summary": "* **Title:** KDE Enterprise Requires Enhanced PIM Infrastructure\n* **Summary:** Supported by the Sovereign Technology Fund, the KDE ecosystem is strengthening its PIM infrastructure by enhancing the Akonadi underlying architecture, specifically focusing on improved support for core protocols like IMAP4, CalDAV, and iTIP. Current work involves building a comprehensive test suite covering IMAP and DAV, optimizing network resource usage, and implementing automatic configuration based on email passwords. Patches are expected in versions 26.08 and 26.12, with a goal of completing Flatpak integration by early 2027, aiming to reduce complexity in enterprise deployments and improve the competitiveness of the KDE desktop in institutional environments.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://lv1.sh/blog/why-l/",
+      "publish_time": "2026-07-21 06:50:14",
+      "publish_time_local": "2026-07-21 14:50:14",
+      "title": "Why l (new runtime for k and q)",
+      "summary": "* **Title:** l Language: Rebuilding K and Q Execution Engines for Modern Hardware\n* **Summary:** Author Arthur Whitney proposes the “l” language, aiming to preserve the existing K and Q language ecosystem while rebuilding its underlying execution engine. The proposed solution utilizes four core mechanisms: SIMD by default, parallel execution by default, operation fusion, and runtime compression, to address data transfer bottlenecks and intermediate object waste in modern multi-core, heterogeneous hardware. The goal is to ensure existing commercial code can run efficiently on new architectures without modification.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://www.honeycomb.io/blog/30-70-prs-day-how-we-managed-not-wreck-systems",
+      "publish_time": "2026-07-21 06:26:16",
+      "publish_time_local": "2026-07-21 14:26:16",
+      "title": "30 to 70 PRs a Day: How We Managed to Not Wreck Our Systems",
+      "summary": "* **Title:** AI Boosts Engineering Efficiency: Honeycomb Team Achieves 2.5x Output with System Stability Practices at 74 Weekly Merges\n\n* **Summary:** The Honeycomb team increased weekly merge counts from approximately 30 to 74 over the period of 2025-2026, while doubling the size of their codebase. This outcome was achieved through “AI amplification of existing practices,” utilizing a phased approach – starting with experimentation, progressing to tool-driven implementation, and culminating in high-autonomy organizational culture. The team emphasized that AI served as an accelerator, with the true efficiency gains stemming from continuous delivery, AI observability feedback loops, and a highly autonomous organizational culture, rather than AI itself.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
     {
       "source": "Medium/artificial-intelligence",
       "url": "https://medium.com/@vinayanand2/what-is-a-context-window-bd68ca589c30",
@@ -185,6 +215,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/openchatcut",
+      "publish_time": "2026-07-21 02:24:43",
+      "publish_time_local": "2026-07-21 10:24:43",
+      "title": "OpenChatCut",
+      "summary": "* **Title:** OpenChatCut, an Open-Source Multi-Track AI Video Editing Tool, Launches\n* **Summary:** OpenChatCut is an open-source AI video editing tool that prioritizes local processing and supports collaboration between Codex, Claude, and MCP agents on a multi-track timeline. It offers free, editable export options and is released under the AGPL license.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
       "source": "Lobsters",
       "url": "https://evertpot.com/ssh-tunnel-if-unresolvable/",
       "publish_time": "2026-07-21 02:23:52",
@@ -201,6 +241,16 @@
       "publish_time_local": "2026-07-21 10:10:30",
       "title": "GPT-5.6 Sol, Terra, and Luna: Developer Guide and Migration",
       "summary": "* **Title:** GPT-5.6 Released: Three Tiered Models and Three Key API Changes\n* **Summary:** OpenAI released the GPT-5.6 series, which includes three models – Sol, Terra, and Luna – with varying pricing and positioning. This release is accompanied by three key API changes: enabling parallel tool distribution by default, deprecating `code_interpreter` and unifying it under the `tools.runtime` namespace, and adopting the JSON Schema 2025-12 standard. Developers are advised to immediately review and adapt existing code, particularly regarding tool call sequences, code execution logic, and structured output format integration, to prevent silent failures in production environments.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/piecekeeper",
+      "publish_time": "2026-07-21 01:58:40",
+      "publish_time_local": "2026-07-21 09:58:40",
+      "title": "PieceKeeper",
+      "summary": "* **Title:** PieceKeeper: Music Composer Track Management and Smart Practice Tracking Tool\n\n* **Summary:** PieceKeeper is a tool designed for musicians, offering track management, focused practice based on custom schedules, practice data insights, and interactive music theory training. It aims to comprehensively improve a musician’s reading and listening skills.",
       "translation_status": "completed",
       "lang": "en"
     },
@@ -2905,6 +2955,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/skim-5",
+      "publish_time": "2026-07-20 10:25:13",
+      "publish_time_local": "2026-07-20 18:25:13",
+      "title": "Skim",
+      "summary": "* **Title:** Minimalist Email Client Skim Rebuilt with Rust for a New Windows Experience\n* **Summary:** Skim is a free and open-source email client for Windows, built with a Rust kernel (Tauri 2). It achieves a lightweight 5MB installation and near-instant startup by removing unnecessary features like calendars and rule engines. Its local-first architecture ensures zero data leakage, and it supports users to integrate their own AI models, providing intelligent replies and full-text search capabilities while prioritizing user privacy.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
       "source": "r/artificial",
       "url": "https://www.reddit.com/r/artificial/comments/1v1h6ok/does_an_ai_behave_differently_depending_on_the/",
       "publish_time": "2026-07-20 10:02:18",
@@ -2955,12 +3015,42 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/diffsmith-code-review-studio",
+      "publish_time": "2026-07-20 00:34:13",
+      "publish_time_local": "2026-07-20 08:34:13",
+      "title": "Diffsmith",
+      "summary": "* **Title:** Diffsmith: Local AI Code Review Tool – Offline, Single Purchase\n\n* **Summary:** Diffsmith is designed for local Git changes and supports line-level commenting and feedback on code generated by AI programming assistants like Claude Code and Cursor. The tool operates entirely offline and uses a one-time purchase model, offering lifetime access.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
       "source": "AddyOsmani",
       "url": "https://addyosmani.com/blog/software-factories/",
       "publish_time": "2026-07-20 00:00:00",
       "publish_time_local": "2026-07-20 08:00:00",
       "title": "Software Factories, Light and Dark",
       "summary": "* **Title:** Software Factory: Transitioning from “Black Box” Automation to a “Human-in-the-Loop” Architecture\n\n* **Summary:** The Software Factory utilizes a “cycle – fixture – factory” three-layer architecture to decompose development tasks into repeatable automated units. The central challenge is that machines can cheaply execute code generation, testing, and scanning, but the “gatekeeper” (human judgment) remains the most expensive bottleneck within the system. The article argues that engineers should shift from “writing code” to “designing factories,” focusing human judgment on the outer cycles – decision-making, validation, and accountability for the consequences – rather than becoming trapped within an automated assembly line.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/ditto-site",
+      "publish_time": "2026-07-19 17:24:53",
+      "publish_time_local": "2026-07-20 01:24:53",
+      "title": "ditto.site",
+      "summary": "* **Title:** ditto.site Achieves Minute-Level Cloning of Next.js and Vite Projects\n\n* **Summary:** ditto.site now supports automatically recreating Next.js or Vite projects from any publicly accessible URL. The tool ensures a fast, cost-effective, and consistent generation process, including components, design tokens, interactions, and hover states. It also offers a free REST API and MCP server, and the project is open source.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/tterm",
+      "publish_time": "2026-07-19 06:45:16",
+      "publish_time_local": "2026-07-19 14:45:16",
+      "title": "tterm",
+      "summary": "* **Title:** tterm Redefines the macOS Development Experience with Intent-Driven, No-Editor Workflows\n\n* **Summary:** tterm is designed specifically for macOS, integrating projects into views for exploration, Claude, and a file viewer. Key features include a built-in Chromium browser, a no-editor mode (manual diff review and submission), auto-reloading, and self-rebuilding capabilities. The tool emphasizes privacy and zero configuration, offering free usage for Apple Silicon users with no account requirement and no telemetry data.",
       "translation_status": "completed",
       "lang": "en"
     },
@@ -2995,6 +3085,26 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/phantomstory",
+      "publish_time": "2026-07-17 19:27:43",
+      "publish_time_local": "2026-07-18 03:27:43",
+      "title": "Phantomstory",
+      "summary": "* **Title:** Phantomstory Enables Businesses to Create Third-Party Blogs in 5 Minutes, Redefining AEO Strategy\n\n* **Summary:** Phantomstory allows businesses to create third-party blogs within 5 minutes, deploying them on new domains and generating AI-ready content. Its core mechanism utilizes a selection of high-quality articles to assist LLMs in identifying and recommending businesses, transforming AEO from a simple monitoring function into a directly actionable strategy, and driving tangible business results.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/stream-stream-ring-by-sandbar",
+      "publish_time": "2026-07-17 16:09:12",
+      "publish_time_local": "2026-07-18 00:09:12",
+      "title": "Universal Dictation on Stream",
+      "summary": "* **Title:** Stream Creates Full-Scene Voice Interaction, Enabling Seamless Transition of “What You Think, Instantly”\n* **Summary:** Stream, functioning as a personal voice assistant, utilizes a minimalist “press – speak – release” interaction method, integrating notes, voice input across applications, and smart Q&A with headphones/speakers. Designed as an extension of the user’s thinking process, Stream aims to provide seamless, intelligent responses across all scenarios, without requiring a separate identity.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
       "source": "ArXiv/HF",
       "url": "https://arxiv.org/abs/2607.16074",
       "publish_time": "2026-07-17 15:58:20",
@@ -3022,6 +3132,46 @@
       "title": "[Highly-Cited Paper] When Does Muon Help Agentic Reinforcement Learning?",
       "summary": "**Plain English**: During the late stages of reinforcement learning training for AI agents, the widely used optimizer AdamW became “blunted.” However, a new optimizer called Muon has shown significant “activation” of the agents in sparse reward scenarios. Experiments demonstrated that applying Muon optimizer only to the hidden layer weights in the ALFWorld task resulted in a jump from a final validation success rate of 29% to 54.6%, representing an 88% improvement. In contrast, high-frequency updates with AdamW were largely ineffective at this stage.\n\n**The Trick**: The core lies in “localized update strategies” and “sparse reward adaptation.” The research utilizes the Group-in-Group Policy Optimization (GiGPO) framework, applying the Muon optimizer only to the hidden layer weight matrices, rather than performing a full update. This strategy leverages Muon’s unique adaptive learning rate characteristics in sparse reward scenarios, effectively addressing the gradient oscillation and convergence stagnation issues that can occur with AdamW at high update rates. Experiments show that with a learning rate of 1e-5, Muon optimizer increased the validation AUC from 39.9% to 55.6%, and enabled the agent to reach 50% success rate within 30 updates – 30 update steps ahead of AdamW, significantly shortening the training convergence cycle.\n\n**Startup Angle**:\nThe startup can enter the market for “reinforcement learning (RLHF/RL) underlying optimizer middleware.” Addressing the current challenges of large models’ agents (such as Agent planning, game AI, and automated decision-making) – specifically the slow training speed, difficulty in convergence, and excessive resource consumption in sparse reward scenarios – the startup offers a fine-tuning service based on Muon optimizers. This focuses on solving the problem of training stagnation in complex tasks due to “sparse rewards,” helping B-end clients (such as game AI development and automation process optimization) reduce agent training cycles by more than 30%, directly lowering computational costs and research time.\n\n",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/tidy-5",
+      "publish_time": "2026-07-16 19:02:30",
+      "publish_time_local": "2026-07-17 03:02:30",
+      "title": "Tidy",
+      "summary": "* **Title:** Tidy Achieves Mac Desktop Automation with Apple Intelligence\n\n* **Summary:** Tidy utilizes Apple Intelligence’s local OCR and rule engine to automatically rename screenshots, uninstall installers, and categorize downloads. The tool only processes new files and does not delete existing data. It operates on a one-time purchase model, without requiring a subscription.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/meetisland",
+      "publish_time": "2026-07-16 14:54:17",
+      "publish_time_local": "2026-07-16 22:54:17",
+      "title": "MeetIsland",
+      "summary": "* **Title:** MacBook Camera Area Transforms into Dynamic Island; MeetIsland Enables Effortless Meeting Access\n* **Summary:** MeetIsland transforms the MacBook’s camera area into a Dynamic Island, automatically pulling meeting information from your synced macOS Calendar and providing one-click meeting join and countdown features. It requires no additional setup, with a one-time fee of $6.99 and a 14-day free trial.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/routine",
+      "publish_time": "2026-07-16 10:06:36",
+      "publish_time_local": "2026-07-16 18:06:36",
+      "title": "Routine AI",
+      "summary": "* **Title:** Routine Creates a Comprehensive Work Platform, Integrating Task, Document, and Schedule Management\n* **Summary:** The Routine platform integrates tasks, projects, documents, Wiki, calendars, and contacts into a single interface, aiming to provide teams with a unified workflow solution.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/createos-sandbox",
+      "publish_time": "2026-07-16 09:24:22",
+      "publish_time_local": "2026-07-16 17:24:22",
+      "title": "CreateOS Sandbox",
+      "summary": "* **标题**：CreateOS Sandbox：30ms 极速隔离与 eBPF 内核级防逃逸\n* **核心摘要**：CreateOS Sandbox 为 AI 代理提供硬件隔离环境，实现约 30ms 的极速启动。其核心优势在于通过 eBPF 在内核层强制实施出站控制，确保即使代理代码被完全攻破也无法绕过策略。此外，平台提供 50+ 真实示例、BYO-S3 存储挂载及自托管 GitHub Actions 集成，旨在解决传统沙箱工具中“速度”与“隔离”难以兼得的行业痛点。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -3055,12 +3205,42 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/lev8",
+      "publish_time": "2026-07-15 15:32:20",
+      "publish_time_local": "2026-07-15 23:32:20",
+      "title": "Lev8",
+      "summary": "* **Title:** Lev8 Uses Parallel AI Agents for Real-Time Search, Reconstructing Precise Targeting and Automated Marketing\n* **Summary:** Lev8 utilizes parallel AI agents to call on real-time web searches across the entire web, enabling precise targeting of specific companies and audiences. Its core capabilities include automatic CSV data completion, intent signal monitoring, and automated sending of personalized messages across multiple channels, aiming to fully automate the marketing reach process.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
       "source": "ShowHN",
       "url": "https://plan9.kr/stacks/",
       "publish_time": "2026-07-15 14:40:21",
       "publish_time_local": "2026-07-15 22:40:21",
       "title": "Show HN: Stacks – an hourly card solitaire about building four gardens",
       "summary": "* **Title:** Stacks Game: A Card Strategy Challenge – Building Four Gardens\n\n* **Summary:** The Stacks card game challenges players to distribute their hand across four gardens, aiming to build consecutive sequences to earn base points. Scoring is based on the length of the longest consecutive chain and the number of cards within each group. The game features automatic harvesting, hand refills, and specific multiplier rules, with the goal of maximizing scores within a 40-card hand.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/bolna-2",
+      "publish_time": "2026-07-15 06:26:29",
+      "publish_time_local": "2026-07-15 14:26:29",
+      "title": "Bolna Agent Studio",
+      "summary": "* **Title:** Bolna Agent Studio: Enterprise-Grade Voice AI Platform Enables Rapid Deployment of High-Volume, Multi-Language Services\n\n* **Summary:** Bolna Agent Studio is an enterprise-grade voice AI platform designed for high-volume, multi-language environments and cost-sensitive scenarios, enabling companies to reduce the time to deploy voice AI services from weeks to days.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/rerun-2",
+      "publish_time": "2026-07-15 06:02:56",
+      "publish_time_local": "2026-07-15 14:02:56",
+      "title": "Rerun",
+      "summary": "* **Title:** Rerun Builds Transparent, No-Code AI Agents for Continuous Automation and Real-Time Auditing\n\n* **Summary:** Rerun offers a no-code solution to address the “black box” operation of existing AI agents, providing a transparent and continuously running system with real-time auditing capabilities. Key features include: automated processing of invoices, lead qualification and email management, requiring sensitive operations to be approved and paused, and independent private servers for each workspace, supporting both built-in models and custom API integration.",
       "translation_status": "completed",
       "lang": "en"
     },
@@ -3081,6 +3261,16 @@
       "publish_time_local": "2026-07-15 08:00:00",
       "title": "[Highly-Cited Paper] DiffGI: Differentiable Geometry Images for High-Fidelity Thin-Shell 3D Generation",
       "summary": "**Plain English**: Currently available 3D generative models fall into two categories: “volumetric” or “discrete binary.” This means that for items like clothing and thin shells with intricate details, either details are lost or the edges become heavily jagged. DiffGI replaces “discrete binary” with “continuous fields,” precisely defining boundaries at the pixel level. This addresses the jaggedness that occurs during downsampling and enables end-to-end training from 3D to 2D, allowing the model to directly optimize surface geometry, eliminating the need for non-differentiable rendering steps.\n\n**The Trick**: The core concept is “continuous marching squares + Marching Squares (March 2023)”. This utilizes continuous TSDF (Temporal Signed Distance Field) fields instead of traditional binary maps, enabling sub-pixel boundary encoding and eliminating resolution-related jaggedness. It introduces a “Marching Squares (March 2023)” algorithm based on analytical linear interpolation, which propagates 3D surface gradients backward from the 3D surface to the 2D latent space, enabling true end-to-end training. Combined with a geometric perception normal rendering loss, this compresses complex 3D surfaces into a highly compact 32x32 latent space, significantly reducing memory and computational requirements.\n\n**Startup Angle**:\nCan enter the “high-fidelity 3D clothing/virtual human generation middleware” market. Targeting scenarios within e-commerce, gaming, and virtual idol applications where thin structures (such as clothing wrinkles and thin panels) are highly demanded, it offers a lightweight 3D generation service based on DiffGI, addressing the pain points of existing models’ inability to generate detailed clothing and high computational costs. This directly competes with Meta 3D and Google Mesh as a vertical alternative.\n\n",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/dualstream",
+      "publish_time": "2026-07-14 22:04:45",
+      "publish_time_local": "2026-07-15 06:04:45",
+      "title": "DualStream",
+      "summary": "* **Title:** DualStream Engine: Seamless Cross-Platform Streaming with Single-Source Distribution\n* **Summary:** The DualStream engine enables the synchronized distribution of content from desktop and mobile devices, and its Relay service includes a failover protection mechanism. The platform offers native alerts, multi-source audio control, VTuber support, and cinema-grade effects, aiming to provide creators with a comprehensive and highly stable cross-platform live streaming solution.",
       "translation_status": "completed",
       "lang": "en"
     },
@@ -3135,6 +3325,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/routebase",
+      "publish_time": "2026-07-08 12:54:57",
+      "publish_time_local": "2026-07-08 20:54:57",
+      "title": "Routebase",
+      "summary": "* **Title:** Routebase Unifies API Source – Eliminating Drift from Multiple Sources\n* **Summary:** In traditional development, design, documentation, mocks, and monitoring each maintain separate API copies, leading to delays in change synchronization. Routebase centralizes API design as a single source of truth, automatically synchronizing it to documentation, mocks, and monitoring, and performing real-time contract validation during releases. By using a single source and automated synchronization, Routebase ensures that frontend development utilizes real-time mocks, and immediately detects contract drift during release, preventing integration failures in production environments.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
       "source": "ArXiv/HF",
       "url": "https://arxiv.org/abs/2607.06815",
       "publish_time": "2026-07-07 21:22:28",
@@ -3155,12 +3355,32 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/regionmirror",
+      "publish_time": "2026-06-28 21:15:46",
+      "publish_time_local": "2026-06-29 05:15:46",
+      "title": "RegionMirror",
+      "summary": "* **Title:** RegionMirror Redesigns Screen Sharing Experience, Supporting Custom Regions and Privacy Blurring\n* **Summary:** RegionMirror allows users to define any size of screen sharing area, addressing scaling issues when sharing with ultra-wide or high-resolution displays. It features quick access via keyboard shortcuts, dynamic adjustment of area size, and integrates privacy blurring, scaling demonstration views, and a digital whiteboard, enabling efficient and flexible screen sharing.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
       "source": "ArXiv/HF",
       "url": "https://arxiv.org/abs/2606.29538",
       "publish_time": "2026-06-28 17:59:21",
       "publish_time_local": "2026-06-29 01:59:21",
       "title": "👑[META] RESOURCE2SKILL: Distilling Executable Agent Skills from Human-Created Multimodal Resources",
       "summary": "**Plain English**: The system automatically converts unstructured data such as human-taken videos, code repositories, and documentation into “skill packs” that large models can directly execute. Previously, large models could only process text, but now they can “learn” executable actions by analyzing data like videos and code, addressing the challenge of having resources but lacking the ability to utilize them.\n\n**The Trick**: The architecture for “Multi-Modal Skill Wiki” is being built, which structures video time sequences, code executability, and document conceptual breakdowns into structured skill items. Using retrieval and combination mechanisms, the model dynamically calls upon video demonstrations, code snippets, or document explanations based on task requirements, and supports online dynamic expansion when data is insufficient, enabling “seeing is doing” automation.\n\n**Startup Angle**:\nEntering the “Enterprise Unstructured Knowledge Asset Automation Translation” market. We are targeting companies with vast amounts of video tutorials and code repositories but lacking structured capabilities, offering a SaaS service that transforms unstructured resources into executable Agent skills. This helps B-end clients monetize their “video/document assets” directly, building a defensible “Enterprise Knowledge Base as a Skills Library.”\n\n",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/cartai",
+      "publish_time": "2026-05-31 23:18:41",
+      "publish_time_local": "2026-06-01 07:18:41",
+      "title": "CartAI",
+      "summary": "* **Title:** CartAI Achieves Automated Checkout and Payment Without Merchant Involvement\n\n* **Summary:** CartAI utilizes a single developer-first API to complete any real-time merchant checkout process without requiring any development work from the merchant. Its core capabilities include product catalog search, order tracking, PCI compliant payments, and commission monetization, and it employs collaboration with bot detection rather than avoidance, ensuring transaction security.",
       "translation_status": "completed",
       "lang": "en"
     },
