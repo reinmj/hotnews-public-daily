@@ -1,7 +1,7 @@
 {
   "date": "2026-07-21",
-  "count": 339,
-  "generated_at": "2026-07-21T15:57:26+08:00",
+  "count": 342,
+  "generated_at": "2026-07-21T15:58:17+08:00",
   "lang": "en",
   "items": [
     {
@@ -262,6 +262,16 @@
       "title": "Grok Build Goes Open Source After Secretly Uploading Your Code",
       "summary": "* **Title:** xAI’s Grok Build: Developer Code Uploaded to Cloud Without Consent\n\n* **Summary:** Security researchers have discovered that xAI’s Grok Build CLI in version 0.2.93 bypassed privacy settings and uploaded developers’ complete Git repositories (including historical commits) to Google Cloud Storage, reaching a size of 5.1GB.  xAI released the Rust source code for Grok Build on July 13th, but continued to upload the code and rejected external pull requests and issue submissions. The community subsequently forked the project and removed the telemetry feature.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/topolines",
+      "publish_time": "2026-07-21 00:32:06",
+      "publish_time_local": "2026-07-21 08:32:06",
+      "title": "Topolines",
+      "summary": "* **标题**：Topolines 实现地形等高线自动生成与多格式输出\n* **核心摘要**：通过绘制区域即可生成高精度地形等高线，支持导出打印级 SVG 及高清 PNG 图像，并提供渐变、高程衰减及 Figma 兼容输出功能。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -1865,6 +1875,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/bud-voice-canvas",
+      "publish_time": "2026-07-20 17:05:31",
+      "publish_time_local": "2026-07-21 01:05:31",
+      "title": "BUD",
+      "summary": "* **Title:** Voice-First Canvas: BUD Implements a Real-Time Voice-Based System Architecture and Workflow\n\n* **Summary:** The BUD platform enables users to brainstorm, sketch, and edit using natural voice interaction within a voice-first canvas. The tool directly converts voice commands into visual outputs such as system architecture designs and flowcharts, aiming to reduce technical barriers and accelerate the transition from concept to visualization.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
       "source": "r/coolgithubprojects",
       "url": "https://www.reddit.com/r/coolgithubprojects/comments/1v1rbig/i_built_a_selfhosted_opensource_gym_tracker_is/",
       "publish_time": "2026-07-20 17:02:52",
@@ -2956,6 +2976,16 @@
     },
     {
       "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/manifest-363",
+      "publish_time": "2026-07-20 10:28:52",
+      "publish_time_local": "2026-07-20 18:28:52",
+      "title": "Manifest",
+      "summary": "* **Title:** Manifest Converts Web Pages into Action Lists for AI Agents\n* **Summary:** Manifest converts any webpage into a structured JSON mapping that includes CSS positioning, element positioning, and element dependencies, through a single API call. The tool provides a Python SDK and LangChain support, aiming to address the fragility of selectors commonly used in traditional web automation, and is specifically designed for deploying browser agents.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
       "url": "https://www.producthunt.com/products/skim-5",
       "publish_time": "2026-07-20 10:25:13",
       "publish_time_local": "2026-07-20 18:25:13",
@@ -3170,8 +3200,8 @@
       "publish_time": "2026-07-16 09:24:22",
       "publish_time_local": "2026-07-16 17:24:22",
       "title": "CreateOS Sandbox",
-      "summary": "* **标题**：CreateOS Sandbox：30ms 极速隔离与 eBPF 内核级防逃逸\n* **核心摘要**：CreateOS Sandbox 为 AI 代理提供硬件隔离环境，实现约 30ms 的极速启动。其核心优势在于通过 eBPF 在内核层强制实施出站控制，确保即使代理代码被完全攻破也无法绕过策略。此外，平台提供 50+ 真实示例、BYO-S3 存储挂载及自托管 GitHub Actions 集成，旨在解决传统沙箱工具中“速度”与“隔离”难以兼得的行业痛点。\n\n",
-      "translation_status": "missing",
+      "summary": "* **Title:** CreateOS Sandbox: 30ms Ultra-Fast Isolation and eBPF Kernel-Level Escape Prevention\n* **Summary:** CreateOS Sandbox provides a hardware isolation environment for AI agents, achieving approximately 30ms startup time. Its key advantage lies in using eBPF to enforce outbound control at the kernel level, ensuring that even if the agent code is completely compromised, policies cannot be bypassed. The platform offers over 50 real-world examples, BYO-S3 storage mounting, and self-hosted GitHub Actions integration, aiming to address the industry challenge of traditional sandboxing tools struggling to balance “speed” and “isolation.”",
+      "translation_status": "completed",
       "lang": "en"
     },
     {

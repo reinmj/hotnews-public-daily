@@ -1,7 +1,7 @@
 {
   "date": "2026-07-21",
-  "count": 339,
-  "generated_at": "2026-07-21T15:57:26+08:00",
+  "count": 342,
+  "generated_at": "2026-07-21T15:58:17+08:00",
   "lang": "zh",
   "items": [
     {
@@ -261,6 +261,16 @@
       "publish_time_local": "2026-07-21 09:08:00",
       "title": "Grok Build Goes Open Source After Secretly Uploading Your Code",
       "summary": "* **标题**：xAI 开源 Grok Build 前，开发者代码遭批量上传至云端\n* **核心摘要**：安全研究员披露，xAI 的 Grok Build CLI 在 0.2.93 版本中，无视“隐私开关”设置，将开发者完整 Git 仓库（含历史提交）以 5.1GB 规模上传至 Google Cloud Storage。xAI 于 7 月 13 日开源 Rust 源码库，但保留上传代码，且拒绝外部 PR 与 Issue 提交。社区随即 fork 出 fork 项目，移除遥测功能。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/topolines",
+      "publish_time": "2026-07-21 00:32:06",
+      "publish_time_local": "2026-07-21 08:32:06",
+      "title": "Topolines",
+      "summary": "* **标题**：Topolines 实现地形等高线自动生成与多格式输出\n* **核心摘要**：通过绘制区域即可生成高精度地形等高线，支持导出打印级 SVG 及高清 PNG 图像，并提供渐变、高程衰减及 Figma 兼容输出功能。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -1865,6 +1875,16 @@
       "lang": "zh"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/bud-voice-canvas",
+      "publish_time": "2026-07-20 17:05:31",
+      "publish_time_local": "2026-07-21 01:05:31",
+      "title": "BUD",
+      "summary": "* **标题**：语音优先画布：BUD 实现实时语音构建系统架构与流程图\n* **核心摘要**：BUD 平台支持用户通过自然语音交互，实时在语音优先画布上进行构思、草图绘制及编辑。该工具能够直接将语音指令转化为系统架构设计、流程图等可视化成果，旨在降低技术门槛并加速从概念到可视化的转化过程。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "r/coolgithubprojects",
       "url": "https://www.reddit.com/r/coolgithubprojects/comments/1v1rbig/i_built_a_selfhosted_opensource_gym_tracker_is/",
       "publish_time": "2026-07-20 17:02:52",
@@ -2951,6 +2971,16 @@
       "publish_time_local": "2026-07-20 18:30:01",
       "title": "Building an AmigaOS Development Environment in 2026",
       "summary": "* **标题**：2026 年构建 AmigaOS 开发环境：从工具链到远程调试的全链路指南\n* **核心摘要**：本文详细记录了在 Linux 环境下搭建 AmigaOS 开发环境的完整流程，涵盖工具链编译、Amiberry 模拟器配置、ROM 镜像获取及远程调试设置。通过解决 GCC 调试信息兼容性问题，实现了从源代码编译到 Amiga 系统内运行的全链路验证。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/manifest-363",
+      "publish_time": "2026-07-20 10:28:52",
+      "publish_time_local": "2026-07-20 18:28:52",
+      "title": "Manifest",
+      "summary": "* **标题**：Manifest 将网页转化为 AI 代理可执行的动作清单\n* **核心摘要**：Manifest 通过单一 API 调用，将任意网页转换为包含 CSS 定位、角色定位及元素依赖关系的结构化 JSON 映射。该工具提供 Python SDK 与 LangChain 支持，旨在解决传统网页自动化中选择器脆弱性问题，专为部署浏览器代理而设计。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
