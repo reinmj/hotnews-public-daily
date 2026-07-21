@@ -19,6 +19,8 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="AI News Daily | AI 新闻日报、LLM 与 AI 产品动态">
     <meta name="twitter:description" content="每日汇总 AI、LLM、智能体、开源项目、AI 产品、论文和创业动态，提供中文 AI 摘要与原文链接。">
+    <link rel="alternate" hreflang="zh-CN" href="https://aihot.moredreamx.com/">
+    <link rel="alternate" hreflang="x-default" href="https://aihot.moredreamx.com/">
     <script type="application/ld+json" id="pageSchema">
         {
             "@context": "https://schema.org",
@@ -27,7 +29,7 @@
             "alternateName": "AI 新闻日报",
             "url": "https://aihot.moredreamx.com/",
             "inLanguage": "zh-CN",
-            "description": "AI News Daily 每日汇总 AI、LLM、智能体、开源项目、AI 产品、论文和创业动态，提供中文 AI 摘要与原文链接。",
+            "description": "AI News Daily 每日汇总 AI、LLM、智能体、开源项目、AI 产品、论文和创业动态，提供中文 AI 摘要与原文链接，适合快速追踪人工智能行业信号。",
             "about": [
                 "Artificial Intelligence",
                 "Large Language Models",
@@ -54,6 +56,18 @@
         }
 
         * { box-sizing: border-box; }
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
         body {
             margin: 0;
             background:
@@ -113,6 +127,18 @@
             color: var(--muted);
             font-size: 12px;
             margin-top: 2px;
+        }
+
+        .language-select {
+            min-width: 118px;
+            border: 1px solid rgba(22, 32, 28, 0.14);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.72);
+            color: var(--ink);
+            font: inherit;
+            font-size: 13px;
+            font-weight: 760;
+            padding: 9px 30px 9px 11px;
         }
 
         .headline {
@@ -658,6 +684,10 @@
                         <div class="brand-subtitle">Published today, summarized for fast reading</div>
                     </div>
                 </div>
+                <label class="sr-only" for="languageSelect">Language</label>
+                <select id="languageSelect" class="language-select" aria-label="Language">
+                    <option value="/">中文</option>
+                </select>
             </nav>
             <section class="headline">
                 <div>
@@ -700,8 +730,70 @@
         const countEl = document.getElementById('count');
         const updatedAtEl = document.getElementById('updatedAt');
         const shareStageEl = document.getElementById('shareStage');
+        const languageSelectEl = document.getElementById('languageSelect');
         const CANONICAL_URL = 'https://aihot.moredreamx.com/';
-        const DEFAULT_SEO_DESCRIPTION = 'AI News Daily 每日汇总 AI、LLM、智能体、开源项目、AI 产品、论文和创业动态，提供中文 AI 摘要与原文链接，适合快速追踪人工智能行业信号。';
+        const PAGE_LANG = (document.documentElement.lang || 'zh-CN').toLowerCase();
+        const LANG_KEY = PAGE_LANG.startsWith('en') ? 'en' : PAGE_LANG.startsWith('ja') ? 'ja' : 'zh';
+        const LANGUAGE_CONFIG = {
+            zh: {
+                titleSuffix: 'AI 新闻日报、LLM 与 AI 产品动态',
+                description: 'AI News Daily 每日汇总 AI、LLM、智能体、开源项目、AI 产品、论文和创业动态，提供中文 AI 摘要与原文链接，适合快速追踪人工智能行业信号。',
+                descriptionPrefix: 'AI 新闻日报',
+                descriptionTopics: 'AI、LLM、智能体、开源项目、论文和产品动态',
+                todayHighlights: '今日重点包括',
+                empty: '这一天还没有可展示的已摘要文章。',
+                sourceFallback: '原始来源',
+                updatedPrefix: '数据更新于',
+                dynamicRead: '动态读取',
+                updatedPlaceholder: '数据更新时间 --:--:--',
+                loading: '正在加载...',
+                loadingStatus: '今日 {date} · 正在加载',
+                loadedStatus: '今日 {date} · 按发布时间倒序',
+                failedStatus: '今日 {date} · 加载失败',
+                loadFailed: '加载失败',
+                countLabel: 'published items',
+                ariaCount: '今日文章数量'
+            },
+            en: {
+                titleSuffix: 'AI News, LLMs, Agents, Papers and Product Updates',
+                description: 'AI News Daily curates daily AI, LLM, agent, open source, product, research paper and startup updates with concise summaries and original source links.',
+                descriptionPrefix: 'AI News Daily',
+                descriptionTopics: 'AI, LLM, agent, open source, research paper and product updates',
+                todayHighlights: 'Highlights include',
+                empty: 'No summarized items are available for this day yet.',
+                sourceFallback: 'original source',
+                updatedPrefix: 'Updated at',
+                dynamicRead: 'live data',
+                updatedPlaceholder: 'Updated at --:--:--',
+                loading: 'Loading...',
+                loadingStatus: 'Today {date} · Loading',
+                loadedStatus: 'Today {date} · Ordered by publish time',
+                failedStatus: 'Today {date} · Failed to load',
+                loadFailed: 'Load failed',
+                countLabel: 'published items',
+                ariaCount: 'Today item count'
+            },
+            ja: {
+                titleSuffix: 'AI ニュース、LLM、エージェント、論文とプロダクト動向',
+                description: 'AI News Daily は、AI、LLM、エージェント、オープンソース、プロダクト、論文、スタートアップの動向を毎日まとめ、要約と原文リンクを提供します。',
+                descriptionPrefix: 'AI ニュース日報',
+                descriptionTopics: 'AI、LLM、エージェント、オープンソース、論文、プロダクト動向',
+                todayHighlights: '今日の主なトピック',
+                empty: 'この日に表示できる要約済み記事はまだありません。',
+                sourceFallback: '元記事',
+                updatedPrefix: '更新時刻',
+                dynamicRead: '動的読み込み',
+                updatedPlaceholder: '更新時刻 --:--:--',
+                loading: '読み込み中...',
+                loadingStatus: '今日 {date} · 読み込み中',
+                loadedStatus: '今日 {date} · 公開時刻順',
+                failedStatus: '今日 {date} · 読み込み失敗',
+                loadFailed: '読み込み失敗',
+                countLabel: 'published items',
+                ariaCount: '今日の記事数'
+            }
+        };
+        const UI = LANGUAGE_CONFIG[LANG_KEY];
         let currentItems = [];
 
         function todayLocal() {
@@ -778,7 +870,7 @@
         }
 
         function formatGeneratedAt(value) {
-            if (!value) return '动态读取';
+            if (!value) return UI.dynamicRead;
             const text = String(value);
             const match = text.match(/T(\d{2}:\d{2}:\d{2})(?:[+-]\d{2}:\d{2}|Z)?$/);
             return match ? match[1] : formatTime(text);
@@ -794,7 +886,7 @@
             try {
                 return new URL(value).hostname.replace(/^www\./, '');
             } catch (err) {
-                return 'original source';
+                return UI.sourceFallback;
             }
         }
 
@@ -816,10 +908,10 @@
                 .slice(0, 5)
                 .map((item) => String(item.title || '').replace(/\s+/g, ' ').trim())
                 .filter(Boolean);
-            const title = `AI News Daily ${targetDate} | AI 新闻日报、LLM 与 AI 产品动态`;
+            const title = `AI News Daily ${targetDate} | ${UI.titleSuffix}`;
             const description = items.length
-                ? `${targetDate} AI 新闻日报：收录 ${items.length} 条 AI、LLM、智能体、开源项目、论文和产品动态。今日重点包括：${truncateText(topTitles.join('、'), 110)}。`
-                : `${targetDate} AI 新闻日报：${DEFAULT_SEO_DESCRIPTION}`;
+                ? `${targetDate} ${UI.descriptionPrefix}: ${items.length} ${UI.descriptionTopics}. ${UI.todayHighlights}: ${truncateText(topTitles.join('、'), 110)}.`
+                : `${targetDate} ${UI.descriptionPrefix}: ${UI.description}`;
 
             document.title = title;
             setMetaContent('meta[name="description"]', description);
@@ -844,9 +936,9 @@
                 '@context': 'https://schema.org',
                 '@type': 'CollectionPage',
                 name: `AI News Daily ${targetDate}`,
-                alternateName: 'AI 新闻日报',
+                alternateName: UI.descriptionPrefix,
                 url: CANONICAL_URL,
-                inLanguage: 'zh-CN',
+                inLanguage: PAGE_LANG,
                 description,
                 dateModified: generatedAt || undefined,
                 isAccessibleForFree: true,
@@ -997,17 +1089,17 @@
         function renderLoading() {
             feedEl.innerHTML = Array.from({ length: 9 }, () => '<div class="skeleton"></div>').join('');
             countEl.innerText = '--';
-            updatedAtEl.innerText = '数据更新时间 --:--:--';
+            updatedAtEl.innerText = UI.updatedPlaceholder;
         }
 
         function renderItems(items, generatedAt = null, targetDate = todayLocal()) {
             currentItems = items;
             countEl.innerText = items.length;
-            updatedAtEl.innerText = `数据更新于 ${formatGeneratedAt(generatedAt)}`;
+            updatedAtEl.innerText = `${UI.updatedPrefix} ${formatGeneratedAt(generatedAt)}`;
             updateSeoMetadata(items, targetDate, generatedAt);
 
             if (!items.length) {
-                feedEl.innerHTML = '<div class="empty">这一天还没有可展示的已摘要文章。</div>';
+                feedEl.innerHTML = `<div class="empty">${escapeHtml(UI.empty)}</div>`;
                 return;
             }
 
@@ -1034,7 +1126,7 @@
         async function loadDaily() {
             const targetDate = todayLocal();
             renderLoading();
-            statusEl.innerText = `今日 ${targetDate} · 正在加载`;
+            statusEl.innerText = UI.loadingStatus.replace('{date}', targetDate);
 
             try {
                 const response = await fetch('data/latest.json', { cache: 'no-store' });
@@ -1042,15 +1134,26 @@
                 const data = await response.json();
                 const items = data.items || [];
                 renderItems(items, data.generated_at, data.date || targetDate);
-                statusEl.innerText = `今日 ${data.date || targetDate} · 按发布时间倒序`;
+                statusEl.innerText = UI.loadedStatus.replace('{date}', data.date || targetDate);
             } catch (err) {
                 countEl.innerText = '0';
-                updatedAtEl.innerText = '数据更新时间 --:--:--';
-                feedEl.innerHTML = `<div class="error">加载失败：${escapeHtml(err.message)}</div>`;
-                statusEl.innerText = `今日 ${targetDate} · 加载失败`;
+                updatedAtEl.innerText = UI.updatedPlaceholder;
+                feedEl.innerHTML = `<div class="error">${escapeHtml(UI.loadFailed)}: ${escapeHtml(err.message)}</div>`;
+                statusEl.innerText = UI.failedStatus.replace('{date}', targetDate);
             }
         }
 
+        if (languageSelectEl) {
+            const currentLanguagePath = LANG_KEY === 'en' ? '/en/' : LANG_KEY === 'ja' ? '/ja/' : '/';
+            languageSelectEl.value = currentLanguagePath;
+            languageSelectEl.addEventListener('change', () => {
+                window.location.href = languageSelectEl.value;
+            });
+        }
+
+        document.querySelector('.count-label').innerText = UI.countLabel;
+        document.querySelector('.meter').setAttribute('aria-label', UI.ariaCount);
+        statusEl.innerText = UI.loading;
         loadDaily();
     </script>
 </body>
