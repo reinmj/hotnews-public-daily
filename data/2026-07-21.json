@@ -1,9 +1,139 @@
 {
   "date": "2026-07-21",
-  "count": 343,
-  "generated_at": "2026-07-21T15:59:06+08:00",
+  "count": 364,
+  "generated_at": "2026-07-21T18:00:00+08:00",
   "lang": "zh",
   "items": [
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@guleseharkhan915/mlops-for-beginners-what-it-is-and-why-you-need-to-learn-it-now-990cc6874fab",
+      "publish_time": "2026-07-21 07:47:36",
+      "publish_time_local": "2026-07-21 15:47:36",
+      "title": "MLOps for beginners — what it is and why you need to learn it now",
+      "summary": "* **标题**：MLOps 实战指南：从实验追踪到生产级模型监控\n* **核心摘要**：数据科学教程常止步于模型训练，忽视部署后因数据漂移导致的性能隐性衰退。MLOps 通过整合 MLflow、DVC 及 GitHub Actions 等工具，实现模型持续监控、自动重训练与实验可复现，将实验室成果转化为可信赖的生产级产品。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@moksh.9/prompt-caching-the-architecture-change-that-cuts-your-llm-costs-in-half-87ba6d3c28bd",
+      "publish_time": "2026-07-21 07:47:36",
+      "publish_time_local": "2026-07-21 15:47:36",
+      "title": "💎[会员专享] Prompt Caching: The Architecture Change That Cuts Your LLM Costs in Half",
+      "summary": "* **标题**：Prompt Caching 架构变革：LLM 成本减半的工业级实践\n* **核心摘要**：针对同一文档重复调用场景，通过引入 `cache_control` 机制缓存前缀内容，可将 Token 消耗从 151,500 降至 61,000，实现 60% 成本削减。该方案适用于文档分析、长上下文及系统提示等高频复用场景，建议立即部署以避免算力浪费。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@subham11/your-rag-isnt-hallucinating-retrieval-handed-it-the-wrong-chunk-23836ea9ebf4",
+      "publish_time": "2026-07-21 07:45:34",
+      "publish_time_local": "2026-07-21 15:45:34",
+      "title": "Your RAG Isn’t Hallucinating. Retrieval Handed It the Wrong Chunk.",
+      "summary": "* **标题**：RAG 幻觉实为检索失误：单向量检索无法处理细粒度与结构化数据\n* **核心摘要**：多数 RAG 幻觉源于检索阶段将答案所在的关键 token 或表格数据淹没于平均向量中。单向量检索无法保留细粒度语义，导致模型基于错误上下文生成准确回答。通过引入 ColBERT 多向量检索与 ColPali 视觉检索，可分别解决基于特定 token 的精确匹配与表格、图表等非结构化数据的解析问题。建议依据文档特性与评估指标，动态选择检索策略，避免过度工程或基础配置不足。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@subham11/your-ai-agent-was-great-in-week-one-heres-why-it-s-wrong-by-month-six-04c7ee62defa",
+      "publish_time": "2026-07-21 07:43:07",
+      "publish_time_local": "2026-07-21 15:43:07",
+      "title": "Your AI Agent Was Great in Week One. Here’s Why It’s Wrong by Month Six.",
+      "summary": "* **标题**：AI Agent 性能衰退：记忆陈旧与上下文腐化的治理机制\n* **核心摘要**：长期运行的 AI Agent 常因记忆陈旧与上下文腐化而性能隐性衰退。根本原因在于团队将记忆构建为仅追加的日志，缺乏生命周期管理。解决方案需引入时间有效性、被覆盖无效化、工作记忆与受控记忆分离，以及遗忘策略，将记忆从静态存储转变为具有明确生命周期和治理机制的动态知识体系。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@UdaykiranEstari/superpowers-for-coding-agents-setup-and-workflow-guide-part-1-d92881f07980",
+      "publish_time": "2026-07-21 07:39:17",
+      "publish_time_local": "2026-07-21 15:39:17",
+      "title": "💎[会员专享] Superpowers for Coding Agents: Setup and Workflow Guide— Part 1",
+      "summary": "* **标题**：Claude 插件“超级能力”：用 Markdown 流程强制编码，解决 Agent 开发中“沉默的 20%\"\n* **核心摘要**：开发者 Jesse Vincent 通过 Claude Code 插件“Superpowers”，将软件开发流程固化为包含“头脑风暴”在内的七个阶段。该机制利用纯 Markdown 文件定义技能，自动触发 Agent 的推理过程，强制其在代码生成前进行澄清提问与架构设计。数据显示，该框架在 2025 年 10 月至 2026 年中已获 25 万 GitHub 星标，并被 Anthropic 官方收录。文章指出，Agent 开发的核心痛点并非模型能力不足，而是缺乏显式的流程约束，导致认证检查、边缘案例等关键逻辑被“沉默”忽略。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@margaretgatwiri/i-built-a-prototype-with-ai-and-tested-it-with-users-8780f14e8c60",
+      "publish_time": "2026-07-21 07:38:01",
+      "publish_time_local": "2026-07-21 15:38:01",
+      "title": "I Built a Prototype with AI and tested it with users.",
+      "summary": "* **标题**：AI 信任校准：为何“置信度”不如“可解释性”关键\n* **核心摘要**：作者通过构建原型测试 AI 辅助审查工具，发现用户信任并非源于模型准确率或置信度数值，而是取决于 AI 是否提供清晰的可解释推理。研究证实，当 AI 对不确定内容选择“留白”而非盲目推荐时，反而能降低人类复核成本。这一发现呼应了人机交互领域关于“快速信任校准”的理论，强调让 AI 展现其不确定性比单纯追求准确性更能提升协作效率。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@chalothorn.cha/rope-%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1-llm-%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%84%E0%B8%B3%E0%B9%84%E0%B8%AB%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B9%88%E0%B8%AD%E0%B8%99-%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87-ef82847d88cd",
+      "publish_time": "2026-07-21 07:37:54",
+      "publish_time_local": "2026-07-21 15:37:54",
+      "title": "RoPE: ทำไม LLM ถึงรู้ว่าคำไหนมาก่อน-หลัง",
+      "summary": "* **标题**：RoPE 技术解析：通过旋转嵌入解决 Transformer 注意力机制的序列顺序问题\n* **核心摘要**：Transformer 的注意力机制在处理长序列时存在位置信息缺失的缺陷，传统的位置编码无法有效捕捉词序。RoPE（Rotary Position Embedding）通过旋转查询与键向量，利用余弦与正弦函数的角度差自动编码相对位置信息。该技术无需额外参数，不仅简化了模型结构，还显著提升了长上下文窗口处理能力，已成为 Llama、Qwen 等主流大模型的标准配置。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@bhavik.champ/most-people-use-ai-wrong-heres-a-better-way-fc9172f33b0c",
+      "publish_time": "2026-07-21 07:37:20",
+      "publish_time_local": "2026-07-21 15:37:20",
+      "title": "Most People Use AI Wrong. Here’s a Better Way.",
+      "summary": "* **标题**：AI 应用误区：从随机提示转向构建可重复系统\n* **核心摘要**：多数企业将 AI 误用为搜索引擎，仅依赖随机提示获取零散答案。真正的生产力提升源于建立可重复的自动化系统，如邮件撰写、内容框架及会议总结等。通过构建涵盖营销、销售、客户沟通等核心领域的结构化工作流，企业能将重复性任务自动化，从而释放时间专注于高价值工作。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/techtrends-digest/vibe-coding-is-dead-long-live-spec-driven-development-sdd-e15a64aee06b",
+      "publish_time": "2026-07-21 07:36:02",
+      "publish_time_local": "2026-07-21 15:36:02",
+      "title": "“Vibe Coding” Is Dead. Long Live Spec-Driven Development (SDD)",
+      "summary": "* **标题**：Vibe Coding 时代终结：Spec-Driven Development (SDD) 确立新开发范式\n* **核心摘要**：2025 年中，依赖非结构化意图提示的“Vibe Coding”模式引发大规模技术债务危机，导致代码库维护困难、架构断裂及安全隐患。为应对此挑战，Spec-Driven Development (SDD) 应运而生，确立“规范即唯一真理源”原则，通过宪法、规范、实施计划及自动化验证四个阶段，将 AI 生成代码从“直觉产物”转变为“可验证的渲染产物”，确保生产级系统的稳定性与可维护性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@tim_62250/the-feed-is-becoming-the-decision-5bf68330dcc2",
+      "publish_time": "2026-07-21 07:35:25",
+      "publish_time_local": "2026-07-21 15:35:25",
+      "title": "The Feed Is Becoming the Decision",
+      "summary": "* **标题**：Gen Alpha 跳过搜索与 AI 对话，社交推荐流成为决策核心\n* **核心摘要**：Z 世代（Gen Alpha）已完全绕过传统搜索框与 AI 对话模式，转而依赖社交媒体的算法推荐流进行产品发现。该群体信任源于特定创作者的“准社会关系”，而非品牌背书或 AI 系统的置信度。然而，当购买决策权逐渐转移至 AI 代理时，若算法推荐机制未能将信任转化为实际转化，品牌将面临“在场但未被采纳”的结构性风险。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@digitalmawai/7-signs-your-company-needs-an-erp-system-5a3880604167",
+      "publish_time": "2026-07-21 07:34:38",
+      "publish_time_local": "2026-07-21 15:34:38",
+      "title": "7 Signs Your Company Needs an ERP System",
+      "summary": "* **标题**：ERP 系统七大信号：告别数据孤岛与手工重复劳动\n* **核心摘要**：当企业依赖分散的表格、邮件及独立软件时，数据版本冲突、部门协作壁垒、手动操作成本及决策滞后将成为必然。若业务增长引发流程摩擦、报告编制耗时过长且重复错误频发，表明现有系统已无法支撑规模化运营。实施 ERP 系统旨在整合人员、流程与数据，通过实时洞察与自动化消除碎片化，为业务增长奠定坚实基础。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@mrrrr9652/best-ai-free-tools-2026-a17c25a7eb3b",
+      "publish_time": "2026-07-21 07:33:24",
+      "publish_time_local": "2026-07-21 15:33:24",
+      "title": "Best Ai free tools 2026",
+      "summary": "* **标题**：2026 年度最佳免费 AI 工具汇总\n* **核心摘要**：文章为 2026 年免费 AI 工具推荐，提供具体工具链接供用户尝试。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@dilawarabbbas/mcp-is-not-the-ai-version-of-your-api-its-something-bigger-e2627033c4fd",
+      "publish_time": "2026-07-21 07:33:06",
+      "publish_time_local": "2026-07-21 15:33:06",
+      "title": "MCP Is Not the AI Version of Your API — It’s Something Bigger",
+      "summary": "* **标题**：MCP 并非 AI 版 API：它是现代平台的外部统一工具层\n* **核心摘要**：文章指出将 MCP 视为\"AI 版 API\"的认知偏差限制了架构演进。正确的架构模式是将内部 REST API 保留为后端逻辑核心，而将 MCP 定位为面向所有外部消费者（包括 AI 代理、BI 工具、CI 流水线及合作伙伴）的统一前端工具层。这种分层设计避免了维护双套接口，使新消费者接入成本趋近于零。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
     {
       "source": "Lobsters",
       "url": "https://ervin.ipsquad.net/blog/2026/07/21/kde-for-entreprise-needs-a-strong-pim-infrastructure/",
@@ -11,6 +141,16 @@
       "publish_time_local": "2026-07-21 15:20:43",
       "title": "KDE for Enterprise Needs a Strong PIM Infrastructure",
       "summary": "* **标题**：KDE 企业版亟需强化 PIM 基础设施\n* **核心摘要**：在主权技术基金支持下，KDE 生态正通过增强 Akonadi 底层架构，重点提升 IMAP4、CalDAV 及 iTIP 等核心协议支持。当前工作聚焦于构建覆盖 IMAP 与 DAV 的完整测试套件，优化网络资源使用，并推进基于邮件密码的自动配置功能。预计 26.08 与 26.12 版本将陆续交付补丁，目标于 2027 年初完成 Flatpak 集成，旨在降低企业部署复杂度，提升 KDE 桌面在机构环境中的竞争力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://oxotall.medium.com/mixture-density-networks-bccf48edb4c3",
+      "publish_time": "2026-07-21 07:15:38",
+      "publish_time_local": "2026-07-21 15:15:38",
+      "title": "Mixture Density Networks",
+      "summary": "* **标题**：Mixture Density Networks：解决回归任务中多模态分布的均值陷阱\n* **核心摘要**：传统均方误差（MSE）回归模型基于单高斯分布假设，在多模态目标分布场景下会预测各模式均值，导致模型输出无效结果。Mixture Density Network（MDN）通过输出混合高斯分布参数，将回归预测从单一数值扩展为概率分布，从而有效捕捉并保留多个正确解，避免模型因追求单一最优解而失效。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -25,6 +165,46 @@
       "lang": "zh"
     },
     {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@shanitha.va/can-a-data-science-course-really-change-your-career-in-2026-iabac-ba9ac3329896",
+      "publish_time": "2026-07-21 07:05:07",
+      "publish_time_local": "2026-07-21 15:05:07",
+      "title": "Can a Data Science Course Really Change Your Career in 2026?-IABAC",
+      "summary": "* **标题**：2026 数据科学课程：职业跃迁的“桥梁”与“门槛”\n* **核心摘要**：文章指出数据科学市场在 2026 年预计规模达 3220 亿美元，全球岗位需求激增。课程本身无法直接赋予职业，但作为连接现有技能与数据科学领域的“桥梁”，其核心价值在于提供结构化基础、行业认可的认证及项目实战经验。成功的关键在于：选择匹配自身背景的课程、在 12-18 个月内完成端到端项目、获取 IABAC 等权威认证，并持续进行跨职能协作与业务思维训练。最终，课程仅是敲门砖，真正的职业跃迁取决于持续的项目产出与专注的长期投入。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://python.plainenglish.io/10-python-libraries-that-turn-difficult-problems-into-simple-solutions-c3b7aac0e511",
+      "publish_time": "2026-07-21 07:04:42",
+      "publish_time_local": "2026-07-21 15:04:42",
+      "title": "10 Python Libraries That Turn Difficult Problems Into Simple Solutions",
+      "summary": "* **标题**：10 个 Python 库：将复杂问题简化为几行代码\n* **核心摘要**：开发者常因重复造轮子而陷入困境，通过 pathlib 等工具可替代繁琐的字符串路径处理。掌握这 10 个精选库，能显著提升自动化、数据处理及 AI 工作流的开发效率，将复杂逻辑转化为简洁代码。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@tihomir.manushev/run-a-b-tests-entirely-in-postgresql-84fa1bbf6623",
+      "publish_time": "2026-07-21 07:01:03",
+      "publish_time_local": "2026-07-21 15:01:03",
+      "title": "💎[会员专享] Run A/B Tests Entirely in PostgreSQL",
+      "summary": "* **标题**：PostgreSQL 原生 A/B 测试：哈希分桶与 Chi-Square 统计的 SQL 实现\n* **核心摘要**：通过哈希分桶实现无存储依赖的确定性用户分配，利用 PostgreSQL 16 内置的 `erfc` 函数计算真实 Chi-Square p 值。该方案在无需外部平台的情况下，将实验分配、结果聚合及样本比例偏差检查整合至 SQL 脚本，显著降低数据孤岛与第三方 SDK 依赖。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@imikov89/why-solving-water-scarcity-might-mean-refusing-to-fight-over-the-river-a2d5a0819222",
+      "publish_time": "2026-07-21 06:59:11",
+      "publish_time_local": "2026-07-21 14:59:11",
+      "title": "Why Solving Water Scarcity Might Mean Refusing to Fight Over the River",
+      "summary": "* **标题**：白螳螂：以大气制水破解南亚水资源地缘困局\n* **核心摘要**：白螳螂项目通过太阳能大气制水技术，绕过印度河系统这一地缘政治焦点，建立“按量付费”的自维持商业模式。该方案旨在将清洁水从“外交筹码”转化为“基础设施”，为南亚地区在气候危机与条约冲突并存的背景下，争取关键的生存缓冲时间。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Lobsters",
       "url": "https://lv1.sh/blog/why-l/",
       "publish_time": "2026-07-21 06:50:14",
@@ -35,12 +215,42 @@
       "lang": "zh"
     },
     {
+      "source": "Hacker News",
+      "url": "https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of",
+      "publish_time": "2026-07-21 06:29:22",
+      "publish_time_local": "2026-07-21 14:29:22",
+      "title": "Linux kernel will support $ORIGIN, sort of",
+      "summary": "* **标题**：Linux 内核支持 $ORIGIN：基于 eBPF 的可移植二进制动态加载器\n* **核心摘要**：开发者通过向 Linux 内核提交补丁，利用 eBPF 技术实现了基于 $ORIGIN 的可移植二进制动态加载器。该方案通过 binfmt_misc 子系统注册 BPF 程序，动态替换 PT_INTERP 段，使 Nix 构建的可执行文件能够根据路径变量自动选择解释器。新机制支持 $ORIGIN 在 shebang 和 PT_INTERP 中生效，同时通过引入 PT_INTERP_NIX 段保持向后兼容，确保传统 ELF 文件不受影响。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Lobsters",
       "url": "https://www.honeycomb.io/blog/30-70-prs-day-how-we-managed-not-wreck-systems",
       "publish_time": "2026-07-21 06:26:16",
       "publish_time_local": "2026-07-21 14:26:16",
       "title": "30 to 70 PRs a Day: How We Managed to Not Wreck Our Systems",
       "summary": "* **标题**：AI 赋能工程效能翻倍：Honeycomb 团队在 2.5 倍产出下的系统稳定性实践\n* **核心摘要**：Honeycomb 团队在 2025 年至 2026 年间，通过引入 AI 辅助将单周合并量从约 30 提升至 74 个，代码库规模翻倍。该成果并非单纯依赖 AI 生成，而是基于“AI 放大现有实践”的核心理念，通过分阶段推进（从实验到工具驱动再到高强度委托）实现。团队强调，AI 仅作为加速器，真正的效能提升源于持续交付、AI 可观测性闭环及高自主权组织文化，而非 AI 本身。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/linux-kernel-72-rc4-cache-scheduling/",
+      "publish_time": "2026-07-21 06:09:08",
+      "publish_time_local": "2026-07-21 14:09:08",
+      "title": "Linux 7.2-rc4: MongoDB Gets 30–100% Faster, and strncpy Is Finally Dead",
+      "summary": "* **标题**：Linux 7.2-rc4 发布：MongoDB 性能跃升与 strncpy 彻底终结\n* **核心摘要**：Linux 7.2-rc4 引入三项关键改进：Tencent 团队优化的 MGLRU 算法使 MongoDB 在 NVMe 和机械硬盘上分别提升 30% 至 100% 吞吐量，无需配置调整；Cache-Aware Scheduling (CAS) 实现内核对 CPU LLC 拓扑的感知，AMD Zen 5 架构下部分负载性能提升达 44%；历时六年、362 个补丁的 strncpy 函数被彻底移除，以消除缓冲区溢出漏洞并强制使用更安全的替代方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ShowHN",
+      "url": "https://exsitu.app/map",
+      "publish_time": "2026-07-21 04:48:32",
+      "publish_time_local": "2026-07-21 12:48:32",
+      "title": "Show HN: Ex Situ – Open-source spatial index of displaced cultural artifacts",
+      "summary": "* **标题**：Ex Situ 开源空间索引：重构博物馆藏品溯源与机构间数据互联\n* **核心摘要**：开发者基于 Next.js 与 Deck.gl 构建开源空间索引，将全球 10 万+ 博物馆文物映射为从起源到机构的连接弧。该方案采用扁平数据模型，旨在避免重复编码问题，通过元数据链接而非数据复制，强化机构间档案互联。项目目前支持 8 大馆藏体系，并开放导出功能，正寻求社区在性能扩展与数据管道方面的协作。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },

@@ -1,9 +1,139 @@
 {
   "date": "2026-07-21",
-  "count": 343,
-  "generated_at": "2026-07-21T15:59:06+08:00",
+  "count": 364,
+  "generated_at": "2026-07-21T18:00:00+08:00",
   "lang": "en",
   "items": [
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@guleseharkhan915/mlops-for-beginners-what-it-is-and-why-you-need-to-learn-it-now-990cc6874fab",
+      "publish_time": "2026-07-21 07:47:36",
+      "publish_time_local": "2026-07-21 15:47:36",
+      "title": "MLOps for beginners — what it is and why you need to learn it now",
+      "summary": "**Title:** MLOps in Practice: From Experiment Tracking to Production-Level Model Monitoring\n\n**Summary:** Data science tutorials often stop at model training, overlooking the subtle performance degradation caused by data drift after deployment. MLOps, by integrating tools like MLflow, DVC, and GitHub Actions, enables continuous model monitoring, automated retraining, and reproducible experiments, transforming lab results into reliable production-level products.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@moksh.9/prompt-caching-the-architecture-change-that-cuts-your-llm-costs-in-half-87ba6d3c28bd",
+      "publish_time": "2026-07-21 07:47:36",
+      "publish_time_local": "2026-07-21 15:47:36",
+      "title": "💎 [Exclusive for Members] Prompt Caching: The Architectural Change That Cuts Your LLM Costs in Half",
+      "summary": "**Title:** A Transformative Approach to Prompt Caching: Industrial-Grade Practices for Reducing LLM Costs by 50%\n\n**Summary:** For scenarios where the same document is repeatedly called, introducing a `cache_control` mechanism can reduce token consumption from 151,500 to 61,000, resulting in a 60% cost reduction. This solution is suitable for high-frequency use cases such as document analysis, long contexts, and system prompts. It is recommended to deploy this immediately to avoid unnecessary computational resource usage.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@subham11/your-rag-isnt-hallucinating-retrieval-handed-it-the-wrong-chunk-23836ea9ebf4",
+      "publish_time": "2026-07-21 07:45:34",
+      "publish_time_local": "2026-07-21 15:45:34",
+      "title": "Your RAG Isn’t Hallucinating. Retrieval Handed It the Wrong Chunk.",
+      "summary": "* **Title:** RAG Hallucinations Are Actually Due to Retrieval Errors: Single Vector Retrieval Struggles with Fine-Grained and Structured Data\n\n* **Summary:** Many RAG hallucinations stem from the retrieval stage, where relevant answer tokens or tabular data are lost within an average vector. Single vector retrieval cannot preserve fine-grained semantics, leading to models generating accurate answers based on incorrect context. Introducing ColBERT multi-vector retrieval and ColPali visual retrieval can address the problems of precise matching based on specific tokens and parsing of non-structured data like tables and charts. It is recommended to dynamically select retrieval strategies based on document characteristics and evaluation metrics, to avoid over-engineering or insufficient basic configuration.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@subham11/your-ai-agent-was-great-in-week-one-heres-why-it-s-wrong-by-month-six-04c7ee62defa",
+      "publish_time": "2026-07-21 07:43:07",
+      "publish_time_local": "2026-07-21 15:43:07",
+      "title": "Your AI Agent Was Great in Week One. Here’s Why It’s Wrong by Month Six.",
+      "summary": "* **Title:** AI Agent Performance Degradation: Addressing Memory Decay and Context Corruption\n* **Summary:** Long-running AI Agents experience performance degradation due to memory decay and context corruption. The root cause is that the team has built memory as simply appended logs, lacking lifecycle management. Solutions involve introducing time-based effectiveness, invalidation of old data, separating working memory and controlled memory, and forgetting strategies – transitioning memory from static storage into a dynamic knowledge system with clear lifecycle and governance mechanisms.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@UdaykiranEstari/superpowers-for-coding-agents-setup-and-workflow-guide-part-1-d92881f07980",
+      "publish_time": "2026-07-21 07:39:17",
+      "publish_time_local": "2026-07-21 15:39:17",
+      "title": "💎 [Exclusive for Members] Superpowers for Coding Agents: Setup and Workflow Guide – Part 1",
+      "summary": "* **Title:** Claude Plugin “Superpowers”: Enforcing Markdown-Based Processes to Address the “20% Silent” in Agent Development\n\n* **Summary:** Developer Jesse Vincent has created the Claude Code plugin “Superpowers,” which establishes a software development process consisting of seven stages, all defined using Markdown. This mechanism automatically triggers the reasoning process of agents, forcing them to clarify and design architecture *before* generating code. Data shows that the framework has received 250,000 GitHub stars between October 2025 and mid-2026, and has been officially listed by Anthropic. The article points out that a key challenge in Agent development isn't a lack of model capabilities, but rather a lack of explicit process constraints, leading to critical logic like verification and edge cases being “silenced.”",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@margaretgatwiri/i-built-a-prototype-with-ai-and-tested-it-with-users-8780f14e8c60",
+      "publish_time": "2026-07-21 07:38:01",
+      "publish_time_local": "2026-07-21 15:38:01",
+      "title": "I Built a Prototype with AI and tested it with users.",
+      "summary": "* **Title:** AI Trust Calibration: Why Explainability is More Important Than “Confidence”\n* **Summary:** Through the creation of a prototype tool for AI-assisted review, the author found that user trust isn't based on the model's accuracy or confidence scores, but rather on whether the AI provides clear and understandable reasoning. The research demonstrated that when AI chooses to “leave blank” on uncertain content instead of making blind recommendations, it reduces the cost of human review. This finding aligns with theories in human-computer interaction regarding “rapid trust calibration,” emphasizing that demonstrating AI uncertainty is more effective than simply pursuing accuracy in order to improve collaboration efficiency.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@chalothorn.cha/rope-%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1-llm-%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%84%E0%B8%B3%E0%B9%84%E0%B8%AB%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B9%88%E0%B8%AD%E0%B8%99-%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87-ef82847d88cd",
+      "publish_time": "2026-07-21 07:37:54",
+      "publish_time_local": "2026-07-21 15:37:54",
+      "title": "RoPE: ทำไม LLM ถึงรู้ว่าคำไหนมาก่อน-หลัง",
+      "summary": "* **Title:** Analysis of RoPE Technology: Using Rotational Embeddings to Address Sequence Order Issues in Transformer Attention Mechanisms\n\n* **Summary:** The attention mechanism in Transformers suffers from a lack of positional information when processing long sequences. Traditional positional encodings are not effective at capturing word order. RoPE (Rotary Position Embedding) encodes relative positional information automatically by rotating query and key vectors using the difference between cosine and sine angles. This technique requires no additional parameters, simplifying the model structure and significantly improving the ability to handle long context windows, and has become a standard configuration for popular large models like Llama and Qwen.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@bhavik.champ/most-people-use-ai-wrong-heres-a-better-way-fc9172f33b0c",
+      "publish_time": "2026-07-21 07:37:20",
+      "publish_time_local": "2026-07-21 15:37:20",
+      "title": "Most People Use AI Wrong. Here’s a Better Way.",
+      "summary": "**Title:** AI Misconceptions: Moving from Random Prompts to Constructible, Repeatable Systems\n\n**Summary:** Many companies are misusing AI as a simple search engine, relying on random prompts to obtain isolated answers. True productivity gains come from building repeatable automation systems, such as email drafting, content frameworks, and meeting summaries. By creating structured workflows across key areas like marketing, sales, and customer communication, businesses can automate repetitive tasks and free up time to focus on higher-value work.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/techtrends-digest/vibe-coding-is-dead-long-live-spec-driven-development-sdd-e15a64aee06b",
+      "publish_time": "2026-07-21 07:36:02",
+      "publish_time_local": "2026-07-21 15:36:02",
+      "title": "“Vibe Coding” Is Dead. Long Live Spec-Driven Development (SDD)",
+      "summary": "* **Title:** The Era of Vibe Coding Ends: Spec-Driven Development (SDD) Establishes a New Development Paradigm\n\n* **Summary:** In 2025, the “Vibe Coding” model, which relied on unstructured prompts, triggered a massive technical debt crisis, leading to difficulties in maintaining codebases, architectural issues, and security vulnerabilities. To address this challenge, Spec-Driven Development (SDD) emerged, establishing the principle of “rules as the ultimate truth.” SDD utilizes four stages – constitution, standards, implementation plans, and automated validation – to transform AI-generated code from a “intuitive product” into “verifiable outputs,” ensuring the stability and maintainability of production systems.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@tim_62250/the-feed-is-becoming-the-decision-5bf68330dcc2",
+      "publish_time": "2026-07-21 07:35:25",
+      "publish_time_local": "2026-07-21 15:35:25",
+      "title": "The Feed Is Becoming the Decision",
+      "summary": "* **Title:** Gen Alpha is bypassing traditional search and AI conversations, relying on social media algorithm-driven recommendations as the primary source for product discovery.\n\n* **Summary:** Gen Alpha is moving away from using traditional search engines and AI conversations, instead relying on the algorithm-driven recommendation streams on social media platforms for discovering products. This shift in preference is driven by trust in specific creators’ “social circles,” rather than relying on brand endorsements or the confidence of AI systems. However, brands face a structural risk of being “present but not adopted” if the algorithmic recommendation mechanisms fail to translate this trust into actual sales when purchasing decisions are increasingly made through AI agents.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@digitalmawai/7-signs-your-company-needs-an-erp-system-5a3880604167",
+      "publish_time": "2026-07-21 07:34:38",
+      "publish_time_local": "2026-07-21 15:34:38",
+      "title": "7 Signs Your Company Needs an ERP System",
+      "summary": "* **Title:** Seven Signals Indicating the Need for an ERP System: Overcoming Data Silos and Manual Repetitive Tasks\n\n* **Summary:** When businesses rely on scattered spreadsheets, emails, and independent software, issues such as data version conflicts, departmental collaboration barriers, manual operation costs, and delayed decision-making are inevitable. If business growth leads to process friction, lengthy report creation times, and frequent errors, it indicates that the existing system is unable to support scaled operations. Implementing an ERP system aims to integrate people, processes, and data, eliminating fragmentation through real-time insights and automation, and providing a solid foundation for business growth.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@mrrrr9652/best-ai-free-tools-2026-a17c25a7eb3b",
+      "publish_time": "2026-07-21 07:33:24",
+      "publish_time_local": "2026-07-21 15:33:24",
+      "title": "Best Ai free tools 2026",
+      "summary": "* **Title:** 2026’s Best Free AI Tools Roundup\n* **Summary:** This article presents a collection of recommended free AI tools for 2026, including direct links for users to try them.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@dilawarabbbas/mcp-is-not-the-ai-version-of-your-api-its-something-bigger-e2627033c4fd",
+      "publish_time": "2026-07-21 07:33:06",
+      "publish_time_local": "2026-07-21 15:33:06",
+      "title": "MCP Is Not the AI Version of Your API — It’s Something Bigger",
+      "summary": "* **Title:** MCP is Not an AI-Version API: It’s an External Unified Tool Layer for Modern Platforms\n* **Summary:** The article points out that viewing MCP as an “AI-version API” creates a limiting perception of its architecture. The correct architectural approach is to maintain internal REST APIs as the core backend logic, while positioning MCP as a unified frontend tool layer for all external consumers – including AI agents, BI tools, CI pipelines, and partners. This layered design avoids maintaining dual interfaces, making it near-zero cost to onboard new consumers.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
     {
       "source": "Lobsters",
       "url": "https://ervin.ipsquad.net/blog/2026/07/21/kde-for-entreprise-needs-a-strong-pim-infrastructure/",
@@ -11,6 +141,16 @@
       "publish_time_local": "2026-07-21 15:20:43",
       "title": "KDE for Enterprise Needs a Strong PIM Infrastructure",
       "summary": "* **Title:** KDE Enterprise Requires Enhanced PIM Infrastructure\n* **Summary:** Supported by the Sovereign Technology Fund, the KDE ecosystem is strengthening its PIM infrastructure by enhancing the Akonadi underlying architecture, specifically focusing on improved support for core protocols like IMAP4, CalDAV, and iTIP. Current work involves building a comprehensive test suite covering IMAP and DAV, optimizing network resource usage, and implementing automatic configuration based on email passwords. Patches are expected in versions 26.08 and 26.12, with a goal of completing Flatpak integration by early 2027, aiming to reduce complexity in enterprise deployments and improve the competitiveness of the KDE desktop in institutional environments.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://oxotall.medium.com/mixture-density-networks-bccf48edb4c3",
+      "publish_time": "2026-07-21 07:15:38",
+      "publish_time_local": "2026-07-21 15:15:38",
+      "title": "Mixture Density Networks",
+      "summary": "* **Title:** Mixture Density Networks: Addressing the Mean Bias Problem in Regression with Multi-modal Distributions\n* **Summary:** Traditional Mean Squared Error (MSE) regression models rely on the assumption of a single Gaussian distribution. In scenarios with multi-modal target distributions, they tend to predict the mean of each mode, leading to invalid model outputs. Mixture Density Networks (MDN) output parameters for a mixture of Gaussian distributions, expanding regression prediction from a single value to a probability distribution. This allows the model to effectively capture and retain multiple correct solutions, and avoids failure due to focusing on a single optimal solution.",
       "translation_status": "completed",
       "lang": "en"
     },
@@ -25,6 +165,46 @@
       "lang": "en"
     },
     {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@shanitha.va/can-a-data-science-course-really-change-your-career-in-2026-iabac-ba9ac3329896",
+      "publish_time": "2026-07-21 07:05:07",
+      "publish_time_local": "2026-07-21 15:05:07",
+      "title": "Can a Data Science Course Really Change Your Career in 2026?-IABAC",
+      "summary": "* **Title:** 2026 Data Science Course: A “Bridge” and “Threshold” for Career Advancement\n\n* **Summary:** The article highlights that the data science market is projected to reach $32.2 billion in 2026, with a significant increase in job demand. While the course itself doesn't guarantee a career, its value lies in acting as a “bridge” connecting existing skills with the data science field, providing structured foundational knowledge, industry-recognized certifications, and practical project experience. Key to success includes selecting a course aligned with one’s background, completing an end-to-end project within 12-18 months, obtaining certifications from organizations like IABAC, and engaging in continuous cross-functional collaboration and business-oriented training. The course is presented as a stepping stone; true career advancement depends on sustained project output and long-term dedication.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://python.plainenglish.io/10-python-libraries-that-turn-difficult-problems-into-simple-solutions-c3b7aac0e511",
+      "publish_time": "2026-07-21 07:04:42",
+      "publish_time_local": "2026-07-21 15:04:42",
+      "title": "10 Python Libraries That Turn Difficult Problems Into Simple Solutions",
+      "summary": "* **Title:** 10 Python Libraries: Simplifying Complex Problems with Just a Few Lines of Code\n* **Summary:** Developers often face the challenge of repeatedly creating solutions. Tools like `pathlib` can replace complex string path handling. Mastering these 10 selected libraries can significantly improve the efficiency of automation, data processing, and AI workflows, converting complex logic into concise code.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@tihomir.manushev/run-a-b-tests-entirely-in-postgresql-84fa1bbf6623",
+      "publish_time": "2026-07-21 07:01:03",
+      "publish_time_local": "2026-07-21 15:01:03",
+      "title": "💎[Exclusive for Members] Run A/B Tests Entirely in PostgreSQL",
+      "summary": "* **Title:** PostgreSQL Native A/B Testing: Hash Bucketing and Chi-Square Statistics in SQL\n* **Summary:** This implementation provides deterministic user allocation for A/B testing within PostgreSQL, using hash bucketing to achieve it without requiring additional storage. It leverages the `erfc` function, built into PostgreSQL 16, to calculate real Chi-Square p-values. The solution integrates experiment allocation, result aggregation, and sample proportion bias checks within SQL scripts, reducing data silos and dependencies on third-party SDKs.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@imikov89/why-solving-water-scarcity-might-mean-refusing-to-fight-over-the-river-a2d5a0819222",
+      "publish_time": "2026-07-21 06:59:11",
+      "publish_time_local": "2026-07-21 14:59:11",
+      "title": "Why Solving Water Scarcity Might Mean Refusing to Fight Over the River",
+      "summary": "* **Title:** White Mantis: Using Atmospheric Water Generation to Break Through the Geopolitical Bottleneck in South Asian Water Resources\n\n* **Summary:** The White Mantis project utilizes solar-powered atmospheric water generation technology to circumvent the geopolitical focus surrounding the Indian River system, establishing a self-sustaining, “pay-as-you-go” commercial model. The scheme aims to transform clean water – previously a “geopolitical bargaining chip” – into “infrastructure,” providing a crucial survival buffer for South Asian regions facing both climate crises and ongoing treaty conflicts.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
       "source": "Lobsters",
       "url": "https://lv1.sh/blog/why-l/",
       "publish_time": "2026-07-21 06:50:14",
@@ -35,12 +215,42 @@
       "lang": "en"
     },
     {
+      "source": "Hacker News",
+      "url": "https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of",
+      "publish_time": "2026-07-21 06:29:22",
+      "publish_time_local": "2026-07-21 14:29:22",
+      "title": "Linux kernel will support $ORIGIN, sort of",
+      "summary": "* **Title:** Linux Kernel Support for $ORIGIN: Portable Binary Dynamic Loader based on eBPF\n* **Summary:** Developers have implemented a portable binary dynamic loader for $ORIGIN within the Linux kernel by submitting patches, leveraging eBPF technology. This solution registers BPF programs through the `binfmt_misc` subsystem, dynamically replacing the `PT_INTERP` segment to enable Nix-built executables to automatically select interpreters based on path variables. The new mechanism supports $ORIGIN in both shebang and `PT_INTERP` and introduces the `PT_INTERP_NIX` segment to maintain compatibility with traditional ELF files.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
       "source": "Lobsters",
       "url": "https://www.honeycomb.io/blog/30-70-prs-day-how-we-managed-not-wreck-systems",
       "publish_time": "2026-07-21 06:26:16",
       "publish_time_local": "2026-07-21 14:26:16",
       "title": "30 to 70 PRs a Day: How We Managed to Not Wreck Our Systems",
       "summary": "* **Title:** AI Boosts Engineering Efficiency: Honeycomb Team Achieves 2.5x Output with System Stability Practices at 74 Weekly Merges\n\n* **Summary:** The Honeycomb team increased weekly merge counts from approximately 30 to 74 over the period of 2025-2026, while doubling the size of their codebase. This outcome was achieved through “AI amplification of existing practices,” utilizing a phased approach – starting with experimentation, progressing to tool-driven implementation, and culminating in high-autonomy organizational culture. The team emphasized that AI served as an accelerator, with the true efficiency gains stemming from continuous delivery, AI observability feedback loops, and a highly autonomous organizational culture, rather than AI itself.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/linux-kernel-72-rc4-cache-scheduling/",
+      "publish_time": "2026-07-21 06:09:08",
+      "publish_time_local": "2026-07-21 14:09:08",
+      "title": "Linux 7.2-rc4: MongoDB Gets 30–100% Faster, and strncpy Is Finally Dead",
+      "summary": "* **Title:** Linux 7.2-rc4 Released: MongoDB Performance Improvements and the End of `strncpy`\n\n* **Summary:** Linux 7.2-rc4 introduces three key improvements: The Tencent team’s optimized MGLRU algorithm improves MongoDB throughput by 30% to 100% on both NVMe and mechanical hard drives, without requiring any configuration changes; Cache-Aware Scheduling (CAS) enables the kernel to perceive the CPU LLC topology, resulting in up to a 44% performance improvement under certain loads on AMD Zen 5 architecture; The `strncpy` function, which had undergone six years of development and 362 patches, has been completely removed to eliminate buffer overflow vulnerabilities and enforce the use of safer alternatives.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ShowHN",
+      "url": "https://exsitu.app/map",
+      "publish_time": "2026-07-21 04:48:32",
+      "publish_time_local": "2026-07-21 12:48:32",
+      "title": "Show HN: Ex Situ – Open-source spatial index of displaced cultural artifacts",
+      "summary": "* **Title:** Ex Situ Open Spatial Index: Reconstructing Provenance for Museum Artifacts and Inter-Institutional Data Interconnection\n\n* **Summary:** Developers have created an open spatial index using Next.js and Deck.gl, mapping over 100,000+ museum artifacts and tracing their origins and connections to various institutions. The system utilizes a flat data model to avoid redundant coding and emphasizes data linking between institutions instead of data duplication. The project currently supports eight major museum collections and offers an export function, and is seeking collaboration from the community on performance scaling and data pipeline development.",
       "translation_status": "completed",
       "lang": "en"
     },
