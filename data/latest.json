@@ -1,7 +1,7 @@
 {
   "date": "2026-07-21",
-  "count": 342,
-  "generated_at": "2026-07-21T15:58:17+08:00",
+  "count": 343,
+  "generated_at": "2026-07-21T15:59:06+08:00",
   "lang": "zh",
   "items": [
     {
@@ -11,6 +11,16 @@
       "publish_time_local": "2026-07-21 15:20:43",
       "title": "KDE for Enterprise Needs a Strong PIM Infrastructure",
       "summary": "* **标题**：KDE 企业版亟需强化 PIM 基础设施\n* **核心摘要**：在主权技术基金支持下，KDE 生态正通过增强 Akonadi 底层架构，重点提升 IMAP4、CalDAV 及 iTIP 等核心协议支持。当前工作聚焦于构建覆盖 IMAP 与 DAV 的完整测试套件，优化网络资源使用，并推进基于邮件密码的自动配置功能。预计 26.08 与 26.12 版本将陆续交付补丁，目标于 2027 年初完成 Flatpak 集成，旨在降低企业部署复杂度，提升 KDE 桌面在机构环境中的竞争力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/eu-ai-act-august-2026-developer-compliance/",
+      "publish_time": "2026-07-21 07:10:09",
+      "publish_time_local": "2026-07-21 15:10:09",
+      "title": "EU AI Act August 2: What Developers Must Do Now",
+      "summary": "* **标题**：欧盟 AI 法案 8 月 2 日强制生效：开发者需立即落实透明度与合规义务\n* **核心摘要**：尽管高风险 AI 系统合规期限延至 2027 年，但 8 月 2 日将同步激活三项关键执行机制：Article 50 强制要求人机交互界面及合成内容（含深度伪造）的机器可读标记与披露；欧盟 AI 办公室正式获得对基础模型提供者的审计权与罚款权（最高达全球年营收 3% 或 1500 万欧元）；成员国监管机构获主动执法权。开发者若仅关注延期消息，将因忽视 Article 50 的即时披露义务及基础模型供应商合规证明缺失而面临合规风险。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },

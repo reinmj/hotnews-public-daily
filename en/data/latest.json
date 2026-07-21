@@ -1,7 +1,7 @@
 {
   "date": "2026-07-21",
-  "count": 342,
-  "generated_at": "2026-07-21T15:58:17+08:00",
+  "count": 343,
+  "generated_at": "2026-07-21T15:59:06+08:00",
   "lang": "en",
   "items": [
     {
@@ -11,6 +11,16 @@
       "publish_time_local": "2026-07-21 15:20:43",
       "title": "KDE for Enterprise Needs a Strong PIM Infrastructure",
       "summary": "* **Title:** KDE Enterprise Requires Enhanced PIM Infrastructure\n* **Summary:** Supported by the Sovereign Technology Fund, the KDE ecosystem is strengthening its PIM infrastructure by enhancing the Akonadi underlying architecture, specifically focusing on improved support for core protocols like IMAP4, CalDAV, and iTIP. Current work involves building a comprehensive test suite covering IMAP and DAV, optimizing network resource usage, and implementing automatic configuration based on email passwords. Patches are expected in versions 26.08 and 26.12, with a goal of completing Flatpak integration by early 2027, aiming to reduce complexity in enterprise deployments and improve the competitiveness of the KDE desktop in institutional environments.",
+      "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/eu-ai-act-august-2026-developer-compliance/",
+      "publish_time": "2026-07-21 07:10:09",
+      "publish_time_local": "2026-07-21 15:10:09",
+      "title": "EU AI Act August 2: What Developers Must Do Now",
+      "summary": "* **Title:** European Union AI Act Takes Effect August 2nd: Developers Must Immediately Implement Transparency and Compliance Obligations\n\n* **Summary:** Despite extending the deadline for compliance for high-risk AI systems to 2027, the European Union AI Act will activate three key mechanisms on August 2nd: Article 50 mandates machine-readable tagging and disclosure for human-computer interaction interfaces and generated content (including deepfakes); the European AI Office will gain the authority to audit and impose fines on foundational model providers (up to 3% of global annual revenue or €15 million); and member state regulatory bodies will have enforcement powers. Developers who only rely on information about the extended deadline risk non-compliance if they fail to immediately implement Article 50’s disclosure requirements and lack evidence of compliance from foundational model providers.",
       "translation_status": "completed",
       "lang": "en"
     },
@@ -270,8 +280,8 @@
       "publish_time": "2026-07-21 00:32:06",
       "publish_time_local": "2026-07-21 08:32:06",
       "title": "Topolines",
-      "summary": "* **标题**：Topolines 实现地形等高线自动生成与多格式输出\n* **核心摘要**：通过绘制区域即可生成高精度地形等高线，支持导出打印级 SVG 及高清 PNG 图像，并提供渐变、高程衰减及 Figma 兼容输出功能。\n\n",
-      "translation_status": "missing",
+      "summary": "* **Title:** Topolines Achieves Automatic Terrain Contours and Multi-Format Output\n* **Summary:** Topolines can automatically generate high-precision terrain contours by simply drawing an area. It supports exporting to print-ready SVG and high-resolution PNG images, as well as providing gradient, slope decay, and Figma compatibility outputs.",
+      "translation_status": "completed",
       "lang": "en"
     },
     {
