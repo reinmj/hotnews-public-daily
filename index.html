@@ -203,6 +203,10 @@
         }
 
         .toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 14px;
             padding: 22px 0;
         }
 
@@ -210,6 +214,57 @@
             color: var(--muted);
             font-size: 13px;
             font-weight: 700;
+        }
+
+        .local-tools {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .favorite-count {
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 780;
+            white-space: nowrap;
+        }
+
+        .filter-button,
+        .favorite-button {
+            appearance: none;
+            border: 1px solid rgba(22, 32, 28, 0.12);
+            background: rgba(255, 255, 255, 0.72);
+            color: var(--ink);
+            border-radius: 7px;
+            padding: 7px 10px;
+            font-size: 12px;
+            font-weight: 850;
+            line-height: 1;
+            cursor: pointer;
+            transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+        }
+
+        .filter-button:hover,
+        .favorite-button:hover {
+            border-color: rgba(15, 118, 110, 0.32);
+            color: var(--accent);
+            transform: translateY(-1px);
+        }
+
+        .filter-button.is-active,
+        .favorite-button.is-favorite {
+            border-color: rgba(161, 92, 36, 0.34);
+            background: #fff7ed;
+            color: var(--warm);
+        }
+
+        .favorite-button:disabled {
+            cursor: default;
+            color: var(--muted);
+            background: #f3f5f2;
+            transform: none;
         }
 
         .feed {
@@ -664,6 +719,14 @@
             }
             .story-actions {
                 justify-content: flex-start;
+                flex-wrap: wrap;
+            }
+            .toolbar {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+            .local-tools {
+                justify-content: flex-start;
             }
             .title {
                 font-size: 16px;
@@ -709,6 +772,10 @@
     <main class="shell">
         <div class="toolbar">
             <div id="status" class="status">正在加载...</div>
+            <div class="local-tools" aria-label="本地收藏工具">
+                <span id="favoriteCount" class="favorite-count">本地收藏 0</span>
+                <button id="favoriteFilterButton" class="filter-button" type="button" aria-pressed="false">只看收藏</button>
+            </div>
         </div>
         <section id="feed" class="feed" aria-live="polite"></section>
     </main>
@@ -733,10 +800,13 @@
         const updatedAtEl = document.getElementById('updatedAt');
         const shareStageEl = document.getElementById('shareStage');
         const languageSelectEl = document.getElementById('languageSelect');
+        const favoriteCountEl = document.getElementById('favoriteCount');
+        const favoriteFilterButtonEl = document.getElementById('favoriteFilterButton');
         const CANONICAL_URL = 'https://aihot.moredreamx.com/';
         const PAGE_LANG = (document.documentElement.lang || 'zh-CN').toLowerCase();
         const LANG_KEY = PAGE_LANG.startsWith('en') ? 'en' : PAGE_LANG.startsWith('ja') ? 'ja' : 'zh';
         const LANGUAGE_STORAGE_KEY = 'aiNewsDailyLanguage';
+        const FAVORITES_STORAGE_KEY = 'aiNewsDailyLocalFavoritesV1';
         const LANGUAGE_PATHS = {
             zh: '/',
             en: '/en/',
@@ -760,7 +830,14 @@
                 failedStatus: '今日 {date} · 加载失败',
                 loadFailed: '加载失败',
                 countLabel: 'published items',
-                ariaCount: '今日文章数量'
+                ariaCount: '今日文章数量',
+                favoriteCount: '本地收藏 {count}',
+                favoriteOnly: '只看收藏',
+                showAll: '显示全部',
+                favorite: '☆ 收藏',
+                favorited: '★ 已收藏',
+                favoriteEmpty: '当前日报里还没有本地收藏。',
+                storageUnavailable: '本地收藏不可用'
             },
             en: {
                 titleSuffix: 'AI News, LLMs, Agents, Papers and Product Updates',
@@ -779,7 +856,14 @@
                 failedStatus: 'Today {date} · Failed to load',
                 loadFailed: 'Load failed',
                 countLabel: 'published items',
-                ariaCount: 'Today item count'
+                ariaCount: 'Today item count',
+                favoriteCount: 'Local favorites {count}',
+                favoriteOnly: 'Favorites only',
+                showAll: 'Show all',
+                favorite: '☆ Save',
+                favorited: '★ Saved',
+                favoriteEmpty: 'No local favorites in this daily issue yet.',
+                storageUnavailable: 'Local favorites are unavailable'
             },
             ja: {
                 titleSuffix: 'AI ニュース、LLM、エージェント、論文とプロダクト動向',
@@ -798,11 +882,22 @@
                 failedStatus: '今日 {date} · 読み込み失敗',
                 loadFailed: '読み込み失敗',
                 countLabel: 'published items',
-                ariaCount: '今日の記事数'
+                ariaCount: '今日の記事数',
+                favoriteCount: 'ローカル保存 {count}',
+                favoriteOnly: '保存のみ',
+                showAll: 'すべて表示',
+                favorite: '☆ 保存',
+                favorited: '★ 保存済み',
+                favoriteEmpty: 'この日報にはローカル保存した記事がまだありません。',
+                storageUnavailable: 'ローカル保存は利用できません'
             }
         };
         const UI = LANGUAGE_CONFIG[LANG_KEY];
         let currentItems = [];
+        let currentGeneratedAt = null;
+        let currentTargetDate = todayLocal();
+        let favoritesOnly = false;
+        let localFavorites = readLocalFavorites();
 
         function getSavedLanguage() {
             try {
@@ -909,6 +1004,101 @@
             const url = String(value || '').trim();
             if (!/^https?:\/\//i.test(url)) return '#';
             return escapeHtml(url);
+        }
+
+        function favoriteKey(item) {
+            return String(item?.url || '').split('#')[0].trim();
+        }
+
+        function readLocalFavorites() {
+            try {
+                const raw = window.localStorage.getItem(FAVORITES_STORAGE_KEY);
+                const parsed = raw ? JSON.parse(raw) : {};
+                return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+            } catch (err) {
+                return {};
+            }
+        }
+
+        function writeLocalFavorites() {
+            try {
+                window.localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(localFavorites));
+                return true;
+            } catch (err) {
+                return false;
+            }
+        }
+
+        function isFavoriteItem(item) {
+            const key = favoriteKey(item);
+            return Boolean(key && localFavorites[key]);
+        }
+
+        function updateFavoriteTools() {
+            const count = Object.keys(localFavorites).length;
+            if (favoriteCountEl) {
+                favoriteCountEl.textContent = UI.favoriteCount.replace('{count}', String(count));
+            }
+            if (favoriteFilterButtonEl) {
+                favoriteFilterButtonEl.classList.toggle('is-active', favoritesOnly);
+                favoriteFilterButtonEl.setAttribute('aria-pressed', favoritesOnly ? 'true' : 'false');
+                favoriteFilterButtonEl.textContent = favoritesOnly ? UI.showAll : UI.favoriteOnly;
+            }
+        }
+
+        function favoriteButtonLabel(favorite) {
+            return favorite ? UI.favorited : UI.favorite;
+        }
+
+        function setFavoriteButtonState(button, favorite) {
+            if (!button) return;
+            button.classList.toggle('is-favorite', favorite);
+            button.textContent = favoriteButtonLabel(favorite);
+            button.setAttribute('aria-pressed', favorite ? 'true' : 'false');
+        }
+
+        function toggleLocalFavorite(index, button) {
+            const item = currentItems[index];
+            const key = favoriteKey(item);
+            if (!item || !key) return;
+
+            const wasFavorite = isFavoriteItem(item);
+            if (wasFavorite) {
+                delete localFavorites[key];
+            } else {
+                localFavorites[key] = {
+                    url: key,
+                    title: item.title || '',
+                    source: item.source || '',
+                    publish_time: item.publish_time_local || item.publish_time || '',
+                    saved_at: new Date().toISOString()
+                };
+            }
+
+            if (!writeLocalFavorites()) {
+                if (wasFavorite) {
+                    localFavorites[key] = {
+                        url: key,
+                        title: item.title || '',
+                        source: item.source || '',
+                        publish_time: item.publish_time_local || item.publish_time || '',
+                        saved_at: new Date().toISOString()
+                    };
+                } else {
+                    delete localFavorites[key];
+                }
+                statusEl.innerText = UI.storageUnavailable;
+                setFavoriteButtonState(button, wasFavorite);
+                updateFavoriteTools();
+                return;
+            }
+
+            updateFavoriteTools();
+            if (favoritesOnly) {
+                renderCurrentItems();
+            } else {
+                setFavoriteButtonState(button, !wasFavorite);
+            }
         }
 
         function formatTime(value) {
@@ -1129,7 +1319,7 @@
                 shareStageEl.innerHTML = '';
                 if (button) {
                     button.disabled = false;
-                    button.textContent = originalText || '分享已关闭';
+                    button.textContent = originalText || '分享到 X';
                 }
             }
         }
@@ -1138,20 +1328,25 @@
             feedEl.innerHTML = Array.from({ length: 9 }, () => '<div class="skeleton"></div>').join('');
             countEl.innerText = '--';
             updatedAtEl.innerText = UI.updatedPlaceholder;
+            updateFavoriteTools();
         }
 
-        function renderItems(items, generatedAt = null, targetDate = todayLocal()) {
-            currentItems = items;
-            countEl.innerText = items.length;
-            updatedAtEl.innerText = `${UI.updatedPrefix} ${formatGeneratedAt(generatedAt)}`;
-            updateSeoMetadata(items, targetDate, generatedAt);
+        function renderCurrentItems() {
+            const displayItems = currentItems
+                .map((item, index) => ({ item, index }))
+                .filter(({ item }) => !favoritesOnly || isFavoriteItem(item));
 
-            if (!items.length) {
-                feedEl.innerHTML = `<div class="empty">${escapeHtml(UI.empty)}</div>`;
+            countEl.innerText = currentItems.length;
+            updateFavoriteTools();
+
+            if (!displayItems.length) {
+                feedEl.innerHTML = `<div class="empty">${escapeHtml(favoritesOnly ? UI.favoriteEmpty : UI.empty)}</div>`;
                 return;
             }
 
-            feedEl.innerHTML = items.map((item, index) => `
+            feedEl.innerHTML = displayItems.map(({ item, index }) => {
+                const favorite = isFavoriteItem(item);
+                return `
                 <article class="timeline-item">
                     <time class="time">${formatTime(item.publish_time_local || item.publish_time)}</time>
                     <div class="dot-wrap" aria-hidden="true"><span class="dot"></span></div>
@@ -1161,15 +1356,44 @@
                             <a class="title-link" href="${safeUrl(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
                         </h2>
                         <div class="summary">${renderMarkdown(item.summary)}</div>
-                        <!-- Static public export: X sharing is temporarily disabled. -->
+                        <div class="story-actions">
+                            <!-- Static public export: X sharing is temporarily disabled. -->
+                            <button class="favorite-button ${favorite ? 'is-favorite' : ''}" type="button" data-favorite-index="${index}" aria-pressed="${favorite ? 'true' : 'false'}">${favoriteButtonLabel(favorite)}</button>
+                        </div>
                     </div>
                 </article>
-            `).join('');
+            `;
+            }).join('');
         }
 
-        /*
-         * Static public export: X sharing is temporarily disabled.
-         */
+        function renderItems(items, generatedAt = null, targetDate = todayLocal()) {
+            currentItems = items;
+            currentGeneratedAt = generatedAt;
+            currentTargetDate = targetDate;
+            updatedAtEl.innerText = `${UI.updatedPrefix} ${formatGeneratedAt(currentGeneratedAt)}`;
+            updateSeoMetadata(currentItems, currentTargetDate, currentGeneratedAt);
+            renderCurrentItems();
+        }
+
+        feedEl.addEventListener('click', (event) => {
+            const shareButton = event.target.closest('[data-share-index]');
+            if (shareButton) {
+                shareItem(Number(shareButton.dataset.shareIndex), shareButton);
+                return;
+            }
+
+            const favoriteButton = event.target.closest('[data-favorite-index]');
+            if (favoriteButton) {
+                toggleLocalFavorite(Number(favoriteButton.dataset.favoriteIndex), favoriteButton);
+            }
+        });
+
+        if (favoriteFilterButtonEl) {
+            favoriteFilterButtonEl.addEventListener('click', () => {
+                favoritesOnly = !favoritesOnly;
+                renderCurrentItems();
+            });
+        }
 
         async function loadDaily() {
             const targetDate = todayLocal();
