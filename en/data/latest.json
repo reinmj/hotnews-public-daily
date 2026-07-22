@@ -1,9 +1,29 @@
 {
   "date": "2026-07-22",
-  "count": 485,
-  "generated_at": "2026-07-22T22:28:56+08:00",
+  "count": 513,
+  "generated_at": "2026-07-22T22:33:58+08:00",
   "lang": "en",
   "items": [
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/openobserve-observability-datadog-alternative-2026/",
+      "publish_time": "2026-07-22 14:11:05",
+      "publish_time_local": "2026-07-22 22:11:05",
+      "title": "OpenObserve Hits 20K Stars: Full Observability for $3/Day",
+      "summary": "* **标题**：OpenObserve 登顶 2 万星：单二进制替代全栈，LLM 可观测性成本降至$3/日\n* **核心摘要**：OpenObserve 获 1000 万美元 A 轮融资后，以单二进制架构替代传统 ELK 堆栈，在 1.1TB 日志测试中实现 87 倍存储成本压缩。其核心优势在于列式存储架构与全链路 LLM 可观测性支持，将 Datadog 等竞品日成本从$174 降至$3，并覆盖 Fortune 100 企业级 2.5PB 日吞吐场景。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/acp-agent-client-protocol/",
+      "publish_time": "2026-07-22 13:15:13",
+      "publish_time_local": "2026-07-22 21:15:13",
+      "title": "ACP: Run Any AI Coding Agent in Any Editor (2026 Guide)",
+      "summary": "* **标题**：ACP 协议统一 AI 编辑器集成，终结碎片化时代\n* **核心摘要**：ACP 协议由 Zed Industries 于 2025 年 8 月发布，旨在解决 AI 编码代理在不同编辑器间集成碎片化的问题。该协议采用 JSON-RPC 2.0 标准输入输出模型，将编辑器与代理的交互标准化，实现“一次编写，多端兼容”。目前 JetBrains 已加入该生态，支持 25+ 代理，而 VS Code 因标准化 MCP 协议暂未原生支持 ACP。ACP 与 MCP 功能互补，分别负责编辑器 - 代理连接与代理 - 工具数据连接，共同构建 AI 开发环境的基础设施。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
     {
       "source": "Hacker News",
       "url": "https://blog.melashri.net/micro/back-to-kagi/",
@@ -31,6 +51,46 @@
       "publish_time_local": "2026-07-22 20:39:57",
       "title": "Unranked, systemd, crawls",
       "summary": "* **标题**：Marginalia 架构升级：从 Docker 迁移至 systemd 及无排名查询优化\n* **核心摘要**：Marginalia 搜索引擎完成从 Docker 到 systemd 的生产级迁移，通过裸机部署解决 NUMA 架构瓶颈与 IPvlan 网络隔离难题，将构建时间缩短至 2-3 秒。同时新增无排名查询接口，针对长尾子域名爬取瓶颈，通过引入独立分区与时间轮询机制，将主爬取周期从两周压缩至五天，显著提升索引时效性。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/claude-desktop-for-linux-install-mcp-and-whats-missing/",
+      "publish_time": "2026-07-22 12:10:20",
+      "publish_time_local": "2026-07-22 20:10:20",
+      "title": "Claude Desktop for Linux: Install, MCP, and What’s Missing",
+      "summary": "* **标题**：Claude Desktop Linux 官方 Beta 发布：功能完备但核心自动化能力缺失\n* **核心摘要**：Anthropic 于 6 月 30 日推出 Linux 官方 Beta 版，支持 Ubuntu 和 Debian 系统，提供 Chat、Cowork 及 Code 界面。尽管支持 MCP 协议连接文件系统与 GitHub，但缺乏 macOS/Windows 版的关键功能：Computer Use 无法在 Wayland 等 Linux 环境下运行，语音输入及全局快捷键支持亦受限。官方建议优先使用 apt 仓库安装以确保自动更新。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
+      "source": "flyingpenguin",
+      "url": "https://www.flyingpenguin.com/why-semgrep-is-wrong-about-open-weights/",
+      "publish_time": "2026-07-22 11:41:46",
+      "publish_time_local": "2026-07-22 19:41:46",
+      "title": "Why Semgrep Is Wrong About Open Weights",
+      "summary": "* **标题**：Semgrep 对开源权重的审计逻辑存在根本性误判\n* **核心摘要**：Semgrep 主张开源模型权重无法审计，但忽视了反向工程、投毒检测及恶意微调等实际风险。文中指出，开源权重反而使审计成为可能，而闭源权重因缺乏独立验证手段，其审计风险更高。真正的核心问题在于模型完整性控制，而非单纯的可逆工程。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/claude-cowork-record-a-skill/",
+      "publish_time": "2026-07-22 11:17:14",
+      "publish_time_local": "2026-07-22 19:17:14",
+      "title": "Claude Cowork Record a Skill: Turn Any Screen Demo Into Automation",
+      "summary": "* **标题**：Claude Cowork 发布“录制技能”功能，将屏幕演示转化为可执行自动化\n* **核心摘要**：Anthropic 在 Claude Cowork 中上线“录制技能”功能，允许用户通过录制屏幕并语音解说工作流，即可生成包含 `SKILL.md` 的自动化技能。该功能通过语音意图驱动，相比仅依赖视觉动作的竞品，能更准确地处理条件逻辑，同时支持跨组织共享与 Git 版本管理。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
+      "source": "flyingpenguin",
+      "url": "https://www.flyingpenguin.com/elephantine-void/",
+      "publish_time": "2026-07-22 11:13:48",
+      "publish_time_local": "2026-07-22 19:13:48",
+      "title": "Admitting the Elephantine Void Between Kinetic and Cyber Threats",
+      "summary": "* **标题**：物理与混合威胁的“大象虚空”：现有威胁情报框架的结构性盲区\n* **核心摘要**：当前威胁情报体系将物理入侵（如硬件植入）与动能攻击（如管道爆炸）割裂为独立领域，导致跨域混合事件处于“虚空”状态。现有数据库缺乏对混合威胁的整合，且定性证据常被政治叙事稀释。建议建立包含“在场、归因、指令”三维度的置信度评估模型，以历史学方法处理物理与混合威胁，填补现有情报空白。\n\n",
       "translation_status": "missing",
       "lang": "en"
     },
@@ -242,6 +302,16 @@
       "title": "Drop your repo, get a free product",
       "summary": "* **Title:** Open Source Projects Receiving Hardware: Fleet Device Free Enrollment with Zero Requirements\n* **Summary:** Developers can participate in a lottery simply by providing a link to an open-source repository, without needing to submit code or actively monitor. Winners will receive a desktop-level AI device from Fleet, designed to centrally manage multiple AI agents across various machines, addressing the challenges of multi-terminal collaboration.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/anthropic-copyright-settlement-ai-training-data/",
+      "publish_time": "2026-07-22 10:10:47",
+      "publish_time_local": "2026-07-22 18:10:47",
+      "title": "Anthropic’s $1.5B Settlement: What AI Trainers Owe Now",
+      "summary": "* **标题**：Anthropic 15 亿美元版权和解案：AI 训练数据合规成本显性化\n* **核心摘要**：联邦法官裁定 AI 训练受版权保护书籍属“合理使用”，但下载盗版书籍构成侵权。Anthropic 以 15 亿美元和解，确立约 48 万作品赔偿标准。开发者需立即审计数据源、留存获取记录，并将合规成本纳入预算，否则将面临类似 Google 的诉讼风险。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -1145,6 +1215,16 @@
       "lang": "en"
     },
     {
+      "source": "Lobsters",
+      "url": "https://etbe.coker.com.au/2026/07/19/ecc-ddr5/",
+      "publish_time": "2026-07-22 06:19:17",
+      "publish_time_local": "2026-07-22 14:19:17",
+      "title": "ECC and DDR5",
+      "summary": "* **标题**：DDR5 内存纠错技术演进：从 ECC 到 On-Die ECC 的架构变革\n* **核心摘要**：文章深入解析了 ECC 内存纠错机制在 DDR4 与 DDR5 中的技术差异，重点探讨了 On-Die ECC 作为 DDR5 纠错补充方案的技术原理与局限性。文中指出，尽管 On-Die ECC 能有效缓解高速内存带来的位翻转错误，但其与主板 ECC 的协同机制尚存不确定性。同时，结合 DNS 位翻转攻击案例，文章强调 ECC 内存已从服务器领域扩展至消费级应用，成为保障数据完整性与系统安全的关键防线。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "r/LocalLLaMA",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v37lza/vram_disk_cache_of_moe_makes_340_pps_96_tgs_for/",
       "publish_time": "2026-07-22 06:12:24",
@@ -1242,6 +1322,16 @@
       "title": "Show HN: ReadKinetic – a free, local-first speed reader for your own books",
       "summary": "* **Title:** ReadKinetic: Native Browser Solution for Localized, Offline, and Unregistered E-book Reading\n\n* **Summary:** ReadKinetic is a fully local e-book reader that supports importing EPUB, PDF, and pasting text, utilizing an RSVP engine for extremely fast reading. The tool requires no account registration and fully supports offline mode, with all processing occurring within the browser.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://testing.googleblog.com/2026/07/prefactoring-clear-way-for-your-new.html",
+      "publish_time": "2026-07-22 05:49:05",
+      "publish_time_local": "2026-07-22 13:49:05",
+      "title": "Prefactoring: Clear the Way for Your New Feature",
+      "summary": "* **标题**：重构前置：Prefactoring 让新功能开发更顺畅\n* **核心摘要**：当现有代码未为未来变更设计时，直接实施新功能易引发连锁修改。Prefactoring（重构前置）通过在实现新功能前预先重构代码，使其更适配后续变更。此举不仅能简化新功能集成，还能将清理与功能逻辑分离，从而提升代码审查效率、降低缺陷风险，并支持更安全的回滚操作。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -2725,6 +2815,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/arkor",
+      "publish_time": "2026-07-21 20:30:20",
+      "publish_time_local": "2026-07-22 04:30:20",
+      "title": "Arkor",
+      "summary": "* **标题**：Arkor 实现 10 分钟启动真实 LLM 微调，构建无需 GPU 与 Python 代码的模型服务\n* **核心摘要**：开发者仅需向 Claude Code 或 Codex 描述模型用途，即可自动完成数据集准备、训练项目创建及本地部署。Arkor 支持无需 GPU 配置、无需 ML 专业知识及无需编写 Python 训练代码，直接提供 OpenAI 兼容 API 接口，实现类似 Next.js 与 Vercel 的微调开发体验。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "r/LocalLLaMA",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ua8g/i_ran_lagunas21_through_my_private_agentic_eval/",
       "publish_time": "2026-07-21 20:29:15",
@@ -3345,6 +3445,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/redential",
+      "publish_time": "2026-07-21 17:49:55",
+      "publish_time_local": "2026-07-22 01:49:55",
+      "title": "Redential",
+      "summary": "* **标题**：Redential 重构简历信任体系，基于 Git 历史生成可信开发者画像\n* **核心摘要**：针对简历造假与保密协议限制导致的信任危机，Redential 通过读取本地 Git 历史自动生成开发者真实能力画像。该工具支持在代码公开前进行隐私保护，并允许开发者实时回答关于自身工作的质询，为招聘方提供比传统简历更可靠的验证依据。CLI 工具免费开源。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "r/artificial",
       "url": "https://www.reddit.com/r/artificial/comments/1v2pne9/two_ai_sdr_tools_aisdr_and_valley_hint_at_a_deal/",
       "publish_time": "2026-07-21 17:46:44",
@@ -3372,6 +3482,16 @@
       "title": "Half of us are using AI to write resumes, the other half is using AI to screen them, and I don't think anyone's actually looking at people anymore",
       "summary": "* **Title:** AI as a Double-Edged Sword: AI Resume Screening Failing, Recruitment Returning to a “Human” Focus\n\n* **Summary:** Currently, 47% of small businesses are utilizing AI for resume screening, while over half of job seekers are using AI to generate their resumes. This “AI arms race” is resulting in resumes becoming standardized templates, failing to accurately reflect a candidate’s true abilities. Recruiters are being forced to abandon in-depth analysis of resume details and instead rely on interviews to assess candidates’ proactivity, judgment, and results-oriented capabilities.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/gemini-3-6-flash-family",
+      "publish_time": "2026-07-21 17:36:22",
+      "publish_time_local": "2026-07-22 01:36:22",
+      "title": "Gemini 3.6 Flash Family",
+      "summary": "* **标题**：Gemini 3.6 Flash 家族发布，聚焦大规模 AI 代理构建的效率与延迟优化\n* **核心摘要**：Google 推出 Gemini 3.6 Flash、3.5 Flash-Lite 及 3.5 Flash Cyber 三款新模型，旨在通过提升效率、降低延迟并增强可靠性，支持构建大规模 AI 代理。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -3595,6 +3715,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/agentmanager",
+      "publish_time": "2026-07-21 16:57:26",
+      "publish_time_local": "2026-07-22 00:57:26",
+      "title": "AgentManager",
+      "summary": "* **标题**：AgentManager：Claude Code 会话的悬浮式智能终端管理工具\n* **核心摘要**：AgentManager 是一款专为 Claude Code 会话设计的悬浮 macOS 窗口工具，支持一键跳转终端。其原生 Swift 架构已获官方签名，提供 7 天免费试用，旨在实现开发输入与终端操作的无缝集成。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "r/artificial",
       "url": "https://www.reddit.com/r/artificial/comments/1v2o713/a_physics_reward_is_not_a_physics_engine/",
       "publish_time": "2026-07-21 16:56:19",
@@ -3602,6 +3732,16 @@
       "title": "A physics reward is not a physics engine",
       "summary": "* **Title:** Physical Reward Mechanism vs. Physical Engine: A Deep Dive into LingBot-Video\n* **Summary:** LingBot-Video utilizes a physical plausibility reward mechanism to improve the physical correctness of generated video movements, but it does not include an explicit physical engine. The model still relies on learning data patterns, and its training objective should be strictly defined as physical perception, rather than physical simulation, to prevent the reward mechanism from being misinterpreted as a full physical engine.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/overflight-sky-radar",
+      "publish_time": "2026-07-21 16:54:06",
+      "publish_time_local": "2026-07-22 00:54:06",
+      "title": "Overflight",
+      "summary": "* **标题**：Overflight 利用 tvOS 环境流与手机定位，重构空中交通识别体验\n* **核心摘要**：Overflight 通过 tvOS 环境流与手机磁罗盘结合，实现近实时飞机识别。开发者确认购买流程支持 tvOS 直接支付，并采用 iOS 系统航向数据以规避罗盘漂移问题。针对 AR 叠加模式及 Android 移植需求，团队表示将基于市场反馈逐步迭代，目前聚焦于 iOS 生态。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -3642,6 +3782,16 @@
       "title": "I lost a week of my AI agents' work inside a chat thread. So I gave them a task board my whole team can see. Built in an evening",
       "summary": "* **Title:** The Challenges of AI Agent Collaboration: From Chaotic Conversations to Visual Task Boards\n* **Summary:** Developers are creating task boards based on the open-source Lemma framework to transform the scattered work of AI agents, which previously existed within long conversations, into manageable and reviewable cards. This solution enables a seamless transition of agent tasks to human reviewers, focusing on improving transparency and efficiency in task handover, rather than simply enhancing the capabilities of the AI agents themselves.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/garmin-cirqa-smart-band",
+      "publish_time": "2026-07-21 16:24:13",
+      "publish_time_local": "2026-07-22 00:24:13",
+      "title": "Garmin CIRQA™ Smart Band",
+      "summary": "* **标题**：无屏智能手环 GARMIN CIRQA™ 实现全天候健康监测与超长续航\n* **核心摘要**：GARMIN 推出无屏智能手环 CIRQA™，具备自动活动识别、全天候健康追踪及压力监测功能，续航能力可达 10 天。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -3835,6 +3985,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/light-phone",
+      "publish_time": "2026-07-21 15:27:43",
+      "publish_time_local": "2026-07-21 23:27:43",
+      "title": "Light Flip",
+      "summary": "* **标题**：极简主义回归：Light Flip 以物理形态重构数字干扰\n* **核心摘要**：Light Flip 作为 Light Phone 系列的第七代产品，采用翻盖形态设计，旨在通过物理交互的“开关”机制，降低用户无意识唤醒设备的频率。该产品在保留极简主义核心理念的同时，引发关于硬件形态与软件功能边界、以及如何在满足现代需求的同时维持“故意受限”的哲学平衡的讨论。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "r/codex",
       "url": "https://www.reddit.com/r/codex/comments/1v2lnse/gpt_56_beats_fable_5_in_benchmarks_but_fable_5_is/",
       "publish_time": "2026-07-21 15:25:59",
@@ -3842,6 +4002,16 @@
       "title": "GPT 5.6 Beats Fable 5 in Benchmarks, but Fable 5 is far better at understanding on what you actually want.",
       "summary": "* **Title:** Fable 5 Excels in Orchestrating GPT 5.6, Outperforming Baseline Intent Understanding\n* **Summary:** Developers leveraged purchases of 20x Codex subscriptions and Claude Max subscriptions to utilize Fable 5 for orchestrating GPT 5.6 agents. This workflow effectively prevented Claude from exhausting its quotas, while Fable 5 demonstrated superior intent understanding during GPT 5.6 orchestration, exceeding performance in benchmark tests.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/lattics-2",
+      "publish_time": "2026-07-21 15:24:05",
+      "publish_time_local": "2026-07-21 23:24:05",
+      "title": "Lattics",
+      "summary": "* **标题**：Lattics 升级：AI 辅助写作深度嵌入科研与创作工作流\n* **核心摘要**：Lattics 从三年前面向写作者和研究员的知识管理工具，升级为深度集成于研究与创作流程的 AI 辅助写作平台。当前推出限时 30% 折扣优惠，旨在降低专业用户获取高级功能的成本门槛。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -3942,6 +4112,16 @@
       "title": "Anthropic claims local models are stealing from it, meanwhile it pays $1.5B for theft",
       "summary": "* **Title:** Anthropic Faces $1.5 Billion Copyright Lawsuit Following Allegations of Data Theft\n\n* **Summary:** Anthropic has reached a $1.5 billion copyright settlement – the largest of its kind in the US – following allegations that it unlawfully obtained data from local models. This case is part of a growing wave of copyright lawsuits against AI companies, with some authors and publishers pursuing separate legal action, highlighting the potential impact of generative AI technology on intellectual property.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/remote-openclaw-2",
+      "publish_time": "2026-07-21 14:57:28",
+      "publish_time_local": "2026-07-21 22:57:28",
+      "title": "Remote OpenClaw",
+      "summary": "* **标题**：远程 OpenClaw 聚合 1.3 万+AI 编程组件，一站式解决开发资源分散难题\n* **核心摘要**：Remote OpenClaw 作为全球最大的 AI 编程构建块目录，提供 13,000+ 个 MCP 服务器、代理技能及现成工作流。该平台整合了 Claude Code、Codex 等主流客户端的资源，支持按类别、用途筛选与一键安装，旨在替代分散的 GitHub 与 npm 搜索模式，且无需登录即可免费浏览。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -4415,6 +4595,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/box-4",
+      "publish_time": "2026-07-21 09:59:26",
+      "publish_time_local": "2026-07-21 17:59:26",
+      "title": "box",
+      "summary": "* **标题**：Box 推出云原生代理计算服务，以极致性价比赋能软件工厂\n* **核心摘要**：Box 面向构建代理平台及软件工厂的开发者，提供极简、低成本的云端计算资源。通过终端命令即可在 2 秒内获取配置完备的 Ubuntu 虚拟机，其每小时 0.036 美元的价格比同类竞品低 10 倍，支持并发运行 1000 个实例，并承诺同日内响应创始人支持。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "r/webdev",
       "url": "https://www.reddit.com/r/webdev/comments/1v2dm2g/lensghost_an_opensource_clientside_tool_to_strip/",
       "publish_time": "2026-07-21 09:38:09",
@@ -4422,6 +4612,16 @@
       "title": "LensGhost: An open-source client-side tool to strip invisible AI watermarks and spoof physical camera EXIF headers using pure JS",
       "summary": "* **Title:** LensGhost: Open-Source JavaScript Tool Removes Invisible AI Watermarks and Fabricates Camera EXIF Metadata\n* **Summary:** LensGhost is an open-source client tool that removes invisible AI watermarks from images using pure JavaScript, and can also fabricate physical camera EXIF headers.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/monocloud-for-startups-free-for-1-year",
+      "publish_time": "2026-07-21 08:30:55",
+      "publish_time_local": "2026-07-21 16:30:55",
+      "title": "MonoCloud for Startups",
+      "summary": "* **标题**：MonoCloud 为初创企业打造统一身份与细粒度授权平台\n* **核心摘要**：MonoCloud 提供单一身份层，覆盖客户、API 及 AI 代理。其核心能力在于超越基础登录，实现细粒度 Cedar 授权、凭证验证及即时权限撤销。平台集成 API 保护、mTLS 证书绑定信任及 SSO 功能，初创企业可免费使用一年。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -4505,6 +4705,16 @@
       "lang": "en"
     },
     {
+      "source": "TechStackups",
+      "url": "https://techstackups.com/articles/bobpay-peach-ozow-payu-ax-comparison/",
+      "publish_time": "2026-07-21 00:00:00",
+      "publish_time_local": "2026-07-21 08:00:00",
+      "title": "Which Payment Processor Do AI Agents Recommend? Bobpay vs Peach Payments vs Ozow vs PayU",
+      "summary": "* **标题**：AI 代理推荐支付网关实测：Ozow 与 Peach 胜出，Bobpay 与 PayU 被边缘化\n* **核心摘要**：一项针对南非支付网关的 AI 代理体验审计显示，Ozow 和 Peach Payments 因高频被推荐且信息准确而占据优势，而 Bobpay 和 PayU 因缺乏公开数据源及信息偏差，在代理搜索中几乎被忽略。测试表明，AI 代理的推荐决策高度依赖公开可检索的源材料，若企业未将费率、功能等关键信息结构化发布，极易在代理决策阶段被遗漏。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "ArXiv/HF",
       "url": "https://arxiv.org/abs/2607.14186",
       "publish_time": "2026-07-21 00:00:00",
@@ -4565,6 +4775,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/agine-academy",
+      "publish_time": "2026-07-20 11:07:35",
+      "publish_time_local": "2026-07-20 19:07:35",
+      "title": "AGINE Academy",
+      "summary": "* **标题**：AGINE Academy：以游戏化叙事重塑 Claude 技能习得\n* **核心摘要**：AGINE Academy 将 Claude 学习转化为故事驱动的游戏，用户通过完成桌面自动化、Claude Code 及自有产品等真实任务，在 AI 导师指导下，每节课均产出可运行的成果。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "ArXiv/HF",
       "url": "https://arxiv.org/abs/2607.17790",
       "publish_time": "2026-07-20 10:22:53",
@@ -4582,6 +4802,16 @@
       "title": "👑[COHERE / ETH / MIT] ShotPlan: Cinematic Video Generation with Learnable Planning Token",
       "summary": "**Plain English**: Current video generation models are very good at creating individual frames, but when creating movies with complex storylines and multiple shots, they often require manual assembly. ShotPlan adds a “director’s scheduler” to video models, utilizing learnable “shot planning tokens” to automatically determine when and how to integrate the next shot *before* each frame is generated, enabling true cinematic storytelling control.\n\n**The Trick**: The core concept is “pixel-level learnable tokens + frame-level temporal positioning.” Unlike traditional video generation which primarily focuses on visual content, ShotPlan integrates a specialized token within the base model specifically designed for planning camera transitions. Utilizing Fractional Temporal Rotary Position Embedding (FRoPE) technology, the model can precisely understand the temporal transitions between cameras at a frame level. This effectively upgrades the video generation model from simply “focusing on the image” to “managing both the image and the camera transitions,” enabling seamless connections in multi-camera narratives through dynamic control of camera transition timestamps.\n\n**Startup Angle**:\nCan enter the “AI video generation middleware” market targeting a segment with requirements similar to the film and television industry. Offering a service based on ShotPlan, providing video generation at the shot level for B-end clients in areas such as film production and advertising marketing, which require strong narrative coherence. This helps clients transform complex workflows that traditionally involve manual shot scripting and post-production editing into model-generated, film-quality videos, significantly reducing both the human and time costs associated with film production, while simultaneously improving the narrative quality and commercial conversion rates of video content.\n\n",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/ultrapod",
+      "publish_time": "2026-07-20 04:14:53",
+      "publish_time_local": "2026-07-20 12:14:53",
+      "title": "UltraPod",
+      "summary": "* **标题**：UltraPod 将旧 iPhone 改造为音乐优先的极简智能机\n* **核心摘要**：UltraPod 通过剥离社交动态与注意力陷阱，保留健康追踪、Apple Music 流媒体及本地工具等核心功能，将旧款 iPhone 转化为专注于音乐与数字排毒的极简设备，无需额外硬件即可实现数字生活重构。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -4765,6 +4995,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/acme-bot",
+      "publish_time": "2026-07-16 17:30:48",
+      "publish_time_local": "2026-07-17 01:30:48",
+      "title": "ACME.BOT",
+      "summary": "* **标题**：ACME.BOT 以第一手经验驱动 SEO 内容生产，规避低质生成\n* **核心摘要**：用户仅需通过手机回答少量问题，即可利用自身专业经验生成高质量博客内容。ACME.BOT 自动处理关键词研究、插图、引用、内部链接及发布节奏等繁琐环节，确保内容兼具实用性与 Google EEAT 标准。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "ArXiv/HF",
       "url": "https://arxiv.org/abs/2607.14183",
       "publish_time": "2026-07-15 14:49:49",
@@ -4805,6 +5045,26 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/kastra",
+      "publish_time": "2026-07-09 17:36:44",
+      "publish_time_local": "2026-07-10 01:36:44",
+      "title": "Kastra",
+      "summary": "* **标题**：Kastra 构建 AI 代理运行时授权层，实现微秒级策略管控\n* **核心摘要**：Kastra 作为 AI 代理的运行时授权层，通过跨工具、提示词、输入及输出的微秒级延迟策略，统一管控 Claude Code、Cursor 等主流开发环境。其核心功能在于执行前拦截未授权工具调用、提示词注入及敏感数据泄露，确立“信任规则而非代理”的安全范式。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/migma-ai",
+      "publish_time": "2026-07-09 15:36:53",
+      "publish_time_local": "2026-07-09 23:36:53",
+      "title": "Migma AI",
+      "summary": "* **标题**：Migma AI 实现邮件营销自动化，无需人工干预即可生成符合品牌规范的高质量邮件\n* **核心摘要**：Migma AI 通过专有引擎自动构建邮件活动，系统自动识别品牌、受众及日历信息，生成符合最佳实践且跨邮箱渲染一致的邮件，用户仅需审核、批准与发送。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "ArXiv/HF",
       "url": "https://arxiv.org/abs/2607.07820",
       "publish_time": "2026-07-08 18:03:41",
@@ -4825,6 +5085,16 @@
       "lang": "en"
     },
     {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/grindoro",
+      "publish_time": "2026-07-07 21:19:57",
+      "publish_time_local": "2026-07-08 05:19:57",
+      "title": "Grindoro",
+      "summary": "* **标题**：Grindoro 打造同步专注社区，将习惯与目标转化为可执行任务\n* **核心摘要**：Grindoro 是一款番茄钟专注应用，通过同步专注会话、习惯与目标任务化、咖啡能量管理及每周咖啡收集机制，旨在缓解生产力过程中的孤独感，并提供持续性的行为反馈。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "ArXiv/HF",
       "url": "https://arxiv.org/abs/2607.06306",
       "publish_time": "2026-07-07 14:08:55",
@@ -4842,6 +5112,16 @@
       "title": "[Highly-rated paper] ReflectWorld-MM: An Entity-Oriented Multimodal Memory System for Open-Ended Video Streams",
       "summary": "**Plain English**: Current AI systems either force entire video frames into the model’s context (leading to memory issues), or only store visual features, which means they can’t track people and objects across long videos. ReflectWorld-MM’s core is a “entity-centric” architecture: it first breaks down audio and video streams into specific entities (like “Zhang San,” “that car”), and then stores them in three layers: short-term for visuals, medium-term for events, and long-term for relationships and action habits. In tests using six long video and lifelong memory benchmarks, the system achieved a 100% accuracy rate across all tests, demonstrating its ability to truly understand “who did what when.”\n\n**The Trick**: The core of the proposed “Entity-Oriented Multi-Modal Memory System” is “Entity Parsing + Hierarchical Memory.” The front-end parses audio and video streams into entities (such as people, objects, and events), rather than simply using individual frames. The back-end utilizes a three-layer architecture based on human memory theory: short-term memory (perception), long-term memory (events + semantics + procedural memory), enabling entity tracking and reasoning across time dimensions. Experiments demonstrate that this architecture achieves higher than state-of-the-art models in both long video and lifelong memory tasks, with full item accuracy.\n\n**Startup Angle**:\nThe startup has the potential to enter the “video stream lifelong memory AI middleware” market. It provides “Video Memory” services to companies that require long-term monitoring, video analysis, and intelligent customer service. This addresses pain points such as understanding long video content, tracking entities across time, and enabling lifelong learning. For example, it can provide “memory” capabilities for security monitoring and video content review, allowing AI to remember patterns in the behavior of entities like “Zhang San” – such as his actions “last week” and “this week,” enabling true “lifelong memory.”\n\n",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "ProductHunt",
+      "url": "https://www.producthunt.com/products/trovio-brand-dashboard",
+      "publish_time": "2026-07-02 15:44:50",
+      "publish_time_local": "2026-07-02 23:44:50",
+      "title": "Trovio For Brands",
+      "summary": "* **标题**：Trovio 重构品牌营销：从“流量”转向“信任社区”\n* **核心摘要**：传统依赖大 KOL 的营销模式失效，消费者更信赖熟人社区。Trovio 通过算法精准匹配产品与真实使用场景中的社区影响者，实现秒级匹配、自动化投放及全链路转化追踪，将营销重心从“流量覆盖”转向“信任转化”。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {

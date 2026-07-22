@@ -207,13 +207,21 @@
             justify-content: space-between;
             align-items: center;
             gap: 14px;
-            padding: 22px 0;
+            padding: 22px 0 10px;
         }
 
         .status {
             color: var(--muted);
             font-size: 13px;
             font-weight: 700;
+        }
+
+        .share-note {
+            margin: 0 0 18px;
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 680;
+            line-height: 1.55;
         }
 
         .local-tools {
@@ -464,15 +472,6 @@
             justify-content: flex-end;
             gap: 8px;
             margin-top: 14px;
-        }
-
-        .share-hint {
-            flex: 1 1 220px;
-            min-width: 180px;
-            color: var(--muted);
-            font-size: 12px;
-            font-weight: 680;
-            line-height: 1.45;
         }
 
         .share-button {
@@ -787,6 +786,7 @@
                 <button id="favoriteFilterButton" class="filter-button" type="button" aria-pressed="false">只看收藏</button>
             </div>
         </div>
+        <p id="shareNote" class="share-note">图片就绪后打开 X；若已复制，到发帖框按 ⌘V / Ctrl+V 粘贴。</p>
         <section id="feed" class="feed" aria-live="polite"></section>
     </main>
     <footer class="shell feedback-footer" aria-label="反馈链接">
@@ -812,6 +812,7 @@
         const languageSelectEl = document.getElementById('languageSelect');
         const favoriteCountEl = document.getElementById('favoriteCount');
         const favoriteFilterButtonEl = document.getElementById('favoriteFilterButton');
+        const shareNoteEl = document.getElementById('shareNote');
         const CANONICAL_URL = 'https://aihot.moredreamx.com/';
         const PAGE_LANG = (document.documentElement.lang || 'zh-CN').toLowerCase();
         const LANG_KEY = PAGE_LANG.startsWith('en') ? 'en' : PAGE_LANG.startsWith('ja') ? 'ja' : 'zh';
@@ -1382,7 +1383,6 @@
                         </h2>
                         <div class="summary">${renderMarkdown(item.summary)}</div>
                         <div class="story-actions">
-                            <span class="share-hint">${escapeHtml(UI.shareHint)}</span>
                             <button class="share-button" type="button" data-share-index="${index}">${escapeHtml(UI.shareToX)}</button>
                             <button class="favorite-button ${favorite ? 'is-favorite' : ''}" type="button" data-favorite-index="${index}" aria-pressed="${favorite ? 'true' : 'false'}">${favoriteButtonLabel(favorite)}</button>
                         </div>
@@ -1454,6 +1454,7 @@
 
             document.querySelector('.count-label').innerText = UI.countLabel;
             document.querySelector('.meter').setAttribute('aria-label', UI.ariaCount);
+            if (shareNoteEl) shareNoteEl.innerText = UI.shareHint;
             statusEl.innerText = UI.loading;
             loadDaily();
         }
