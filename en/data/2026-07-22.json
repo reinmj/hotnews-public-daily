@@ -1,7 +1,7 @@
 {
   "date": "2026-07-22",
-  "count": 478,
-  "generated_at": "2026-07-22T22:23:10+08:00",
+  "count": 485,
+  "generated_at": "2026-07-22T22:28:56+08:00",
   "lang": "en",
   "items": [
     {
@@ -22,6 +22,16 @@
       "title": "Businesses with ugly AI menu redesigns",
       "summary": "* **Title:** AI-Generated Menus Spark Controversy: Small Restaurants Face Criticism\n* **Summary:** A U.S.-based Filipino individual in Austin discovered that a local restaurant’s menu had been created using AI, resulting in a visually unappealing design. The author argues that many small restaurants are using AI to generate menus due to a lack of design expertise, which is damaging brand aesthetics and alienating customers. While AI reduces design costs, the lack of respect for art and culture is making traditionally warm, family-style dining feel cheap and offensive.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://www.marginalia.nu/log/a_138_systemdocker/",
+      "publish_time": "2026-07-22 12:39:57",
+      "publish_time_local": "2026-07-22 20:39:57",
+      "title": "Unranked, systemd, crawls",
+      "summary": "* **标题**：Marginalia 架构升级：从 Docker 迁移至 systemd 及无排名查询优化\n* **核心摘要**：Marginalia 搜索引擎完成从 Docker 到 systemd 的生产级迁移，通过裸机部署解决 NUMA 架构瓶颈与 IPvlan 网络隔离难题，将构建时间缩短至 2-3 秒。同时新增无排名查询接口，针对长尾子域名爬取瓶颈，通过引入独立分区与时间轮询机制，将主爬取周期从两周压缩至五天，显著提升索引时效性。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -332,6 +342,16 @@
       "title": "Bun rust to zig rewrite. How would you set this up if you had unlimited token",
       "summary": "* **Title:** Refactoring Bun Rust to Zig: Technical Challenges Behind 64 Claude Instances\n* **Summary:** The community’s focus has shifted from simply the number (64 Claude instances) to the specific technical implementation strategy for refactoring Bun Rust to Zig. Current discussions are centered around building efficient and scalable automation workflows, while maintaining the ability to use tokens without restriction.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://box2d.org/posts/2026/07/simd-for-collision/",
+      "publish_time": "2026-07-22 10:00:55",
+      "publish_time_local": "2026-07-22 18:00:55",
+      "title": "SIMD for Collision",
+      "summary": "* **标题**：宽 SIMD 优化复杂凸多面体碰撞检测，Box3D 性能实测\n* **核心摘要**：针对复杂凸多面体（如 32 点“岩石”）的碰撞检测，传统分离轴测试（SAT）在边 - 边测试阶段呈现二次复杂度瓶颈。通过采用宽 SIMD 技术，将数据转换为结构体数组（SoA）格式，Box3D 在 AMD 7950x 处理器上实现 SSE2 加速，相比标量模式性能提升约 2.5 倍。实测表明，该优化对简单几何体（如立方体）影响有限，但在涉及复杂多面体破坏等场景下，能显著降低计算延迟。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -695,6 +715,16 @@
       "lang": "en"
     },
     {
+      "source": "Lobsters",
+      "url": "https://purplesyringa.moe/blog/log-is-non-monotonous-in-php-and-lua/",
+      "publish_time": "2026-07-22 09:11:49",
+      "publish_time_local": "2026-07-22 17:11:49",
+      "title": "log is non-monotonous in PHP and Lua",
+      "summary": "* **标题**：PHP 与 Lua 中 `log` 函数非单调性解析：双精度舍入误差的边界断裂\n* **核心摘要**：PHP 与 Lua 在处理变基对数函数时，因内部实现未统一通过自然对数转换，导致在特定边界处出现舍入误差方向不一致。这种由语言层面对底层库（libm）的差异化优化策略引发的非单调性，暴露了浮点运算中常见的实现细节问题，而非 IEEE-754 标准本身的缺陷。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "r/webdev",
       "url": "https://www.reddit.com/r/webdev/comments/1v3arx2/pm_contributing_code_with_opus_48_realistic_on_a/",
       "publish_time": "2026-07-22 09:10:39",
@@ -752,6 +782,16 @@
       "title": "I have users coming onto my site, but I have no idea where they are coming from. Can anyone help?",
       "summary": "* **Title:** Website Traffic Source Unknown, Seeking Diagnostic Advice\n* **Summary:** A user reported that their website is receiving traffic, but they are unable to track the specific sources of that traffic and are requesting community assistance with traffic source analysis and troubleshooting.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://www.cole-k.com/2026/07/21/reddit/",
+      "publish_time": "2026-07-22 08:48:18",
+      "publish_time_local": "2026-07-22 16:48:18",
+      "title": "So Reddit has decided that plain HTML is unsafe",
+      "summary": "* **标题**：Reddit 强制旧版界面登录，以对抗自动化爬取引发用户反弹\n* **核心摘要**：Reddit 宣布旧版界面（old.reddit.com）因存在大量纯 HTML 内容，易受自动化爬取和恶意流量攻击，要求用户登录方可访问。此举导致大量依赖静态 HTML 的老旧设备、浏览器插件及开发者工具无法正常使用，引发社区对“安全”定义模糊及用户体验倒退的强烈不满。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -1085,6 +1125,16 @@
       "lang": "en"
     },
     {
+      "source": "Lobsters",
+      "url": "https://futhark-lang.org/blog/2026-07-21-rewriting-the-type-checker.html",
+      "publish_time": "2026-07-22 06:36:31",
+      "publish_time_local": "2026-07-22 14:36:31",
+      "title": "Rewriting the Futhark type checker",
+      "summary": "* **标题**：Futhark 类型检查器重构：从单遍遍历到递归支持的性能优化\n* **核心摘要**：Futhark 语言团队为提升开发体验，对基于 Hindley-Milner 算法的传统类型检查器进行重构。通过引入递归支持并优化状态管理，将编译检查速度从 20% 的延迟降至 -4% 的加速，解决了因类型推断与大小类型耦合导致的复杂状态追踪问题。\n\n",
+      "translation_status": "missing",
+      "lang": "en"
+    },
+    {
       "source": "r/SaaS",
       "url": "https://www.reddit.com/r/SaaS/comments/1v37uv1/need_advice_what_mistakes_should_i_avoid/",
       "publish_time": "2026-07-22 06:26:15",
@@ -1212,6 +1262,16 @@
       "title": "RAG for LLMs: How Retrieval-Augmented Generation Makes AI Smarter About Your Data",
       "summary": "* **Title:** Rethinking RAG Architecture for Enterprise AI: Moving from Static Training to Dynamic Data Augmentation\n\n* **Summary:** Traditional large language models are limited by their training data and cannot access real-time corporate documents and databases, leading to delayed responses or hallucinations. RAG (Retrieval-Augmented Generation) utilizes embedding vectors to combine external knowledge bases with retrieval, enabling AI to dynamically access up-to-date business data *before* generating responses. This significantly reduces the risk of hallucinations and improves the accuracy and timeliness of enterprise applications, such as intelligent customer service and compliance assistants.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://slashpages.net/",
+      "publish_time": "2026-07-22 05:34:36",
+      "publish_time_local": "2026-07-22 13:34:36",
+      "title": "Slash Pages",
+      "summary": "* **标题**：Slash Pages：IndieWeb 个人主页的标准化模块与身份表达\n* **核心摘要**：Slash Pages 是 IndieWeb 社区广泛采用的标准化页面类型，涵盖个人简介、技术栈、身份验证及生活记录等维度。该概念由 Caleb Hearth 与 Shellsharks 独立提出，旨在通过根路径 slug（如 `/about`、`/uses`）构建网站的结构化身份档案。目前已有 Robb Knight 等开发者推动其规范化，形成包含 30 余项分类的完整体系，成为独立开发者表达个人主张与数字足迹的核心基础设施。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {
@@ -1572,6 +1632,16 @@
       "title": "Meta Ads is a robbery, almost 10k USD for ~134 visits to our website.",
       "summary": "* **Title:** Meta Ad Spend Out of Control: $1,000 Budget Yields Only ~134 Website Visits, Conversion Rates Plummet\n* **Summary:** Developers promoting SaaS products experienced significantly lower-than-expected results with Meta advertising. Despite utilizing precise targeting and competitive analysis, a $1,000 budget resulted in approximately 134 website visits, leading to high testing costs and a decline in enthusiasm for marketing efforts.",
       "translation_status": "completed",
+      "lang": "en"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
+      "publish_time": "2026-07-22 02:46:37",
+      "publish_time_local": "2026-07-22 10:46:37",
+      "title": "Some more things about Django I've been enjoying",
+      "summary": "* **标题**：Django 开发实践：从查询构建器到模板缓存的性能优化\n* **核心摘要**：开发者在重构 2010 年代风格网站时，对比 Go 与 Flask 后转向 Django。文中重点分析了 Django 查询构建器的可读性优势、模板过滤器对 HTML 生成的便捷性、以及自动迁移与模板缓存对性能提升的关键作用，同时指出配置复杂性带来的调试挑战。\n\n",
+      "translation_status": "missing",
       "lang": "en"
     },
     {

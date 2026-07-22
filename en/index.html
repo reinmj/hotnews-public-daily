@@ -460,9 +460,19 @@
 
         .story-actions {
             display: flex;
+            align-items: center;
             justify-content: flex-end;
             gap: 8px;
             margin-top: 14px;
+        }
+
+        .share-hint {
+            flex: 1 1 220px;
+            min-width: 180px;
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 680;
+            line-height: 1.45;
         }
 
         .share-button {
@@ -837,7 +847,12 @@
                 favorite: '☆ 收藏',
                 favorited: '★ 已收藏',
                 favoriteEmpty: '当前日报里还没有本地收藏。',
-                storageUnavailable: '本地收藏不可用'
+                storageUnavailable: '本地收藏不可用',
+                shareToX: '分享到 X',
+                shareHint: '图片就绪后打开 X；若已复制，到发帖框按 ⌘V / Ctrl+V 粘贴。',
+                shareGenerating: '生成图片中',
+                shareCopied: '已复制图片',
+                shareDownloaded: '已下载图片'
             },
             en: {
                 titleSuffix: 'AI News, LLMs, Agents, Papers and Product Updates',
@@ -863,7 +878,12 @@
                 favorite: '☆ Save',
                 favorited: '★ Saved',
                 favoriteEmpty: 'No local favorites in this daily issue yet.',
-                storageUnavailable: 'Local favorites are unavailable'
+                storageUnavailable: 'Local favorites are unavailable',
+                shareToX: 'Share to X',
+                shareHint: 'Opens X when the image is ready. If copied, paste it with ⌘V / Ctrl+V.',
+                shareGenerating: 'Making image',
+                shareCopied: 'Image copied',
+                shareDownloaded: 'Image downloaded'
             },
             ja: {
                 titleSuffix: 'AI ニュース、LLM、エージェント、論文とプロダクト動向',
@@ -889,7 +909,12 @@
                 favorite: '☆ 保存',
                 favorited: '★ 保存済み',
                 favoriteEmpty: 'この日報にはローカル保存した記事がまだありません。',
-                storageUnavailable: 'ローカル保存は利用できません'
+                storageUnavailable: 'ローカル保存は利用できません',
+                shareToX: 'X に共有',
+                shareHint: '画像の準備後に X を開きます。コピー済みなら ⌘V / Ctrl+V で貼り付けてください。',
+                shareGenerating: '画像生成中',
+                shareCopied: '画像をコピー済み',
+                shareDownloaded: '画像を保存済み'
             }
         };
         const UI = LANGUAGE_CONFIG[LANG_KEY];
@@ -1280,7 +1305,7 @@
             const originalText = button ? button.textContent : '';
             if (button) {
                 button.disabled = true;
-                button.textContent = '生成图片中';
+                button.textContent = UI.shareGenerating;
             }
 
             try {
@@ -1302,14 +1327,14 @@
                     const blob = await blobPromise;
                     const copiedAfterRender = await copyImageToClipboard(blob);
                     if (copiedAfterRender) {
-                        if (button) button.textContent = '图片已复制';
+                        if (button) button.textContent = UI.shareCopied;
                         openXComposer(item, xWindow);
                         return;
                     }
                     downloadBlob(blob, filename);
-                    if (button) button.textContent = '已下载图片';
+                    if (button) button.textContent = UI.shareDownloaded;
                 } else if (button) {
-                    button.textContent = '图片已复制';
+                    button.textContent = UI.shareCopied;
                 }
                 openXComposer(item, xWindow);
             } catch (err) {
@@ -1319,7 +1344,7 @@
                 shareStageEl.innerHTML = '';
                 if (button) {
                     button.disabled = false;
-                    button.textContent = originalText || '分享到 X';
+                    button.textContent = originalText || UI.shareToX;
                 }
             }
         }
@@ -1357,7 +1382,8 @@
                         </h2>
                         <div class="summary">${renderMarkdown(item.summary)}</div>
                         <div class="story-actions">
-                            <!-- Static public export: X sharing is temporarily disabled. -->
+                            <span class="share-hint">${escapeHtml(UI.shareHint)}</span>
+                            <button class="share-button" type="button" data-share-index="${index}">${escapeHtml(UI.shareToX)}</button>
                             <button class="favorite-button ${favorite ? 'is-favorite' : ''}" type="button" data-favorite-index="${index}" aria-pressed="${favorite ? 'true' : 'false'}">${favoriteButtonLabel(favorite)}</button>
                         </div>
                     </div>
