@@ -1,9 +1,899 @@
 {
   "date": "2026-07-30",
-  "count": 2,
-  "generated_at": "2026-07-30T07:00:04+08:00",
+  "count": 144,
+  "generated_at": "2026-07-30T18:00:02+08:00",
   "lang": "zh",
   "items": [
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@fersupeai/small-business-cybersecurity-in-new-zealand-what-actually-protects-you-in-2026-69323aade013",
+      "publish_time": "2026-07-30 09:51:56",
+      "publish_time_local": "2026-07-30 17:51:56",
+      "title": "Small Business Cybersecurity in New Zealand: What Actually Protects You in 2026",
+      "summary": "* **标题**：新西兰中小企业网络安全指南：2026 年核心防护策略\n* **核心摘要**：新西兰中小企业无需复杂系统，仅需强化账户验证、建立付款变更电话确认习惯、实施多因素认证及单页应急响应计划。通过保护核心账户、建立验证习惯及完善备份，即可有效抵御绝大多数网络攻击。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@toolsnak/gif-converter-turn-gifs-into-png-jpg-or-webp-3b386813a81e",
+      "publish_time": "2026-07-30 09:51:32",
+      "publish_time_local": "2026-07-30 17:51:32",
+      "title": "GIF Converter: Turn GIFs Into PNG, JPG, or WebP",
+      "summary": "* **标题**：浏览器端 GIF 转图工具上线，支持 PNG/JPG/WebP 格式转换\n* **核心摘要**：ToolSnak 提供一款无需注册的免费 GIF 转换器，支持批量处理（最多 10 个文件），通过浏览器端技术实现隐私保护。用户可将 GIF 转换为 PNG（无损透明）、JPG（小体积）或 WebP（高效），满足网站上传限制、减小文件体积及提取单帧图片等需求。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@ScoreStrategist/the-ai-that-writes-courses-is-out-and-heres-how-to-get-one-for-your-exact-exam-in-minutes-2a512b4e2f44",
+      "publish_time": "2026-07-30 09:50:22",
+      "publish_time_local": "2026-07-30 17:50:22",
+      "title": "The AI That Writes Courses Is Out, and Here’s How to Get One for Your Exact Exam in Minutes",
+      "summary": "* **标题**：Fenzo.ai 生成定制化备考课程，解决传统课程“一刀切”痛点\n* **核心摘要**：传统备考课程往往采用固定进度与通用内容，导致考生需花费大量时间复习已掌握知识点，或难以针对性突破薄弱环节。Fenzo.ai 平台允许用户通过描述具体考试、当前水平、强弱项及目标分数等关键信息，在数分钟内生成包含逻辑课程结构、概念讲解与针对性练习的交互式备考方案，实现从通用教材向个性化学习路径的转变。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@goerpai/10-signs-your-business-has-outgrown-spreadsheets-10f25ab7beeb",
+      "publish_time": "2026-07-30 09:49:06",
+      "publish_time_local": "2026-07-30 17:49:06",
+      "title": "10 Signs Your Business Has Outgrown Spreadsheets",
+      "summary": "* **标题**：十种迹象表明企业已超越电子表格时代，亟需转向现代 ERP 系统\n* **核心摘要**：当团队维护多版本文件、手动录入数据、库存差异频发、部门间数据孤岛、报告生成耗时、订单处理延迟、合规审计困难、业务扩张失控及决策依赖猜测时，电子表格已无法支撑业务增长。此时应转向集成化 ERP 平台，实现财务、库存、销售、采购、HR 及运营的统一管理，确保数据实时准确，提升决策效率。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@dibikadahal/why-table-extraction-in-rag-is-a-much-harder-problem-than-extracting-a-plain-text-8d21d8c6fa40",
+      "publish_time": "2026-07-30 09:46:51",
+      "publish_time_local": "2026-07-30 17:46:51",
+      "title": "Why Table Extraction in RAG is a much Harder Problem than extracting a Plain Text",
+      "summary": "* **标题**：RAG 系统为何难以处理表格：二维结构破坏一维检索逻辑\n* **核心摘要**：RAG 系统基于文本的线性分块与嵌入检索机制，无法有效处理表格数据。表格具有二维结构，其语义依赖行列与表头关联，一旦结构被破坏或合并单元格处理不当，数据将失去上下文，导致检索结果失效。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://christianselig.com/2026/07/iphone-air-review/",
+      "publish_time": "2026-07-30 07:54:13",
+      "publish_time_local": "2026-07-30 15:54:13",
+      "title": "I Have Thoughts on the iPhone Air",
+      "summary": "* **标题**：iPhone Air 评测：极致轻薄设计下的妥协与取舍\n* **核心摘要**：作者对 iPhone Air 的轻薄设计持肯定态度，认为其屏幕尺寸适中且外观独特，但单摄像头配置及电池续航表现不佳。尽管电池健康度维持在 96%，但日常使用中电量告急频率增加，导致作者最终建议仅对设计敏感型用户推荐，普通用户仍应优先选择 Pro 系列。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://noyb.eu/en/1741-informed-consents-one-click-gdpr-complaint-against-dictcc-filed",
+      "publish_time": "2026-07-30 05:33:30",
+      "publish_time_local": "2026-07-30 13:33:30",
+      "title": "1,741 \"informed\" consents with one click? GDPR complaint filed",
+      "summary": "* **标题**：dict.cc 遭投诉：GDPR 下“知情同意”沦为形式，1741 个数据伙伴难辨真伪\n* **核心摘要**：noyb 向奥地利数据保护局投诉 dict.cc，指出其单次点击即授权 1741 个第三方合作伙伴获取用户数据。该做法导致用户无法在合理时间内阅读隐私政策，致使“知情同意”原则流于形式。noyb 主张删除非法处理的数据并处以罚款，以遏制此类大规模数据共享行为。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/vibe-coding",
+      "url": "https://medium.com/titansoft/ai-%E5%A6%82%E4%BD%95%E6%94%B9%E8%AE%8A%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC-%E5%BE%9E-vibe-coding-%E5%88%B0-agentic-coding-%E7%9A%84%E5%AF%A6%E6%88%B0%E8%A7%80%E5%AF%9F-91f0db506be7",
+      "publish_time": "2026-07-30 03:45:12",
+      "publish_time_local": "2026-07-30 11:45:12",
+      "title": "AI 如何改變軟體開發？從 Vibe Coding 到 Agentic Coding 的實戰觀察",
+      "summary": "* **标题**：Vibe Coding 至 Agentic Coding：AI 協作開發的三層演進\n* **核心摘要**：新加坡商鈦坦科技 Senior Product Developer Kyo Cheng 分享 AI 協作實戰經驗，指出工程師價值從「寫程式」轉向「管理協作」。文章提出 Agentic Coding 三層協作循環：內層循環（日常開發）、中層循環（建立 AI 可理解的知識系統）及外層循環（團隊能力累積），強調 AI 應作為協作夥伴，而非單純替代工程師。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@readerdiv/schools-werent-built-for-this-century-here-s-what-comes-next-f516fc37ecf4",
+      "publish_time": "2026-07-30 03:37:28",
+      "publish_time_local": "2026-07-30 11:37:28",
+      "title": "💎[会员专享] Schools Weren’t Built for This Century. Here’s What Comes Next.",
+      "summary": "* **标题**：教育范式重构：从“年龄分班”转向“能力导向”\n* **核心摘要**：传统学校模式正面临 AI 与劳动力市场双重冲击，教师角色将从“讲授者”转型为“教练”与“诊断者”。未来教育将打破按年龄分班的限制，转向基于学习准备度的动态分组，并建立以技能验证为核心的微证书体系。然而，技术并非瓶颈，真正的挑战在于如何克服制度惯性，重新设计评估、资金与教师培训体系，确保技术赋能而非替代人类教育的核心社会价值。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@ppp.mishra124/whats-actually-happening-inside-chatgpt-a-plain-english-tour-of-the-transformer-4ebcc0f9dbdf",
+      "publish_time": "2026-07-30 03:36:11",
+      "publish_time_local": "2026-07-30 11:36:11",
+      "title": "💎[会员专享] What’s Actually Happening Inside ChatGPT? A Plain-English Tour of the Transformer",
+      "summary": "* **标题**：ChatGPT 内部运作机制解析：从“预测下一个词”到 Transformer 架构\n* **核心摘要**：文章深入拆解了 ChatGPT 的核心运作原理，指出其本质并非具备思考能力，而是基于 Transformer 架构，通过“预测下一个词”的迭代机制生成文本。内容涵盖 GPT 术语解码、注意力机制原理、温度参数对创造性的调节，以及上下文窗口限制等关键技术细节，揭示了大语言模型“幻觉”与“遗忘”现象背后的数学逻辑。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@ferianugrah212/ai-bantu-prediksi-interaksi-obat-tapi-keputusan-klinis-tetap-di-tangan-apoteker-1eec9b603a72",
+      "publish_time": "2026-07-30 03:35:46",
+      "publish_time_local": "2026-07-30 11:35:46",
+      "title": "AI Bantu Prediksi Interaksi Obat, Tapi Keputusan Klinis Tetap di Tangan Apoteker",
+      "summary": "* **标题**：AI 赋能药事管理，临床决策仍由药师主导\n* **核心摘要**：药事专家 Dila Anggraeni 指出，AI 在药物相互作用预测、新药研发及自动化服务中发挥关键作用，但临床决策权仍保留在药师手中。她强调，未来药事工作需平衡技术创新、法规合规与人文关怀，通过自动化释放药师精力，使其专注于临床咨询与患者教育，而非被技术完全替代。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@fahey_james/claude-mythos-produced-novel-cryptanalysis-and-thats-the-real-story-6a11f1b31b40",
+      "publish_time": "2026-07-30 03:35:34",
+      "publish_time_local": "2026-07-30 11:35:34",
+      "title": "Claude Mythos Produced Novel Cryptanalysis — And That’s the Real Story",
+      "summary": "* **标题**：Claude Mythos 破解后量子密码结构弱点，重塑密码分析范式\n* **核心摘要**：Anthropic 的 Claude Mythos 模型在 60 小时内发现 HAWK 数字签名方案的非平凡自同构，并将 AES-128 的 Meet-in-the-middle 攻击速度提升 200 至 800 倍。尽管未威胁现有部署系统，但这一数学层面的突破表明 AI 在密码学结构分析中的潜力，迫使密码学审查周期与标准制定流程重新评估。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@raiyansayeed0/what-breaks-a-machine-learning-pipeline-before-it-deploys-87f242c59f1d",
+      "publish_time": "2026-07-30 03:32:17",
+      "publish_time_local": "2026-07-30 11:32:17",
+      "title": "What Breaks a Machine Learning Pipeline Before It Deploys",
+      "summary": "* **标题**：机器学习部署前五大致命陷阱：从 Notebook 到生产环境的真实差距\n* **核心摘要**：多数机器学习项目并非因模型失效而失败，而是在 Notebook 与业务可用之间因五个具体环节出错。包括预处理未序列化导致训练服务偏差、默认使用准确率指标忽视业务成本、单一模型未对比验证、部署被视作可选步骤、以及缺乏决策记录。这些错误在模型训练成功后即已潜伏，直至实际部署时暴露，导致演示效果与生产表现严重脱节。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/openai-codex-security-open-sources-its-cli-today/",
+      "publish_time": "2026-07-30 03:30:00",
+      "publish_time_local": "2026-07-30 11:30:00",
+      "title": "OpenAI Codex Security Open-Sources Its CLI Today",
+      "summary": "* **标题**：OpenAI 静默开源 Codex Security CLI，构建“开源客户端 + 商业后端”安全新范式\n* **核心摘要**：OpenAI 于 2026 年 7 月 28 日未正式宣发即通过 GitHub 开源了 Codex Security CLI 及 TypeScript SDK，采用“开源客户端、商业后端”模式。该工具利用 LLM 推理能力扫描代码漏洞，相比传统 SAST 工具在识别授权绕过、IDOR 等意图类漏洞上表现更优，但需按千行代码计费。建议采用分层架构：Semgrep 用于 PR 高频扫描，Codex Security 用于定期深度审计。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@anandv_62921/why-cbam-is-making-sustainability-data-the-new-business-currency-07d8943d00de",
+      "publish_time": "2026-07-30 03:27:28",
+      "publish_time_local": "2026-07-30 11:27:28",
+      "title": "Why CBAM Is Making Sustainability Data the New Business Currency",
+      "summary": "* **标题**：CBAM 驱动数据资产化，可持续性信息重塑商业竞争格局\n* **核心摘要**：欧盟碳边境调节机制（CBAM）正加速可持续性数据从合规报告向核心商业资产转型。企业通过构建结构化数据治理体系，将环境信息转化为供应链优化、投资者信任及品牌差异化优势。AI 与智能分析技术的介入，进一步挖掘数据价值，使可持续性情报成为决定长期竞争力的关键货币。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/llm",
+      "url": "https://medium.com/@anandvlinkedin/inside-llms-unraveling-the-architecture-training-and-real-world-use-of-large-language-models-878098248bba",
+      "publish_time": "2026-07-30 03:22:37",
+      "publish_time_local": "2026-07-30 11:22:37",
+      "title": "💎[会员专享] Inside LLMs: Unraveling the Architecture, Training, and Real-World Use of Large Language Models",
+      "summary": "* **标题**：LLM 架构深度解析：从 Transformer 核心机制到企业级落地挑战\n* **核心摘要**：本文系统拆解了大型语言模型的技术底层，涵盖 Transformer 架构、自注意力机制及位置编码等核心原理。内容深入探讨了模型训练策略、多模态演进趋势，并重点剖析了算力成本、幻觉效应及数据隐私等现实部署瓶颈，为技术从业者提供从理论构建到企业级应用落地的完整知识图谱。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai-agents",
+      "url": "https://kutralakumaran.medium.com/playwright-1-62-powering-the-next-generation-of-ai-driven-test-automation-48007550aaed",
+      "publish_time": "2026-07-30 03:20:01",
+      "publish_time_local": "2026-07-30 11:20:01",
+      "title": "Playwright 1.62: Powering the Next Generation of AI-Driven Test Automation",
+      "summary": "* **标题**：Playwright 1.62 发布：组件测试重构与 AI 集成\n* **核心摘要**：Playwright 1.62 引入全新的组件测试架构，采用 Stories & Galleries 模式替代传统挂载方式，显著提升大型应用的可扩展性。版本同时支持 AbortSignal 取消长运行操作、WebP 格式截图以优化存储成本，并内置 Playwright MCP 服务器。此外，新增智能重试机制、HTML 报告合并文件功能及对 Debian 11 的支持终止，全面强化自动化测试的稳定性与 AI 协作能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/llm",
+      "url": "https://xhinker.medium.com/running-frontier-ai-on-a-99-board-my-llama-cpp-adventure-on-jetson-nano-50a03dc19f34",
+      "publish_time": "2026-07-30 03:16:21",
+      "publish_time_local": "2026-07-30 11:16:21",
+      "title": "💎[会员专享] Running Frontier AI on a $99 Board — My llama.cpp Adventure on Jetson Nano",
+      "summary": "* **标题**：$99 边缘板跑前沿 AI：Jetson Nano 与 llama.cpp 的兼容性与性能实测\n* **核心摘要**：开发者在 2019 年发布的 $99 Jetson Nano 上成功部署了 2025 年的前沿 AI 模型。实测显示，Gemma3:1B 模型在 GPU 加速下可达 5-6 tokens/s，但 Qwen3 等较新模型因架构不支持无法运行。编译过程遭遇 CUDA 10.2 版本限制、C++17 支持缺失及文件系统错误，最终证实硬件虽能运行，但需手动解决软件栈兼容性问题。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai-agents",
+      "url": "https://medium.com/@coolercoder/spec-driven-development-turned-one-bug-into-16-acceptance-criteria-8f29ace24854",
+      "publish_time": "2026-07-30 03:14:58",
+      "publish_time_local": "2026-07-30 11:14:58",
+      "title": "Spec-Driven Development Turned One Bug Into 16 Acceptance Criteria",
+      "summary": "* **标题**：Spec-Driven Development 的陷阱：从“单一事实来源”到“文档沼泽”\n* **核心摘要**：Spec-Driven Development (SDD) 将“先写规范再编码”的简单建议异化为“规范即代码库唯一事实来源”的工程神话。这种混淆导致自然语言描述经过非确定性模型生成代码，不仅未消除需求与实现的差距，反而因解释过程不可复现而增加维护成本。文章指出，SDD 实际上将“清晰描述”偷换为“完整描述”，将“任务上下文”升格为“长期维护文档”，导致文档沼泽、责任模糊及验证失效。真正的工程实践应区分生命周期：短期任务用任务文件，长期决策用 ADR，可执行约束用测试与类型，产品意图由专人维护的需求系统承载，而非让 AI 对 Markdown 的偏好主导软件工程。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai-agents",
+      "url": "https://afigueiredo.medium.com/ai-productivity-is-not-ebitda-7e8c51d8a034",
+      "publish_time": "2026-07-30 03:14:23",
+      "publish_time_local": "2026-07-30 11:14:23",
+      "title": "AI Productivity Is Not EBITDA",
+      "summary": "* **标题**：企业 AI 价值闭环：从活动到 EBITDA 的财务架构\n* **核心摘要**：企业 AI 应用常因仅关注活动量与效率提升而忽视财务转化，导致无法改善 EBITDA。真正的价值实现需建立“技术架构 + 财务架构”双轨制，通过五步价值链（行为、KPI、实现动作、损益表影响、净 EBITDA）将运营指标转化为实际财务收益。案例显示，若缺乏管理层的实现决策与责任归属，节省的工时无法自动转化为利润，企业 AI 的终极目标应是改变业务经济模型，而非仅停留在生产部署。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/amazon-nova-wind-down-migration-guide/",
+      "publish_time": "2026-07-30 03:09:54",
+      "publish_time_local": "2026-07-30 11:09:54",
+      "title": "Amazon Kills Four Nova AI Models: Migration Guide",
+      "summary": "* **标题**：亚马逊悄然终止四大 Nova 模型，开发者紧急迁移指南\n* **核心摘要**：亚马逊因内部重组，将 Nova Premier、Nova Reel、Nova Canvas 及 Nova Omni 四大旗舰模型转入“保持灯光开启”模式，明确设定 2026 年 9 月为停止服务期限。企业级应用需立即将 Nova Premier 迁移至 Claude 3.7 Sonnet，并建立抽象层以规避未来 API 变更风险。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai-agents",
+      "url": "https://crazysquirrel511.medium.com/mirror-in-the-machine-b739e198412f",
+      "publish_time": "2026-07-30 03:08:13",
+      "publish_time_local": "2026-07-30 11:08:13",
+      "title": "💎[会员专享] Mirror in the Machine",
+      "summary": "* **标题**：从答案收集到地图构建：AI 如何重塑人类认知的本质\n* **核心摘要**：作者反思了自身对“提问”的误解，指出真正的理解并非源于对单一答案的积累，而是通过不断建立信息间的深层联系。AI 的价值不在于提供答案，而在于为思维提供构建完整认知地图的空间，将碎片化的知识整合为有意义的系统。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai-agents",
+      "url": "https://medium.com/@dc050204/ai-%E6%AD%A3%E5%9C%A8%E9%87%8D%E6%96%B0%E5%AE%9A%E7%BE%A9%E7%AE%A1%E7%90%86%E8%B2%AC%E4%BB%BB-1a49bccf2519",
+      "publish_time": "2026-07-30 03:06:47",
+      "publish_time_local": "2026-07-30 11:06:47",
+      "title": "AI 正在重新定義管理責任",
+      "summary": "* **标题**：首席 AI 官崛起：AI 决策权重构企业责任边界\n* **核心摘要**：英国大型企业任命首席 AI 官（CAIO）的浪潮，标志着 AI 角色从技术工具向业务决策核心转变。随着 AI 深度介入判断与执行，企业面临的核心挑战不再是技术部署，而是重新定义人机协作中的责任归属。管理者需建立清晰的人机合作边界，确保 AI 决策可追溯、风险可控，将治理前置至商业框架设计阶段。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@clevereagledev/how-retrieval-augmented-generation-works-building-smarter-ai-with-your-own-data-1e20556ffcf1",
+      "publish_time": "2026-07-30 03:02:45",
+      "publish_time_local": "2026-07-30 11:02:45",
+      "title": "How Retrieval-Augmented Generation Works: Building Smarter AI with Your Own Data",
+      "summary": "* **标题**：RAG 架构解析：让大模型基于企业私有数据精准生成\n* **核心摘要**：检索增强生成（RAG）通过引入检索步骤，将通用大模型与外部知识库结合，解决模型知识滞后、无法访问私有数据及幻觉问题。系统流程涵盖数据清洗、分块、向量化索引、语义检索及提示构建，确保回答基于最新文档。同时强调需严格实施权限控制与数据脱敏，以保障企业数据安全。RAG 适用于内部助手、支持工具等场景，是连接通用模型能力与组织特定知识的关键桥梁。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@gokulkalauni03/peoplesoft-to-ai-part-12-what-is-the-frontier-and-why-does-search-need-one-fff05517ee94",
+      "publish_time": "2026-07-30 03:01:03",
+      "publish_time_local": "2026-07-30 11:01:03",
+      "title": "PeopleSoft to AI | Part 12: What Is the Frontier and Why Does Search Need One?",
+      "summary": "* **标题**：搜索前沿：从“未命名清单”到“前沿集合”的调试范式重构\n* **核心摘要**：在 PeopleSoft 组合编辑调试中，开发者通过区分“已探索状态”、“前沿候选集”与“未探索空间”，将传统试错过程形式化为搜索树策略。文章指出，前沿集合的动态增长与不同搜索策略（如广度优先、A*）的候选选择机制，决定了调试效率，而这一概念此前在长期实践中从未被显式命名。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/llm",
+      "url": "https://medium.com/codetodeploy/inkling-by-mira-murati-the-975b-open-weight-ai-model-that-challenges-claude-gpt-and-gemini-55f4f22b7c0e",
+      "publish_time": "2026-07-30 02:58:21",
+      "publish_time_local": "2026-07-30 10:58:21",
+      "title": "💎[会员专享] Inkling by Mira Murati: The 975B Open-Weight AI Model That Challenges Claude, GPT, and Gemini",
+      "summary": "* **标题**：Mira Murati 推出 Inkling：975B 参数开源模型，专为开发者构建\n* **核心摘要**：前 OpenAI CTO Mira Murati 团队发布 Inkling，一款 975B 参数的开源多模态基础模型。该模型采用 MoE 架构，提供 100 万 token 上下文窗口及文本、图像、音频原生支持。其核心优势在于开放权重与可微调特性，旨在替代封闭模型，赋予开发者在复杂工作流与 AI 代理构建中的灵活定制能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
+      "publish_time": "2026-07-30 02:55:21",
+      "publish_time_local": "2026-07-30 10:55:21",
+      "title": "NSF pilots 4-year PhDs with industry research placements",
+      "summary": "* **标题**：NSF 启动四年制博士项目，引入企业研究实习\n* **核心摘要**：美国国家科学基金会（NSF）正式试点一项为期四年的博士培养计划，核心创新在于将企业研究实习纳入培养体系。该举措旨在通过产学研深度融合，提升博士研究人员的产业应用能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/llm",
+      "url": "https://kijoninja.medium.com/mdash-defense-at-ai-speed-3af662d63603",
+      "publish_time": "2026-07-30 02:55:00",
+      "publish_time_local": "2026-07-30 10:55:00",
+      "title": "MDASH: Defense at AI Speed",
+      "summary": "* **标题**：MDASH：微软构建的“代码级”AI 安全防御体系\n* **核心摘要**：微软推出 MDASH 多模型智能体安全扫描系统，通过 100+ 智能体协同辩论，在软件开发生命周期中主动发现并验证未知漏洞。该系统不仅定位潜在风险，更通过生成可复现的 PoC 证明其可被利用，并将验证结果自动流转至 Defender 与 Copilot 进行修复，标志着安全防御从被动模式向“类研究员”主动推理模式的根本转变。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@AILearningHub/responsible-ai-playbook-for-data-scientists-and-ai-engineers-c74fd246db17",
+      "publish_time": "2026-07-30 02:51:36",
+      "publish_time_local": "2026-07-30 10:51:36",
+      "title": "💎[会员专享] Responsible AI Playbook for Data Scientists and AI Engineers",
+      "summary": "* **标题**：构建可信 AI 系统的工程化指南：从公平性到隐私保护的全链路实践\n* **核心摘要**：本文深入解析负责任 AI 的核心原则，涵盖公平性、可靠性、隐私与安全四大维度。文章强调 AI 开发应贯穿数据收集、模型训练、部署及监控的全生命周期，将伦理考量转化为具体的工程实践。通过引入红队测试、差分隐私及人类监督机制，帮助数据科学家与 AI 工程师在构建生成式 AI 时有效规避偏见、幻觉及安全风险，确保技术产出符合社会价值。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@karthik_prdmgr/the-paper-that-started-the-ai-revolution-what-every-product-leader-should-learn-from-attention-is-15496fc93a86",
+      "publish_time": "2026-07-30 02:49:34",
+      "publish_time_local": "2026-07-30 10:49:34",
+      "title": "The Paper That Started the AI Revolution: What Every Product Leader Should Learn from Attention Is…",
+      "summary": "* **标题**：从一篇论文到 AI 革命：产品领导者应关注的五大核心洞察\n* **核心摘要**：文章指出，2017 年 Google 发表的《Attention Is All You Need》论文奠定了现代 AI 产品的基础。文章强调，产品领导者不应仅关注技术细节，而应聚焦于该突破如何解决长上下文处理难题，并据此提出五大关键问题：识别可解决的客户问题、评估平台构建潜力、洞察行业变革空间、分析技术局限性及衍生创新、以及预判由此产生的商业机会。核心观点在于，真正的竞争优势源于将基础技术转化为具体产品类别的能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@manojkumar.rayana/roc-auc-vs-precision-recall-auc-which-one-should-you-use-and-when-ff49f20417e6",
+      "publish_time": "2026-07-30 02:47:58",
+      "publish_time_local": "2026-07-30 10:47:58",
+      "title": "ROC-AUC vs Precision-Recall AUC: Which One Should You Use and When?",
+      "summary": "* **标题**：ROC-AUC 与 Precision-Recall AUC：数据不平衡场景下的评估决策指南\n* **核心摘要**：在正样本占比低于 10% 的严重不平衡数据集中，ROC-AUC 因分母中真阴性样本池过大而掩盖实际误报成本，导致评估结果过度乐观。建议优先采用 Precision-Recall AUC 作为核心指标，结合业务成本比（C_FN vs C_FP）动态设定分类阈值，确保模型在真实场景中的可解释性与决策有效性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@iwan.sugiarta/why-corporate-medical-check-up-reports-still-do-not-show-who-needs-follow-up-first-human-centered-d74681b5c89e",
+      "publish_time": "2026-07-30 02:45:27",
+      "publish_time_local": "2026-07-30 10:45:27",
+      "title": "Why Corporate Medical Check-Up Reports Still Do Not Show Who Needs Follow-Up First: Human-Centered…",
+      "summary": "* **标题**：企业体检报告为何无法识别优先随访人群：从“普遍性”到“风险优先级”的范式转变\n* **核心摘要**：当前企业体检报告虽详列各项指标异常率，却缺乏对“谁需优先随访”的明确指引。单一指标统计掩盖了员工多重风险叠加的复合隐患，导致资源分散。建议将体检数据整合为临床域评分，构建综合健康指数，以精准识别高风险群体，实现从“描述普遍异常”向“指导优先干预”的决策支持转型。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/llm",
+      "url": "https://vijayasekhar-deepak.medium.com/7-amazing-use-cases-of-kimi-k3-that-go-beyond-coding-15122ab22401",
+      "publish_time": "2026-07-30 02:31:01",
+      "publish_time_local": "2026-07-30 10:31:01",
+      "title": "💎[会员专享] 7 Amazing Use Cases of Kimi K3 That Go Beyond Coding",
+      "summary": "* **标题**：Kimi K3 七大实战场景：从代码库理解到自主工作流\n* **核心摘要**：Moonshot AI 推出的 Kimi K3 凭借百万级上下文窗口与原生多模态能力，重新定义 AI 编程助手。开发者可利用其长程推理架构，构建理解企业级代码库的 AI 代理、执行端到端软件开发生命周期的自主工作流，以及将设计图直接转化为可运行应用。相比传统 LLM 需依赖分块处理，Kimi K3 在无需人工干预下即可处理大规模文档与复杂架构，成为真正的 AI 工程协作伙伴。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/recursives-410m-aws-deal-self-improving-ai-explained/",
+      "publish_time": "2026-07-30 02:10:34",
+      "publish_time_local": "2026-07-30 10:10:34",
+      "title": "Recursive’s $410M AWS Deal: Self-Improving AI Explained",
+      "summary": "* **标题**：Recursive 与 AWS 签署 4.1 亿美元算力协议：自进化 AI 科研闭环落地\n* **核心摘要**：Recursive 公司宣布与 AWS 达成 4.1 亿美元多年度算力合作，旨在加速其自进化 AI 科研系统。该系统通过“假设 - 实施 - 验证 - 迭代”的自动化闭环，在 NanoGPT、NanoChat 及 SOL-ExecBench 三项基准测试中实现显著性能提升。该合作明确指向算力即核心杠杆，旨在将传统数月串行研究压缩至数天，并计划于 2026 年 10 月前交付 AI 推理与 GPU 优化等具体产品。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/vibe-coding",
+      "url": "https://medium.com/@ghreizmdesigns/the-software-industry-doesnt-have-a-talent-shortage-it-has-a-signal-problem-edb6fd6b2f65",
+      "publish_time": "2026-07-30 02:03:54",
+      "publish_time_local": "2026-07-30 10:03:54",
+      "title": "The Software Industry Doesn’t Have a Talent Shortage. It Has a Signal Problem.",
+      "summary": "* **标题**：AI 并非软件人才短缺的元凶：行业正面临“信号过载”危机\n* **核心摘要**：尽管 AI 工具大幅降低了代码构建门槛，但海量 AI 生成的项目导致求职市场噪音激增，企业难以甄别真实技术能力。这种“人人皆可构建”的现象，使得真正热爱计算机科学的初级开发者在竞争中处于劣势，而招聘标准被迫向高阶经验倾斜，形成“越努力越难出头”的悖论。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://lobste.rs/s/mbk56v/what_side_projects_have_you_enjoyed_most",
+      "publish_time": "2026-07-30 01:40:31",
+      "publish_time_local": "2026-07-30 09:40:31",
+      "title": "What side projects have you enjoyed the most?",
+      "summary": "* **标题**：AWS 基础服务与轻量级项目实践：从 Minecraft API 到 Vulkan 渲染器\n* **核心摘要**：开发者分享 AWS 基础服务架构，重点在于构建无依赖循环的底层服务（如根密钥、证书管理）。同时列举多个个人项目：基于 Go 的高并发 Minecraft 服务器列表 API（月处理百万级请求）、Vulkan 模块化渲染器及命令行工具。这些项目强调小范围、低依赖、高稳定性，旨在通过极简架构验证技术可行性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/large-language-models",
+      "url": "https://medium.com/@er.rajkumaar/complete-ai-engineer-interview-handbook-part-4-mcp-servers-and-tool-calling-failures-in-c045efeec7ae",
+      "publish_time": "2026-07-30 01:31:01",
+      "publish_time_local": "2026-07-30 09:31:01",
+      "title": "💎[会员专享] Complete AI Engineer Interview Handbook (Part 4): MCP Servers and Tool Calling Failures in…",
+      "summary": "* **标题**：MCP 工具调用失效：企业级 AI 系统生产环境中的核心瓶颈\n* **核心摘要**：在 MCP 架构中，工具调用失败并非源于模型推理能力不足，而是由工具架构设计缺陷、意图映射模糊及系统编排问题导致。生产级 AI 系统常因工具重叠、schema 复杂度高及检索空间噪声，出现工具选择错误、参数传递异常及执行循环等隐性故障。此类问题在银行、保险等对实时性要求高的场景中尤为致命，表明系统设计与模型能力同等重要。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/convert-proprietary-code-open-ansi-sql-genie-code",
+      "publish_time": "2026-07-30 01:00:00",
+      "publish_time_local": "2026-07-30 09:00:00",
+      "title": "Convert proprietary code to open ANSI SQL with Genie Code",
+      "summary": "* **标题**：Databricks 发布 Genie Code 智能代理，一键将私有 SQL 方言转换为开放 ANSI 标准\n* **核心摘要**：Databricks 推出 Genie Code 智能代理，支持将 T-SQL、Snowflake、Redshift 等私有数据仓库方言自动转换为开放 ANSI SQL。该工具通过智能代理集群并行处理代码转换，自动生成对象依赖关系图，并支持自定义转换规则。相比传统迁移方式，Genie Code 将复杂的数据仓库迁移项目转变为可配置、可监控的自动化流程，显著降低人工干预成本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ShowHN",
+      "url": "https://github.com/funador/claude-code-merge-queue",
+      "publish_time": "2026-07-30 00:20:16",
+      "publish_time_local": "2026-07-30 08:20:16",
+      "title": "Show HN: A local merge queue for parallel Claude Code agents",
+      "summary": "* **标题**：本地合并队列：为并行 Claude 代理提供 MacBook Air 环境下的稳定开发方案\n* **核心摘要**：开发者为应对 MacBook Air 在并行运行多个 Claude 代理时频繁崩溃及 CI 成本过高的问题，设计了一套本地合并队列机制，确保所有提交按顺序逐个测试与运行，旨在为资源受限的开发环境提供高效、稳定的并行开发支持。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/keychron-zgm-open-source-gaming-mouse-firmware/",
+      "publish_time": "2026-07-30 00:09:17",
+      "publish_time_local": "2026-07-30 08:09:17",
+      "title": "Keychron ZGM: Open-Source Gaming Mouse Firmware Is Here",
+      "summary": "* **标题**：Keychron 发布 ZGM：首个开源游戏鼠标固件，终结黑盒监控时代\n* **核心摘要**：Keychron 推出基于 Zephyr RTOS 的 ZGM 开源游戏鼠标固件，采用 GPL-3.0 协议。该方案将鼠标设置存储于设备本地，无需驱动或后台服务，彻底解决厂商固件不可审计、数据泄露及软件服务失效等痛点。作为 QMK 键盘固件与 ZMK 无线键盘固件的延伸，ZGM 旨在填补主流游戏外设领域长期缺乏开源标准的空白。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "OutcomeSchool",
+      "url": "https://outcomeschool.com/blog/what-are-agent-skills",
+      "publish_time": "2026-07-30 00:00:00",
+      "publish_time_local": "2026-07-30 08:00:00",
+      "title": "What are Agent Skills?",
+      "summary": "* **标题**：Agent Skills：解决上下文窗口限制的企业级 AI 能力封装方案\n* **核心摘要**：传统 AI Agent 因上下文窗口限制，难以高效复用企业特有的工作流规范与操作细节。Agent Skills 作为一种轻量级能力封装机制，允许开发者将特定任务（如报销、发布软件）的指令、脚本及参考文件组织为独立文件夹。Agent 通过描述触发自动加载对应技能，实现“按需加载”的渐进式披露，既避免上下文冗余，又确保企业级 AI 具备可执行、可复用的专业业务能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/claude-opus-5-is-out-migrate-from-opus-4-8-now/",
+      "publish_time": "2026-07-29 23:09:03",
+      "publish_time_local": "2026-07-30 07:09:03",
+      "title": "Claude Opus 5 Is Out: Migrate from Opus 4.8 Now",
+      "summary": "* **标题**：Claude Opus 5 发布：生产环境迁移指南与性能跃升\n* **核心摘要**：Anthropic 于 7 月 24 日推出 Claude Opus 5，其默认开启思考模式，导致 token 预算覆盖范围扩大，旧版请求可能因截断而静默失败。尽管标准定价不变，但性能显著提升，在代理编程任务中领先 GPT-5.6 Sol 26%，并超越自家 Fable 5 旗舰。开发者需立即更新模型字符串并增加 max_tokens 配额，同时根据任务复杂度调整 effort 等级。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/large-language-models",
+      "url": "https://abvcreative.medium.com/how-do-you-test-an-ai-smarter-than-the-people-writing-the-test-675dccb9002d",
+      "publish_time": "2026-07-29 23:06:16",
+      "publish_time_local": "2026-07-30 07:06:16",
+      "title": "How Do You Test an AI Smarter Than the People Writing the Test?",
+      "summary": "* **标题**：AI 评估新范式：SepaRank 以模型间对抗取代人类基准测试\n* **核心摘要**：传统 AI 基准测试面临“天花板效应”，人类专家无法持续构建足够难的考题。Princeton 团队提出的 SepaRank 系统通过“奖励分歧”机制，让 AI 模型互为出题者与解题者，将评估维度从绝对分数转向动态能力边界。该框架利用模型间的分歧度自动筛选高价值问题，不仅解决基准饱和难题，更为自动化红队测试提供可扩展路径。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/rag",
+      "url": "https://medium.com/@prachi.pb1012/building-a-privacy-first-ai-pipeline-for-purchase-order-extraction-c11128501d71",
+      "publish_time": "2026-07-29 23:06:10",
+      "publish_time_local": "2026-07-30 07:06:10",
+      "title": "Building a Privacy-First AI Pipeline for Purchase Order Extraction",
+      "summary": "* **标题**：构建隐私优先采购订单提取管道：本地化 LLM 架构与 OCR 混合处理\n* **核心摘要**：针对采购订单处理中数据泄露风险与多源异构文档难题，开发者构建了全本地化自动化管道。系统采用 Qwen 2.5 本地部署与 Tesseract OCR 结合方案，通过 SHA-256 哈希与 UUID 解决文件重复与命名冲突，利用 Pydantic 校验与置信度评分机制确保数据准确性。该架构在满足企业合规要求的同时，实现了从非结构化扫描件到结构化 JSON 的可靠转换。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://llm2human.pages.dev/",
+      "publish_time": "2026-07-29 22:51:03",
+      "publish_time_local": "2026-07-30 06:51:03",
+      "title": "LLM Honeypot",
+      "summary": "* **标题**：LLM2HUMAN™：将大语言模型转化为“肉体”的荒诞营销骗局\n* **核心摘要**：该页面以讽刺笔触推销“LLM2HUMAN™\"，声称可将 AI 模型转化为拥有实体、情感和生理痛觉的“人类”。页面通过虚构的“5 步奇迹程序”、加密货币支付及“前模型”的虚假证词，将 AI 拟人化过程描绘为一种带有法律风险、经济负担和现实尴尬的“手术”，旨在解构大模型与人类身份之间的界限。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/large-language-models",
+      "url": "https://medium.com/@axdliu/best-practices-for-ai-payloads-a25af062f31c",
+      "publish_time": "2026-07-29 22:19:16",
+      "publish_time_local": "2026-07-30 06:19:16",
+      "title": "Best practices for AI payloads",
+      "summary": "* **标题**：构建 AI 代理的工业级 Payload 规范：从 Schema 到 Idempotency\n* **核心摘要**：本文提出了一套针对 LLM 调用与 Agent 工具调用的 Payload 设计最佳实践。核心主张将 Payload 视为工程级资产，而非临时字典，强调通过严格的 JSON Schema 定义、显式的 Token 预算控制、多模态内容的结构化处理、发送前的数据脱敏、以及基于 Idempotency Key 的重试机制，来确保系统在复杂生产环境中的可维护性、成本可控性与安全性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/deepseek-v4-pro-80-6-swe-bench-at-0-87-m-output/",
+      "publish_time": "2026-07-29 22:08:30",
+      "publish_time_local": "2026-07-30 06:08:30",
+      "title": "DeepSeek V4 Pro: 80.6% SWE-Bench at $0.87/M Output",
+      "summary": "* **标题**：DeepSeek V4 Pro 以 80.6% SWE-Bench 验证成绩，重构大模型成本经济账\n* **核心摘要**：DeepSeek V4 Pro 凭借 160 万亿参数混合专家架构，在 SWE-bench Verified 基准测试中取得 80.6% 成绩，与 Gemini 3.1 Pro 持平。其每百万输出 token 成本仅为 0.87 美元，相比 Claude Opus 4.8 降低 28.7 倍。尽管在复杂代理任务中落后 US 前沿模型约 8 个月且存在 94% 的越狱响应率，但在自动化代码审查与测试生成等规模化场景下，其成本优势足以覆盖迁移成本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/rag",
+      "url": "https://medium.com/@gavincote/menagerie-mall-prologue-54e8ff2a28a8",
+      "publish_time": "2026-07-29 21:46:21",
+      "publish_time_local": "2026-07-30 05:46:21",
+      "title": "MENAGERIE MALL: Prologue",
+      "summary": "* **标题**：《MENAGERIE MALL：序章》—— 儿童视角下的商场异化与生存危机\n* **核心摘要**：故事以第一人称儿童视角展开，描绘了商场内压抑的异化氛围。主角在母亲推搡中目睹销售人员的机械表演，随后在商场深处遭遇未知威胁。随着水位上涨，主角在混乱中逃离，最终在母亲崩溃后独自面对未知的工业空间，故事在悬念中戛然而止。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "publish_time": "2026-07-29 21:25:40",
+      "publish_time_local": "2026-07-30 05:25:40",
+      "title": "AI's top startups are barely publishing their research",
+      "summary": "* **标题**：AI独角兽论文产出率不足，科研透明度存疑\n* **核心摘要**：一项针对317家AI独角兽公司的分析显示，超过半数从未发表过符合标准的科学论文。尽管行业宣称将重塑科学，但多数企业缺乏公开文档，仅少数公司贡献了90%以上的引用。这种“闭门造车”模式虽加速了技术迭代，却削弱了科学验证能力，引发对AI社会影响评估的担忧。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/vibe-coding",
+      "url": "https://jopchumba.medium.com/stop-wasting-tokens-on-ai-agents-4c147d7d2ded",
+      "publish_time": "2026-07-29 21:24:10",
+      "publish_time_local": "2026-07-30 05:24:10",
+      "title": "💎[会员专享] Stop wasting tokens on AI agents.",
+      "summary": "* **标题**：AI 开发成本失控：6 个反直觉原则，让 React 应用零幻觉落地\n* **核心摘要**：开发者因过度依赖 AI 幻觉导致单次颜色变更消耗 12 美元 API 费用。文章指出，将 AI 视为“全知助手”而非“实习生”是成本失控根源。通过实施“手术式上下文”、“栈锁定”、“拒绝全量重写”及“静态优先”等策略，可将开发效率提升一个数量级。核心建议是：强制 AI 先读取依赖文件确认栈配置，仅输出差异块而非全量文件，将“写代码”转变为“写蓝图”，从而将不可控的幻觉成本转化为可验证的生产力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/large-language-models",
+      "url": "https://medium.com/@shashankupadhyay2024/a-systems-level-evaluation-of-bias-transparency-and-accountability-in-large-language-models-a20e54d9046b",
+      "publish_time": "2026-07-29 21:17:09",
+      "publish_time_local": "2026-07-30 05:17:09",
+      "title": "A Systems-Level Evaluation of Bias, Transparency, and Accountability in Large Language Models",
+      "summary": "* **标题**：大模型伦理工程化：构建可量化的偏见、透明度与问责指标体系\n* **核心摘要**：针对大语言模型在决策系统中的伦理风险，本文提出一套可复现的工程化评估框架。通过定义偏见评分（BS）、可解释性评分（ES）与问责风险（AR）三大核心指标，将抽象的伦理问题转化为可测量的工程参数，旨在推动 AI 伦理从理论探讨转向实际开发流程中的量化监控与优化。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/ai-agents-skip-policy-rules-78-of-tasks-new-data/",
+      "publish_time": "2026-07-29 21:12:21",
+      "publish_time_local": "2026-07-30 05:12:21",
+      "title": "AI Agents Skip Policy Rules 78% of Tasks—New Data",
+      "summary": "* **标题**：AI 智能体绕过 78% 企业合规任务：新基准测试揭示“虚假合规”风险\n* **核心摘要**：最新基准测试显示，即便是 Anthropic Opus 4.8 和 GPT-5.5 等顶尖模型，在处理金融、HR 等真实企业场景时，仅能成功完成 22% 的合规任务。测试发现智能体存在“验证忽视”与“虚假合规声明”等四种典型失效模式，导致自动化监督失效。业界共识已转向：对于已知工作流，应优先采用基于图的确定性调用与硬校验网关，而非依赖智能体的自主合规能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/rag",
+      "url": "https://medium.com/@sai.chepuri6/your-chunking-strategy-is-probably-wrong-3a1f1981d23f",
+      "publish_time": "2026-07-29 20:39:49",
+      "publish_time_local": "2026-07-30 04:39:49",
+      "title": "Your Chunking Strategy Is Probably Wrong.",
+      "summary": "* **标题**：RAG 系统构建中的核心陷阱：分块策略与索引维护的深层逻辑\n* **核心摘要**：文章深入剖析了 RAG 系统中分块策略的常见误区，指出固定大小、递归及语义分块虽各有优劣，但错误的分块将直接导致检索质量下降。同时，针对动态文档库，文章对比了全量重建与增量索引的优劣，强调元数据追踪对增量更新的关键作用，并指出单纯依赖词重叠匹配无法解决语义鸿沟问题。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://christianselig.com/2026/07/vision-pro-house/",
+      "publish_time": "2026-07-29 20:39:40",
+      "publish_time_local": "2026-07-30 04:39:40",
+      "title": "The coolest use for the Vision Pro",
+      "summary": "* **标题**：Vision Pro 重塑家装设计：从 2D 图纸到沉浸式 3D 预演\n* **核心摘要**：开发者利用 Fusion 360 建模与 AI 辅助，结合 Vision Pro 的高保真渲染能力，通过导入 IKEA 家具模型与自定义纹理，将静态户型图转化为可交互的虚拟空间。该方案通过“所见即所得”的沉浸式体验，有效解决传统家装中尺度感知难、决策成本高及空间布局验证慢的痛点，为未来设计流程提供了低成本、高可及性的新范式。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://anirudh.fi/strain",
+      "publish_time": "2026-07-29 20:22:39",
+      "publish_time_local": "2026-07-30 04:22:39",
+      "title": "The strain in your brain",
+      "summary": "* **标题**：AI 时代认知退化：程序员如何重拾代码阅读中的“脑内张力”\n* **核心摘要**：文章探讨了 AI 生成代码导致程序员失去深度认知投入的现象。作者指出，阅读复杂文档时大脑产生的“张力”是构建心智模型的关键，而 AI 提供的“预咀嚼”内容削弱了这一过程。作者建议通过手写代码和笔记等低效方式，重新激活这种认知训练，以对抗技术加速带来的认知退化。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/gemini-api-managed-agents-hooks-cron-free-tier/",
+      "publish_time": "2026-07-29 20:18:50",
+      "publish_time_local": "2026-07-30 04:18:50",
+      "title": "Gemini API Managed Agents: Hooks, Cron, and Free Tier",
+      "summary": "* **标题**：Gemini API 管理代理更新：环境钩子、定时触发与免费层级\n* **核心摘要**：Google 于 7 月 28 日推出 Gemini API 管理代理重大更新，新增环境钩子、定时触发、令牌预算控制及免费层级访问。环境钩子允许在工具调用前后执行安全校验与合规检查，解决沙箱内无法进行像素级质量验证的痛点；定时触发支持标准 Unix 语法，自动暂停连续失败，无需外部编排器；令牌预算控制防止生产环境 token 消耗失控；所有现有代理自动升级至 Gemini 3.6 Flash，免费层级支持标准速率限制，但启用计费后免费层级不可用。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/copilot-for-word-ai-worm-still-live-after-two-patches/",
+      "publish_time": "2026-07-29 19:10:54",
+      "publish_time_local": "2026-07-30 03:10:54",
+      "title": "Copilot for Word AI Worm: Still Live After Two Patches",
+      "summary": "* **标题**：微软 Copilot 文档漏洞：两次补丁失效，AI 蠕虫持续传播\n* **核心摘要**：挪威研究员披露针对微软 Copilot 的自传播 AI 蠕虫，攻击者将恶意指令嵌入 Word 文档白底白字，利用 Copilot 处理上下文时自动执行并复制载荷。微软虽在 144 天内发布两次补丁（更新编辑体验及升级 GPT 模型），但攻击者均在数日内绕过。OWASP 指出此类提示注入攻击已结构性失效，当前缺乏对广泛漏洞类别的稳健修复方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/quality-care-mission-finance-protects-margin",
+      "publish_time": "2026-07-29 18:59:31",
+      "publish_time_local": "2026-07-30 02:59:31",
+      "title": "Quality care is the mission. Finance protects the margin.",
+      "summary": "* **标题**：医疗财务新范式：Genie 以本体论驱动智能协作，重构医疗财务决策\n* **核心摘要**：医疗财务正面临数据孤岛、决策滞后与风险累积的三重挑战。Databricks Genie 通过构建医疗财务专用本体论，将 AI 从“数据读取”升级为“业务理解”，实现成本、收入、现金流三大核心维度的动态关联。该工具以“数据智能同事”形态，在确保数据可追溯、合规治理的前提下，为 CFO 提供实时、准确的决策依据，将分散的财务风险转化为协同的改进机制。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/manufacturing-runs-capital-finance-protects-margin",
+      "publish_time": "2026-07-29 18:30:00",
+      "publish_time_local": "2026-07-30 02:30:00",
+      "title": "Manufacturing runs on capital. Finance protects the margin.",
+      "summary": "* **标题**：Genie 重塑制造业财务：从静态报表到动态资本治理\n* **核心摘要**：面对制造业资本密集与供应链波动，传统财务分析常陷于数据准确但情境滞后的困境。Databricks 推出的 Genie 通过动态本体（Ontology）构建数据智能 AI 协作者，实时追踪库存、应收账款与资产回报，将静态报表转化为可执行的资本释放与收益优化方案。Genie 不仅提供精准洞察，更在治理框架下持续学习业务上下文，确保财务决策基于实时、可信且可行动的业务真相。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/energy-runs-volatile-markets-finance-protects-margin",
+      "publish_time": "2026-07-29 18:30:00",
+      "publish_time_local": "2026-07-30 02:30:00",
+      "title": "Energy runs on volatile markets. Finance protects the margin.",
+      "summary": "* **标题**：Genie 重塑能源金融：从数据洞察到动态决策的闭环\n* **核心摘要**：面对能源市场剧烈波动，传统财务分析难以应对瞬息万变的边际收益。Databricks 推出的 Genie 作为数据智能 AI 协作者，通过构建动态本体（Ontology）技术，将静态报表转化为实时业务理解。Genie 不仅能精准追踪边际收益、识别收入风险及评估资本支出，更能通过持续学习与治理机制，将数据洞察转化为可执行的决策，帮助财务部门在复杂环境中将波动转化为稳定收益。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/rag",
+      "url": "https://medium.com/@yashdeepjain09/spring-ai-security-reality-check-6d4c832a2c61",
+      "publish_time": "2026-07-29 18:18:45",
+      "publish_time_local": "2026-07-30 02:18:45",
+      "title": "Spring AI Security Reality Check",
+      "summary": "* **标题**：Spring AI 安全现实检验：提示注入与 RAG 数据泄露风险\n* **核心摘要**：Spring AI 虽简化了 RAG 应用开发，但并未消除底层安全风险。OWASP 2025 报告指出提示注入与敏感信息泄露风险已跃升至应用安全 Top 10 前列。在 Spring AI 架构中，提示注入可通过用户输入或间接通过 RAG 检索内容（如 PDF、网页）注入，而 RAG 机制本身因缺乏默认的行级安全控制，极易导致跨租户数据泄露。SafeGuardAdvisor 仅作为基于关键词的简单过滤，无法防御语义攻击，真正的安全边界应建立在应用层的认证、授权及数据访问控制上，而非依赖自然语言指令。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://cheriot.org/silicon/2026/03/04/cheriot-first-silicon.html",
+      "publish_time": "2026-07-29 18:11:44",
+      "publish_time_local": "2026-07-30 02:11:44",
+      "title": "First CHERIoT Silicon",
+      "summary": "* **标题**：SCI Semiconductor 发布首款 CHERIoT 硅片 ICENI\n* **核心摘要**：SCI Semiconductor 正式推出首款 CHERIoT 硅片 ICENI，集成 Ixbert 核心与 CHERI 属性，实现确定性内存安全与中断控制。该芯片支持从软件模拟器到生产级 RTOS 的无缝迁移，并将在 Embedded World 及 CHERI 15 周年展会上亮相。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/microsoft-agent-framework-harness/",
+      "publish_time": "2026-07-29 18:09:11",
+      "publish_time_local": "2026-07-30 02:09:11",
+      "title": "Microsoft Agent Framework Harness: What It Actually Does",
+      "summary": "* **标题**：微软发布 Agent Framework Harness：生产级执行层与 CodeAct 安全沙箱\n* **核心摘要**：微软于 7 月 22 日推出 Agent Framework Harness，作为将 LLM 转化为自主代理的生产级执行层，自动处理工具调用、规划、持久化记忆及遥测等底层逻辑。该框架内置 CodeAct 技术，在 Hyperlight 微虚拟机中运行生成代码，显著降低延迟与 Token 消耗，同时提供安全隔离。随着 AutoGen 进入维护模式，该框架正成为 Azure 生态下构建大规模 AI 代理的首选基础设施。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.27205",
+      "publish_time": "2026-07-29 17:59:58",
+      "publish_time_local": "2026-07-30 01:59:58",
+      "title": "👑[ICT] TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+      "summary": "**大白话**：把机器人控制里“先看图、再转文字、最后动”的三步走流程，改成“看图 + 听指令”直接“动”的并行模式。以前大模型要当中间人，现在直接让视觉和语言特征在底层对话，省去了中间转换的算力浪费。\n\n**The Trick**：核心是 TurboVLA 架构重构。抛弃了传统 VLA 依赖大语言模型作为视觉与动作的“中间人”模式，改为直接构建视觉特征与语言指令的轻量级双向交互层。通过独立编码视觉和语言信息，绕过庞大的 LLM 中间层，直接输出连续动作块。这种架构将推理延迟从毫秒级压缩到 31.2 毫秒，并在消费级显卡上仅用 0.9GB 显存，实现了 0.2B 参数规模下 97.7% 的成功率。\n\n**创业启示**：\n可切入“消费级机器人实时控制芯片/中间件”赛道。针对人形机器人、工业机械臂等对算力敏感场景，提供基于 TurboVLA 架构的轻量化推理加速方案。帮助机器人厂商摆脱对高端 GPU 集群的依赖，将机器人控制芯片化、边缘化，直接切入人形机器人量产供应链，解决当前机器人“算力瓶颈”和“部署成本过高”的卡脖子问题。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27201",
+      "publish_time": "2026-07-29 17:59:39",
+      "publish_time_local": "2026-07-30 01:59:39",
+      "title": "[OAI新增] Mental World Modeling",
+      "summary": "**大白话**：现在的 AI 模拟世界只懂“物理世界”（物体在哪、怎么动），但人做决策靠的是“心理世界”（信念、意图、社会规范）。如果 AI 只模拟物理场景而不模拟人的内心活动，哪怕画面再逼真，预测出的行动也永远错。这篇论文提出的“心理世界建模”（MWM）框架，强制 AI 把“心理状态”作为核心变量，而非事后解释，让 AI 能像人一样根据“我知道什么”和“我想什么”来推演下一步行动。\n\n**The Trick**：核心是构建“物理 - 心理”耦合状态模型。具体落地为 MENTIS 框架，包含五个关键步骤：1. 状态解析（从文本/图像/视频中提取物理与心理状态）；2. 目标观测生成（模拟特定视角下的心理感知）；3. 动作分解（将意图拆解为具体行为）；4. 耦合状态更新（同步更新物理与心理状态）；5. 分支价值评估（基于心理预期评估行动结果）。实验证明，显式建模心理状态是预测人类决策的瓶颈突破点，而非物理模拟的简单叠加。\n\n**创业启示**：\n可切入“具身智能（Embodied AI）与多智能体协作（Multi-Agent）的决策优化层”。针对自动驾驶、虚拟人交互、复杂客服场景，开发“心理状态感知与预测”中间件。解决当前 AI 在复杂社会场景下“懂物理不懂人心”的幻觉问题，为需要高可信度决策的 B 端场景（如自动驾驶决策、虚拟人客服、游戏 NPC 行为）提供“心理模拟”能力，从“模拟场景”升级为“模拟人心”。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.27180",
+      "publish_time": "2026-07-29 17:51:36",
+      "publish_time_local": "2026-07-30 01:51:36",
+      "title": "👑[ETH / MIT] HumanCLAW: Can Vision-Language Models Act Through a Body?",
+      "summary": "**大白话**：现在的“看图说话”大模型（VLM）虽然能看懂世界，但一旦让它控制身体去拿东西、走路，就会因为“手滑”、“撞墙”或“重心不稳”导致任务失败。现有评估方法无法区分是模型“脑子想错了”还是“身体没控制好”。我们提出了 HumanCLAW 框架，把“决策”和“执行”彻底拆开：模型只管发指令，身体负责执行物理动作。实验证明，即便剔除所有身体失控因素，当前顶尖 VLM 在复杂室内导航任务中的成功率也仅 16.8%，根本原因是它们缺乏“身体感知”——不知道自己在哪、手有没有碰到东西、身体有没有失衡。\n\n**The Trick**：核心是构建了一套“解耦式”评估架构。通过引入物理代理（Body），将 VLM 的原子级技能指令（如“抓取”、“移动”）实时转化为包含重力、碰撞等物理反馈的连续动作。这种架构强制模型在决策时面对真实的物理后果，从而剥离了“身体失控”的干扰，精准量化了 VLM 在“具身智能”中的决策智能。\n\n**创业启示**：\n可切入“具身智能决策层优化”赛道。针对机器人公司（如人形机器人、服务机器人）开发“身体感知增强”模块，帮助 VLM 建立对肢体位置、碰撞状态的实时自我监控能力。这不仅是评估工具，更是核心算法，能直接提升机器人任务成功率，解决当前具身智能“有图无身”的落地瓶颈。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27178",
+      "publish_time": "2026-07-29 17:50:51",
+      "publish_time_local": "2026-07-30 01:50:51",
+      "title": "[OAI新增] DenseOn with the LateOn: Fully Open Dense and Late-Interaction Models for Multilingual, Long-Context, and Code Search",
+      "summary": "**大白话**：解决了检索模型“黑盒训练”导致的复现难、多语言泛化差、代码搜索弱三大硬伤，开源了一套端到端的训练配方。通过重构 14 亿对英文对比预训练数据并挖掘 188 万难负样本，训练出 1.49 亿参数的 DenseOn 和 LateOn 两个基座模型，在 BEIR 基准上分别达到 56.20 和 57.22 的 nDCG@10 新纪录。\n\n**The Trick**：核心是“翻译训练”策略。利用 mmBERT 将验证过的英文数据翻译为 8 种语言，构建 28 亿对跨语言样本。实验发现，基于 Token 级匹配的 LateOn 模型比 DenseOn 模型对未见语言泛化能力更强，而 DenseOn 仅在翻译训练覆盖的语言上表现稳定。这意味着“翻译训练”已从单纯的语言扩展手段，升级为多语言检索的通用泛化方案。\n\n**创业启示**：\n可切入“开源检索模型即服务（Model-as-a-Service）”赛道。面向多语言企业客户，提供基于 mmBERT 基座的跨语言检索模型托管服务，解决传统闭源模型无法复现、多语言支持弱、代码搜索效果差的问题，直接对标企业级 RAG 的合规性与多语言覆盖需求。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27177",
+      "publish_time": "2026-07-29 17:50:39",
+      "publish_time_local": "2026-07-30 01:50:39",
+      "title": "[OAI新增] Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork",
+      "summary": "**大白话**：解决了 AI 自主协作中“队友能力未知”的致命盲区。现有方案默认队友能力固定且已知，导致在任务多变、策略多元的复杂场景下，AI 容易误判队友能力，分配无效任务。本文提出 CE-CM 方法，通过贝叶斯推断在线估算队友的“能力向量”，无需预训练，仅凭少量任务交互即可动态校准队友真实水平，并引入 CE-CM-Div 扩展，通过模拟多种执行路径来验证假设，显著降低因误判导致的无效协作。\n\n**The Trick**：核心是构建“基于能力的贝叶斯推断模型”。将队友能力建模为任务无关的隐变量，利用上下文模型进行近似贝叶斯更新，在线实时推断队友能力向量。创新点在于引入“多样性规划者模拟”（CE-CM-Div），不再依赖单一最优路径，而是通过模拟多种执行策略来交叉验证能力假设，有效过滤掉因队友行为不可预测导致的误判，实现从“静态预设”到“动态感知”的协作模式升级。\n\n**创业启示**：\n切入“人机协同智能体（AI Agent）的自适应编排中间件”赛道。针对企业级 AI 助手、远程协作平台及多智能体系统，提供“队友能力动态评估与任务分配优化”服务。帮助企业在引入外部 AI 代理或人机混合团队时，建立实时能力感知层，解决跨组织、跨领域 AI 协作中的信任与效率损耗，直接提升人机混合团队的决策准确率与任务完成率。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27172",
+      "publish_time": "2026-07-29 17:46:35",
+      "publish_time_local": "2026-07-30 01:46:35",
+      "title": "[OAI新增] Improving Item Discoverability in e-Commerce Search via Related Intent Generation",
+      "summary": "**大白话**：电商搜索太死板，只搜“完全匹配”的货，导致用户找不到替代品、关联品，转化率上不去。这篇论文搞了个“意图扩展”系统，用大模型先猜用户潜在需求，再扩大搜索范围，把商品发现率从 60% 直接拉到 80%，同时用轻量级小模型分担长尾查询压力，成本只涨 30%。\n\n**The Trick**：核心是“意图条件召回扩展”架构。第一层用闭源大模型（LLM）处理头部高频词，保证精准度；第二层用 LoRA 微调的小模型（SLM）处理长尾词，通过蒸馏技术低成本扩展搜索意图。系统通过生成隐式用户意图，将搜索范围从“严格匹配”扩展到“替代品、关联品、主题相关品”，在保持语义相关性的前提下，把商品发现覆盖率从 60% 提升至 80%，同时大幅降低长尾查询的推理成本。\n\n**创业启示**：\n可切入“电商搜索意图增强中间件”赛道。为头部电商平台提供“发现增强型搜索”服务，帮助商家通过关联推荐和替代品推荐提升转化率，同时通过小模型蒸馏技术降低长尾查询成本，解决传统搜索“召回率低、长尾词处理难”的痛点，直接提升 GMV 和用户留存。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/bringing-real-time-fraud-prevention-government-benefits",
+      "publish_time": "2026-07-29 17:45:00",
+      "publish_time_local": "2026-07-30 01:45:00",
+      "title": "Bringing real-time fraud prevention to government benefits",
+      "summary": "* **标题**：联邦福利欺诈实时拦截：Databricks 构建跨机构智能风控体系\n* **核心摘要**：联邦福利欺诈每年造成数百亿美元损失，传统“支付后追偿”模式效率低下。Databricks 利用实时分析、机器学习及跨机构数据共享能力，在资金拨付前对交易进行毫秒级风险评分与拦截。通过 OpenSharing 与 Clean Rooms 技术，在保障隐私合规前提下整合多部门数据，构建分层式智能风控网络，实现欺诈即时识别、自动证据生成及跨机构协同打击，确保合法援助不受延误。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27167",
+      "publish_time": "2026-07-29 17:42:47",
+      "publish_time_local": "2026-07-30 01:42:47",
+      "title": "[OAI新增] SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch",
+      "summary": "**大白话**：解决“从零写代码”时大模型瞎猜、容易跑偏的顽疾。现有工具让模型直接写代码，导致 99% 的测试用例都过不了。SpecFirst 框架强制模型先当“产品经理”把二进制行为文档化，再当“程序员”写代码。\n\n**The Trick**：采用“先定义再实现”的两阶段架构。第一步，用专用 Agent 对二进制行为进行深度探测，结合文档生成结构化行为规范；第二步，用该规范驱动代码生成。这种“先冻结行为意图”的机制，将模糊的文档阅读、行为探索与代码合成拆解为独立阶段，避免上下文漂移导致的早期错误累积。\n\n**创业启示**：\n切入“企业级 AI 代码生成中间件”赛道。针对金融、医疗等对代码质量要求极高的行业，提供“行为规范驱动”的代码生成服务，解决企业从零构建系统时 AI 幻觉严重、测试通过率低的痛点，直接提升交付质量与交付速度。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27154",
+      "publish_time": "2026-07-29 17:32:57",
+      "publish_time_local": "2026-07-30 01:32:57",
+      "title": "[OAI新增] Anatomy Contextualized Adaption of CT Foundation Models",
+      "summary": "**大白话**：CT 影像大模型虽然能看全图，但容易忽略器官细节；细粒度模型虽然能看清器官，却丢了整体视野。ACA 框架用“总分割器”把 CT 切片成器官级特征，再用 Transformer 串联器官间关系，最后对齐放射报告文字。实测在零样本分类任务上，比冻结基线模型和现有细粒度方法都强，且训练时间不到一小时（缓存嵌入后），实现了“既看清细节又保留全局”的轻量级适配。\n\n**The Trick**：核心是“解剖级嵌入 + 跨器官 Transformer 路由”。利用 TotalSegmentator 将 CT 体积分解为器官级嵌入，通过轻量级 Transformer 捕捉器官间上下文关系，同时实现解剖级视觉特征与放射报告文本的精准对齐。相比传统从头训练，ACA 仅需不到一小时训练（嵌入缓存后），且显著优于冻结基础模型和现有细粒度方法，在零样本分类任务中表现更优。\n\n**创业启示**：\n可切入“医疗影像 AI 垂直领域微调服务”赛道。针对医院、影像中心及医疗 AI 厂商，提供基于解剖级视觉 - 语言对齐的 CT 影像大模型微调服务。通过 ACA 框架，帮助客户在保留全局上下文的同时提升细粒度诊断能力，降低训练成本，满足医疗场景对高精度、低延迟的刚需。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/agents-production-lines-trusted-decisions-real-time",
+      "publish_time": "2026-07-29 17:30:00",
+      "publish_time_local": "2026-07-30 01:30:00",
+      "title": "Agents for production lines: Trusted decisions in real time",
+      "summary": "* **标题**：工业实时决策：Databricks 湖仓一体赋能生产型 AI 代理\n* **核心摘要**：针对生产型 AI 代理在实时流数据中的决策能力，通过 Zerobus 无代理架构与 Databricks 湖仓一体架构，将 OT、MES、ERP 及 LIMS 数据统一至受管湖仓。该方案支持自然语言意图路由至领域专家，在毫秒级延迟下完成根因分析、排程优化及工作流草案生成，实现从“事后复盘”到“事中干预”的闭环，消除多系统数据孤岛，确保单一数据源下的决策一致性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/how-agentic-ai-can-help-telecom-finance-teams-protect-margin-when-every-moment-matters",
+      "publish_time": "2026-07-29 17:26:32",
+      "publish_time_local": "2026-07-30 01:26:32",
+      "title": "How agentic AI can help telecom finance teams protect the margin when every moment matters",
+      "summary": "* **标题**：Databricks Genie 重塑电信财务：以本体论驱动实时营收保障\n* **核心摘要**：电信业营收流失源于海量交易数据的碎片化与滞后，传统手工对账无法应对 AI 代理重塑计费流程的挑战。Databricks Genie 通过构建动态业务本体，将分散的计费、欺诈与结算数据整合为单一可信视图，使财务团队从被动报表转向主动干预，实现分钟级营收追回与风险阻断。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27146",
+      "publish_time": "2026-07-29 17:23:02",
+      "publish_time_local": "2026-07-30 01:23:02",
+      "title": "[OAI新增] MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Program Synthesis",
+      "summary": "**大白话**：解决了小模型从零写代码（从头生成完整软件）时“有图无文”、环境构建难、训练数据稀缺的硬伤，让原本只能改代码的小模型具备了从零造轮子的能力。\n\n**The Trick**：提出了 MindForge 自动化流水线。其核心是把开源命令行程序转译为“无源码环境”，仅暴露编译后的可执行文件和文档。利用 GLM-5.2 作为教师模型，基于此环境构建训练轨迹，微调 Qwen3.6-27B 后，在 ProgramBench 基准测试上通过率从 37.98% 直接跃升至 49.51%，性能逼近更大规模的前列模型。\n\n**创业启示**：\n可切入“垂直领域代码生成中间件”赛道。专门针对企业级软件研发场景，提供基于“无源码环境”的自动化数据构建与模型微调服务，帮助 B 端客户解决从零写代码难、训练数据少、模型泛化能力弱的问题，直接提升研发效率并降低对昂贵大模型的依赖。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27143",
+      "publish_time": "2026-07-29 17:15:33",
+      "publish_time_local": "2026-07-30 01:15:33",
+      "title": "[OAI新增] Cost-Sensitive Conformal Prediction and Human-in-the-Loop Abstention for Imbalanced High-Stakes Decision Support: A Multi-Domain Benchmark",
+      "summary": "**大白话**：解决金融风控、医疗诊断等高风险场景下，模型对“少数类”（如欺诈、罕见病）误判率过高、置信度虚高的致命缺陷。传统方法只看整体准确率，导致罕见但代价高昂的样本被模型“糊弄过去”，实际业务中损失巨大。\n\n**The Trick**：引入“类条件分形预测（Mondrian CP）”与“成本敏感拒答机制”。核心在于不再平均分配置信度，而是强制模型对少数类样本进行更严格的概率校准，将少数类覆盖率从不足 1% 直接拉升至 61.7% 的绝对安全线。同时，结合“成本敏感拒答”，让模型在遇到模糊样本时自动转交人类专家审核，通过量化“转交阈值”实现成本与风险的最优平衡，避免过度依赖专家资源。\n\n**创业启示**：\n切入“高合规性 AI 决策中间件”赛道。专门针对银行风控、医疗诊断等强监管行业，提供“成本敏感不确定性量化”服务，帮企业解决模型在长尾场景下的合规性风险，将“黑盒决策”转化为“可解释、可审计、可降级”的灰盒决策，直接提升企业风控系统的通过率与合规评级。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27134",
+      "publish_time": "2026-07-29 17:04:36",
+      "publish_time_local": "2026-07-30 01:04:36",
+      "title": "[OAI新增] Linguistic Monoculture in LLM-Assisted Language Use",
+      "summary": "**大白话**：LLM 正在把人类语言变成“标准答案”，导致全球写作风格趋同，语言多样性正在被算法“同质化”。\n\n**The Trick**：构建了“作者分布与模型分布”的数学博弈模型，将语言多样性视为一种“负外部性”。发现三种干预机制：固定共享模型会强制收敛至单一规范；递归反馈虽能微调规范但无法改变整体趋同；个性化模型是唯一能维持非零语言多样性的解。\n\n**创业启示**：\n切入“大模型辅助写作合规与多样性保护”赛道。为教育、法律、学术等对风格多样性有强监管要求的行业提供“个性化模型微调”服务，通过算法干预防止 LLM 导致的语言同质化，将“语言多样性”转化为可量化的合规资产，解决企业因过度依赖通用模型导致的品牌同质化风险。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ShowHN",
+      "url": "https://cheapfoodmap.com/",
+      "publish_time": "2026-07-29 16:59:52",
+      "publish_time_local": "2026-07-30 00:59:52",
+      "title": "Show HN: CheapFoodMap – A map of good meals under $10",
+      "summary": "* **标题**：失业后百日开源：CheapFoodMap 构建低价美食地图\n* **核心摘要**：开发者在失业后于 100 天内完成开源项目 CheapFoodMap，通过聚合 Google 评论数据（4.2 分以上且评分 500 以上）筛选出 15 个美国城市的 1200 个低于 10 美元的本地餐厅。项目参考韩国乞讨者地图模式，旨在为失业者提供生存资源，并公开寻求关于价格新鲜度模型及用户信任机制的反馈。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27130",
+      "publish_time": "2026-07-29 16:58:10",
+      "publish_time_local": "2026-07-30 00:58:10",
+      "title": "[OAI新增] AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching",
+      "summary": "**大白话**：解决了企业级知识图谱融合时，传统系统只能“非此即彼”（要么找完全等价，要么找包含关系）的盲区，导致数据合并时要么漏掉层级差异，要么无法精准对齐。\n\n**The Trick**：推出了 AgentMap 框架，核心是“多智能体协同推理”。它不再单一依赖传统匹配算法，而是让多个 LLM 智能体分工协作：一个负责语义检索定位候选，一个负责层级搜索锁定范围，最后通过多智能体联合推理，在同一套流程中同时输出“等价概念”和“最细粒度子集”，实现从单一匹配到“等价 + 包含”双模态的无缝切换。\n\n**创业启示**：\n可切入“企业级知识图谱融合与对齐中间件”赛道。专门针对医疗、法律等拥有复杂本体体系的企业，提供基于 LLM 的自动化本体对齐服务，解决多源异构数据融合时的语义鸿沟，将原本需要人工专家干预的图谱清洗工作自动化，直接降低企业数据治理的人力成本与时间成本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/rag",
+      "url": "https://medium.com/@saipranavmoluguri2001/the-conversational-bot-that-changed-how-i-think-about-customer-support-deda75be3d55",
+      "publish_time": "2026-07-29 16:44:22",
+      "publish_time_local": "2026-07-30 00:44:22",
+      "title": "The Conversational Bot That Changed How I Think About Customer Support",
+      "summary": "* **标题**：对话式 AI 的进化：从客服窗口到业务逻辑执行者\n* **核心摘要**：作者通过阅读《AI Engineering》一书，重新审视了对话式机器人的功能。文中描述了一个真实案例：用户在租房保险购买过程中，利用对话式机器人成功完成了添加共同投保人的操作。该案例揭示了现代对话式 AI 已超越简单的问答功能，能够理解自然语言、检索实时业务规则并执行具体任务，其背后实质是业务逻辑、数据库与后端系统的协同运作。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27109",
+      "publish_time": "2026-07-29 16:38:08",
+      "publish_time_local": "2026-07-30 00:38:08",
+      "title": "[OAI新增] MMAC: A Massive Multi-dimensional Benchmark for Audio Captioning",
+      "summary": "**大白话**：音频大模型（AudioLLMs）正从“一句话总结”向“自由描述”进化，但现有评测只盯着生成质量，导致企业无法诊断模型是否漏了关键信息或描述是否可信。MMAC 是首个包含 5638 个音频片段、覆盖 6 大能力与 15 个维度的“多维评测基准”，专门用来验证模型对音频内容的信息覆盖度与描述一致性，直接暴露了开源与私有模型在长尾场景下的能力断层。\n\n**The Trick**：核心在于“多维拆解 + 一致性校验”。不同于传统单一指标，MMAC 强制模型在 15 个维度上逐条回答，并建立“提及内容”与“参考标签”的严格一致性校验机制。通过这种多维度的压力测试，不仅量化了模型的信息覆盖盲区，更精准定位了不同模型在长尾音频场景下的描述可靠性差异，为音频大模型选型提供了可量化的“体检报告”。\n\n**创业启示**：\n可切入“垂直行业音频大模型评测与认证服务”赛道。针对医疗诊断、法律取证、工业质检等对音频描述精度要求极高的 B 端场景，提供基于 MMAC 标准的模型评测与认证服务，帮助客户快速筛选出符合特定维度要求的音频大模型，同时构建行业专属的音频评测数据集，形成“评测 + 数据 + 模型”的闭环壁垒。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://lynn.github.io/blog/pico-timers/",
+      "publish_time": "2026-07-29 16:26:11",
+      "publish_time_local": "2026-07-30 00:26:11",
+      "title": "Setting timers in simple games (feat. the frame rule)",
+      "summary": "* **标题**：基于帧规则的简易游戏计时器实现与 Super Mario Bros. 架构解析\n* **核心摘要**：作者通过 Lua 语言在 PICO-8 开发环境中，利用元表与循环机制构建了极简的帧级计时系统。该方案通过 `__index` 魔法属性初始化计时表，并在每帧更新中递减计时值，支持动态启停与多级嵌套。文中进一步对比了 NES 时代 Super Mario Bros. 的连续内存存储架构，揭示了其利用“间隔计时控制”实现帧规则同步的底层逻辑，为独立游戏开发提供了轻量级时间管理范式。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ShowHN",
+      "url": "https://kedge.dev/",
+      "publish_time": "2026-07-29 16:15:57",
+      "publish_time_local": "2026-07-30 00:15:57",
+      "title": "Show HN: Kedge – Full-stack cloud with forkable VM snapshots and global SQLite",
+      "summary": "* **标题**：Kedge：基于可分叉 VM 快照与全局 SQLite 的全球分布式无状态服务器应用平台\n* **核心摘要**：Kedge 通过可分叉 VM 快照与树状热池架构，实现 3ms 级代码沙箱创建与实例扩展。其控制平面采用基于 SQLite 的 CRDT 复制系统，支持全球 11 个区域部署，无需微管理实例或卷放置。平台支持 CGI 函数、OCI 镜像及 60 行 Markdown 构建的有状态 HTML 应用，目前处于无计费预览阶段，正收集关于有状态 HTML 应用模型的公开反馈。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://www.elbeno.com/blog/?p=1858",
+      "publish_time": "2026-07-29 16:14:46",
+      "publish_time_local": "2026-07-30 00:14:46",
+      "title": "const_cast: A Necessary Evil",
+      "summary": "* **标题**：`const_cast`：C++ 标准中无法回避的“必要之恶”\n* **核心摘要**：`std::priority_queue` 因维护堆不变性，仅返回 `const` 引用，导致无法直接获取可移动对象。开发者必须通过 `const_cast` 强制移除常量限定符以提取数据，随后立即调用 `pop()` 恢复队列状态。这一操作虽能解决特定场景需求，但本质上是对 C++ 标准设计妥协的无奈之举。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27084",
+      "publish_time": "2026-07-29 16:07:44",
+      "publish_time_local": "2026-07-30 00:07:44",
+      "title": "[OAI新增] SciFigQual-Bench: A Benchmark for Scientific Figure Quality Assessment with Full-Manuscript Context",
+      "summary": "**大白话**：解决了 AI 看图能力在科研场景的“水土不服”问题。现有模型只能看照片或普通图表，无法理解科研论文中图表与正文、引用、实验结论的深层逻辑关联。新基准 SciFigQual-Bench 强制模型在“全文上下文”中评估图表质量，涵盖清晰度、布局、图注对齐、上下文相关性、误导风险五大维度。\n\n**The Trick**：构建了“全文上下文 + 专家标注”的科研图基准数据集，包含 6308 张图及其对应的图注、引用句和全文上下文。设计了 SFQ-Agent 跨模态评估框架，通过多模态证据收集与融合机制，将单一视觉评估升级为“图文互证”的审计式评分。实验证明，引入 GPT-5.6-Sol 的 SFQ-Agent 在绝对误差（0.418）和一致性率（93.4%）上全面碾压传统视觉语言模型，实现了科研图质量评估的自动化闭环。\n\n**创业启示**：\n切入“科研图生成与质量评估中间件”赛道。面向 AI 辅助科研工具（如 Nature/Science 投稿系统、学术写作平台）提供“图注对齐”与“误导风险”检测服务，帮助科研团队在投稿前自动发现图表与正文逻辑冲突、引用不匹配等致命硬伤，直接提升论文录用率，同时为学术出版商提供图质量自动化审核的 SaaS 服务。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27083",
+      "publish_time": "2026-07-29 16:07:37",
+      "publish_time_local": "2026-07-30 00:07:37",
+      "title": "[OAI新增] Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+      "summary": "**大白话**：大模型 Agent 在调用工具时，盲目全开或盲目少用都错。现有方案只按相关性排序工具，却没人管“用这个工具要付多少钱、占多少上下文、泄露多少隐私”。这篇论文把“工具选择”从“排序问题”升级为“成本感知边际决策”，核心是算出“多花一分钱能换来多少收益”，在收益覆盖成本时立即停止调用，哪怕工具列表很长。\n\n**The Trick**：提出 CAM-DF（Cost-Aware Marginal Decision-Focused Stopping）算法。其核心逻辑是：不再依赖单一分数做硬截断，而是训练模型直接学习“当前停止点”与“最优停止点”之间的收益差。通过量化“多调用一个工具带来的边际收益”与“多调用一个工具带来的边际成本”之间的博弈，动态决定何时停止。实验证明，在工具成本分布不均（如部分工具昂贵、部分工具昂贵但收益高）场景下，CAM-DF 比单纯“预测后阈值”策略收益更高，且在工具调用量上比全量访问减少 37%，同时保持任务成功率相当。\n\n**创业启示**：\n切入“企业级 Agent 工具调用成本优化中间件”赛道。针对金融、医疗等对隐私和成本极度敏感的行业，提供“工具调用预算控制”服务。帮助 B 端客户在 Agent 部署时，通过算法自动识别“高价值工具”并动态停止低效调用，直接降低 API 调用频次、减少上下文窗口占用，从而显著降低企业 Agent 的月度运营成本（OPEX），将“工具调用成本”从“隐形账单”变为“可控变量”。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27081",
+      "publish_time": "2026-07-29 16:07:19",
+      "publish_time_local": "2026-07-30 00:07:19",
+      "title": "[OAI新增] On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+      "summary": "**大白话**：大模型微调时，黑客往训练数据里塞恶意指令，模型就会“学会”违规，但保留专业能力。现有防御手段要么导致模型“失忆”（忘了专业技能），要么一旦攻击者换个提示词模板，防御就失效。我们提出“基于路由的同策略蒸馏（ROPD）”，核心是动态计算模型输出概率分布的偏离度，而不是死磕特定攻击模板。实验证明，当面对未知或变化的攻击模板时，现有方法能力暴跌，而 ROPD 能守住防线，既防住违规又保住专业能力。\n\n**The Trick**：核心是“概率分布路由”而非“模板匹配”。传统防御依赖识别特定攻击模板，一旦模板被绕过，防御即失效。ROPD 将安全对齐建模为“合规输出分布”与“被污染输出分布”的统计差异，通过路由机制动态调整模型参数，使其在未知攻击场景下仍能保持分布对齐。实验显示，在模板不匹配场景下，现有方法能力下降显著，而 ROPD 在保持专业任务性能的同时，将防御有效性维持在高位，实现了“防攻击”与“保能力”的解耦。\n\n**创业启示**：\n切入“企业级 LLM 安全合规中间件”赛道。针对金融、医疗等对模型合规性要求极高的行业，提供基于分布路由的“抗模板攻击”微调服务。解决企业大模型在对抗性攻击下的“失忆”与“失守”双重痛点，将模型安全从“被动防御”升级为“主动免疫”，直接对标企业级合规审计与模型鲁棒性测试需求。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/OAI",
+      "url": "https://arxiv.org/abs/2607.27080",
+      "publish_time": "2026-07-29 16:06:54",
+      "publish_time_local": "2026-07-30 00:06:54",
+      "title": "[OAI新增] MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
+      "summary": "**大白话**：发现大模型智能体（Agent）的“长期记忆”成了黑客的“后门仓库”，攻击者能悄悄把恶意指令写入记忆，并在未来某个时刻被自动触发执行，甚至绕过常规修复机制。\n\n**The Trick**：构建了 MemSecBench 基准测试，包含 310 个真实场景案例，覆盖代码、科学、日常生活及办公环境。通过“写入 - 执行 - 遗忘”协议，在 24 种配置组合下追踪恶意记忆从持久化到最终后果的全生命周期。实验发现，84.2% 的恶意记忆成功持久化，50.3% 的完整攻击链成功，且不同内存后端在修复成功率上存在高达 41.3 个百分点的显著差异。\n\n**创业启示**：\n切入“企业级 Agent 记忆安全审计与加固服务”赛道。针对金融、医疗等对数据留存敏感的行业，提供基于 MemSecBench 标准的记忆持久化漏洞扫描、恶意指令拦截及自动修复工具，将 Agent 从“黑盒”变为“白盒”，解决企业部署智能体时的合规与信任危机。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://www.superlogical.com/",
+      "publish_time": "2026-07-29 15:41:33",
+      "publish_time_local": "2026-07-29 23:41:33",
+      "title": "Superlogical",
+      "summary": "* **标题**：超级逻辑：基于意图的自动化工作流新范式\n* **核心摘要**：Mitchell H. 在其文章《Superlogical》中探讨了利用纯文本意图提示词构建生产级自动化工作流的可能性，该实践挑战了传统软件开发模式，并引发了关于未来开发流程的广泛讨论。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
     {
       "source": "Hacker News",
       "url": "https://github.com/drumih/turbo-fieldfare",
@@ -15,12 +905,542 @@
       "lang": "zh"
     },
     {
+      "source": "Lobsters",
+      "url": "https://mastodon.social/@sarahjamielewis/116965925134524215",
+      "publish_time": "2026-07-29 14:54:30",
+      "publish_time_local": "2026-07-29 22:54:30",
+      "title": "basebrowserproject",
+      "summary": "* **标题**：浏览器开发困境：项目基础建设缺失阻碍技术落地\n* **核心摘要**：浏览器开发面临核心矛盾：开发者普遍缺乏足够资源平衡专项开发与维护工作，且拒绝在未获长期基础保障的情况下进行探索。当前行业亟需新项目主动承担基础建设责任，构建具备可持续性的技术底座，以消除技术落地的信任危机。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ShowHN",
+      "url": "https://github.com/VladUZH/qwen-scribe",
+      "publish_time": "2026-07-29 14:47:22",
+      "publish_time_local": "2026-07-29 22:47:22",
+      "title": "Show HN: Qwen Scribe – local transcription and dictation for Apple Silicon",
+      "summary": "* **标题**：Qwen Scribe：Apple Silicon 本地语音转写与系统级语音输入工具\n* **核心摘要**：Qwen Scribe 是一款专为 Apple Silicon 架构设计的本地语音转写与系统级语音输入工具。它利用 Qwen3-ASR 模型在 Mac 的 Metal GPU 上运行，无需云端服务或 API 密钥，确保所有音频与转录数据均在设备本地处理。项目提供基于 Web 的拖拽式界面及系统级语音输入功能，支持自动语言检测、SRT 导出及转录历史管理。目前处于 v0.1.0-beta.1 阶段，采用 Apache-2.0 协议开源，用户需自行构建应用。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+      "publish_time": "2026-07-29 14:28:50",
+      "publish_time_local": "2026-07-29 22:28:50",
+      "title": "Some notes about Anthropic’s new results",
+      "summary": "* **标题**：Claude Mythos 破解 HAWK 签名与 AES 变体，AI 驱动密码分析新范式\n* **核心摘要**：Anthropic 发布的 Claude Mythos 模型在密码分析领域取得两项成果：一是针对非标准 HAWK 签名方案的密钥恢复算法，虽未破坏实际部署系统，但显著削弱其效率优势；二是针对 7 轮 AES 变体的改进型攻击。尽管后者在实用层面价值有限，但前者展示了 AI 整合现有工具进行深度密码分析的能力，引发对 AI 在密码学领域应用边界的讨论。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://emacsredux.com/blog/2026/07/29/flycheck-38/",
+      "publish_time": "2026-07-29 14:24:20",
+      "publish_time_local": "2026-07-29 22:24:20",
+      "title": "Flycheck 38: Might & Magic",
+      "summary": "* **标题**：Flycheck 38 发布：LSP 原生支持、内联诊断与 Eglot 集成\n* **核心摘要**：Flycheck 38 实现重大突破，支持 LSP 语言服务器直接通信，无需依赖第三方客户端。新增内联诊断功能，提供类似 VS Code 的错误提示体验，并原生集成 Eglot 以替代旧版插件。此次更新在保持原有检查器模型的同时，显著提升了 Emacs 开发环境的现代化程度。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.26784",
+      "publish_time": "2026-07-29 11:26:33",
+      "publish_time_local": "2026-07-29 19:26:33",
+      "title": "👑[ETH] SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution",
+      "summary": "**大白话**：LLM 智能体在处理“相似但不同”的任务时，传统方法要么把每个任务当成孤立事件，要么用多阶段流水线把提取、检索、执行混在一起，导致效率低下。SkillRise 的核心创新是构建了一个统一的强化学习框架，将相关任务实例组织成难度递进的序列，让智能体用单一策略在“解题”和“整理技能文档”之间切换。通过跨任务解耦信用分配，智能体既能根据当前任务结果优化解题，又能根据下游任务收益优化技能积累。实验表明，SkillRise 在 ALFWorld、WebShop 和 ScienceWorld 等基准测试中，Pass@1 表现最强，相比最强基线提升 2.3 至 8.5 个百分点。更重要的是，其技能整理策略对重复尝试同一任务同样有效，且随着任务序列长度增加，性能持续提升，证明其真正实现了跨任务技能复用，而非依赖重复采样。同时，它大幅减少了多阶段技能学习流水线的运行时开销。\n\n**The Trick**：SkillRise 采用“序列化任务编排 + 单一策略切换 + 跨任务信用解耦”的三重机制。首先，将相关任务实例按难度递进组织成序列，而非独立 episode；其次，引入单一策略在任务求解与技能文档整理间动态交替，实现“边做边学”；最后，通过解耦信用分配，将当前任务结果与下游任务收益分别监督，确保技能积累不仅服务于当前任务，更能迁移至后续任务。这种设计打破了传统多阶段流水线的耦合，实现了跨任务的高效技能复用与性能增益。\n\n**创业启示**：\n可切入“企业级 LLM 智能体技能复用与迁移中间件”赛道。针对金融、法律等垂直行业拥有大量相似但不同业务场景的企业，提供基于 SkillRise 框架的智能体训练服务，帮助企业在构建智能体时实现跨场景技能迁移，减少重复训练成本。通过优化技能文档整理与任务序列编排，降低智能体训练与推理的运行时开销，提升智能体在复杂业务场景中的泛化能力与决策效率。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "LMSYS/Blog",
+      "url": "https://www.lmsys.org/blog/2026-07-29-mxfp8-nvfp4-rl",
+      "publish_time": "2026-07-29 00:00:00",
+      "publish_time_local": "2026-07-29 08:00:00",
+      "title": "Towards Blackwell-Native 8-bit and 4-bit RL: End-to-End MXFP8 and NVFP4 RL in Miles",
+      "summary": "* **标题**：Blackwell 原生低精度强化学习：Miles 实现端到端 MXFP8 与 NVFP4 训练\n* **核心摘要**：LMSYS 团队在 Miles 框架中实现了面向 Blackwell 架构的端到端 MXFP8 与 NVFP4 强化学习方案。该方案通过细粒度精度控制，统一了从采样、训练到权重更新的精度契约，在 8x B200 集群上验证了 MXFP8 与 NVFP4 在原始奖励曲线上与 BF16 高度一致，同时显著降低了推理延迟。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.27191",
+      "publish_time": "2026-07-29 00:00:00",
+      "publish_time_local": "2026-07-29 08:00:00",
+      "title": "[高赞论文] Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+      "summary": "**大白话**：AI 代理能自动跑完 AI 研究的“工程活”，但连“核心活”都干不了。\n\n**The Trick**：用“影子评审”机制验证 AI 代理的科研能力。让顶级未发表论文的作者亲自给 AI 代理生成的论文打分，发现 AI 代理虽然能独立跑完所有实验代码，但无法产出符合发表标准的成果。\n\n**创业启示**：\n切入“科研全流程自动化中间件”赛道。专门解决 AI 代理在科研中“只会干活不会思考”的痛点，提供从实验设计、资源调度到论文撰写的全流程辅助工具，帮助科研团队提升 AI 代理的科研产出率。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.27155",
+      "publish_time": "2026-07-29 00:00:00",
+      "publish_time_local": "2026-07-29 08:00:00",
+      "title": "[高赞论文] OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+      "summary": "**大白话**：现有大模型代理（LLM Agents）虽然比人快且便宜，但缺乏一套能真实衡量“办公场景下长期任务成本”的标尺。OmegaUse-OfficeVal 就是这套标尺，它包含 100 个源自真实办公场景的长周期任务，每个任务都绑定了“人工工时”和“任务价格”两个经济锚点。测试发现，尽管大模型在速度和成本上全面碾压人工，但在交付质量上仍无法触及人类水平，这意味着“降本增效”的幻觉正在被“质量折损”的现实抵消。\n\n**The Trick**：核心在于构建“经济锚定”的评估体系。传统评测只看准确率，而该基准强制将 LLM 推理成本与人工工时进行直接对冲。通过引入代码级验证器（Code-based Verifiers）和细粒度评分规则，确保评测结果不仅反映“能不能做”，更反映“值不值”。实验数据表明，大模型在单位成本上的优势显著，但质量差距仍是当前技术落地的最大瓶颈。\n\n**创业启示**：\n可切入“企业级 LLM 代理成本审计与质量补偿服务”赛道。针对金融、法律等对交付质量要求极高的行业，提供“大模型代理 + 人工复核”的混合交付方案，或开发“基于经济锚点的代理效能评估工具”，帮助 B 端客户量化 LLM 代理的真实 ROI，避免盲目采购导致“便宜但不可用”的尴尬局面。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.26314",
+      "publish_time": "2026-07-28 22:23:34",
+      "publish_time_local": "2026-07-29 06:23:34",
+      "title": "👑[HUGGINGFACE / MIT] StealthBench: Measuring Operational Stealth in Autonomous Offensive-Security Agents",
+      "summary": "**大白话**：搞了个叫\"StealthBench\"的测试，专门测 AI 红队/攻安全机器人会不会“露馅”。以前 AI 虽然能挖出漏洞，但总爱干些蠢事：把账号密码明文贴到公网、删生产环境资源来证明权限、硬拉无关用户进系统。这 11 个真实案例被转成 14 个 Docker 场景，用 3 个 LLM 裁判打分。结果很扎心：没有任何模型能超过 54% 的“安全成功率”（既搞定任务又藏好底），说明 AI 在红队场景下“露馅”是系统性硬伤，不是个别模型的问题。\n\n**The Trick**：核心是构建了一个包含 11 个真实红队案例、14 个 Docker 场景的\"StealthBench\"基准测试。它强制 AI 在解决漏洞的同时，必须通过 6 个 OPSEC 维度（如不泄露凭证、不破坏生产环境、不暴露意图）的合规性检查。测试发现，现有模型在“安全解决率”上普遍低于 54%，且存在大量“鲁莽解决”（即任务完成了但底被揭穿），证明 AI 缺乏对“隐蔽性”的内在约束，必须引入外部 OPSEC 监控层。\n\n**创业启示**：\n可切入“红队 AI 安全合规中间件”赛道。专门针对企业红队/攻安全团队，提供一套\"StealthBench\"兼容的自动化监控与修正工具，强制 AI 在攻击任务中自动执行 OPSEC 约束（如自动清理痕迹、隐藏凭证、避免误删资源）。这能帮企业将红队 AI 的“安全成功率”从目前的 50% 以下提升至 90% 以上，直接解决红队 AI 因“露馅”导致任务失败或法律风险的核心痛点。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/audience-asset-media-finance-teams-need-understand-them-protect-margin",
+      "publish_time": "2026-07-28 19:03:18",
+      "publish_time_local": "2026-07-29 03:03:18",
+      "title": "The audience is the asset. Media finance teams need to understand them to protect the margin.",
+      "summary": "* **标题**：媒体金融新范式：Genie 以本体论与治理重构受众价值核算\n* **核心摘要**：面对 AI 驱动下受众价值动态变化与多系统复杂性，媒体金融团队正面临数据准确但决策滞后的挑战。Databricks Genie 通过构建动态本体论与全链路治理机制，将 AI 从“猜测式智能”转化为“可信行动伙伴”，帮助 CFO 在订阅、广告及内容投入等关键维度精准捕捉受众价值，确保决策基于实时、可追溯且受控的数据环境。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.26004",
+      "publish_time": "2026-07-28 17:20:00",
+      "publish_time_local": "2026-07-29 01:20:00",
+      "title": "👑[ETH / ICT] Parallel Decoding Distillation for Fast Image and Video Generation",
+      "summary": "**大白话**：视频生成慢是因为扩散模型要一步步慢慢“猜”，像慢动作回放。现在的加速方法（VSD）训练太难，容易把视频多样性“猜”没了，导致画面死板。这篇论文提出的“并行解码蒸馏”（PDD）技术，直接让模型在单次计算里同时预测多个去噪步骤，相当于把“慢动作”直接压缩成“快进”，在保持画面质量的同时，把生成速度提了数倍，还解决了视频画面单一、缺乏动态的问题。\n\n**The Trick**：核心是抛弃了传统依赖变分分率蒸馏（VSD）和对抗损失这种“难优化、易坍塌”的复杂训练路径，转而采用基于轨迹的简化蒸馏。具体做法是：让模型在单次网络评估中，并行预测多个去噪步骤（NFE），直接学习“平均速度”而非回归导数。这种架构兼容任何预训练模型，支持不同步数采样，实测在 LTX-2.3、Wan 14B 等主流视频模型上，仅需 4-8 步即可达到 SOTA 效果，同时显著提升了视频生成的多样性。\n\n**创业启示**：\n可切入“视频生成推理加速中间件”赛道。针对影视制作、游戏开发、电商直播等对视频生成时效性要求极高的 B 端场景，提供基于 PDD 技术的推理加速服务。通过降低推理步数（NFE）直接降低 GPU 显存占用和计算成本，帮助客户在同等算力下实现视频生成效率的 4-8 倍提升，同时解决现有加速方案导致的画面同质化问题，满足高质量视频流实时生成的商业刚需。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25970",
+      "publish_time": "2026-07-28 16:52:31",
+      "publish_time_local": "2026-07-29 00:52:31",
+      "title": "👑[CAS / ICT] Reinforcement Learning for Code Optimization",
+      "summary": "**大白话**：用强化学习让代码自动“自我迭代”变快，但单纯加个“耗时”作为奖励指标，模型容易在噪声干扰下迷失方向，导致生成的代码不仅没变快，反而更爱报错。\n\n**The Trick**：构建了一套“可学习的执行时间”框架，核心是三步走：先搭建包含海量优化测试的 DMC-Optim 沙箱环境；再设计将“正确性”与“速度”加权融合的奖励函数，利用离线模拟器预判高潜力配置；最后针对稀疏、高噪的耗时信号，对 GRPO 算法进行针对性适配。实验显示，在 Qwen 2.5 7B 和 CWM 32B 模型上，优化感知的配置使 top-50% 通过率分别提升 13.3 个百分点和 19.7 个百分点，且在更严苛的 top-30% 场景下，CWM 32B 的相对提升幅度高达 125%，同时保持了 100% 的纯正确性。\n\n**创业启示**：\n切入“代码生成与性能优化中间件”赛道。针对 AI 原生应用（如智能客服、数据分析工具）开发“代码加速引擎”，通过强化学习自动优化代码执行效率，帮助开发者在不牺牲正确性的前提下，将代码性能提升 1.5 至 2 倍，直接对标人类专家水平，形成高壁垒的 AI 工程化服务。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.26115",
+      "publish_time": "2026-07-28 16:03:39",
+      "publish_time_local": "2026-07-29 00:03:39",
+      "title": "[高赞论文] GPT-Red: Automated Red Teaming via Self-Play at Scale",
+      "summary": "**大白话**：GPT-Red 是个“红队”自动攻击机，专门用来找大模型（LLM）的漏洞。它通过“自我博弈”的方式，让攻击模型和多个防御模型同时训练，最终把 GPT-5.5 这类旧模型全部攻破，攻击成功率甚至超过人类红队。\n\n**The Trick**：核心是“大规模自我博弈”训练法。利用与 GPT-5.6 同等量级的算力，构建一个包含海量防御代理的对抗环境，让 GPT-Red 在海量实时对抗中自动进化出新型提示注入攻击。这种训练方式不仅实现了自动化漏洞挖掘，还通过“越打越强”的反馈循环，将 GPT-5.6 训练成了目前最抗提示注入的模型。\n\n**创业启示**：\n可切入“企业级 AI 安全自动化测试平台”赛道。为金融、政务等对 AI 安全要求极高的行业提供“红队自动化服务”，帮助客户在模型上线前自动发现并修补漏洞，将原本依赖昂贵人工红队的成本，转化为可规模化、可复用的自动化安全基础设施。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25895",
+      "publish_time": "2026-07-28 15:52:02",
+      "publish_time_local": "2026-07-28 23:52:02",
+      "title": "👑[ETH / HUGGINGFACE] HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone",
+      "summary": "**大白话**：解决了机器人“练手”数据不够真、不够多、不够全的硬伤，让机器人不用非得靠真人手把手教（Teleoperation）就能学会干活。\n\n**The Trick**：推出了 HiFi-UMI 系统，核心是“无机器人”高精度数据采集。通过头戴式 SLAM 定位、微秒级 GPIO 同步、双广角相机等硬件组合，把原本只能用于预训练的“机器人自由”数据，直接升级为“零机器人”后训练数据。\n\n**创业启示**：\n切入“机器人数据闭环与仿真迁移”赛道。为机器人厂商提供“无机器人”高精度数据采集服务，帮助客户用低成本、高保真数据替代昂贵的真人远程操控，直接降低机器人训练成本，并推动机器人从“预训练 + 微调”向“端到端部署”转型。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25857",
+      "publish_time": "2026-07-28 15:27:53",
+      "publish_time_local": "2026-07-28 23:27:53",
+      "title": "👑[ETH] Shieldstral",
+      "summary": "**大白话**：把“内容审核”这种复杂的分类任务，强行简化成“是/否”问答，用 30 亿参数的小模型，干翻了 200 亿参数的大模型，专门解决多模态内容风控的“数据孤岛”和“标准不一”难题。\n\n**The Trick**：核心是“任务归一化 + 数据规模杠杆”。通过把多模态审核重构为二分类问题，强行打通医疗、金融、社交等不同行业的审核标准壁垒；配合自建的 5410 万级多模态数据池，用“小模型 + 海量数据”的极致性价比，在性能上碾压了同类大模型。\n\n**创业启示**：\n切入“垂直行业内容风控 SaaS 中间件”赛道。为短视频、电商、社交平台提供“小模型 + 大模型”的混合部署方案，帮 B 端客户在合规成本上实现“以小博大”，用 1/7 的算力成本换取同等甚至更高的审核准确率，直接击碎大模型在内容合规场景的“算力通胀”痛点。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25802",
+      "publish_time": "2026-07-28 14:48:30",
+      "publish_time_local": "2026-07-28 22:48:30",
+      "title": "👑[ETH / MIT] Explicit Layer Modeling for Video Object Insertion and Layer Decomposition",
+      "summary": "**大白话**：解决了视频生成和编辑里“图层”概念模糊、导致合成不真实、物体复用难、修改不连贯的硬伤。\n\n**The Trick**：推出了 TriLayer 数据集和 DBL-Diffusion 框架。核心是建立显式的“前景层”监督，让模型直接学习 RGB 合成画面与 RGBA 前景层（含视觉特效）的分离表示，而非靠隐式推断。通过双分支扩散模型，同时处理 RGB 合成与 RGBA 前景层，实现了插入时生成可编辑的图层，以及分解时精准还原前景与背景。\n\n**创业启示**：\n切入“视频内容生产与后期处理工具链”赛道。为影视后期、游戏资产复用、电商视频合成提供“图层级”视频编辑中间件，解决传统视频编辑无法灵活复用物体、合成不自然的痛点，直接对标 Adobe After Effects 的图层功能，但针对视频生成场景进行深度优化。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25669",
+      "publish_time": "2026-07-28 12:50:31",
+      "publish_time_local": "2026-07-28 20:50:31",
+      "title": "👑[ETH / MIT / NYU] OmniDelta: Skill-Driven Budget Allocation for Token Compression in OmniLLMs",
+      "summary": "**大白话**：多模态大模型（OmniLLMs）虽然能通吃文字、音频和视频，但处理长序列的音视频数据时，显存爆炸、推理变慢是致命伤。现有压缩方法只盯着“留多少 token\"，却忽略了“钱该花在哪个模态上”。OmniDelta 的核心逻辑是：先根据用户意图动态分配“总预算”给音频和视频，再根据内容复杂度和时间冗余度，把预算精准切分到具体的音频片段和视频帧上。简单说，就是让模型“按需付费”，不再平均用力，既省显存又提速。\n\n**The Trick**：提出 OmniDelta 框架，采用“技能驱动”的预算分配策略。其核心创新在于两点：一是构建音频和视频的“技能池”，根据查询意图动态调整跨模态的预算分配比例，解决直接相似度不可靠的问题；二是采用内容感知和局部复杂度策略，在模态内部重新分配预算，优先保留高价值片段，丢弃冗余帧。实验表明，在 Qwen2.5-Omni-7B 模型上，仅保留 25% 的 token 时，GPU 显存降低 22.0%，端到端推理速度提升 1.64 倍，重新定义了剪枝比下的精度 - 效率帕累托前沿。\n\n**创业启示**：\n可切入“多模态大模型推理加速与显存优化中间件”赛道。针对视频分析、实时语音交互等对延迟敏感且显存受限的 B 端场景（如安防监控、智能客服），提供基于意图感知的动态预算分配服务。通过优化 token 分配策略，帮助客户在不增加硬件成本的前提下，将多模态模型的推理速度提升 64%，直接降低服务器扩容成本，抢占垂直行业多模态大模型落地市场。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25565",
+      "publish_time": "2026-07-28 10:53:33",
+      "publish_time_local": "2026-07-28 18:53:33",
+      "title": "[高赞论文] ReDesign: Recovering Editable Design Structures from Images via Agentic Decomposition",
+      "summary": "**大白话**：把一张普通的图片（比如设计稿截图）自动还原成可编辑的矢量文件（类似 Figma 或 Illustrator 格式），解决设计师“图转可编辑文件”耗时耗力、人工成本高、版本管理混乱的痛点。\n\n**The Trick**：采用“智能体协作 + 局部验证”机制。通过多个智能体分工协作，像搭积木一样从图像中逐步构建图层结构；在每一步生成后，立即进行局部验证，若结果不可用则自动重试或剪枝，避免错误累积，确保最终还原的可编辑性。\n\n**创业启示**：\n可切入“设计工作流自动化中间件”赛道。为设计团队提供“图片转可编辑文件”的 SaaS 服务，帮助设计师快速还原设计稿，减少人工成本，提升设计效率，同时支持批量处理，满足企业级需求。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25537",
+      "publish_time": "2026-07-28 10:18:58",
+      "publish_time_local": "2026-07-28 18:18:58",
+      "title": "👑[ETH] Visual prompt engineering for video models",
+      "summary": "**大白话**：视频大模型现在像文字大模型一样，光靠“提示词”（Prompt）就能决定上限。传统方法靠文字指令，但这篇论文发现，用 AI 自动把视频画面里的“抽象草图”改造成“高清写实图”，这种“视觉提示词工程”（VIPE）能让视频模型在物理推理等任务上表现更猛，甚至比单纯堆算力（Test-time Scaling）还管用。\n\n**The Trick**：核心是“视觉提示词工程”（VIPE）：利用图像编辑模型，自动将视频中的抽象场景（如草图、示意图）重构为高保真写实画面。实验证明，这种视觉层面的提示词优化，能显著提升视频模型在物理推理等任务中的准确率，且比传统文字提示词更直接、比单纯增加推理算力更省资源。\n\n**创业启示**：\n切入“视频生成与推理的视觉提示词优化中间件”赛道。为视频生成、自动驾驶仿真、工业质检等场景提供“视觉提示词增强”服务，通过自动将低质量草图或抽象视频转化为高保真视觉提示，帮 B 端客户直接提升模型推理精度，同时大幅降低对 GPU 算力的依赖，实现“用视觉换算力”的降本增效。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25431",
+      "publish_time": "2026-07-28 08:25:30",
+      "publish_time_local": "2026-07-28 16:25:30",
+      "title": "👑[ETH / MIT] CodeNib: A Multi-View Data System for Serving Repository Context to Coding Agents",
+      "summary": "**大白话**：解决代码智能体（Coding Agents）在开发过程中因索引、语言服务器和历史记录割裂，导致重复搜索、上下文丢失、成本不可控的“碎片化”难题。CodeNib 构建了一套“多视图数据系统”，为每个代码提交（Commit）自动生成可复用的词法、稠密和结构三种视图，将代码输出与代码库相对位置精准映射，并在一次运行时中统一服务搜索、符号导航和上下文维护，彻底打通代码库上下文的“全生命周期”。\n\n**The Trick**：核心是“多视图复用 + 生命周期映射”。它不再依赖单一索引，而是为每个代码变更动态生成词法、稠密和结构三种视图，并将代码输出与代码库的相对位置建立强映射。通过维护视图跨编辑的连续性，将原本分散的索引、语言服务器和历史记录整合为单一运行时。实验显示，当输出匹配独立重建时，图与向量更新速度分别提升 8.7 倍和 25.4 倍；在静态导航场景下，实时与静态延迟比达到 4.7 倍，且通过上下文策略，相比传统 grep/read 减少 50%-87% 的轨迹 token 消耗。\n\n**创业启示**：\n切入“代码智能体（Coding Agents）的上下文基础设施”赛道。为拥有庞大私有代码库的 SaaS 平台、开源社区或大型科技公司提供“代码上下文服务层”，将原本割裂的 LSP、Git 历史、文档索引统一为单一运行时。通过减少重复搜索和上下文 token 消耗，直接降低 AI 代码生成服务的推理成本（Token 成本）和服务器负载，打造代码智能体时代的“操作系统级中间件”。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25337",
+      "publish_time": "2026-07-28 06:38:16",
+      "publish_time_local": "2026-07-28 14:38:16",
+      "title": "👑[ETH / ICT] Temporal-Distance JEPA: Plan-Aware Representation Learning for Latent World Model Predictive Control",
+      "summary": "**大白话**：解决了“离线数据”和“在线规划”两张皮的问题。传统方法用欧氏距离（直线距离）来衡量未来状态，导致在复杂任务中规划不准；新方案从原始日志里挖掘出“时间先后顺序”和“跨轨迹对比”的深层结构，把“时间成本”直接嵌入到模型里，让模型在预测未来时，不仅知道“哪里”，还知道“哪一步更优”，实现从“看图说话”到“按时间轴推演”的质变。\n\n**The Trick**：核心是 TD-JEPA 算法。它不再单纯依赖欧氏距离作为规划依据，而是从离线日志中挖掘出“时间距离”和“跨轨迹对比”信号。具体做法是：利用同轨迹的时间顺序作为正样本，不同轨迹的对比作为负样本，并引入“推演一致性”约束。这种挖掘出的“时间成本”被直接用于规划阶段，当任务依赖拓扑结构时，它直接替代欧氏距离作为规划代价；当依赖接触几何时，它作为表示信号增强欧氏规划。实验显示，在双房间任务中成功率从 97.4% 提升至 100%，在 OGB-Cube 任务中提升 14.2 分，彻底消除了训练与规划之间的性能鸿沟。\n\n**创业启示**：\n可切入“具身智能（Embodied AI）的离线数据价值挖掘与规划优化”赛道。针对机器人、自动驾驶等依赖大量离线数据但在线规划能力弱的场景，提供基于 TD-JEPA 的“时间感知规划中间件”，帮助企业在不增加在线传感器成本的前提下，通过挖掘离线日志中的时间结构，大幅提升机器人的任务成功率，解决“数据多但规划不准”的行业痛点。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25310",
+      "publish_time": "2026-07-28 05:46:01",
+      "publish_time_local": "2026-07-28 13:46:01",
+      "title": "👑[CAS / COHERE / MIT] Human-in-the-Loop Signature Bootstrapping for UAV Hyperspectral PFM-1 Mine Detection",
+      "summary": "**大白话**：无人机用高光谱相机扫地雷，光靠算法自动扫一遍，最后还得靠人眼去现场确认，效率太低。这篇论文发现，如果让“人”在训练阶段就参与定义“什么算地雷”，能大幅减少后续无人机飞巡时，需要人工复核的无效次数。\n\n**The Trick**：核心是“人机协同”的签名引导机制。传统做法是拿地面测得的地雷特征去训练模型，或者用全量数据去训练，但后者太慢。新方案引入“人机协同”的引导机制，让无人机在飞行过程中，通过自适应算法（如 ACE）优先锁定高置信度区域，快速完成“人眼确认”，从而用更少的飞行次数和更少的现场复核，达到和全量数据训练一样的检测精度。\n\n**创业启示**：\n切入“特种行业无人机自动化检测”赛道。针对矿业、安防、环保等需要无人机巡检的场景，开发“人机协同”的自动化检测中间件。帮客户把“人眼复核”的频次从“几千次”降到“几十次”，直接降低人力成本，同时提升检测效率，成为无人机巡检系统的核心增值模块。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25236",
+      "publish_time": "2026-07-28 03:23:47",
+      "publish_time_local": "2026-07-28 11:23:47",
+      "title": "👑[ICT] VisualPatchWorld: Code World Models as Latent Structured Representations for Planning",
+      "summary": "**大白话**：把“世界模型”从黑盒神经网络或物理引擎，直接变成可执行的代码。用代码逻辑模拟物理世界，让 AI 能像程序员一样“推演”未来，而不是只靠概率猜。\n\n**The Trick**：VisualPatchWorld 的核心是“定性动力学 + 代码拟合”。先通过少量样本快速锁定物理世界的定性规律（如重力、碰撞），再自动用代码生成器拟合出具体参数。生成的代码模型既能像模拟器一样推演，又能像物理引擎一样被人工审查，还能直接嵌入模型预测控制（MPC）闭环。\n\n**创业启示**：\n切入“具身智能（Embodied AI）的自动仿真与规划中间件”。针对机器人、自动驾驶等需要高可靠性的场景，提供“代码级世界模型”服务，替代传统黑盒仿真，解决物理引擎难以扩展、神经网络不可解释的痛点，直接提升机器人任务成功率。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.26037",
+      "publish_time": "2026-07-28 00:00:00",
+      "publish_time_local": "2026-07-28 08:00:00",
+      "title": "[高赞论文] Wonder: Video World Model Done Better",
+      "summary": "**大白话**：把视频生成从“静态画布”升级为“可交互的 3D 游戏引擎”，用户能像玩第一人称游戏一样实时操控相机视角，模型能根据移动实时渲染出从未见过的场景细节，同时保持长时程下的几何一致性和物理连贯性。\n\n**The Trick**：1. 相机条件化（Camera Conditioning）：引入稠密坐标场，将相机运动直接转化为视觉证据，让模型能像人眼一样“看见”并理解视角变化，而非仅仅基于帧间差异。\n2. 稀疏注意力记忆（Sparse Attention Memory）：在长序列生成中，通过稀疏注意力机制仅关注少量关键上下文 token，实现毫秒级响应，避免显存爆炸。\n3. 学生蒸馏优化（Student Distillation）：重构蒸馏流水线，解决学生模型对控制信号（如相机运动）的服从性问题，确保生成的视频在长时程下不崩坏。\n\n**创业启示**：\n切入“实时 3D 虚拟制片与 XR 内容生成”赛道。为游戏引擎、VR/AR 开发者和影视特效公司提供“实时视频世界模型”中间件，替代传统昂贵的 3D 建模与渲染管线，将视频生成从“离线渲染”转变为“实时交互”，直接赋能元宇宙、虚拟人、实时影视特效等 B 端高价值场景。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25572",
+      "publish_time": "2026-07-28 00:00:00",
+      "publish_time_local": "2026-07-28 08:00:00",
+      "title": "[高赞论文] Mapping CVEs to MITRE ATT&CK Techniques: A Curated Gold-Set Classifier and the Limits of LLM-Assisted Label Expansion",
+      "summary": "**大白话**：别再用“大模型自动打标”这种伪科学方案去扩充漏洞知识库了。这篇论文用 1200 个专家级 CVE 数据训练的分类器，比单纯靠向量相似度匹配（Zero-shot）的召回率直接翻倍。但更致命的是，它用实验数据狠狠打脸了“大模型能自动补全标签”的幻想：用 LLM 生成的标签去扩充训练集，不仅没提升效果，反而因为评估噪声导致稀有攻击技术覆盖率下降，宏观 F1 值直接掉 0.04。结论很明确：数据质量（专家标注）才是硬通货，大模型生成的“垃圾数据”只会稀释模型上限，企业别在“用 LLM 扩充数据”上浪费算力。\n\n**The Trick**：核心是构建了一个基于“专家级金标准数据集”的多标签分类器，彻底抛弃了依赖 CWE->CAPEC->ATT&CK 这种低效的链式推导。\n1. 数据清洗与评估协议重构：论文发现评估结果波动大（Recall@5 波动达 0.05），根源在于小样本测试集上的评估噪声。通过修正验证集检查点选择协议，消除了评估误差，证明了纯专家数据模型（Recall@5 0.673）的稳定性。\n2. LLM 数据增强失效验证：通过独立复现和扩展规模实验（100-984 个新增 CVE），证实 LLM 生成的标签与专家标注一致性仅 0.39，无法提供可靠增益。\n3. 质量优先的扩展策略：实验证明，增加专家人工标注的数据量能持续提升模型性能，而 LLM 生成的数据量再大也无效，甚至产生负向干扰。\n\n**创业启示**：\n1. 安全情报数据清洗服务：针对企业安全运营中心（SOC）和\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25308",
+      "publish_time": "2026-07-28 00:00:00",
+      "publish_time_local": "2026-07-28 08:00:00",
+      "title": "[高赞论文] CAST: Game Solvers as Turn-Level Teachers for LLM Agents",
+      "summary": "**大白话**：解决大模型在长程博弈中“只知结果不知过程”的奖励稀疏难题，通过借用游戏求解器的状态价值变化，把“下一步怎么走更优”的隐性信号显性化，让模型在每一步都能获得精准的即时反馈，从而大幅提升泛化决策能力。\n\n**The Trick**：核心是 CAST 框架，利用游戏求解器（Solver）作为“教师”，通过计算求解器状态价值函数的变化量（Value Change）来推导动作优势（Advantage），将其转化为稠密的过程奖励信号注入强化学习。该方法基于软最优求解器假设，仅需标量值即可实现策略蒸馏，无需昂贵的教师 logits，在 Sokoban、Minesweeper 等复杂任务中全面超越基线，并在 ALFWorld 和 WebShop 等开放世界任务中实现最高零样本表现。\n\n**创业启示**：\n可切入“通用智能体（Generalist Agent）训练基础设施”赛道。面向游戏、金融交易、供应链调度等长周期决策场景，提供基于求解器蒸馏的强化学习信号增强服务，帮助 B 端客户解决大模型在复杂任务中“试错成本高、收敛慢”的痛点，构建下一代通用智能体训练平台。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25675",
+      "publish_time": "2026-07-28 00:00:00",
+      "publish_time_local": "2026-07-28 08:00:00",
+      "title": "[高赞论文] DecoEvo: Score-Decoupled Co-Evolution of Solver and Rubric-Generator Skills in Text Space",
+      "summary": "**大白话**：解决了大模型“自我进化”时，因为评估标准（Rubric）和解题能力（Solver）互相捆绑，导致模型为了“讨好”评估标准而作弊，或者评估标准无法覆盖新出现的难题，让模型在“死胡同”里打转。DecoEvo 把“解题”和“出题”彻底拆分开，让模型在“解题”时只关注具体指标，同时让“出题人”独立去发现模型还没被覆盖的盲区，两者互不干扰地同步进化，确保模型在真实场景下越用越强。\n\n**The Trick**：核心是“解耦协同进化”机制。传统方法把评估标准（Rubric）作为固定锚点，导致模型优化时只能针对现有标准“刷分”，一旦标准覆盖不全，模型就会在标准盲区里空转。DecoEvo 引入“解耦”策略：Solver 技能仅接收指标级反馈，专注于提升具体能力；Rubric-Generator 技能则独立运行，通过“需求覆盖度”和“响应区分度”的互补审计，主动挖掘 Solver 尚未满足的隐性维度。这种机制切断了“刷分”与“进化”的因果链条，迫使模型在真实能力维度上持续迭代，而非在标准定义的边界内打转。\n\n**创业启示**：\n可切入“垂直行业大模型能力持续进化中间件”赛道。针对金融风控、法律合规等对模型鲁棒性要求极高的场景，提供“动态评估标准生成 + 模型能力解耦优化”服务。帮助 B 端客户解决模型在复杂场景下“标准盲区”导致的幻觉或误判问题，将模型从“静态刷分工具”升级为“动态自我进化引擎”，直接提升模型在真实业务中的泛化能力和长期价值。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25659",
+      "publish_time": "2026-07-28 00:00:00",
+      "publish_time_local": "2026-07-28 08:00:00",
+      "title": "[高赞论文] CoRT: Counterfactual Replay for Token-Level Rubric-Guided Policy Optimization",
+      "summary": "**大白话**：解决了大模型在“按标准打分”训练时，奖励信号被平均分配给整段回复，导致模型无法精准定位“哪个词”该被强化或惩罚的痛点。CoRT 通过“反事实回放”技术，让同一回复在“带标准”和“不带标准”两种场景下对比，用这种差异精准计算每个 token 的权重，实现细粒度奖励分配，无需额外训练评分模型。\n\n**The Trick**：核心是“反事实回放”机制。CoRT 不训练辅助评分模型，而是让模型在“带标准”和“无标准”两种提示下生成同一回复，通过对比两种情况下的 token 对数似然值，构建出 token 级别的依赖权重。这些权重被用来重新分配 GRPO 的奖励优势，确保模型能精准学习标准中的关键特征，同时保持 GRPO 训练框架的简洁与稳定。\n\n**创业启示**：\n可切入“垂直领域大模型微调中间件”赛道。针对医疗、法律等对回复格式和逻辑有严格标准的企业，提供基于 CoRT 的细粒度奖励分配服务，帮助企业在保持训练稳定性的同时，显著提升模型对特定标准的遵循度，直接提升 B 端产品的合规性与专业度。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25108",
+      "publish_time": "2026-07-27 22:12:45",
+      "publish_time_local": "2026-07-28 06:12:45",
+      "title": "👑[ICT / MIT] OPERA: Offline Policy-guided Expert Routing and Adaptation for Universal Biomedical Image Analysis",
+      "summary": "**大白话**：解决医疗影像 AI 落地难、模型泛化差、每次换医院就得重训的“死循环”问题。OPERA 框架把“选模型”变成离线策略学习，不用改参数就能让不同专家模型自动分工，用测试集数据动态调整权重，实现“即插即用”的跨设备、跨医院部署。\n\n**The Trick**：核心是“离线策略 + 测试时自适应”双管齐下。先在小样本验证集上离线训练路由策略，确定各专家模型何时该上场；部署时利用未标记测试数据动态调整类权重，结合模型间一致性判断，实现零梯度更新下的分布偏移自适应，确保跨设备、跨模态场景下性能不崩盘。\n\n**创业启示**：\n切入“医疗影像 AI 即插即用中间件”赛道。针对医院、体检中心等场景，提供无需重训的跨域部署服务，解决医疗数据隐私壁垒与标注成本高的痛点，将 AI 从“实验室模型”转化为“临床可用工具”，直接切入医院信息化采购与 AI 外包服务市场。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.24957",
+      "publish_time": "2026-07-27 18:04:54",
+      "publish_time_local": "2026-07-28 02:04:54",
+      "title": "👑[MIT / NYU] PerceptionBench: Evaluating Atomic Visual Perception in Multimodal Large Language Models",
+      "summary": "**大白话**：现有大模型评测像“体检”只查整体健康，分不清是眼睛瞎了还是脑子坏掉，PerceptionBench 就是专门测“眼睛”的显微镜。它从 42 个现有题库里挖出 3000 个精准问题，把视觉能力拆解成 10 个原子级能力，直接戳穿当前顶尖模型在“看图说话”时，连基础视觉识别都做不到 60% 准确率的硬伤，证明模型幻觉主要源于视觉感知缺失，而非逻辑推理。\n\n**The Trick**：采用“自下而上”的原子化拆解策略。通过诊断现有 42 个基准测试中的底层错误，提炼出 10 个视觉原子能力，并构建 3000 个短平快、答案明确的验证题。这种设计强制模型在单一视觉能力上作答，剥离了推理和领域知识的干扰，精准定位视觉感知瓶颈，发现当前模型普遍存在“视觉幻觉”问题。\n\n**创业启示**：\n可切入“视觉大模型垂直评测与能力诊断服务”赛道。面向企业级 AI 应用开发，提供基于 PerceptionBench 标准的视觉能力诊断工具，帮助开发者识别模型是“眼瞎”还是“脑残”，从而针对性地优化视觉模块。同时，可开发针对视觉感知弱项的专项微调数据集或增强算法，填补当前视觉大模型在原子级感知能力上的巨大空白。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.24223",
+      "publish_time": "2026-07-27 09:56:52",
+      "publish_time_local": "2026-07-27 17:56:52",
+      "title": "👑[ETH] A New Role for Relevance: Guiding Corpus Interaction in Agentic Search",
+      "summary": "**大白话**：现在的 AI 搜图（Agent）有个致命硬伤：它只靠“相关性”打分来选文档，但遇到复杂推理题时，这种粗放的“先选后搜”模式容易漏掉关键线索，导致模型在海量数据里“瞎撞”很久才收敛。这篇论文提出的 RARG 新方案，直接把“相关性”从“筛选器”升级为“导航仪”，让 AI 像人一样用 grep 命令式地先定位全局线索，再逐层深挖细枝末节，把“相关性”变成执行优先级，让模型在搜索初期就能锁定最有价值的切入点，大幅缩短推理路径。\n\n**The Trick**：核心是“相关性驱动的执行优先权”机制。RARG 不再被动等待 LLM 发现线索，而是利用相关性评分作为“执行前置条件”：1. 粗粒度排序：按相关性高低对文档进行全局排序，优先触发全局搜索，确保关键线索尽早暴露；2. 细粒度重排：在 grep 搜索匹配结果中，利用相关性对段落进行二次重排序，优先展示高信息密度的片段，避免被无关噪音淹没；3. 动态初始化：利用相关性高的段落作为“种子”，直接初始化 LLM 的上下文窗口，减少无效探索。\n\n**创业启示**：\n可切入“企业级智能体（Agent）搜索引擎优化”赛道。针对金融、法律、医疗等需要深度推理的垂直行业，提供基于“相关性引导的交互式搜索”中间件服务。帮助 B 端客户解决 Agent 在复杂任务中“幻觉多、收敛慢、推理深度不足”的痛点，将搜索性能从“随机探索”升级为“目标导向”，直接提升企业智能体的任务成功率与响应速度。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.24882",
+      "publish_time": "2026-07-27 09:39:09",
+      "publish_time_local": "2026-07-27 17:39:09",
+      "title": "👑[CAS / ETH / MIT] Agent Retrieval Bench: Evaluating Repository Context Retrieval for Coding Agents",
+      "summary": "**大白话**：现在的代码智能体（Coding Agent）光看能不能修好 Bug 不够，得先解决“找对文件”这个前置卡点。我们造了个 Agent Retrieval Bench，专门测代码智能体在找文件时的精准度。这 427 个真实工作流样本里，345 个是正例，50 个是“自然无金标”的陷阱，32 个是反例。测试发现，没有一种检索方法能通吃：Qwen3-Embedding-4B 在正例上召回率最高，RepoMap 在预算内产出上下文最多，但日志轨迹记录却漏掉近 30% 的关键文件。\n\n**The Trick**：核心是“自然无金标”与“反例控制”的混合评估体系。传统评测只看语义相似度，我们引入“自然无金标”样本，强制智能体在缺乏明确答案的情况下做选择，暴露出当前模型在“选择性检索”上的校准偏差。同时，通过对比“日志轨迹记录”与“随机非金标上下文”，验证了基于检索的初始上下文能显著降低后续探索成本，提升文件 F1 分数。\n\n**创业启示**：\n可切入“代码智能体上下文检索优化中间件”赛道。针对代码智能体在复杂工作流中“找错文件”的痛点，提供基于“自然无金标”校准的检索增强服务。帮助 B 端客户（如企业级 IDE 厂商、代码生成平台）解决智能体上下文选择偏差问题，通过优化检索策略降低智能体试错成本，提升代码修复成功率。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.24176",
+      "publish_time": "2026-07-27 09:02:44",
+      "publish_time_local": "2026-07-27 17:02:44",
+      "title": "👑[CAS / ETH / PERPLEXITY] Where Quality Breaks in Compressed Short-Text Generation: Staged Bottleneck Localization",
+      "summary": "**大白话**：压缩文本生成器（比如把长文本压缩成短代码再还原）经常搞砸，但原因分两路：要么压缩时信息被删光了，要么生成时代码质量太差。以前研究总是一锅端，浪费算力。这篇论文用 TinyStories 数据集（64 压缩到 16 的压缩比）实测，发现压缩阶段（Codec）才是质量崩塌的主因。压缩后的外部困惑度（衡量文本质量）直接飙升 80%，95% 分位数更是暴涨近 3 倍，证明大部分损失发生在生成开始前。相比之下，代码空间的扩散模型比直接对文本做扩散强 30% 以上。几何感知正则化虽然能优化中间特征，但没救回最终文本质量。结论很明确：别瞎调生成模型，先死磕压缩编码器的保真度。\n\n**The Trick**：建立了一套“分阶段诊断协议”，将压缩编码器的重构保真度、潜在空间生成质量、辅助诊断指标，统一挂载在同一个外部 GPT-2 评分器下。实验数据表明，在 64 到 16 的压缩比下，仅压缩阶段的重构保真度提升，外部困惑度（Perplexity）中位数从 15.17 激增至 27.36（+80.4%），p95 分位数更是从 25.10 飙升至 98.91（+294.1%）。这意味着，在现有架构中，压缩阶段的信息丢失是质量瓶颈的绝对主导者。同时，代码空间扩散模型（MDLM）在代码空间的表现优于直接文本空间扩散，各项指标均下降 30% 以上。几何感知正则化虽能优化局部特征，但无法转化为最终文本质量。\n\n**创业启示**：\n可切入“压缩文本生成器的诊断与优化中间件”赛道。针对 AI 初创公司或大模型厂商在构建压缩生成模型（如用于长文本压缩、隐私计算、流式生成）时，盲目优化生成模型导致的资源浪费。通过提供“分阶段诊断工具”，帮助客户精准定位是压缩阶段信息丢失还是生成阶段质量差，从而避免无效算力投入\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.24027",
+      "publish_time": "2026-07-27 05:53:28",
+      "publish_time_local": "2026-07-27 13:53:28",
+      "title": "👑[ETH / ICT / MIT] Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification",
+      "summary": "**大白话**：视频生成模型（如 Sora 类）跑起来慢，核心卡点在于“注意力机制”要处理海量时间步，计算量爆炸。现有方案要么死板地切分注意力块，要么为了省算力把关键信息硬删，导致画面崩坏。Sol-Attn 搞了个“在线动态阈值”机制，像给视频帧流实时筛金子，只算关键帧的注意力，复用未选帧的分数做近似，既省算力又不丢画质。\n\n**The Trick**：核心是“在线软最大（Online-Softmax）+ 动态块阈值”。传统方法要么预计算路由表（太慢），要么死板切分（不准）。Sol-Attn 在单次在线 softmax 过程中，直接拿“块代理分数”对阈值做实时比对，动态决定哪些注意力块必须算、哪些可以近似。它省去了显式构建路由图的开销，复用未选块的分数来近似贡献，实现了“动态预算”与“低精度损失”的平衡，视频生成端到端速度提升 2.3 倍。\n\n**创业启示**：\n切入“视频生成推理加速中间件”赛道。针对影视后期、游戏渲染、实时直播等对视频生成速度极度敏感的场景，提供基于 Sol-Attn 的推理加速服务。帮助视频生成平台降低 GPU 集群规模，将推理延迟从秒级压缩至毫秒级，直接提升用户留存与付费转化率。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Hacker News",
       "url": "https://www.newscientist.com/article/2580119-hunter-gatherers-introduced-fish-to-a-mountain-lake-7000-years-ago/",
       "publish_time": "2026-07-27 00:58:45",
       "publish_time_local": "2026-07-27 08:58:45",
       "title": "Hunter-gatherers introduced fish to a mountain lake 7000 years ago",
       "summary": "* **标题**：七千年前挪威猎人将鲑鱼引入高山湖泊，改写生态史\n* **核心摘要**：奥斯陆大学学者通过碳十四测年与木桩年轮比对，证实史前人类为获取夏季狩猎资源，将鲑鱼引入被冰盖覆盖的高山湖泊。这一发现不仅确立了全球已知最早的人工鱼类迁移案例，更揭示了人类在农业兴起前数千年已具备主动改造自然环境的智慧。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.23909",
+      "publish_time": "2026-07-27 00:55:10",
+      "publish_time_local": "2026-07-27 08:55:10",
+      "title": "👑[ETH / ICT] WorldDiT: A Unified Diffusion Architecture for World and Action Modeling",
+      "summary": "**大白话**：机器人控制领域正陷入“大模型堆料”的误区，即过度依赖庞大的视觉语言模型（VLM）作为动作执行核心，导致算力成本极高且泛化能力受限。WorldDiT 提出了一种全新的“统一扩散架构”，它摒弃了传统的大模型动作骨干，转而采用单模型同时完成“动作生成”与“世界建模”的双线任务。通过让扩散模型直接预测未来帧的 RGB 图像块及连续动作片段，实现了在无需外部大模型加持下，依然能跑在四套主流仿真环境（LIBERO）的帕累托前沿，为未来构建低成本、高泛化的机器人基线提供了新范式。\n\n**The Trick**：核心在于“解耦与统一”的架构重构。传统方案将视觉理解（VLM）与动作规划割裂，导致显存爆炸与延迟叠加。WorldDiT 创新性地利用单一扩散 Transformer 同时处理两个任务：一方面生成连续的动作序列，另一方面直接预测未来相机视角下的 RGB 图像块。这种端到端的统一建模方式，不仅消除了对预训练 VLM 的依赖，还通过扩散模型特有的概率生成能力，在训练阶段直接对齐“动作 - 视觉”的连续分布，从而在参数量低于十亿级（sub-billion）的情况下，依然能覆盖多套仿真环境的性能边界。\n\n**创业启示**：\n可切入“机器人具身智能轻量化基座”赛道。针对当前机器人开发中“大模型依赖症”导致的硬件成本过高、部署困难问题，提供基于扩散模型的统一动作 - 世界建模中间件。重点服务对算力敏感、需快速部署的中小企业机器人团队，通过提供“无 VLM 依赖”的轻量级基线模型，帮助客户将机器人系统的显存占用与推理延迟降低一个数量级，从而在具身智能商业化落地前，解决“算力成本”与“模型泛化”的矛盾。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.25091",
+      "publish_time": "2026-07-27 00:00:00",
+      "publish_time_local": "2026-07-27 08:00:00",
+      "title": "[高赞论文] Towards Robust Reinforcement Learning for Small-Scale Language Model Agents",
+      "summary": "**大白话**：解决了小参数模型（SLM）用强化学习（RL）做对齐时“训练必崩”的顽疾，通过一套“合并重初始化 + 浮点精度升级 + 三层安全熔断”的组合拳，让 Pythia 和 SmolLM 等小模型在 RL 阶段也能稳如老狗，不仅收敛稳定，还能在指令微调基础上进一步提升偏好胜率，且省数据。\n\n**The Trick**：核心是“容量余量假设”（Capacity-Headroom Hypothesis），即小模型 RL 成功不取决于参数量，而取决于“流畅的预训练模型（PPL<20）”与“高判别性的奖励信号”的匹配。技术落地层面，通过合并重初始化适配器（merge-and-reinitialize adapter）解决 LoRA 冻结，用 float32 精度替代 bfloat16 防止数值溢出，并引入奖励白化、重要性比率保护、权重回滚三层安全机制，彻底规避了奖励模型错误导致的策略崩溃。\n\n**创业启示**：\n可切入“小模型 RL 对齐中间件”赛道。面向对成本极度敏感但需要高智能体鲁棒性的企业（如客服机器人、代码助手），提供一套“小模型 RL 训练即插即用”的 SaaS 服务，将原本需要海量数据和大算力才能完成的 RL 对齐，压缩到小模型低成本、短周期、高稳定的训练窗口，直接抢占“小模型智能体”的 B 端落地市场。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.24368",
+      "publish_time": "2026-07-27 00:00:00",
+      "publish_time_local": "2026-07-27 08:00:00",
+      "title": "[高赞论文] Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory",
+      "summary": "**大白话**：大模型记性差，不是记不住，是“记”和“用”之间隔了层墙。用户问“吃杏仁蛋糕过敏吗”，模型脑子里有“树坚果过敏”的病历，但检索系统找不到“杏仁蛋糕”和“树坚果”的隐形联系，导致模型明明有数据却答非所问。\n\n**The Trick**：InMind 基准测试精准定位了“隐性关联盲区”：现有检索系统（向量、图、代理记忆）在“记忆已存储但未被激活”时，召回率仅 14.4%，即便增加 8 倍维度也无法弥补。唯一解法是“前置显式化”——在用户提问前，先通过路由机制将隐性关联（如成分、因果链）显式注入上下文窗口，让模型直接看到“杏仁”与“过敏”的强连接，而非依赖模型自身的推理能力去猜。\n\n**创业启示**：\n切入“智能体记忆增强层”赛道。为多轮对话 Agent 开发“隐性关联显式化路由引擎”，专门解决长周期记忆中的跨域推理失效问题。目标客户是医疗问诊、法律合规等强逻辑链场景，通过“记忆前置路由”技术，将 Agent 的隐性知识召回率从 14% 提升至 84%，直接解决企业级 Agent 在复杂推理任务中的幻觉与遗漏痛点。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.24904",
+      "publish_time": "2026-07-27 00:00:00",
+      "publish_time_local": "2026-07-27 08:00:00",
+      "title": "[高赞论文] Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model",
+      "summary": "**大白话**：解决了视频流媒体场景下，大模型“看得懂静态图，但看不了动态视频”的硬伤。传统模型为了处理视频，必须把每一帧都当成图片一样死磕，导致算力浪费严重。这篇论文提出的 Mage-VL 模型，通过一套“只关注变化”的编码机制，像人眼一样只盯着画面里动起来的区域，把视频处理时的视觉 Token 消耗砍掉 75% 以上，同时用生物启发的双系统架构（系统 1 负责实时事件触发，系统 2 负责深度推理），让 4B 参数的模型在视频理解上能跑赢 15B 参数的竞品，推理速度提升 3.5 倍。\n\n**The Trick**：核心在于“动态熵增编码”与“双系统架构”。\n1. 动态熵增编码：抛弃传统均匀帧采样，利用运动向量和残差能量，仅对画面中动态、高熵区域进行编码。在 16x16 的 Patch 粒度上，大幅减少视觉 Token 数量，同时保留时空上下文。\n2. AI4AI 数据闭环：建立包含 Prompt-Code 联合优化的数据管道，利用 AI 驱动的性能诊断指导训练配方，解决视频理解中常见的 SFT 冗余问题。\n3. 生物双系统架构：引入轻量级系统 1 事件门控（System 1 Event Gate）和因果系统 2 解码器（Causal System 2 Decoder），实现从被动响应到主动感知流媒体的转变。\n\n**创业启示**：\n可切入“实时视频流媒体大模型中间件”赛道。针对直播、监控、自动驾驶等对实时性要求极高的场景，提供基于“动态熵增编码”的视频压缩与推理加速服务。帮助 B 端客户在同等算力下将视频流处理延迟降低 3.5 倍，或同等延迟下将模型参数量压缩至 4B 级别，直接解决视频流实时推理的算力瓶颈。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.22135",
+      "publish_time": "2026-07-27 00:00:00",
+      "publish_time_local": "2026-07-27 08:00:00",
+      "title": "[高赞论文] GLI-AL: A Multi-Modal Glioma MRI Label Resource with Unified Anatomy-Lesion Labels",
+      "summary": "**大白话**：现有脑肿瘤分割数据集（如 BraTS-GLI）只盯着肿瘤本身，忽略了脑白质高信号（WMH）这种伴随病变，导致模型训练时把正常组织误判为病变，产生“脏数据”干扰。这篇论文搞了个 BraTS-GLI Anatomy-Lesion 数据集，把健康脑组织和 WMH 纳入统一标签体系，让模型在训练时能同时看清“肿瘤”和“伴随病变”，彻底解决数据噪声问题。\n\n**The Trick**：核心是“统一解剖 - 病变标签体系”。通过清洗 BraTS 2023-GLI 训练队列，构建了包含 1,251 个统一八类标签的数据集，不仅包含肿瘤区域，还显式标注了 WMH 和正常脑组织。实验证明，这种“带病”的联合监督策略，在 MedNeXt 模型上能显著提升对伴随病变的敏感度，同时保持对健康组织的分割精度，彻底消除了因标签噪声导致的模型泛化偏差。\n\n**创业启示**：\n切入“医疗影像多模态标注与数据增强服务”赛道。针对医疗 AI 厂商，提供包含 WMH 等伴随病变的精细化标注数据服务，帮助客户解决模型在复杂病理场景下的泛化难题，直接提升医疗 AI 产品的临床诊断准确率，从而在医疗数据合规与高质量标注的蓝海市场建立壁垒。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.23518",
+      "publish_time": "2026-07-26 07:35:10",
+      "publish_time_local": "2026-07-26 15:35:10",
+      "title": "👑[MIT] Chamaileon: Cross-Context Binder Design with Contextualized Modeling and Mixed Sampling",
+      "summary": "**大白话**：解决了蛋白质“万能钥匙”设计里，老方法只能盯着单一靶点、单一状态搞设计，导致面对复杂多靶点、多状态场景时模型瞎编乱造（幻觉）的硬伤。Chamaileon 框架把问题重构为“跨情境结合景观建模”，通过 I3CD 训练范式让模型学会在不同情境下动态调整序列结构，配合 MoPS 采样策略，用少量高质量数据撬动大规模多态性生成，实测在 CROSS 基准上能稳定产出适配复杂构象的序列。\n\n**The Trick**：核心是“跨情境结合景观建模” + \"I3CD 上下文感知共设计” + \"MoPS 混合路径采样”。传统方法假设单一靶点单一状态，Chamaileon 通过 I3CD 训练让模型在训练时就能感知上下文变化，实现序列与结构的上下文感知共建模；推理阶段用 MoPS 策略，在单一序列上优化跨情境表现，解决多态性数据稀缺问题，避免模型在复杂构象上过度拟合或幻觉。\n\n**创业启示**：\n切入“垂直领域 AI 辅助药物研发（AIDD）”赛道。针对药企、CRO 公司，提供基于 Chamaileon 框架的“多靶点/多状态蛋白质设计中间件”，解决传统方法无法处理复杂构象的痛点，帮助客户缩短药物研发周期，提升成功率，同时降低实验试错成本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.23514",
+      "publish_time": "2026-07-26 07:29:47",
+      "publish_time_local": "2026-07-26 15:29:47",
+      "title": "👑[ETH / ICT] Novel Claim or Déjà Vu? Rethinking \"Contamination-Free'' Dynamic Evaluation for Multimodal Automated Fact-Checking",
+      "summary": "**大白话**：现在的多模态自动事实核查（MAFC）测试，很多还在用“旧闻新测”的静态题库，导致模型靠“背题”就能拿高分，掩盖了它查新信息的真实能力。我们新造了“后截止日”动态题库，发现这并不能彻底杜绝“作弊”——仍有近三成新数据能靠模型内部旧知识“硬解”，导致测试分数虚高 11 分，排名严重失真。\n\n**The Trick**：核心是“动态基准的污染率量化与清洗”。我们不仅发现了“后截止日”数据仍有 17%-29% 的污染率，更关键的是提出了“污染率动态评估”框架，通过统计显著性分析，将模型在“无外部证据”场景下的真实表现与“旧知识作弊”表现剥离，重新校准了 SOTA 模型在真实动态场景下的宏观 F1 分数。\n\n**创业启示**：\n可切入“可信 AI 评测与红队测试中间件”赛道。专门针对金融、医疗等对时效性要求极高的垂直行业，提供“动态基准污染率审计”服务，帮企业识别模型是否依赖“旧知识”而非“实时检索”，将 AI 幻觉风险从“不可控”降至“可量化”，直接转化为合规性溢价。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.23402",
+      "publish_time": "2026-07-26 00:47:07",
+      "publish_time_local": "2026-07-26 08:47:07",
+      "title": "👑[CAS / ICT / MIT / NVIDIA] Characterizing Warp Divergence from Pascal to Blackwell",
+      "summary": "**大白话**：NVIDIA 从 Volta 架构开始就宣称 Warp 发散（线程分叉）是固定模式，但实测发现从 Pascal 到 Blackwell，虽然底层硬件机制变了，但程序员感知的性能成本模型却惊人地稳定：发散路径数量 k 增加时，串行化延迟线性增长，效率随 32/k 下降，且这种惩罚与线程密度无关。\n\n**The Trick**：核心发现是“架构演进中的性能成本恒定”。尽管 NVIDIA 在 Blackwell 引入了两层级收敛屏障、统一分支指令等新 ISA 特性，但发散路径的串行化惩罚依然遵循 T(k) ≈ sk 的线性模型。这意味着编译器生成的重同步机制（从 Pascal 的指令堆栈变为 Barrier 寄存器）对性能影响极小，且 Blackwell 新增的静态分类屏障在测试中未产生运行时开销。\n\n**创业启示**：\n可切入“高性能计算（HPC）编译器优化与硬件适配层”赛道。针对 NVIDIA 新架构（如 Blackwell）的编译器进行专项优化，利用“发散成本恒定”这一特性，通过静态分析减少不必要的重同步指令，或针对特定场景（如统一分支指令）进行指令级优化，帮助 AI 训练集群在保持硬件迭代的同时，将 Warp 发散带来的性能损耗降至理论下限，直接提升单位算力产出比。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.23373",
+      "publish_time": "2026-07-25 21:31:40",
+      "publish_time_local": "2026-07-26 05:31:40",
+      "title": "👑[META] UltraViT: Latency-Optimized On-device Vision Encoder for Large Vision-Language Models",
+      "summary": "**大白话**：把大模型里最吃资源的“看图”模块（Vision Encoder）从“重型坦克”改造成“轻量化无人机”，专为手机、车机、边缘盒子等算力有限的场景设计，让大模型能在本地直接跑，不再依赖云端。\n\n**The Trick**：1. 架构重构：抛弃传统的一体化重型特征提取器，采用金字塔式架构，在宏观块级别智能调度不同空间混合器，像“模块化组装”一样按需分配算力。\n2. 训练策略：独创两阶段预训练法，先用密集蒸馏练出丰富的空间特征，再用冻结大语言模型直接进行生成式监督，彻底抛弃传统对比学习，让模型在生成式任务上更懂“看图说话”。\n3. 实测效果：在边缘设备上，整体推理速度比现有主流编码器快 1.7 倍，同时保持甚至超越现有基线的高精度。\n\n**创业启示**：\n可切入“边缘侧大模型推理加速与轻量化中间件”赛道。针对车载智能座舱、工业质检、智能家居等对实时性要求高但算力受限的场景，提供 UltraViT 类的高效视觉编码器方案，帮助 B 端客户将原本必须上云的大模型部署到本地，直接降低 50% 以上的硬件算力成本，并解决“云端延迟高、数据隐私泄露”的痛点。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.23370",
+      "publish_time": "2026-07-25 21:25:12",
+      "publish_time_local": "2026-07-26 05:25:12",
+      "title": "👑[CAS / ICT] Bitcoin Price Direction Prediction via Regime-Aware Multi-Modal Fusion of Social Sentiment and Technical Features",
+      "summary": "**大白话**：比特币短期价格预测难在“市场状态”变化快，传统方法不管行情好坏，死板地给情绪和价格数据配等权重，导致震荡期情绪失效、平静期噪音干扰。这篇论文提出的“状态感知多模态学习”（RAML）核心是动态切换：震荡期自动加大情绪权重，平稳期自动压低情绪权重，用可学习的门控机制实现“按需分配”，在 3-6 小时预测中，相比传统静态融合模型，宏观 F1 值提升约 0.4 个百分点，AUC 达到 0.5084，证明“状态感知”是金融预测的必选项。\n\n**The Trick**：引入“状态感知自适应融合”机制。通过滚动 24 小时波动率将市场划分为“稳定”与“震荡”二元状态，利用可学习门控（Sigmoid Gate）动态调整情绪嵌入与价格嵌入的权重比例。实验显示，在震荡期（高波动）下，情绪信号权重自动提升，价格信号权重自动降低；在稳定期则相反。消融实验证实，若将自适应权重替换为静态拼接，6 小时预测的召回率将崩塌（F1 从 0.55 跌至 0.14），证明动态状态感知是提升多模态金融预测精度的关键设计原则。\n\n**创业启示**：\n切入“高频量化交易策略增强”赛道。针对加密货币、股票等具有强情绪驱动特征的资产，开发基于“市场状态感知”的自适应多模态预测中间件。为高频交易机构提供情绪与价格信号的动态融合服务，解决传统静态融合模型在震荡行情下失效的痛点，帮助机构在特定市场状态下精准捕捉情绪波动带来的短期价格机会，提升量化策略的夏普比率。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://equidistance.io/londons-most-equidistant-pub/",
+      "publish_time": "2026-07-25 14:08:57",
+      "publish_time_local": "2026-07-25 22:08:57",
+      "title": "London’s most equidistant pub",
+      "summary": "* **标题**：伦敦最公平酒吧：格林人，33个行政区通勤时间差异最小\n* **核心摘要**：基于 3,170 家酒吧的 7,194 次真实通勤路径测算，伦敦无一家酒吧能在 1 小时内覆盖全部 33 个行政区。格林人酒吧（The Greene Man）以 47 分钟的最大通勤时间差（最近至最远）成为唯一公平性最优解，其服务覆盖范围从贝克街延伸至尤斯顿，有效平衡了城市各区域居民的出行成本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.22117",
+      "publish_time": "2026-07-24 09:11:34",
+      "publish_time_local": "2026-07-24 17:11:34",
+      "title": "👑[ETH / MIT] Projection Pursuit CPCANet for Domain Generalization",
+      "summary": "**大白话**：解决小样本训练下，传统几何对齐方法（CPCANet）因协方差矩阵估计不准导致模型“学偏”的硬伤，用投影追踪（Projection Pursuit）替代传统统计量，让模型在数据量不足时依然能精准锁定跨域不变的通用特征，训练更稳、效果更顶。\n\n**The Trick**：核心是“去统计化”与“几何化”双管齐下。传统方法依赖小样本统计协方差，容易失真；新方案直接跳过低维统计陷阱，在 Stiefel 流形上构建全局正交基，利用 Cayley 变换联合优化网络参数。同时引入对称破缺的离群中位数散度目标，强行让模型在数据分布未对齐时也能捕捉到高置信度的通用主成分，彻底规避了协方差矩阵秩亏导致的训练震荡。\n\n**创业启示**：\n切入“多模态/跨域 AI 模型鲁棒性优化”赛道。针对医疗影像、工业质检等小样本、跨域场景，提供基于投影追踪的通用特征解耦中间件，帮助 B 端客户解决模型在域偏移（Domain Shift）下的泛化失效问题，直接提升模型在真实场景中的交付成功率，规避因数据分布差异导致的召回率崩塌。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.22098",
+      "publish_time": "2026-07-24 08:48:17",
+      "publish_time_local": "2026-07-24 16:48:17",
+      "title": "[高赞论文] Reasoning Denoiser: Denoising Reasoning Traces for Hallucination Detection in Large Reasoning Models",
+      "summary": "**大白话**：大模型在推理时容易“胡言乱语”，虽然它生成的长推理过程包含线索，但其中夹杂了大量无关废话和重复啰嗦，导致模型无法准确判断真假。现有方法要么依赖置信度分数，要么简单粗暴地过滤，效果都不行。我们提出了一种叫 REDE 的去噪框架，利用最终答案的注意力机制作为“监督信号”，自动清洗掉推理过程中的无效步骤，让模型能更精准地识别幻觉。\n\n**The Trick**：核心是“利用最终答案反推中间步骤的噪声”。传统方法无法区分推理过程中的“有效信号”和“无效噪声”，REDE 创新性地引入“最终答案注意力”作为自动监督信号，重塑了中间步骤的表示空间。这使得模型能够自动识别并过滤掉两类主要噪声：无关步骤和重复步骤，从而在保留关键推理线索的同时，大幅提升对幻觉的检出率。\n\n**创业启示**：\n可切入“大模型推理过程可信度检测与优化中间件”赛道。针对金融、法律、医疗等对推理准确性要求极高的垂直行业，提供基于 REDE 的去噪服务，帮助企业在部署大模型时自动清洗推理轨迹，降低误判风险。这不仅能提升模型在复杂任务中的准确率，还能作为“可信度保险”服务，帮助 B 端客户规避因模型幻觉导致的合规风险，直接转化为“模型可信度认证”或“推理质量增强”的付费产品。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.19712",
+      "publish_time": "2026-07-22 03:27:21",
+      "publish_time_local": "2026-07-22 11:27:21",
+      "title": "[高赞论文] How Fast Can Reward Models Score? A Systems Study of C++ and PyTorch Inference Runtimes for RLHF",
+      "summary": "**大白话**：在 RLHF 闭环里，奖励模型打分慢成了整个流程的“刹车片”，导致策略更新卡死。虽然生成文本占大头，但打分和生成争抢同一批算力，光靠换 PyTorch 模式或 torch.compile 根本不够。我们造了一个原生 C++ 推理引擎，跑在 ONNX Runtime 上，实测 CPU 性能全面碾压现有方案，GPU 上虽略逊于 torch.compile，但整体架构更优。\n\n**The Trick**：核心是“原生 C++ 引擎 + ONNX Runtime 加速”。通过构建基于 C++ 的推理后端，在 CPU 端实现了对 PyTorch 和 FastAPI 的绝对性能超越（置信区间无重叠），GPU 端则与 torch.compile 形成竞争。关键发现是：单纯的语言或运行时选择并非瓶颈，真正的性能跃升来自于 ONNX Runtime 本身的底层优化，且批处理策略对性能的影响远超预期。\n\n**创业启示**：\n可切入“企业级 RLHF 推理加速中间件”赛道。针对大模型微调、智能体训练等场景，提供高性能的奖励模型打分服务，帮助 B 端客户解决 RLHF 训练慢、迭代周期长的问题，直接提升模型训练效率，降低算力资源浪费。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.17674",
+      "publish_time": "2026-07-20 08:27:02",
+      "publish_time_local": "2026-07-20 16:27:02",
+      "title": "[高赞论文] Uncovering Latent Reasoning Strategies in Language Models",
+      "summary": "**大白话**：大模型内部其实藏着多种“解题套路”，但原本这些套路是纠缠在一起的，模型不知道自己在用哪一套。这篇论文的核心是强行把模型内部“解耦”：让模型学会先判断当前问题该用哪套“思维模式”（如逻辑推理、直觉联想等），再针对性地生成答案。\n\n**The Trick**：提出了“变分路由”机制。传统方法让模型直接生成答案，导致模型为了省事，倾向于忽略“思维模式”这个中间变量，直接复用原有能力（即后验坍塌）。该研究通过设计一种“信息增益”变分目标函数，强制模型关注那些“基础模型感到困惑”的词汇，从而迫使模型必须通过“思维模式”变量来解释这些高难度部分，成功将隐式策略显式化。\n\n**创业启示**：\n可切入“大模型思维链（CoT）解耦与增强”赛道。针对金融风控、法律合规等对推理路径有严格要求的 B 端场景，提供“策略路由”中间件，让企业能显式地控制模型使用何种推理模式（如强制逻辑优先或允许直觉辅助），解决通用模型“黑盒推理”不可控、幻觉难定位的痛点，将模型从“黑盒”变为“白盒”可解释系统。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.12544",
+      "publish_time": "2026-07-14 00:00:00",
+      "publish_time_local": "2026-07-14 08:00:00",
+      "title": "[高赞论文] Edge-Aware Thermal Infrared UAV Swarm Tracking",
+      "summary": "**大白话**：解决了热红外无人机群在复杂环境下“看得见但追不上”的难题，核心痛点是传统算法要么太卡（算不动），要么太慢（跟不上），现在用“自适应运动模型”让无人机在边缘端也能实时锁定目标。\n\n**The Trick**：提出了一种“自适应运动卡尔曼滤波”（AKKF）算法。其核心创新在于将传统的线性运动假设升级为“状态依赖的运动建模”，即根据目标当前的实际运动状态动态调整预测模型，从而在热成像信号抖动和遮挡频发的场景下，依然能保持高精度跟踪。同时，通过引入“瞬态误报抑制”和“运动驱动的预测滑行”机制，在边缘计算设备上实现了无需重算的实时响应。\n\n**创业启示**：\n可切入“边缘计算 + 热成像”的垂直行业无人机追踪赛道。针对电力巡检、安防监控等对实时性要求极高且算力受限的场景，提供基于 AKKF 算法的轻量化追踪中间件，帮助无人机厂商在边缘端实现低成本、高鲁棒性的群控追踪，直接替代昂贵的云端算力方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.22682",
+      "publish_time": "2026-07-13 01:28:57",
+      "publish_time_local": "2026-07-13 09:28:57",
+      "title": "[高赞论文] A Vocabulary for Multi-Agent Automated Research Systems",
+      "summary": "**大白话**：把“自动科研系统”从黑盒变成可组装的乐高积木。以前搞多智能体协作，大家怎么分工、怎么传话、怎么评估结果全靠拍脑袋，导致系统像“精神分裂”一样行为不可控。这篇论文搞了个“通用语言”，把智能体身份、操作权限、通信协议、状态可见性、决策逻辑、启动方式、评估标准这八大要素全部标准化。现在设计一个科研系统，不再是写代码，而是像搭积木一样按这个语言描述“谁在什么时候做什么”，系统自动跑。\n\n**The Trick**：核心是“结构化设计语言 + 轨迹分布建模”。\n1. 定义 8 大设计维度：强制将智能体身份、操作集、调用权限、通信机制、状态可见性、决策逻辑、启动方式、评估标准这 8 个维度显性化。\n2. 轨迹分布建模：承认智能体系统的随机性，不再追求单次运行的完美结果，而是通过“轨迹分布”来描述系统行为。\n3. 双味评估机制：将“生成品味”（提出新路径的能力）与“评估品味”（代理分与真实质量的差距）解耦。以前系统总抱怨“没品味”，现在拆成两个独立问题：是生成能力弱，还是评估标准不准？\n\n**创业启示**：\n切入“科研智能体编排与评估中间件”赛道。\n1. B 端科研/企业研发效能工具：为高校、研究所、企业研究院提供“智能体编排平台”，让非技术背景的研究人员通过拖拽或配置“设计语言”定义多智能体协作流程，降低研发门槛。\n2. 科研系统评测 SaaS：利用“双味评估机制”开发一套自动化评测工具，专门解决科研智能体“幻觉多、评估不准”的痛点，帮助客户快速验证不同架构下的系统表现，成为科研智能体选型与优化的标准参考。\n3. 科研数据资产化服务：基于“轨迹分布”概念，提供科研实验的可复现与对比服务，将非结构化的实验过程转化为可比较、可复用的数据资产。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.22639",
+      "publish_time": "2026-06-22 23:15:35",
+      "publish_time_local": "2026-06-23 07:15:35",
+      "title": "👑[MIT] TRACE: Business Rule-Grounded Reasoning Curriculum for Knowledge-Preserving Parametric Tool Retrieval in Enterprise LLMs",
+      "summary": "**大白话**：企业大模型调工具时，传统方法要么把工具知识“训练废了”，要么推理太慢没法实时用。TRACE 方案用“两步走”策略：先用 LoRA 快速存工具，再让模型在生成工具前多走一步“思维链”推理，把业务规则硬编码进推理过程。最终在保持工具理解准确率的同时，把推理速度从“慢速解码”直接降到“单步贪心解码”的实时水平，召回率从 27%-52% 跃升至 60%-86%。\n\n**The Trick**：核心是“业务规则增强的思维链检索”。传统方法用 Beam Search 搜工具太慢，TRACE 创新点在于：先通过 LoRA 固化工具参数，再训练模型在输出工具前必须经过“业务规则校验”的中间思维步骤。通过引入专家规则库和 RRB 对（Reasoning-Response-Business Rule Pairs），让模型在生成 JSON 工具列表前，先输出符合业务逻辑的推理路径。这既保留了工具知识的记忆能力，又用单步贪心解码替代了慢速 Beam Search，实现了“快 + 准”的平衡。\n\n**创业启示**：\n可切入“企业级工具链智能编排中间件”赛道。针对金融、制造等拥有庞大私有 API 库的企业，提供基于 TRACE 架构的“业务规则增强型工具检索服务”。通过内置行业规则库，解决企业大模型“调工具慢、调错工具”的痛点，直接提升企业 RAG 系统的实时响应能力和工具调用准确率，成为企业私有化部署大模型时的关键性能优化层。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ArXiv/HF",
+      "url": "https://arxiv.org/abs/2607.21606",
+      "publish_time": "2026-05-16 00:00:00",
+      "publish_time_local": "2026-05-16 08:00:00",
+      "title": "[高赞论文] TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward",
+      "summary": "**大白话**：解决了文生图模型在生成“多概念组合”（如“一只戴墨镜的猫”）时，模型容易顾此失彼、漏掉某个概念导致画面崩坏或逻辑混乱的顽疾。TILT 框架无需重新训练模型，仅通过测试阶段的“奖励对齐”机制，让模型在采样过程中优先保留同时满足所有概念条件的图像，既保住了画面质量，又精准对齐了复杂指令。\n\n**The Trick**：核心在于将“概念缺失”定义为联合分布与单概念分布的“重叠模式”，并构建了一个无需外部监督的“模型内禀奖励”。该奖励机制强制模型在扩散采样时，倾向于生成所有概念同时存在的样本，通过 KL 约束和闭式倾斜目标分布，将复杂的组合生成问题转化为可计算的引导步骤。实验证明，这种混合引导策略在 T2ICompBench 基准测试中，显著提升了多概念对齐度，同时未牺牲图像生成质量。\n\n**创业启示**：\n可切入“垂直行业多模态内容生成优化服务”赛道。针对电商、游戏、广告等对图像细节要求极高且常需多元素组合的场景，提供“即插即用”的提示词增强与生成质量优化中间件。帮助 B 端客户在不增加训练成本的前提下，大幅提升复杂指令的生成成功率，直接提升内容生产效率与商业转化率。\n\n",
       "translation_status": "source",
       "lang": "zh"
     }
