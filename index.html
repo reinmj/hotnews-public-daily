@@ -511,6 +511,8 @@
         }
 
         .share-card {
+            position: relative;
+            overflow: hidden;
             width: 1200px;
             min-height: 675px;
             padding: 54px 60px;
@@ -521,6 +523,31 @@
             border: 1px solid #dde6de;
             border-radius: 8px;
             font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+        }
+
+        .share-card > :not(.share-card-watermark) {
+            position: relative;
+            z-index: 1;
+        }
+
+        .share-card-watermark {
+            position: absolute;
+            left: 50%;
+            top: 53%;
+            z-index: 0;
+            transform: translate(-50%, -50%) rotate(-28deg);
+            color: rgba(15, 118, 110, 0.13);
+            font-size: 156px;
+            font-weight: 950;
+            line-height: 1;
+            letter-spacing: 0;
+            -webkit-text-stroke: 2px rgba(255, 255, 255, 0.22);
+            text-shadow:
+                0 3px 14px rgba(15, 23, 42, 0.1),
+                0 0 1px rgba(15, 23, 42, 0.18);
+            white-space: nowrap;
+            pointer-events: none;
+            user-select: none;
         }
 
         .share-card-top {
@@ -1229,6 +1256,7 @@
             const card = document.createElement('div');
             card.className = 'share-card';
             card.innerHTML = `
+                <div class="share-card-watermark" aria-hidden="true">aihot.app</div>
                 <div class="share-card-top">
                     <div class="share-card-brand">
                         <div class="share-card-mark">AI</div>
