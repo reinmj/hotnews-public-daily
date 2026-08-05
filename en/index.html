@@ -224,6 +224,97 @@
             line-height: 1.55;
         }
 
+        .source-filter-panel {
+            margin: 2px 0 20px;
+            padding: 12px;
+            border: 1px solid rgba(22, 32, 28, 0.1);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.58);
+        }
+
+        .source-filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .source-filter-title {
+            color: var(--ink);
+            font-size: 12px;
+            font-weight: 860;
+            text-transform: uppercase;
+        }
+
+        .source-filter-current {
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 740;
+            line-height: 1.35;
+            text-align: right;
+        }
+
+        .source-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .source-filter-button {
+            appearance: none;
+            max-width: 100%;
+            border: 1px solid rgba(22, 32, 28, 0.11);
+            background: rgba(255, 255, 255, 0.72);
+            color: var(--ink);
+            border-radius: 999px;
+            padding: 7px 10px;
+            font: inherit;
+            font-size: 12px;
+            font-weight: 820;
+            line-height: 1;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+        }
+
+        .source-filter-button:hover {
+            border-color: rgba(15, 118, 110, 0.32);
+            color: var(--accent);
+            transform: translateY(-1px);
+        }
+
+        .source-filter-button.is-active {
+            border-color: rgba(15, 118, 110, 0.32);
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+
+        .source-filter-name {
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .source-filter-count {
+            min-width: 20px;
+            border-radius: 999px;
+            padding: 2px 6px;
+            background: rgba(22, 32, 28, 0.07);
+            color: var(--muted);
+            font-size: 11px;
+            font-weight: 900;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .source-filter-button.is-active .source-filter-count {
+            background: rgba(15, 118, 110, 0.16);
+            color: var(--accent);
+        }
+
         .local-tools {
             display: flex;
             align-items: center;
@@ -764,6 +855,16 @@
             .local-tools {
                 justify-content: flex-start;
             }
+            .source-filter-header {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+            .source-filter-current {
+                text-align: left;
+            }
+            .source-filter-button {
+                max-width: 100%;
+            }
             .title {
                 font-size: 16px;
             }
@@ -814,6 +915,13 @@
             </div>
         </div>
         <p id="shareNote" class="share-note">图片就绪后打开 X；若已复制，到发帖框按 ⌘V / Ctrl+V 粘贴。</p>
+        <section class="source-filter-panel" aria-label="按来源筛选">
+            <div class="source-filter-header">
+                <div id="sourceFilterTitle" class="source-filter-title">Sources</div>
+                <div id="sourceFilterCurrent" class="source-filter-current">全部来源</div>
+            </div>
+            <div id="sourceFilters" class="source-filters"></div>
+        </section>
         <section id="feed" class="feed" aria-live="polite"></section>
     </main>
     <footer class="shell feedback-footer" aria-label="反馈链接">
@@ -840,6 +948,9 @@
         const favoriteCountEl = document.getElementById('favoriteCount');
         const favoriteFilterButtonEl = document.getElementById('favoriteFilterButton');
         const shareNoteEl = document.getElementById('shareNote');
+        const sourceFiltersEl = document.getElementById('sourceFilters');
+        const sourceFilterTitleEl = document.getElementById('sourceFilterTitle');
+        const sourceFilterCurrentEl = document.getElementById('sourceFilterCurrent');
         const CANONICAL_URL = 'https://aihot.moredreamx.com/en/';
         const PAGE_LANG = (document.documentElement.lang || 'zh-CN').toLowerCase();
         const LANG_KEY = PAGE_LANG.startsWith('en') ? 'en' : PAGE_LANG.startsWith('ja') ? 'ja' : 'zh';
@@ -876,6 +987,11 @@
                 favorited: '★ 已收藏',
                 favoriteEmpty: '当前日报里还没有本地收藏。',
                 storageUnavailable: '本地收藏不可用',
+                sourceTitle: 'Sources',
+                allSources: '全部来源',
+                sourceCurrentAll: '全部来源 · {count} 篇',
+                sourceCurrentOne: '{source} · {count} 篇',
+                filteredStatus: '显示 {shown} / {total} 篇',
                 shareToX: '分享到 X',
                 shareHint: '图片就绪后打开 X；若已复制，到发帖框按 ⌘V / Ctrl+V 粘贴。',
                 shareGenerating: '生成图片中',
@@ -907,6 +1023,11 @@
                 favorited: '★ Saved',
                 favoriteEmpty: 'No local favorites in this daily issue yet.',
                 storageUnavailable: 'Local favorites are unavailable',
+                sourceTitle: 'Sources',
+                allSources: 'All sources',
+                sourceCurrentAll: 'All sources · {count} items',
+                sourceCurrentOne: '{source} · {count} items',
+                filteredStatus: 'Showing {shown} / {total} items',
                 shareToX: 'Share to X',
                 shareHint: 'Opens X when the image is ready. If copied, paste it with ⌘V / Ctrl+V.',
                 shareGenerating: 'Making image',
@@ -938,6 +1059,11 @@
                 favorited: '★ 保存済み',
                 favoriteEmpty: 'この日報にはローカル保存した記事がまだありません。',
                 storageUnavailable: 'ローカル保存は利用できません',
+                sourceTitle: 'Sources',
+                allSources: 'すべての出典',
+                sourceCurrentAll: 'すべての出典 · {count} 件',
+                sourceCurrentOne: '{source} · {count} 件',
+                filteredStatus: '{shown} / {total} 件を表示',
                 shareToX: 'X に共有',
                 shareHint: '画像の準備後に X を開きます。コピー済みなら ⌘V / Ctrl+V で貼り付けてください。',
                 shareGenerating: '画像生成中',
@@ -950,6 +1076,7 @@
         let currentGeneratedAt = null;
         let currentTargetDate = todayLocal();
         let favoritesOnly = false;
+        let selectedSource = '';
         let localFavorites = readLocalFavorites();
 
         function getSavedLanguage() {
@@ -1085,6 +1212,50 @@
         function isFavoriteItem(item) {
             const key = favoriteKey(item);
             return Boolean(key && localFavorites[key]);
+        }
+
+        function sourceKey(value) {
+            return String(value || UI.sourceFallback).trim() || UI.sourceFallback;
+        }
+
+        function getSourceCounts(items) {
+            const counts = new Map();
+            for (const item of items) {
+                const source = sourceKey(item.source);
+                counts.set(source, (counts.get(source) || 0) + 1);
+            }
+            return Array.from(counts.entries())
+                .map(([source, count]) => ({ source, count }))
+                .sort((a, b) => b.count - a.count || a.source.localeCompare(b.source));
+        }
+
+        function renderSourceFilters(displayCount = currentItems.length) {
+            if (!sourceFiltersEl) return;
+            const sourceCounts = getSourceCounts(currentItems);
+            const selectedStillExists = !selectedSource || sourceCounts.some(({ source }) => source === selectedSource);
+            if (!selectedStillExists) selectedSource = '';
+
+            const buttons = [
+                { source: '', label: UI.allSources, count: currentItems.length },
+                ...sourceCounts.map(({ source, count }) => ({ source, label: source, count }))
+            ];
+
+            sourceFiltersEl.innerHTML = buttons.map(({ source, label, count }) => {
+                const active = source === selectedSource;
+                return `
+                    <button class="source-filter-button ${active ? 'is-active' : ''}" type="button" data-source-filter="${escapeHtml(source)}" aria-pressed="${active ? 'true' : 'false'}" title="${escapeHtml(label)}">
+                        <span class="source-filter-name">${escapeHtml(label)}</span>
+                        <span class="source-filter-count">${count}</span>
+                    </button>
+                `;
+            }).join('');
+
+            if (sourceFilterCurrentEl) {
+                const template = selectedSource ? UI.sourceCurrentOne : UI.sourceCurrentAll;
+                sourceFilterCurrentEl.textContent = template
+                    .replace('{source}', selectedSource)
+                    .replace('{count}', String(displayCount));
+            }
         }
 
         function updateFavoriteTools() {
@@ -1382,16 +1553,25 @@
             feedEl.innerHTML = Array.from({ length: 9 }, () => '<div class="skeleton"></div>').join('');
             countEl.innerText = '--';
             updatedAtEl.innerText = UI.updatedPlaceholder;
+            if (sourceFiltersEl) sourceFiltersEl.innerHTML = '';
+            if (sourceFilterCurrentEl) sourceFilterCurrentEl.textContent = UI.allSources;
             updateFavoriteTools();
         }
 
         function renderCurrentItems() {
             const displayItems = currentItems
                 .map((item, index) => ({ item, index }))
+                .filter(({ item }) => !selectedSource || sourceKey(item.source) === selectedSource)
                 .filter(({ item }) => !favoritesOnly || isFavoriteItem(item));
 
             countEl.innerText = currentItems.length;
             updateFavoriteTools();
+            renderSourceFilters(displayItems.length);
+            if (currentItems.length) {
+                statusEl.innerText = UI.filteredStatus
+                    .replace('{shown}', String(displayItems.length))
+                    .replace('{total}', String(currentItems.length));
+            }
 
             if (!displayItems.length) {
                 feedEl.innerHTML = `<div class="empty">${escapeHtml(favoritesOnly ? UI.favoriteEmpty : UI.empty)}</div>`;
@@ -1449,6 +1629,15 @@
             });
         }
 
+        if (sourceFiltersEl) {
+            sourceFiltersEl.addEventListener('click', (event) => {
+                const button = event.target.closest('[data-source-filter]');
+                if (!button) return;
+                selectedSource = button.dataset.sourceFilter || '';
+                renderCurrentItems();
+            });
+        }
+
         async function loadDaily() {
             const targetDate = todayLocal();
             renderLoading();
@@ -1483,6 +1672,8 @@
             document.querySelector('.count-label').innerText = UI.countLabel;
             document.querySelector('.meter').setAttribute('aria-label', UI.ariaCount);
             if (shareNoteEl) shareNoteEl.innerText = UI.shareHint;
+            if (sourceFilterTitleEl) sourceFilterTitleEl.innerText = UI.sourceTitle;
+            if (sourceFilterCurrentEl) sourceFilterCurrentEl.innerText = UI.allSources;
             statusEl.innerText = UI.loading;
             loadDaily();
         }
