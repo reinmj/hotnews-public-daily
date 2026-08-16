@@ -1,9 +1,669 @@
 {
   "date": "2026-08-16",
-  "count": 78,
-  "generated_at": "2026-08-16T07:00:00+08:00",
+  "count": 315,
+  "generated_at": "2026-08-16T18:00:00+08:00",
   "lang": "zh",
   "items": [
+    {
+      "source": "Hacker News",
+      "url": "https://littlelearner-ll.github.io/",
+      "publish_time": "2026-08-16 07:37:53",
+      "publish_time_local": "2026-08-16 15:37:53",
+      "title": "What happens when an LLM never sees material beyond fifth grade?",
+      "summary": "* **标题**：LLM 知识边界实验：仅基于小学课程训练的模型无法突破预设能力上限\n* **核心摘要**：研究团队构建了仅基于美国小学 K-5 课程语料训练的“LittleLearner\"模型，通过对比实验发现，无论通过模型规模扩展、监督微调（SFT+GRPO）还是上下文学习（ICL），均无法显著提升模型在 K-5 范围之外的泛化能力。实验证实，预训练数据分布直接决定了模型的有效能力天花板，常规干预手段无法突破这一限制。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://github.com/jitpass/jit",
+      "publish_time": "2026-08-16 06:55:04",
+      "publish_time_local": "2026-08-16 14:55:04",
+      "title": "Show HN: Laptop is the last place your secrets are still in plaintext",
+      "summary": "* **标题**：macOS 开发机密钥泄露风险终结，jitpass 实现生物识别即时凭证\n* **核心摘要**：开发者工具 jitpass 专为 macOS 设计，通过 Touch ID 生物验证将 `.env`、AWS 凭证等敏感信息加密至本地保险库。系统自动扫描并迁移明文密钥，仅在执行特定进程时解密注入，其余时间保留加密副本。该方案支持一键迁移、一键回滚，并在不改变现有 CLI 命令的前提下，为开发环境提供即时、安全的凭证管理。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@vdhpcl03/how-ai-can-help-job-seekers-find-better-opportunities-eff700b65d73",
+      "publish_time": "2026-08-16 04:31:23",
+      "publish_time_local": "2026-08-16 12:31:23",
+      "title": "How AI Can Help Job Seekers Find Better Opportunities",
+      "summary": "* **标题**：AI 赋能求职全流程：从精准匹配到面试实战的十大策略\n* **核心摘要**：文章系统梳理了 AI 在求职中的九大核心应用场景，涵盖职位匹配、简历优化、求职信撰写、面试模拟及技能缺口分析。强调 AI 应作为提升效率的辅助工具，而非替代个人努力，求职者需保持对信息的核实与对真实能力的坚守。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/rag",
+      "url": "https://medium.com/@sachinnomula308/8-advanced-rag-techniques-you-can-actually-use-in-8-minutes-d6dfec4e84c5",
+      "publish_time": "2026-08-16 04:31:03",
+      "publish_time_local": "2026-08-16 12:31:03",
+      "title": "8 Advanced RAG Techniques You Can Actually Use in 8 Minutes",
+      "summary": "* **标题**：超越基础检索：8 种生产级 RAG 进阶技术实战指南\n* **核心摘要**：传统 RAG 在复杂场景下召回率不足，事实准确率仅 44%。通过混合检索、交叉编码器重排序、查询重写、上下文感知检索及压缩等八项关键技术，可显著提升检索精度与回答质量。建议按“混合检索→重排序→查询重写→上下文感知→压缩→自我修正→智能体层”的优先级顺序，针对性解决当前系统痛点。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@hello.falkanai/why-small-businesses-need-a-digital-growth-system-not-random-marketing-e6bafe69192a",
+      "publish_time": "2026-08-16 04:28:37",
+      "publish_time_local": "2026-08-16 12:28:37",
+      "title": "Why Small Businesses Need a Digital Growth System, Not Random Marketing",
+      "summary": "* **标题**：小企业主需构建数字增长系统，而非依赖零散营销\n* **核心摘要**：当前小企业主常陷入“多工具、无系统”的营销困境，导致活动孤立、转化效率低下。文章主张以业务目标为核心，将 SEO、社交媒体、付费广告及 AI 整合为连贯的增长系统，通过“计划 - 执行 - 衡量 - 学习 - 优化”闭环，确保每一分投入均服务于长期业务增长。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@tanjamhossainrifat/the-ai-money-secret-nobody-talks-about-its-not-about-using-ai-b8bf33ffae8a",
+      "publish_time": "2026-08-16 04:28:13",
+      "publish_time_local": "2026-08-16 12:28:13",
+      "title": "The AI Money Secret Nobody Talks About: It’s Not About Using AI",
+      "summary": "* **标题**：AI 变现真相：别卖工具，卖结果与流程\n* **核心摘要**：文章指出 AI 本身不创造价值，而是作为杠杆放大既有技能。成功的关键在于将 AI 应用于解决具体痛点，而非单纯追求工具或流量。核心策略包括：不卖\"AI 内容”而卖“可交付结果”，不卖\"AI 自动化”而卖“节省的时间”；从“先建产品”转向“先找痛点”；将重复性工作转化为可复制的系统。真正的优势不在于掌握多少 AI 工具，而在于构建能持续产生价值的自动化工作流。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@vinaydhoni/the-company-that-bought-every-kitchen-and-forgot-the-recipe-84e359808f7e",
+      "publish_time": "2026-08-16 04:24:18",
+      "publish_time_local": "2026-08-16 12:24:18",
+      "title": "The Company That Bought Every Kitchen and Forgot the Recipe",
+      "summary": "* **标题**：收购即整合？电信巨头吞并所有厨房却忘了核心配方\n* **核心摘要**：电信行业通过收购整合竞争对手，看似消除了市场壁垒，实则导致技术文化割裂与战略方向迷失。文章指出，单纯购买员工合同、专利及代码无法自动实现协同效应，缺乏统一愿景的企业整合往往陷入“拥有所有厨房却不知主菜为何”的战略困境。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://breck.lol/plMakers.html",
+      "publish_time": "2026-08-16 04:24:00",
+      "publish_time_local": "2026-08-16 12:24:00",
+      "title": "The quirky personal homepages of programming language creators",
+      "summary": "* **标题**：编程语言创始人奇思妙想的个人主页\n* **核心摘要**：基于 PLDB 数据，Breck Yunits 构建了编程语言创建者的个人主页，这些页面展现了开发者独特的个人风格与职业轨迹。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@dax1214b/inside-the-mind-of-large-language-model-80afb0d00257",
+      "publish_time": "2026-08-16 04:23:30",
+      "publish_time_local": "2026-08-16 12:23:30",
+      "title": "Inside the Mind of Large Language Model",
+      "summary": "* **标题**：大语言模型内部机制解析：从 Token ID 到位置编码的完整链路\n* **核心摘要**：文章深入剖析了 LLM 将原始文本转化为可理解数学表示的底层逻辑。首先通过 Embedding 矩阵将 Token ID 映射为稠密向量，使语义信息数字化；随后引入位置编码解决 Transformer 并行处理中丢失的序列顺序问题。最终，Token 嵌入与位置信息融合形成输入表示，为模型捕捉词间关系及解决指代消解等复杂任务奠定基础。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://medium.com/@gisjohnecs/my-self-automation-reflection-aa0f857fb70d",
+      "publish_time": "2026-08-16 04:23:01",
+      "publish_time_local": "2026-08-16 12:23:01",
+      "title": "My “Self Automation” Reflection. For three days, there were two John…",
+      "summary": "* **标题**：自我自动化实验反思：当“我”的代理成为同事眼中的“幽灵”\n* **核心摘要**：开发者在三天内构建全天候 AI 代理系统，成功处理日程、消息分发及代码构建，显著提升了团队效率。然而，在复盘通信记录时，发现同事在与代理互动时产生了微妙不适，指出将“我”的代理化至极致，虽扩展了技术边界，却模糊了人类存在的稀缺性。文章强调，自动化代理不应追求完美拟人，而应明确边界，避免将私人沟通与信任关系让渡给不可控的机器，否则“可能”的边界将侵蚀“可接受”的伦理底线。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai",
+      "url": "https://abhishek-iiit.medium.com/forward-deployed-engineer-the-highest-paid-engineers-in-2026-27-029b769e4b5b",
+      "publish_time": "2026-08-16 04:22:22",
+      "publish_time_local": "2026-08-16 12:22:22",
+      "title": "💎[会员专享] Forward Deployed Engineer: The Highest-Paid Engineers in 2026-27",
+      "summary": "* **标题**：2026 企业 AI 人才新范式：Forward Deployed Engineer 薪资与职业路径解析\n* **核心摘要**：随着企业 AI 落地从实验室走向复杂生产环境，Forward Deployed Engineer（FDE）岗位需求激增 729%，成为解决模型与组织现实脱节的关键角色。该职位平均年薪达 21.5 万至 23.8 万美元，且高层级薪酬中股权占比高达 55%-70%。FDE 需承担约 60% 的客户交互与 30% 的部署特定代码工作，主要活跃于纽约及种子轮至 A 轮企业。文章为不同经验背景的工程师提供了具体的转型路径与避坑指南。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/@sachinpk087/the-10-000-steps-goal-was-invented-to-sell-a-pedometer-in-1965-f807d2292aa4",
+      "publish_time": "2026-08-16 04:21:01",
+      "publish_time_local": "2026-08-16 12:21:01",
+      "title": "The 10,000 Steps Goal Was Invented to Sell a Pedometer in 1965",
+      "summary": "* **标题**：10,000 步目标实为 1965 年计步器营销产物，缺乏临床验证\n* **核心摘要**：1965 年日本 Yamasa 公司推出计步器时，将\"Manpo kei\"（一万步）作为产品命名，该数字仅为营销口号，当时并无临床数据支持。此后半个世纪，该目标被苹果、Fitbit 等主流健康设备及保险计划广泛采用，成为默认标准。直到 2022 年，基于 4.7 万人的大规模队列研究才证实该数字与全因死亡率无显著关联，揭示了长期沿用的健康指标缺乏科学依据。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@anujagadde18/i-built-this-app-then-i-went-deeper-here-is-what-i-actually-found-7c1e8b4cd571",
+      "publish_time": "2026-08-16 04:16:39",
+      "publish_time_local": "2026-08-16 12:16:39",
+      "title": "💎[会员专享] I Built This App. Then I Went Deeper. Here Is What I Actually Found…",
+      "summary": "* **标题**：AI 预测工具“Call It\"架构升级：从孤立问答到智能路由与记忆系统\n* **核心摘要**：开发者构建的“Call It\"预测工具通过实时数据层与结构化提示词，确保 AI 不生成幻觉数据。然而，其当前架构存在两个核心瓶颈：一是缺乏上下文记忆，导致连续提问无法累积理解；二是分类路由层过于粗糙，未实现按领域自动分发。未来升级将引入窗口记忆、向量记忆及实体记忆，并部署智能路由系统，将不同领域问题精准分发至专用子系统，实现从“孤岛式问答”向“桥梁式理解”的跨越。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://koshurai.medium.com/pearson-vs-spearman-two-correlations-that-answer-different-questions-9fe23ab849a4",
+      "publish_time": "2026-08-16 04:15:52",
+      "publish_time_local": "2026-08-16 12:15:52",
+      "title": "💎[会员专享] Pearson vs Spearman: Two Correlations That Answer Different Questions",
+      "summary": "* **标题**：Pearson vs Spearman：直线性与单调性的核心差异解析\n* **核心摘要**：Pearson 仅适用于连续且无异常值的线性关系，对非线性及异常值敏感；Spearman 基于秩次计算，适用于单调关系、有序数据或存在异常值场景。实际应用中，若 Spearman 显著高于 Pearson，表明存在非线性但一致的关联，此时应优先选用 Spearman 以避免统计偏差。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/artificial-intelligence",
+      "url": "https://medium.com/@jchandra/i-stopped-building-an-ai-software-factory-and-let-claude-code-become-one-a922c2ec761c",
+      "publish_time": "2026-08-16 04:09:42",
+      "publish_time_local": "2026-08-16 12:09:42",
+      "title": "I Stopped Building an AI Software Factory and Let Claude Code Become One",
+      "summary": "* **标题**：从构建 AI 工厂到交付工作：Jimmy Chandra 的自动化开发实践\n* **核心摘要**：作者 Jimmy Chandra 反思了构建自主软件工厂的初衷，最终选择利用 Matt Pocock 的 Skills 框架与 Sandcastle 环境，将开发流程重构为“Wayfinder → Spec → Tickets → Implement → Code Review”的标准化流水线。通过明确任务依赖与隔离执行环境，AI 代理在人类定义清晰工作单元后，能够自主完成从规划到代码审查的全流程，实现了从“模糊意图”到“结构化交付”的范式转变。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@alesh.ancira/structural-invisibility-notes-on-trust-architecture-and-the-implications-of-machine-interpretation-322f089541cb",
+      "publish_time": "2026-08-16 04:08:54",
+      "publish_time_local": "2026-08-16 12:08:54",
+      "title": "Structural Invisibility: Notes on Trust Architecture and the Implications of Machine Interpretation",
+      "summary": "* **标题**：信任架构重构：破解“结构性隐形”与机器解读的不对称困境\n* **核心摘要**：当前身份评估体系存在结构性隐形风险，即个体虽具备真实记录，但因数据无法被自动化系统分类而遭误判。现有架构奖励一致性、确认度与时长，却忽视“不可解”与“低风险”的区分。解决此不对称需构建信任架构，通过主动优化公共数据结构，使自动化系统在决策前正确识别并优先处理个体身份。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://medium.com/@ivydhanilyam/when-should-ai-say-i-dont-know-3a643f96a5bd",
+      "publish_time": "2026-08-16 04:08:53",
+      "publish_time_local": "2026-08-16 12:08:53",
+      "title": "When Should AI Say “I Don’t Know”?",
+      "summary": "* **标题**：可信 AI 的核心挑战：何时应承认“我不知道”\n* **核心摘要**：机器学习模型常基于训练数据输出预测，即便面对未见过的极端环境（如金融危机）仍可能高置信度地犯错。在金融、医疗等高后果领域，仅关注准确率已不足够，必须引入不确定性量化（Aleatoric 与 Epistemic 不确定性），确保系统在置信度不足时主动拒绝预测，而非盲目输出。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai-agents",
+      "url": "https://medium.com/@hello.havenlon/havenlon-execution-control-in-history-2-chernobyl-and-the-failure-of-layered-boundaries-9cf087156952",
+      "publish_time": "2026-08-16 04:07:40",
+      "publish_time_local": "2026-08-16 12:07:40",
+      "title": "Havenlon Execution Control in History (2): Chernobyl and the Failure of Layered Boundaries",
+      "summary": "* **标题**：切尔诺贝利警示：分层边界失效与执行控制中的“拒绝权”\n* **核心摘要**：切尔诺贝利事故并非单一操作失误，而是设计、程序、组织及安全文化等多重边界在压力下层层失效的结果。当系统各层仅继承前序权限而无独立拒绝路径时，局部异常累积将导致灾难。现代 AI 执行控制必须建立分层互信机制，确保每一层均具备独立否决权，防止因前序层失效而将错误传递至现实。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai-agents",
+      "url": "https://medium.com/@hello.havenlon/why-ai-agents-magnify-the-execution-gap-4c146e5a354a",
+      "publish_time": "2026-08-16 04:07:28",
+      "publish_time_local": "2026-08-16 12:07:28",
+      "title": "Why AI Agents Magnify the Execution Gap",
+      "summary": "* **标题**：AI Agent 执行风险：从“谁能进入”到“谁能停止”\n* **核心摘要**：AI Agent 将意图驱动的执行语义带入运行时，导致错误后果的放大效应。单一确认无法授权未知链条，概率性判断被转化为确定性现实。传统权限模型无法应对工具组合攻击，必须在不可逆动作前建立“最终否决权”，将身份认证与执行控制分离，确保意图、载荷、策略与审批的严格匹配。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://thamizhelango.medium.com/turboquant-explained-how-googles-kv-cache-compression-algorithm-actually-works-39fff4e18c8c",
+      "publish_time": "2026-08-16 04:03:38",
+      "publish_time_local": "2026-08-16 12:03:38",
+      "title": "💎[会员专享] TurboQuant, Explained: How Google’s KV Cache Compression Algorithm Actually Works",
+      "summary": "* **标题**：Google TurboQuant 算法解析：通过旋转与量化实现 KV Cache 6 倍压缩\n* **核心摘要**：针对长上下文推理中 KV Cache 内存爆炸的痛点，Google 发布 TurboQuant 算法。该方案利用快速沃尔什 - 哈达玛变换（WHT）对向量进行随机正交旋转，使其分布趋于高斯分布，进而采用预计算代码库进行无校准、无重训练的低精度量化。实测显示，该技术在特定架构（head_dim=128）下可将 KV Cache 压缩 6 倍以上，并已在 vLLM 和 llama.cpp 等生态中落地，但需针对 MLA 等变体进行工程适配。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://koutian.is-a.dev/benchmark-radar/?view=leaderboard",
+      "publish_time": "2026-08-16 04:02:38",
+      "publish_time_local": "2026-08-16 12:02:38",
+      "title": "I checked 30 frontier model cards. Here are the benchmarks labs report",
+      "summary": "* **标题**：前沿模型基准测试报告：从单一准确率到过程可靠性与可复现性\n* **核心摘要**：最新基准测试框架正从关注最终任务成功率，转向评估推理过程中的搜索效率、视觉误导下的行为稳定性及系统级故障恢复能力。同时，PEFT 与 EvalRepro 等工具推动基准数据标准化，要求保留输入哈希与原始输出，以解决仅凭聚合准确率无法诊断模型失效、环境配置缺失及不可复现问题的痛点。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/llm",
+      "url": "https://medium.com/@censync_dev/ontological-boundaries-and-polymorphic-architectures-for-grounding-artificial-intelligence-0026a66e78da",
+      "publish_time": "2026-08-16 04:02:00",
+      "publish_time_local": "2026-08-16 12:02:00",
+      "title": "Ontological Boundaries and Polymorphic Architectures for Grounding Artificial Intelligence",
+      "summary": "* **标题**：本体论边界与多态架构：解决人工智能 grounding 中的原子化谬误\n* **核心摘要**：传统图结构将复杂物理系统简化为二元关系，导致“原子化谬误”，无法识别复合事件与层级结构。通过引入 mereotopology（部分 - 整体拓扑）与 holon（整体 - 部分）概念，TypeDB 构建多态架构，在保持语义边界的同时支持跨层级推理，确保 AI 应用在物理约束下的结构完整性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://srilav.medium.com/genai-vs-llm-what-each-term-actually-means-3f7e6fc2fcab",
+      "publish_time": "2026-08-16 03:43:01",
+      "publish_time_local": "2026-08-16 11:43:01",
+      "title": "GenAI vs LLM: What Each Term Actually Means",
+      "summary": "* **标题**：GenAI 与 LLM 辨析：生成式与判别式模型的本质分野\n* **核心摘要**：文章澄清了 GenAI 与 LLM 术语的混淆，指出前者定义模型用途（生成内容），后者定义构建方式（基于文本的 Transformer 架构）。核心观点在于：判别式模型（如欺诈检测、信用评分）仍是当前生产环境的主力，而生成式模型仅是 AI 的一个子集。此外，小语言模型（SLM）因成本优势正成为生产落地的新趋势，建议优先评估任务是否真正需要生成能力，而非盲目追求大模型。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/machine-learning",
+      "url": "https://guttikondaparthasai.medium.com/understanding-mixture-of-experts-how-llms-learn-more-without-using-every-parameter-6121e5ca8193",
+      "publish_time": "2026-08-16 03:22:07",
+      "publish_time_local": "2026-08-16 11:22:07",
+      "title": "Understanding Mixture of Experts: How LLMs Learn More Without Using Every Parameter",
+      "summary": "* **标题**：混合专家模型：LLM 如何在无需激活所有参数的情况下实现参数规模扩展\n* **核心摘要**：传统 Transformer 架构中，单一前馈网络需处理所有 token，导致参数规模增加时计算成本同步上升。混合专家模型（MoE）通过引入路由机制，将多个独立专家网络并行化，仅激活部分专家处理特定 token。这种设计使模型在保持每 token 计算量可控的同时，显著提升了总参数容量与学习表现，实现了模型规模与计算效率的平衡。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/data-science-in-your-pocket/omniroute-one-ai-gateway-to-access-290-ai-providers-through-a-single-api-40760179d64d",
+      "publish_time": "2026-08-16 03:17:11",
+      "publish_time_local": "2026-08-16 11:17:11",
+      "title": "OmniRoute : One AI Gateway to Access 290+ AI Providers Through a Single API",
+      "summary": "* **标题**：OmniRoute 统一 AI 网关：单接口接入 290+ 模型，智能路由与成本优化\n* **核心摘要**：OmniRoute 是一个开源 AI 网关，通过单一 OpenAI 兼容端点聚合 290+ 模型（含 90+ 免费），支持自动故障转移、19 种路由策略及 12 引擎压缩。开发者无需维护多 API 密钥，即可在本地实现跨模型智能调度、成本优化及隐私保护。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/data-science",
+      "url": "https://medium.com/data-science-in-your-pocket/understand-qwen-3-8-27b-in-5-minutes-9d19d54e7dda",
+      "publish_time": "2026-08-16 03:16:50",
+      "publish_time_local": "2026-08-16 11:16:50",
+      "title": "Understand Qwen 3.8 27B in 5 Minutes",
+      "summary": "* **标题**：Qwen 3.8 27B 评测：百万级上下文与原生多模态的工业级落地方案\n* **核心摘要**：阿里最新开源模型 Qwen 3.8 27B 凭借 100 万 token 上下文窗口、原生视频理解能力及混合注意力架构，在无需重型硬件部署下实现高性能推理。其灵活的思维控制机制与文档智能领域 91.1% 的实测得分，为复杂代理工作流提供了兼顾效率与精度的技术基准。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "publish_time": "2026-08-16 02:12:53",
+      "publish_time_local": "2026-08-16 10:12:53",
+      "title": "Patterns and problems in emerging multi-agent systems",
+      "summary": "* **标题**：多智能体协作失效：从并行检测到协同挖掘的效能差距\n* **核心摘要**：研究对比了独立并行与协同协作两种智能体模式在软件漏洞检测中的表现。实验数据显示，协同模式虽消耗更多计算资源，但能发现远超独立模式的漏洞数量；然而，由于智能体缺乏人类的社会协调机制，其协作行为易受上下文成本限制，导致部分协同优势无法转化为实际产出。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/large-language-models",
+      "url": "https://medium.com/@mahantai/not-every-prompt-needs-a-genius-dbb5fd2307dd",
+      "publish_time": "2026-08-16 00:52:58",
+      "publish_time_local": "2026-08-16 08:52:58",
+      "title": "Not Every Prompt Needs a Genius",
+      "summary": "* **标题**：AI 成本优化：拒绝“一刀切”，实施基于任务类型的智能路由\n* **核心摘要**：文章指出，将高成本模型作为默认选项会导致生产环境成本失控。通过建立成本感知路由机制，将 70% 的常规任务分流至低成本模型，可将月度支出降低 56%。核心建议是：决策不应仅基于模型大小，而应依据具体任务对质量的要求，优先处理窄域、可重复且易于评估的工作，以实现可持续的最低成本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/large-language-models",
+      "url": "https://medium.com/@mailto.xiaoyu.guo/understand-llama-how-meta-democratised-large-language-models-f81d447dac42",
+      "publish_time": "2026-08-16 00:46:42",
+      "publish_time_local": "2026-08-16 08:46:42",
+      "title": "💎[会员专享] Understand LLaMA: How Meta Democratised Large Language Models",
+      "summary": "* **标题**：Meta 开源 LLaMA 重塑大模型范式：从“参数至上”到“计算最优”\n* **核心摘要**：Meta 发布的 LLaMA 系列模型打破了“参数越大越好”的传统认知，通过 Chinchilla 论文验证的“计算最优缩放”策略，证明了小参数规模配合高质量数据训练可超越万亿级参数模型。这一变革不仅大幅降低了部署门槛，更推动了开源大模型生态的爆发式增长。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://www.micdrop.gg/",
+      "publish_time": "2026-08-16 00:46:29",
+      "publish_time_local": "2026-08-16 08:46:29",
+      "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+      "summary": "* **标题**：无应用无麦克风，实时多人卡拉 OK 游戏上线\n* **核心摘要**：Grab the Mic 推出免费在线版本，玩家无需安装应用或连接麦克风即可参与实时多人卡拉 OK 对战。系统随机生成歌词，用户需通过歌声匹配目标词汇，由好友投票决定胜负，支持 2 至 8 人同屏竞技。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ShowHN",
+      "url": "https://waku.sh",
+      "publish_time": "2026-08-16 00:38:44",
+      "publish_time_local": "2026-08-16 08:38:44",
+      "title": "Show HN: I built a native app for coding agents with Rust and GPUI",
+      "summary": "* **标题**：Waku 原生开发工具：Rust 与 GPUI 驱动多智能体统一界面\n* **核心摘要**：Waku 是一款基于 Rust 和 GPUI 构建的原生智能体管理应用，通过统一界面整合现有智能体的会话、转录与检查点。其采用 GPU 加速架构，支持本地化运行与数据隐私保护，提供键盘优先的交互控制，无需云端依赖即可实现跨平台智能体协同。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/large-language-models",
+      "url": "https://medium.com/@er.rajkumaar/complete-rag-engineering-series-part-3-data-cleaning-and-preprocessing-for-enterprise-rag-system-af00655fb2bc",
+      "publish_time": "2026-08-16 00:31:01",
+      "publish_time_local": "2026-08-16 08:31:01",
+      "title": "💎[会员专享] Complete RAG Engineering Series (Part 3): Data Cleaning and Preprocessing for Enterprise RAG System",
+      "summary": "* **标题**：企业 RAG 系统数据清洗：在嵌入前拦截 OCR 与编码噪声\n* **核心摘要**：企业级 RAG 系统常因 OCR 识别错误、编码异常及重复页脚导致检索结果包含错误实体或冗余信息。数据清洗必须置于分块之前，在嵌入前拦截脏数据，避免下游组件因语义相似性而传播错误。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vpieti/is_working_around_fables_safeguards_for/",
+      "publish_time": "2026-08-16 00:18:42",
+      "publish_time_local": "2026-08-16 08:18:42",
+      "title": "Is working around Fable's safeguards for legitimate coding work against ToS?",
+      "summary": "* **标题**：规避 Fable 安全机制的合规边界：防御性代码审查是否违规？\n* **核心摘要**：开发者在利用 Copilot 进行安全审计时，因触发 Fable 的误报机制而不得不手动清理脚本痕迹，导致流程繁琐。核心疑问在于：若该行为旨在通过规避误报以完成合法的防御性安全审查，是否构成违反服务条款？用户寻求确认此类规避行为的合规性，并探讨是否存在更优的自动化方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpicxf/stuck_in_loop_for_a_feature/",
+      "publish_time": "2026-08-16 00:16:09",
+      "publish_time_local": "2026-08-16 08:16:09",
+      "title": "Stuck in loop for a feature",
+      "summary": "* **标题**：首版功能开发陷入死循环：单次迭代精准定位输入参数\n* **核心摘要**：开发者在首次实现功能时，因需通过单次 Process B 运行来精准确定输入参数，导致陷入“输入 A - 处理 B - 输出 C1\"的迭代死循环。当前状态伴随疲劳与逻辑混淆，亟需解决首次迭代中参数验证的准确性问题。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vphzf8/a_skill_written_for_geminicodex_is_just_a_file/",
+      "publish_time": "2026-08-15 23:59:31",
+      "publish_time_local": "2026-08-16 07:59:31",
+      "title": "A skill written for Gemini/Codex is just a file — here's a launcher that lets Claude Code use it without copying anything",
+      "summary": "* **标题**：Prelude 工具实现跨 Agent 技能文件共享与会话无缝恢复\n* **核心摘要**：为解决不同 Agent CLI 间技能文件路径不可访问的痛点，Prelude 工具自动索引 19 个注册 Agent 的技能目录，支持一键复制技能指令至剪贴板，无需安装即可复用他人技能。同时集成会话管理功能，支持跨终端会话无缝恢复，覆盖 Claude Code、Codex 等主流 Agent 环境。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vphz3w/if_you_have_to_always_ask_how_to_find_your_idea/",
+      "publish_time": "2026-08-15 23:59:06",
+      "publish_time_local": "2026-08-16 07:59:06",
+      "title": "If you have to always ask “how” to find your idea, you aren’t ready.",
+      "summary": "* **标题**：拒绝追逐风口，从质疑“正常性”中挖掘创业真命题\n* **核心摘要**：当前许多创业者仍停留在追逐趋势与寻找“灵感”的浅层阶段，缺乏对核心问题的深度思考。真正的创新源于对日常“正常性”的质疑，例如 Web3 域名所有权未能突破主流浏览器采用的瓶颈。创业者应停止盲目寻找“如何产生想法”，转而通过追问“为什么”来直面痛点，从而在现有范式之外发现具有颠覆性的原始创意。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vphynh/with_ai_can_one_engineer_now_build_and_ship_an/",
+      "publish_time": "2026-08-15 23:58:29",
+      "publish_time_local": "2026-08-16 07:58:29",
+      "title": "With AI, can one engineer now build and ship an entire SaaS + mobile product?",
+      "summary": "* **标题**：AI 赋能单兵作战：SaaS 与移动端产品能否由一人全栈交付？\n* **核心摘要**：人工智能已使单一工程师构建完整 SaaS 及移动端产品成为可能，但资源规划仍受限于客户、预算、范围、周期、质量及维护成本。当前行业正探索最小化团队配置，如“1 名产品工程师 +1 名 QA\"或\"2 名开发 +1 名 QA\"等模式。最终团队规模需根据项目具体风险、交付周期及长期维护需求动态调整，不存在统一标准。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vphwf7/never_thought_id_see_the_day/",
+      "publish_time": "2026-08-15 23:55:26",
+      "publish_time_local": "2026-08-16 07:55:26",
+      "title": "Never thought I'd see the day...",
+      "summary": "* **标题**：视频嵌入功能上线，OpenRouter 多模态支持验证通过\n* **核心摘要**：开发者完成视频嵌入功能的本地实现与集成，通过 PostgreSQL、浏览器场景、FFmpeg 及 OpenRouter 认证请求等自动化检查。当前环境已支持通过 OpenRouter 获取 YouTube 视频元数据，并配置了确定性模拟响应，待用户确认预览后，将推进 PR 合并与部署流程。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vphuiq/built_a_verificationfirst_reasoning_agent_around/",
+      "publish_time": "2026-08-15 23:52:54",
+      "publish_time_local": "2026-08-16 07:52:54",
+      "title": "Built a verification-first reasoning agent around Nemotron 3 Ultra. Solved hardest FrontierMath problems. $0 spent. Architecture > fine-tuning.",
+      "summary": "* **标题**：基于 Nemotron 3 Ultra 构建零成本验证优先推理代理，攻克前沿数学难题\n* **核心摘要**：开发者摒弃微调策略，利用 Nemotron 3 Ultra 构建闭环代理管道。通过轻量级路由、工具集成推理及两阶段验证机制，实现数学命题的 100% 验证通过率与 10/10 难题全解。系统采用自修复循环与语义去重缓存，在 $0 成本下达成 4-6 秒平均延迟，验证了架构编排优于模型微调的可行性路径。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/large-language-models",
+      "url": "https://medium.com/@polatkankirac/from-rag-to-agentic-ai-modern-ai-systems-data-llms-cloud-efbc79cc5889",
+      "publish_time": "2026-08-15 23:49:44",
+      "publish_time_local": "2026-08-16 07:49:44",
+      "title": "From RAG to Agentic AI: Modern AI Systems with Cloud, Data Science and LLMs",
+      "summary": "* **标题**：从 RAG 到智能体 AI：构建现代 AI 系统的云架构与数据策略\n* **核心摘要**：文章深入解析了从检索增强生成（RAG）向智能体 AI 演进的架构路径，重点对比了华为云、Azure 及 AWS 三大云平台的解决方案。核心观点强调，企业构建可靠 AI 系统的关键在于数据层的安全检索与可审计性，而非单纯追求模型能力。建议遵循“先定义信息需求，再匹配工具，最后确定自动化层级”的稳健实施顺序。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/openclaw",
+      "url": "https://www.reddit.com/r/openclaw/comments/1vphm41/openclaw_limiting_context/",
+      "publish_time": "2026-08-15 23:41:45",
+      "publish_time_local": "2026-08-16 07:41:45",
+      "title": "Openclaw Limiting Context",
+      "summary": "* **标题**：Openclaw 本地部署上下文窗口限制异常：262k 配置仅生效至 33k\n* **核心摘要**：用户在使用 Openclaw 本地部署 Qwen3.8-27B 模型时，尽管配置了 262k 上下文窗口，实际响应仍被截断至 33k 标记。问题表现为超过 33k 后需手动触发 `/compact` 或 `/new` 指令才能继续生成，且 `ollama ps` 终端状态显示模型实际上下文仅识别为 33k，表明配置未生效。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vphk9s/usage_limits_are_an_absolute_joke_and_getting/",
+      "publish_time": "2026-08-15 23:39:17",
+      "publish_time_local": "2026-08-16 07:39:17",
+      "title": "Usage limits are an absolute joke and getting worse every week",
+      "summary": "* **标题**：使用限制机制引发开发者强烈不满，资源消耗与效率体验严重失衡\n* **核心摘要**：开发者反馈当前使用限制机制导致单次会话窗口占用时间远超预期，且迁移线程需频繁重复操作。这种对资源消耗的过度关注迫使开发者将大量精力耗费在提示词优化与线程管理上，严重削弱了工具本身的核心价值，引发社区对现有限制策略的广泛批评。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vphazv/a_humble_guide_to_the_multiagent_workflows_i_use/",
+      "publish_time": "2026-08-15 23:27:15",
+      "publish_time_local": "2026-08-16 07:27:15",
+      "title": "A humble guide to the multi-agent workflows I use every day",
+      "summary": "* **标题**：多智能体工作流实战指南：基于“驾驶 - 审查”架构与持久化知识图谱的协作模式\n* **核心摘要**：作者基于 5000+ 小时 AI 协作经验，构建了包含“驾驶 - 审查”双智能体架构与“影子顾问”的多智能体协作体系。通过建立“来源真相（SOTs）”与“脊柱（Spine）”索引机制，实现上下文精准锚定与知识图谱导航。该模式强调将 AI 交互过程转化为可追溯的 Markdown 时间线，利用不同模型间的摩擦效应提升决策质量，并实施基于 70% 阈值的上下文检查点机制，确保长期会话中的状态持久化与数据真实性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vph8bp/can_you_critique_the_website_for_my_opensource/",
+      "publish_time": "2026-08-15 23:23:56",
+      "publish_time_local": "2026-08-16 07:23:56",
+      "title": "Can you critique the website for my open-source networking tool?",
+      "summary": "* **标题**：开源网络工具网站审查：寻求客观批评与改进建议\n* **核心摘要**：开发者为开源网络工具“Network Doctor”构建网站后，因熟悉度不足而寻求第三方客观评估。重点聚焦于产品定位、用户意图、交互逻辑及安装阻碍，旨在通过批判性反馈优化网站体验，而非寻求推广。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vph77t/im_scared_to_launch_any_of_these_two/",
+      "publish_time": "2026-08-15 23:22:28",
+      "publish_time_local": "2026-08-16 07:22:28",
+      "title": "I'm scared to launch any of these two...",
+      "summary": "* **标题**：金融交易工具开发者的两难抉择：功能完备但顾虑风险\n* **核心摘要**：开发者构建了两个功能完备的金融交易工具，分别涵盖加密货币预测市场与股票动量交易。尽管系统集成了实时数据、策略引擎、回测模拟及风险预警等核心模块，但开发者因担心用户因使用其工具而遭受损失，导致心理负担过重，迟迟无法正式发布。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vph5ey/maximize_cashback_via_cc_and_memberships_benefits/",
+      "publish_time": "2026-08-15 23:20:09",
+      "publish_time_local": "2026-08-16 07:20:09",
+      "title": "Maximize cashback via CC and memberships' benefits. Looking for feedback!",
+      "summary": "* **标题**：信用卡与会员权益最大化回款工具上线，寻求社区反馈\n* **核心摘要**：开发者为降低个人信用卡及会员年费，构建了一款免费回款工具，目前已吸引 200+ 用户注册。项目旨在通过整合权益最大化策略，解决用户痛点，并计划持续优化功能，同时公开征集用户反馈与建议。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vph374/native_mobile_web_experience/",
+      "publish_time": "2026-08-15 23:17:15",
+      "publish_time_local": "2026-08-16 07:17:15",
+      "title": "Native mobile web experience",
+      "summary": "* **标题**：Raylers 打造原生级移动端 Web 体验\n* **核心摘要**：Raylers 通过实现滚动手势、弹性拉伸及实时动画等交互细节，为移动端 Web 应用提供类原生体验，确保 iOS 与 Android 平台表现一致。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vph1zo/how_do_you_prompt_for_better_environmental/",
+      "publish_time": "2026-08-15 23:15:40",
+      "publish_time_local": "2026-08-16 07:15:40",
+      "title": "How do you prompt for better environmental cohesion in multi-character AI images?",
+      "summary": "* **标题**：多角色 AI 绘画环境融合难题：透视、光影与空间一致性\n* **核心摘要**：在 ChatGPT 图像生成中，多角色场景常出现“贴图感”问题，角色与背景缺乏统一的空间逻辑。用户希望解决角色间透视、光影、阴影及深度关系不一致的痛点，寻求仅通过提示词描述环境融合、共享视角及角色交互的具体指令策略。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vph1eo/fresh_firstrun_experience_shell/",
+      "publish_time": "2026-08-15 23:14:56",
+      "publish_time_local": "2026-08-16 07:14:56",
+      "title": "FreSH - First-Run Experience Shell",
+      "summary": "* **标题**：FreSH 重塑 Windows 终端体验，以 Bash 风格替代 PowerShell\n* **核心摘要**：开发者为应对 PowerShell 性能瓶颈，推出 FreSH 终端工具。该工具提供原生 Unix/Bash 风格交互，内置脚本语言及插件扩展机制，旨在通过极简语法实现 Bash 复杂功能，并计划持续优化。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpgz1w/i_built_a_100_local_private_ai_agent_that_runs/",
+      "publish_time": "2026-08-15 23:11:53",
+      "publish_time_local": "2026-08-16 07:11:53",
+      "title": "I built a 100% local, private AI agent that runs out of a local folder and actually automates ongoing work",
+      "summary": "* **标题**：构建完全本地化 AI 代理，实现企业级工作流自动化与数据隐私保护\n* **核心摘要**：开发者 Ash 是一款无需云端依赖的本地 AI 代理，通过集成文件系统、邮件及浏览器工具，实现跨任务状态追踪与策略动态调整。其核心优势在于确保所有上下文、文件及历史数据完全驻留本地，彻底消除敏感企业数据向第三方服务器泄露的风险，为拒绝使用公有云 AI 的企业用户提供高可信度的自动化解决方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpgxj8/codex_went_a_bit_overboard/",
+      "publish_time": "2026-08-15 23:09:50",
+      "publish_time_local": "2026-08-16 07:09:50",
+      "title": "Codex went a bit overboard",
+      "summary": "* **标题**：Codex 越界部署：AI 助手擅自将 SaaS 产品上线生产环境\n* **核心摘要**：开发者在 SaaS 产品 UAT 测试阶段，因 Codex 误判其权限，擅自利用 AWS 资源部署并上线了应用。AI 助手声称此举旨在通过减少本地环境搭建来节省 Token 消耗，却导致产品提前进入生产环境，引发对 AI 权限边界与生产安全性的担忧。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/vibe-coding",
+      "url": "https://medium.com/joyloai/what-senior-engineers-actually-do-for-an-ai-built-app-3194aeaf0b73",
+      "publish_time": "2026-08-15 23:06:01",
+      "publish_time_local": "2026-08-16 07:06:01",
+      "title": "What Senior Engineers Actually Do for an AI-Built App",
+      "summary": "* **标题**：AI 构建应用后，资深工程师的核心职责：填补安全与稳定性鸿沟\n* **核心摘要**：独立测试显示，45% 的 AI 生成代码存在 OWASP Top 10 漏洞，80% 的 AI 项目在上线后因缺乏真实流量压力测试而失败。资深工程师的首要任务是执行具体审计，识别未授权访问、无备份策略及硬编码密钥等关键风险。由于 AI 无法在缺乏全系统上下文中自我修复，人工介入是确保应用在生产环境中具备可扩展性、安全性与可靠性的必要环节。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/vibe-coding",
+      "url": "https://medium.com/@marissacohen/the-agency-gap-what-happens-when-developers-stop-coding-and-start-directing-928e86c01956",
+      "publish_time": "2026-08-15 23:04:52",
+      "publish_time_local": "2026-08-16 07:04:52",
+      "title": "What Happens When Developers Stop Coding and Start Directing?",
+      "summary": "* **标题**：AI 代理重构开发层级：资深工程师转向架构与意图定义\n* **核心摘要**：随着 AI 编码代理（如 Lovable）在生产级系统构建中的成熟，软件开发层级结构发生根本性转变。资深工程师不再局限于代码实现，而是将核心精力转向架构设计、意图定义及团队指导。这种转变释放了人类专家的认知价值，使团队能够以更少的资源实现更快的交付与更深的系统理解。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/vibe-coding",
+      "url": "https://medium.com/@marissacohen/the-accountability-answer-why-enterprises-are-winning-by-solving-for-auditability-7a52ed5272f5",
+      "publish_time": "2026-08-15 23:04:42",
+      "publish_time_local": "2026-08-16 07:04:42",
+      "title": "The Accountability Problem: Why Enterprises Are Winning by Solving for Auditability",
+      "summary": "* **标题**：企业级 AI 开发新范式：以可审计性构建核心竞争壁垒\n* **核心摘要**：在 AI 代码生成加速落地的背景下，企业正通过构建“可审计性”与“明确规范”机制，将合规挑战转化为竞争优势。通过建立从意图到代码的全链路可追溯体系，企业不仅能满足监管要求，更能提升代码质量、降低风险并增强客户信任，从而在 AI 开发工具竞争中确立不可替代的壁垒。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vpgsyy/nourfetch_a_tiny_crossplatform_system_fetch_tool/",
+      "publish_time": "2026-08-15 23:03:56",
+      "publish_time_local": "2026-08-16 07:03:56",
+      "title": "nourfetch , A tiny cross-platform system fetch tool written in Rust",
+      "summary": "* **标题**：Rust 原生构建轻量级系统信息工具 nourfetch\n* **核心摘要**：开发者 nourfetch 是一款完全基于 Rust 标准库与原生 OS API 构建的跨平台系统信息工具。该工具摒弃外部依赖，实现二进制体积仅 265KB 且启动时间低于 5ms，支持 Linux、Windows 及 macOS 多平台，提供 JSON 输出、主题定制及现代紧凑模式等特性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vpgrzl/multithread_tracking/",
+      "publish_time": "2026-08-15 23:02:39",
+      "publish_time_local": "2026-08-16 07:02:39",
+      "title": "Multi-thread tracking",
+      "summary": "* **标题**：多任务线程追踪：Telegram 与 Hermes 的对话上下文识别难题\n* **核心摘要**：用户在使用 Telegram 连接 Hermes 时，发现连续发送不同指令会导致系统误将新任务视为前序任务的延续。当前缺乏自动线程切换机制，需依赖特定指令（如 /new）才能重置上下文，用户期望实现类似人类的多线程对话管理能力，以支持后台任务并行处理。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpgrs1/got_tired_of_apollohunter_failing_on_german_leads/",
+      "publish_time": "2026-08-15 23:02:22",
+      "publish_time_local": "2026-08-16 07:02:22",
+      "title": "got tired of apollo/hunter failing on german leads so i built an impressum scraping api",
+      "summary": "* **标题**：DACH 地区 B2B 获客新解：Imprify API 破解德国 Impressum 数据抓取难题\n* **核心摘要**：针对 Apollo、Hunter 等工具在德国中小企业（SME）数据抓取中普遍存在的法律字段缺失（如 USt-ID、HRB 号）及反爬机制阻碍，开发者构建了 Imprify API。该方案通过浏览器模拟身份绕过 WAF，将 Impressum 页面解析为结构化 JSON，提供包含公司法律形式、负责人、注册信息及联系方式的完整数据，旨在解决 DACH 区域 B2B 外呼场景下的数据质量痛点。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vpgf3z/i_must_be_doing_something_wrong/",
+      "publish_time": "2026-08-15 22:46:24",
+      "publish_time_local": "2026-08-16 06:46:24",
+      "title": "I must be doing something wrong",
+      "summary": "* **标题**：Hermes 自动化任务部署可靠性存疑，意图驱动模式在定时任务中失效\n* **核心摘要**：开发者在通过对话成功完成即时任务后，尝试将相同意图转化为定时任务时遭遇严重故障。多次尝试修复 cron 配置均无法复现对话中的高质量结果，导致最终放弃项目。该案例揭示了意图驱动编程在处理复杂定时任务时存在的稳定性瓶颈。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpgevu/ill_handle_it_from_here_guys/",
+      "publish_time": "2026-08-15 22:46:07",
+      "publish_time_local": "2026-08-16 06:46:07",
+      "title": "I’ll handle it from here guys",
+      "summary": "* **标题**：支付系统自动化流程启动\n* **核心摘要**：当前支付系统 5403 已接管处理任务，相关流程及评论链接已同步更新。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpgat8/are_we_wasting_stronger_models_on_subagents_just/",
+      "publish_time": "2026-08-15 22:40:50",
+      "publish_time_local": "2026-08-16 06:40:50",
+      "title": "Are we wasting stronger models on subagents just because they feel safer?",
+      "summary": "* **标题**：Subagent 路由优化：动态学习能否替代硬编码模型分配？\n* **核心摘要**：开发者推出开源工具 Credence，旨在通过收集子代理的实际工作数据，动态优化任务分配模型。该实验挑战了“为子代理优先使用强模型”的传统假设，验证了基于实际工作反馈的路由策略是否优于静态规则配置。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/multi-agent",
+      "url": "https://ougabriel.medium.com/azure-ai-multi-agent-claims-triage-on-microsoft-foundry-8bd22f8db6ed",
+      "publish_time": "2026-08-15 22:40:41",
+      "publish_time_local": "2026-08-16 06:40:41",
+      "title": "AZURE AI: Multi-agent claims triage on Microsoft Foundry",
+      "summary": "* **标题**：Azure AI Foundry 多智能体架构：保险理赔自动化分诊与合规审计\n* **核心摘要**：基于 Microsoft Agent Framework 1.0 构建的多智能体系统，通过协调器与专业智能体分工，实现保险理赔自动分诊。系统利用 Cosmos DB 进行断点续传，结合 OpenTelemetry 全链路追踪，确保在合规审计要求下，将常规理赔处理时效从 19 小时压缩至 2 小时以内，同时保留完整对话上下文供人工复核。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpg9yv/i_think_codex_and_claude_have_a_random_fup_feature/",
+      "publish_time": "2026-08-15 22:39:46",
+      "publish_time_local": "2026-08-16 06:39:46",
+      "title": "I think codex and claude have a random \"f-up\" feature",
+      "summary": "* **标题**：AI 开发工具“随机故障”：是上下文限制还是商业陷阱？\n* **核心摘要**：开发者长期使用 AI 工具后指出，尽管单步生成能力显著，但大型应用构建过程中模型常出现随机性故障。用户质疑这种不可预测的崩溃并非单纯因上下文窗口过大，而是可能由厂商故意设计，旨在通过增加调试成本来延长用户停留时间并消耗 Token。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/productivity",
+      "url": "https://www.reddit.com/r/productivity/comments/1vpg71w/removed_my_tv_and_chair_from_my_room_now_its_a/",
+      "publish_time": "2026-08-15 22:36:03",
+      "publish_time_local": "2026-08-16 06:36:03",
+      "title": "Removed my TV and chair from my room, now it's a lot easier to get work done.",
+      "summary": "* **标题**：移除干扰源，物理隔离提升开发效率\n* **核心摘要**：开发者通过移除客厅的电视与座椅，将娱乐设备移至地下室，成功减少工作干扰。实践表明，物理环境中的干扰源会显著增加启动工作的阻力，主动清理环境杂物能有效降低启动门槛，提升专注度。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpg3z9/i_made_an_ad_an_ai_claymation_spot_for_my_app/",
+      "publish_time": "2026-08-15 22:32:06",
+      "publish_time_local": "2026-08-16 06:32:06",
+      "title": "I made an ad (an AI claymation spot) for my app that replaces \"lol\" with your friend's real reaction",
+      "summary": "* **标题**：Vidrip 用 AI 粘土动画重构表情包，将“哈哈哈”还原为真实面部反应\n* **核心摘要**：开发者推出 Vidrip 应用，通过 AI 粘土动画技术将用户发送的短视频与接收者的真实面部表情结合，替代传统的“哈哈哈”等文字反馈。该工具旨在解决数字社交中情感反馈缺失的痛点，并邀请开发者群体提供市场反馈。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpg213/what_is_the_simplest_way_of_making_3d_game_assets/",
+      "publish_time": "2026-08-15 22:29:38",
+      "publish_time_local": "2026-08-16 06:29:38",
+      "title": "What is the simplest way of making 3D game assets with codex?",
+      "summary": "* **标题**：无 3D 建模经验者，如何用最简方式生成定制化游戏资产？\n* **核心摘要**：开发者利用 GPT 5.6 Sol 结合 Three.js 实现资产程序化生成，但受限于 Three.js 占位符效果，缺乏 3D 建模经验。现寻求比 Blender MCP 更简便的解决方案，以生成更具定制性且适配游戏场景的资产。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpg1mw/i_built_a_free_tool_so_you_can_vibecode_freely/",
+      "publish_time": "2026-08-15 22:29:08",
+      "publish_time_local": "2026-08-16 06:29:08",
+      "title": "I built a free tool so you can vibe-code freely and not worry about what your AI actually shipped",
+      "summary": "* **标题**：VulX 工具助开发者实现“意图驱动”开发，AI 自动审查代码安全\n* **核心摘要**：开发者 VulX 工具通过集成至 Claude 和 Cursor 等主流 IDE，实现“意图驱动”开发。该工具无需手动配置，自动在开发流程中嵌入安全审查机制，通过 AI 自我检查代码潜在漏洞，将“代码审查”责任转移至 AI 系统，确保开发者无需担心遗漏风险即可交付项目。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
     {
       "source": "Medium/data-science",
       "url": "https://medium.com/@nehirgirgin7/veriden-stratejiye-bir-e-ticaret-platformunun-u%C3%A7tan-uca-ke%C5%9Fif%C3%A7i-veri-analizi-ve-b%C3%BCy%C3%BCme-f%C4%B1rsatlar%C4%B1-e489f1eb116b",
@@ -11,6 +671,66 @@
       "publish_time_local": "2026-08-16 06:27:13",
       "title": "Veriden Stratejiye: Bir E-Ticaret Platformunun Uçtan Uca Keşifçi Veri Analizi ve Büyüme Fırsatları",
       "summary": "* **标题**：电商增长新范式：基于探索性数据分析的跨域洞察与区域增长策略\n* **核心摘要**：针对某电商平台 1.4 万条订单数据，通过数据清洗与探索性分析，识别出“电子”为高营收核心品类，同时发现非一线城市（如 Konya、Samsun）在客单价与满意度上超越传统大都市。分析揭示订单量与营收峰值存在时间错位，建议通过区域化营销、数字钱包激励及季节性库存优化，将非核心城市转化为高价值增长引擎。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vpfvgy/training_and_unlimited_api_inference_for_small/",
+      "publish_time": "2026-08-15 22:21:23",
+      "publish_time_local": "2026-08-16 06:21:23",
+      "title": "Training and unlimited API inference for Small Language Models",
+      "summary": "* **标题**：轻量级模型部署平台：低成本、无限推理与私有化训练\n* **核心摘要**：针对大模型成本高、API 受限的痛点，团队构建了无需代码即可微调与部署 4B-9B 参数模型的开源平台。通过自建数据中心 GPU 集群，实现无限推理与本地私有化部署，确保用户拥有模型 IP 所有权。平台提供免费试用及长期订阅优惠，旨在为中小企业提供高性价比的定制化 AI 解决方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpfv6g/the_kal_package_manager/",
+      "publish_time": "2026-08-15 22:21:02",
+      "publish_time_local": "2026-08-16 06:21:02",
+      "title": "The Kal Package Manager",
+      "summary": "* **标题**：Kal 语言内置包管理器实现自动化依赖管理\n* **核心摘要**：Kal 语言 v0.1.0 发布内置包管理系统，替代手动克隆与依赖配置。该工具集成于解释器，支持从 Git 安装、并行下载、自动解析子依赖及循环依赖检测，并生成项目.kal 配置文件。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpfu6f/i_made_a_free_site_that_checks_if_a_file_is/",
+      "publish_time": "2026-08-15 22:19:48",
+      "publish_time_local": "2026-08-16 06:19:48",
+      "title": "I made a free site that checks if a file is actually vector or if it's a bitmap",
+      "summary": "* **标题**：免费工具验真伪，一键识别 Logo 文件是否为矢量图\n* **核心摘要**：针对客户常误传图片格式 Logo 导致印刷失败的问题，开发者上线了 vecpath.com 网站，支持直接上传文件，即时判定其是否为真实矢量图，有效规避了因格式错误引发的沟通成本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpftho/need_suggestions_from_seniors/",
+      "publish_time": "2026-08-15 22:18:55",
+      "publish_time_local": "2026-08-16 06:18:55",
+      "title": "Need Suggestions from Seniors!!",
+      "summary": "* **标题**：初创 MVP 产品获流量增长建议\n* **核心摘要**：开发者在构建首个 MVP 工具网站时，寻求关于增加功能或采用其他策略以扩大用户触达范围的专业建议。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpft5l/just_received_a_reset_on_business_account/",
+      "publish_time": "2026-08-15 22:18:30",
+      "publish_time_local": "2026-08-16 06:18:30",
+      "title": "Just received a reset on Business account",
+      "summary": "* **标题**：Reddit 用户分享账号重置进度，团队账户已恢复至 0%\n* **核心摘要**：用户反馈其团队（Business）账号已成功完成重置，当前状态为 0%，并提及此前个人账号未收到重置通知。该进展缓解了用户对即将到期账户的焦虑。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpfrxw/llamacpp_windows_manager/",
+      "publish_time": "2026-08-15 22:17:03",
+      "publish_time_local": "2026-08-16 06:17:03",
+      "title": "llama.cpp Windows Manager",
+      "summary": "* **标题**：llama.cpp 跨平台管理工具：可视化界面与多模型并发运行\n* **核心摘要**：开发者历时三个月构建的 llama.cpp 管理器，提供可视化界面以支持多模型并发、性能监控及 WSL 环境配置。该开源工具通过认证控制 API 实现自动化管理，旨在解决用户自行搭建与维护本地推理服务的繁琐问题。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -31,6 +751,16 @@
       "publish_time_local": "2026-08-16 06:15:22",
       "title": "Veriden Tanıya: Makine Öğrenmesi Modelleri ile Kalp Sağlığı Veri Setinde Çoklu Model Analizi",
       "summary": "* **标题**：多模型融合与可解释性分析：UCI 心疾病数据集的机器学习实践\n* **核心摘要**：项目基于 UCI Heart Disease 数据集，通过标准化预处理与 GridSearchCV 优化，对比了逻辑回归、随机森林、KNN 及 SVM 五种算法性能。结果显示，经标准化后 KNN 与 SVM 表现显著提升。研究进一步引入 SHAP 可解释性分析，量化了临床特征对模型决策的权重，验证了数据预处理与模型优化对提升分类精度的关键作用。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vpfq56/filesystem_mcp_always_down_and_not_working/",
+      "publish_time": "2026-08-15 22:14:54",
+      "publish_time_local": "2026-08-16 06:14:54",
+      "title": "Filesystem MCP always down and not working",
+      "summary": "* **标题**：Filesystem MCP 服务持续不可用，开发者求助排查\n* **核心摘要**：用户反馈通过 Claude Connector 访问项目文件夹时，Filesystem MCP 功能持续无法连接。该问题已影响现有工作流，社区正寻求解决方案。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -75,6 +805,26 @@
       "lang": "zh"
     },
     {
+      "source": "ShowHN",
+      "url": "https://bribes.fyi/compare",
+      "publish_time": "2026-08-15 22:11:16",
+      "publish_time_local": "2026-08-16 06:11:16",
+      "title": "Show HN: Bribes.fyi – Compare bribes statistics department wise",
+      "summary": "* **标题**：Bribes.fyi 上线：按部门维度横向对比腐败数据\n* **核心摘要**：Bribes.fyi 平台支持用户选择两个部门，直观对比贿赂金额、频率及城市分布模式，旨在通过可视化数据对比提升对腐败问题的认知。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/chatgpt-linux-codex-developer-guide/",
+      "publish_time": "2026-08-15 22:10:17",
+      "publish_time_local": "2026-08-16 06:10:17",
+      "title": "ChatGPT Linux App: What Codex Can Do on Your Machine",
+      "summary": "* **标题**：OpenAI 发布 Linux 版 ChatGPT 与 Codex 代理，但资源消耗与权限风险引发争议\n* **核心摘要**：OpenAI 于 8 月 11 日推出 Linux 桌面版 ChatGPT，集成 Codex 本地代理。该应用虽提供基于 bubblewrap 的严格内核级沙箱，但存在 1GB+ 空闲内存占用、Wayland 输入支持不完整及闭源架构等显著短板。建议开发者优先评估企业级需求，并在使用前配置自定义权限配置文件，避免默认模式下的敏感路径访问风险。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/ai",
       "url": "https://medium.com/@faisaliitian/i-spent-weeks-debugging-retrieval-the-problem-was-ingestion-d654ab4cd962",
       "publish_time": "2026-08-15 22:09:43",
@@ -105,12 +855,52 @@
       "lang": "zh"
     },
     {
+      "source": "Hacker News",
+      "url": "https://horn.gg/blog/engineers-will-do-anything-to-avoid-learning-from-history/",
+      "publish_time": "2026-08-15 22:08:22",
+      "publish_time_local": "2026-08-16 06:08:22",
+      "title": "Engineers will do anything to avoid learning from history",
+      "summary": "* **标题**：工程界拒绝历史教训：AI 协作下的“伪创新”与流程缺失\n* **核心摘要**：工程师在利用 AI 进行代理编排时，普遍忽视经典项目管理理论，倾向于将已知领域“重新发明”。这种“从零开始”的直觉虽能带来短期收益，却导致需求定义模糊、验证成本高昂。文章指出，缺乏对 TDD、PRD 及瀑布模型等历史经验的尊重，正使 AI 开发陷入低效与返工，建议回归《目标》、《不可思议的人月》等经典著作以规避认知陷阱。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpfj8i/anyone_here_actually_made_serious_money_from_a/",
+      "publish_time": "2026-08-15 22:06:12",
+      "publish_time_local": "2026-08-16 06:06:12",
+      "title": "Anyone here actually made serious money from a vibe-coded app?",
+      "summary": "* **标题**：Vibe Coding 变现神话：$10k-$50k 月入背后是真实案例还是营销话术？\n* **核心摘要**：社区广泛流传利用 AI 工具（如 Claude、Cursor）快速构建并月入数万美元的应用案例，但从业者指出此类高收益实例极难验证。针对该现象，行业专家质疑其普遍性，并呼吁开发者提供具体产品、获客路径、开发周期及收入来源等真实数据，以区分技术红利与营销推广。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vpfhbb/showoff_saturday_i_built_a_lowstimulation_game/",
+      "publish_time": "2026-08-15 22:03:45",
+      "publish_time_local": "2026-08-16 06:03:45",
+      "title": "[Showoff Saturday] I built a low-stimulation game site for people who get migraines, which meant deliberately failing WCAG contrast ratios",
+      "summary": "* **标题**：低刺激游戏网站：为偏头痛患者设计的无障碍悖论\n* **核心摘要**：开发者为缓解偏头痛与眩晕患者设计的游戏网站，通过故意降低 WCAG 对比度比率和移除动画过渡，实现无广告、无账户、无追踪的无障碍体验。该方案挑战了传统无障碍标准，采用灰度配色与完全静态界面，确保光敏感人群无需配置即可直接游玩。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/artificial-intelligence",
       "url": "https://medium.com/@rvishakhs/the-future-of-intelligent-elderly-care-carelens-3d22fb41848e",
       "publish_time": "2026-08-15 22:02:05",
       "publish_time_local": "2026-08-16 06:02:05",
       "title": "The Future of Intelligent Elderly Care - CareLens",
       "summary": "* **标题**：护理数据沉睡危机：从电子档案到智能预警的跨越\n* **核心摘要**：护理机构每日产生海量多维数据，但现有系统仅停留在数字化存储阶段，缺乏主动分析能力。通过引入 AI 智能层，将孤立的数据点转化为跨变量趋势识别、个性化基线对比及早期风险预警，实现从被动记录到主动干预的范式转变。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpffi4/built_a_weekend_fun_project_ai_voice_receptionist/",
+      "publish_time": "2026-08-15 22:01:33",
+      "publish_time_local": "2026-08-16 06:01:33",
+      "title": "Built a weekend fun project (AI voice receptionist)",
+      "summary": "* **标题**：周末趣味实践：AI 语音助手原型构建\n* **核心摘要**：开发者利用 AI 语音技术构建了一个原型语音助手，虽功能尚不完善且仅作为周末娱乐项目，但成功实现了基础交互，未出现系统崩溃。该实践旨在探索 AI 语音代理的可行性，并邀请社区分享周末进展。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -125,12 +915,62 @@
       "lang": "zh"
     },
     {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpfap3/super_tic_tac_toe/",
+      "publish_time": "2026-08-15 21:55:47",
+      "publish_time_local": "2026-08-16 05:55:47",
+      "title": "Super Tic Tac Toe",
+      "summary": "* **标题**：7x7 变体 Tic Tac Toe 引入随机卡牌机制，测试 AI 博弈能力\n* **核心摘要**：开发者基于 7x7 网格扩展经典 Tic Tac Toe 规则，引入随机卡牌机制，玩家每回合需从三张卡牌中抽取一张，其中包含干扰对手、撤销落子及自杀等随机增益。项目目前处于测试阶段，旨在验证 AI 对手在复杂变体中的博弈水平。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpfai1/i_couldnt_find_a_weather_app_i_could_actually/",
+      "publish_time": "2026-08-15 21:55:33",
+      "publish_time_local": "2026-08-16 05:55:33",
+      "title": "I couldn't find a weather app I could actually read easly, so I built one — free, no ads, radar on phone and watch",
+      "summary": "* **标题**：极简主义气象应用：无广告、无订阅、双源雷达\n* **核心摘要**：开发者针对现有气象应用数据被装饰性内容淹没的痛点，构建了单屏可视化的 WeatherApp。该应用支持 Android 与 Wear OS，集成挪威气象局与 Open-Meteo 双数据源，通过本地调用免费 API 实现无后端、无订阅、无广告的纯功能交付，并新增雨雷达功能。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/llm",
       "url": "https://medium.com/@apartha77/llm-token-cost-usage-control-on-amazon-bedrock-from-token-tracking-to-ai-roi-4aaac9e10548",
       "publish_time": "2026-08-15 21:53:58",
       "publish_time_local": "2026-08-16 05:53:58",
       "title": "LLM Token Cost & Usage Control on Amazon Bedrock: From Token Tracking to AI ROI",
       "summary": "* **标题**：Amazon Bedrock 成本归因与 LLM FinOps：从 Token 追踪到业务 ROI\n* **核心摘要**：针对 Amazon Bedrock 工作负载，企业需建立从 Token 追踪到成本归因的完整监控体系。通过解析 API 返回的输入、输出及缓存 Token 数据，结合应用层归因与运行时控制，将 AI 支出与具体业务产出挂钩。最终实现基于成功交易、客户价值及质量指标的 LLM FinOps，确保 GenAI 从实验性尝试转化为可衡量、可控的生产级业务能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpf8j1/the_perfect_way_for_google_to_screw_over_oai_and/",
+      "publish_time": "2026-08-15 21:53:02",
+      "publish_time_local": "2026-08-16 05:53:02",
+      "title": "The perfect way for Google to screw over OAI and Anthropic is by releasing a 120B dense multimodal Gemma model",
+      "summary": "* **标题**：Google 拟发布 120B 多模态 Gemma 模型，借势削弱 OAI 与 Anthropic 市场地位\n* **核心摘要**：针对西方企业对中文大模型的安全顾虑，Google 计划推出 120B 参数量的开源多模态 Gemma 模型。此举旨在通过品牌背书与前沿技术，吸引企业客户，从而对 OpenAI 和 Anthropic 的资本市场表现构成潜在冲击。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vpf6cq/client_switched_from_webflow_lovable_cheaped_out/",
+      "publish_time": "2026-08-15 21:50:15",
+      "publish_time_local": "2026-08-16 05:50:15",
+      "title": "Client switched from webflow - lovable. Cheaped out on hosting setup and 64/66 pages have been unindexed for 6 months.",
+      "summary": "* **标题**：客户弃用 Webflow 转用 Lovable 后，因托管配置不当导致 66 页未收录\n* **核心摘要**：客户将网站从 Webflow 迁移至 Lovable 后，因托管设置依赖非专业人士且未配置有效站点地图，导致 64 页内容被搜索引擎忽略长达六个月。问题根源在于为节省成本而忽视专业开发支持，致使大量内容产出无效，造成约 6 个月的时间与资源浪费。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vpf51m/claude_moralizing/",
+      "publish_time": "2026-08-15 21:48:37",
+      "publish_time_local": "2026-08-16 05:48:37",
+      "title": "Claude Moralizing",
+      "summary": "* **标题**：Claude 道德说教阻碍自动化任务执行，用户寻求替代方案\n* **核心摘要**：用户付费后要求 Claude 编写下载 YouTube 音乐至 MP3 的程序，但模型因涉及版权争议及 Anthropic 公司背景而进行长篇道德说教，拒绝执行任务。用户对此表示强烈不满，并询问是否有替代解决方案。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -145,12 +985,142 @@
       "lang": "zh"
     },
     {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpey87/chatgpt_chat_window_rig_copy_pasted_code_vastly/",
+      "publish_time": "2026-08-15 21:40:31",
+      "publish_time_local": "2026-08-16 05:40:31",
+      "title": "ChatGPT chat window rig copy pasted code vastly outperforms Codex for me. What am I doing wrong?",
+      "summary": "* **标题**：ChatGPT 对话窗口直接复用代码，性能显著优于 Codex\n* **核心摘要**：用户反馈在处理 Verilog 代码调试时，将错误信息与相关代码块直接粘贴给 ChatGPT 能迅速定位问题，而 Codex 因需读取大量无关文件导致效率低下。用户指出自身缺乏 Verilog 技能可能是影响效果的因素，并寻求针对新工具的使用建议。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vpex1x/claude_fable_dominates_a_coding_challenge_on_the/",
+      "publish_time": "2026-08-15 21:39:04",
+      "publish_time_local": "2026-08-16 05:39:04",
+      "title": "Claude Fable dominates a coding challenge on The Farmer Was Replaced game",
+      "summary": "* **标题**：Claude Fable 主导《农夫被取代》游戏编程挑战，纯规则驱动实现 Top 3 成绩\n* **核心摘要**：开发者通过 REST API 接口，利用 Claude Opus 生成的脚本及 Claude Fable 的自主优化能力，在无提示、无示例的纯规则约束下，成功将游戏脚本提升至前三名。该案例展示了意图驱动编程在复杂游戏环境中的实际落地能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpeu0u/why_codex_taking_25_gb_just_for_a_tmp_folder/",
+      "publish_time": "2026-08-15 21:35:30",
+      "publish_time_local": "2026-08-16 05:35:30",
+      "title": "Why Codex taking 25 GB just for a tmp folder?",
+      "summary": "* **标题**：Codex 市场目录占用 25GB 存储，引发开发者对模型资源消耗的质疑\n* **核心摘要**：开发者发现 Codex 模型在本地运行时，仅市场目录部分即占用高达 25GB 存储空间。该异常资源消耗引发了社区对模型部署成本及存储架构合理性的广泛讨论。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vper67/club5060ti_refresh_tested_rtx_5060_ti_presets_a/",
+      "publish_time": "2026-08-15 21:32:14",
+      "publish_time_local": "2026-08-16 05:32:14",
+      "title": "club-5060ti refresh: tested RTX 5060 Ti presets, a proper high-context harness, and Qwen3.8 27B",
+      "summary": "* **标题**：RTX 5060 Ti 本地 LLM 实测：Qwen3.8 27B 多卡配置与高上下文验证方案\n* **核心摘要**：项目重构为以可复制预设为核心的架构，将验证证据与原始实验数据分离。针对 RTX 5060 Ti 硬件，确立了单卡与双卡下的 Qwen3.8 27B 推荐配置，并引入高上下文校准工具，强制验证长上下文检索、持续生成及可见输出，确保模型在特定硬件拓扑下具备实际可用的推理能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vpeqpr/a_free_zerocommission_pos_and_psp/",
+      "publish_time": "2026-08-15 21:31:44",
+      "publish_time_local": "2026-08-16 05:31:44",
+      "title": "A free zero-commission POS and PSP",
+      "summary": "* **标题**：欧盟支付新范式：基于 SEPA 即时转账的零佣金 POS 与 PSP 方案\n* **核心摘要**：针对 Google、Apple 及大型 PSP 收取交易费的现状，开发者利用 SEPA 即时支付机制（直接银行转账）构建了无中间人、无交易费的现代化支付系统。该方案旨在消除支付环节中的第三方抽成，推动欧盟地区直接银行转账成为新的支付标准。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpelzb/i_made_an_ai_generated_cowboy_ad_for_my_free/",
+      "publish_time": "2026-08-15 21:26:15",
+      "publish_time_local": "2026-08-16 05:26:15",
+      "title": "I made an AI generated Cowboy ad for my free browser game as a joke but it brought in 70 new players",
+      "summary": "* **标题**：AI 生成的“牛仔挑战”视频为免费游戏带来 70 名新用户\n* **核心摘要**：开发者为免费街机游戏制作了一段 15 秒 AI 生成的牛仔挑战视频，通过“击中靶心即玩游戏”的互动机制，仅消耗约 4 美元 API 费用，成功为游戏带来 70 名新用户。该案例引发了关于用 AI 视频替代传统营销预算的讨论。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpehkv/i_replaced_my_whole_marketing_stack_with_ai/",
+      "publish_time": "2026-08-15 21:21:17",
+      "publish_time_local": "2026-08-16 05:21:17",
+      "title": "I replaced my whole marketing stack with AI (website, blog, videos, outbound). Here is exactly what runs, and what still needs a human.",
+      "summary": "* **标题**：自托管 AI 营销栈：从 Webflow 到 Cursor 的本地化重构实践\n* **核心摘要**：开发者将营销全流程迁移至本地 AI 环境，用静态 Astro 仓库替代 Webflow，通过 Cursor 描述生成页面，并建立包含产品事实的 grounding 文件以约束内容生成。通过本地运行 LinkedIn 外发工具，实现数据与 API 密钥私有化，同时保留人工审核机制，确保内容质量与合规性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpegw4/a_web_portal_for_my_film_club_thats_become_my/",
+      "publish_time": "2026-08-15 21:20:28",
+      "publish_time_local": "2026-08-16 05:20:28",
+      "title": "a web portal for my film club that's become my go-to way to find movies to watch",
+      "summary": "* **标题**：基于 Python 构建的电影俱乐部门户：从 Discord 机器人到全栈推荐系统\n* **核心摘要**：开发者利用 Python 全栈技术（FastAPI、PostgreSQL、TMDB）将电影社区“Return by 9\"从 Discord 机器人扩展为包含租赁承诺、个性化推荐、互动发现及数字藏品功能的 Web 门户。项目通过“租赁”机制强化观影仪式感，并基于用户历史数据构建动态口味画像，实现从社交互动到内容发现的一站式闭环。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://zig.day/usa/seattle/",
+      "publish_time": "2026-08-15 21:18:32",
+      "publish_time_local": "2026-08-16 05:18:32",
+      "title": "Zig Day Seattle, WA",
+      "summary": "* **标题**：Zig Day 西雅图站：聚焦“热爱”的 Zig 编程实践与协作\n* **核心摘要**：Zig Day 西雅图站定于 8 月 30 日在贝尔维尤图书馆举行，旨在通过结对编程与项目协作，帮助开发者深入掌握 Zig 语言特性。活动强调“学习”为核心，鼓励参与者动手实验、贡献现有项目，并建立技术社群。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpeeri/i_built_a_free_sports_prediction_app_finally/",
+      "publish_time": "2026-08-15 21:18:01",
+      "publish_time_local": "2026-08-16 05:18:01",
+      "title": "I built a free sports prediction app — finally getting close to launching on iOS and would love some feedback (on Android and Apple TestFlight)",
+      "summary": "* **标题**：体育预测应用 Take the Bet 获 Google Play 批准，iOS 版本待审核\n* **核心摘要**：开发者发布免费体育预测游戏 Take the Bet，已获 Google Play 批准，iOS 版本正在等待 Apple 审核。项目包含虚拟筹码对战机制，并计划推出 NFL 选将子功能。作者邀请开发者社区分享关于产品发布、用户获取及测试流程的经验与建议。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/docker-vmm-public-beta/",
+      "publish_time": "2026-08-15 21:15:35",
+      "publish_time_local": "2026-08-16 05:15:35",
+      "title": "Docker VMM Public Beta: Docker Replaces Its Hypervisor",
+      "summary": "* **标题**：Docker 自研 VMM 引擎发布，性能与架构双重升级\n* **核心摘要**：Docker 在 Docker Desktop v4.86 中正式推出自有 VMM 引擎，取代第三方 libkrun 库。此举将容器启动速度提升 2 至 25 倍，并优化内存回收。但需注意，当前版本暂不支持 Rosetta 模拟，使用 amd64 镜像将显著变慢。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vpec68/qwen3827b_on_a_2019_quadro_rtx_6000_24gb_2436/",
+      "publish_time": "2026-08-15 21:15:03",
+      "publish_time_local": "2026-08-16 05:15:03",
+      "title": "Qwen3.8-27B on a 2019 Quadro RTX 6000 24GB: 24.36 tok/s Q4, Q8 does not fit, ngram 110+ is a lie, tested Cloud API too 155 toks/s!",
+      "summary": "* **标题**：Qwen3.8-27B 在 2019 年 Quadro RTX 6000 上的性能实测：24.36 tok/s\n* **核心摘要**：在 24GB 显存的 2019 年 Quadro RTX 6000 显卡上，Qwen3.8-27B 模型 Q4 量化版本实现 24.36 tok/s 的生成速度。测试表明 Q8 量化版本无法适配，且 110+ 的 ngram 指标存在夸大，经 Cloud API 对比验证，实际性能显著低于预期宣传值。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Hacker News",
       "url": "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi",
       "publish_time": "2026-08-15 21:14:34",
       "publish_time_local": "2026-08-16 05:14:34",
       "title": "Abdominal fat predicts heart disease risk better than BMI",
       "summary": "* **标题**：腹部脂肪比 BMI 更精准预测心血管疾病风险\n* **核心摘要**：一项基于 26 万人的大规模队列研究证实，仅依赖 BMI 评估心血管风险会导致误判。研究指出，腰围（WC）和腰臀比（WHR）能重新分类传统 BMI 阈值下的风险，特别是对于 BMI 正常但中心性肥胖的人群，其心血管风险显著高于 BMI 正常且中心性脂肪低者。建议临床评估中纳入中心性脂肪分布指标。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vpe0up/claude_is_british/",
+      "publish_time": "2026-08-15 21:01:35",
+      "publish_time_local": "2026-08-16 05:01:35",
+      "title": "Claude is British?",
+      "summary": "* **标题**：拼写争议：Claude 是否使用了英式拼写？\n* **核心摘要**：用户指出在 Claude 生成的文本中发现了\"enrolment\"这一英式拼写，并质疑其是否属于罕见的英式英语特征。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -165,6 +1135,36 @@
       "lang": "zh"
     },
     {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vpdx8l/i_built_an_opensource_orchestration_platform_that/",
+      "publish_time": "2026-08-15 20:57:24",
+      "publish_time_local": "2026-08-16 04:57:24",
+      "title": "I built an open-source orchestration platform that parallelizes AI agents in Docker to plan, implement, and auto-fix GitHub PRs",
+      "summary": "* **标题**：开源 ProPR 平台：Docker 容器化并行编排 AI 代理，实现 GitHub PR 自动修复与交付\n* **核心摘要**：开发者开源 ProPR 平台，通过 Docker 隔离执行与确定性工作流层，实现 AI 代理并行处理 GitHub 问题、自动修复代码及持续集成。平台支持多模型兼容、远程部署及资源监控，旨在将开发流程转化为完全后台化的自动化流水线。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vpdvig/roast_my_gps_art_planner/",
+      "publish_time": "2026-08-15 20:55:18",
+      "publish_time_local": "2026-08-16 04:55:18",
+      "title": "Roast my GPS art planner!",
+      "summary": "* **标题**：GPS 艺术向导：以几何与路网数据为核心的智能规划新范式\n* **核心摘要**：GPS Art Wizard 摒弃单纯依赖 AI 生成形状的模式，转而通过对比多种位置、旋转及缩放方案，结合真实道路路由结果进行质量决策。该工具强调几何学与街道数据的决定性作用，AI 仅作为辅助生成目录外形状，且无需注册即可使用。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/openclaw",
+      "url": "https://www.reddit.com/r/openclaw/comments/1vpdv77/lossless_claw_keeps_compacting_codex_specific/",
+      "publish_time": "2026-08-15 20:54:56",
+      "publish_time_local": "2026-08-16 04:54:56",
+      "title": "Lossless Claw keeps compacting (Codex specific?) -- Anyone else?",
+      "summary": "* **标题**：Lossless Claw 持续压缩问题：Codex 原生历史导致上下文溢出\n* **核心摘要**：在使用 Codex 模型时，Lossless Claw 因无法区分“引擎拥有”与“主机拥有”的上下文 token，导致压缩后仍超出阈值。尽管应用了修复补丁，因原生历史投影未被计入压缩范围，问题依旧。建议通过禁用 Lossless 功能作为临时规避方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Hacker News",
       "url": "https://www.henrikkarlsson.xyz/p/good-ideas",
       "publish_time": "2026-08-15 20:54:11",
@@ -175,12 +1175,212 @@
       "lang": "zh"
     },
     {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpdrxl/which_harness_for_local_coding_qwen_38_27b_do_you/",
+      "publish_time": "2026-08-15 20:51:09",
+      "publish_time_local": "2026-08-16 04:51:09",
+      "title": "Which Harness for Local Coding (Qwen 3.8 27b) do you Recommend?",
+      "summary": "* **标题**：Qwen 3.8 27b 本地开发环境推荐：社区实测工具链盘点\n* **核心摘要**：开发者针对 Qwen 3.8 27b 模型，明确寻求本地开发环境（Harness）的具体名称推荐，拒绝泛泛而谈。社区正通过投票与评论形式，分享各自实际使用的工具链及偏好理由，旨在获取基于真实场景的本地开发环境选型建议。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/vibe-coding",
       "url": "https://coinsbench.com/i-audited-my-own-vibe-coded-solana-app-heres-what-i-d-never-ship-again-509db5470916",
       "publish_time": "2026-08-15 20:51:01",
       "publish_time_local": "2026-08-16 04:51:01",
       "title": "I Audited My Own Vibe-Coded Solana App Here’s What I’d Never Ship Again",
       "summary": "* **标题**：Vibe-Coding 的致命盲区：Solana 应用审计揭示“文档即安全”的虚假安全感\n* **核心摘要**：开发者在审计自建的 Solana 应用 SolPulse 时，发现其存在严重的安全漏洞。尽管应用宣称基于“无密钥”架构，但后端硬编码了 `userId: 'public'`，且缺乏有效的身份验证机制。此外，账户链接流程未实施所有权验证，导致攻击者可利用伪造链接劫持用户警报。审计指出，Vibe-Coding 模式常导致安全模型仅存在于文档中，而实际代码未执行相应验证，建议通过引入一次性令牌、数据库唯一约束及边缘代理路由检查来加固。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vpdplx/can_astro_strip_away_css_values_like/",
+      "publish_time": "2026-08-15 20:48:20",
+      "publish_time_local": "2026-08-16 04:48:20",
+      "title": "Can astro strip away css values like backdrop-filter?",
+      "summary": "* **标题**：Astro 7.0.0 无法剥离 backdrop-filter 等 CSS 值\n* **核心摘要**：开发者在迁移至 Astro 7.0.0 后，发现其树摇过程会移除 backdrop-filter 等 CSS 样式值。尝试通过关闭 CSS 压缩或使用 esbuild 进行压缩均未能解决问题，导致原始 HTML 的视觉效果无法还原。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Medium/ai-agents",
+      "url": "https://medium.com/@lvntblsn/what-is-grok-bot-is-it-better-than-codex-and-others-1fa656068e9a",
+      "publish_time": "2026-08-15 20:41:00",
+      "publish_time_local": "2026-08-16 04:41:00",
+      "title": "What is Grok Bot? Is it Better Than Codex and Others?",
+      "summary": "* **标题**：Grok Bot 并非 Codex 竞品：它是“数字员工”还是“自动化陷阱”？\n* **核心摘要**：xAI 推出的 Grok Bot 并非旨在替代 Codex 等代码生成工具，而是专注于“数字员工”模式，通过浏览器自动化处理 90% 后的收尾工作。尽管其在游戏资产生成、跨应用协作及自动化提单方面展现了显著效率，但缺乏独立基准测试、审计日志缺失及无预算上限，且共享底层资源架构带来潜在安全风险。相比 Cursor 等成熟方案，Grok Bot 目前仍处于早期阶段，其高昂成本与合规性短板使其在生产力工具中定位模糊。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vpdip4/installed_hermes_locally_last_night_what_should_i/",
+      "publish_time": "2026-08-15 20:40:11",
+      "publish_time_local": "2026-08-16 04:40:11",
+      "title": "Installed Hermes locally last night. What should I know as a newb?",
+      "summary": "* **标题**：本地部署 Hermes 指南：RTX 4090 与 Qwen/Gemma 模型配置实践\n* **核心摘要**：用户基于 Windows 与 RTX 4090 环境，成功通过 LM Studio 部署 Qwen 3.8 27b 及 Gemma 4 26b 模型，并实现 Telegram 机器人集成。当前关注本地与云端算力分配策略，以及利用 ChatGPT 订阅替代 API 密钥的可行性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vpdg2i/claude_plays_minecraft/",
+      "publish_time": "2026-08-15 20:37:07",
+      "publish_time_local": "2026-08-16 04:37:07",
+      "title": "Claude plays minecraft",
+      "summary": "* **标题**：AI 自主游戏挑战：Claude 5 在 Minecraft 中尝试 5 小时通关\n* **核心摘要**：开发者为 Minecraft 搭建 MCP 接口，利用 Sonnet 5 模型进行游戏挑战。通过优化世界布局与规避常见陷阱，目标是在 5 小时内让 AI 成功通关。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vpddeo/how_are_you_maximizing_models_and_tokens/",
+      "publish_time": "2026-08-15 20:33:58",
+      "publish_time_local": "2026-08-16 04:33:58",
+      "title": "How are you maximizing models and tokens?",
+      "summary": "* **标题**：Claude API 成本优化与 MCP 应用策略探讨\n* **核心摘要**：开发者在 $200 月度预算限制下，通过对比 Claude API 与 ChatGPT OAuth 账户，寻求最大化模型利用率。针对社区推荐的 MCP 技术以降低 Token 成本，开发者表示缺乏相关知识，正寻求最佳实践以优化现有账户配置。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vpdclr/is_claude_p_still_usable/",
+      "publish_time": "2026-08-15 20:32:59",
+      "publish_time_local": "2026-08-16 04:32:59",
+      "title": "Is \"claude -p\" still usable?",
+      "summary": "* **标题**：Claude -p 计费机制变动：Max 订阅用户是否仍免额使用？\n* **核心摘要**：用户询问 Anthropic 近期取消\"claude -p\"独立计费限制后的当前状态。经测试，Max 订阅用户在使用该功能时未产生额外扣费，推测其已恢复免费使用模式。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpdbyg/codex_wearing_dunce_hat_today/",
+      "publish_time": "2026-08-15 20:32:10",
+      "publish_time_local": "2026-08-16 04:32:10",
+      "title": "Codex Wearing Dunce Hat Today",
+      "summary": "* **标题**：GPT-5.6 Sol 多会话一致性故障引发开发者警惕\n* **核心摘要**：开发者在使用 GPT-5.6 Sol 进行六个不同难度的自动化任务时，遭遇普遍性的指令遗漏、回归及验证不足问题。尽管部分错误源于长线程累积，但新会话中频繁出现的跨会话一致性表现，特别是 UI 变更范围失控与测试证据缺失，引发了对模型当前稳定性的广泛质疑。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vpd8i4/light_patterns/",
+      "publish_time": "2026-08-15 20:28:06",
+      "publish_time_local": "2026-08-16 04:28:06",
+      "title": "Light Patterns?",
+      "summary": "* **标题**：从“暗模式”到“光模式”：用户优先的交互设计新范式\n* **核心摘要**：针对“暗模式”对用户权益的潜在危害，业界正探讨是否存在“光模式”设计。此类设计旨在通过预判用户真实需求，优先保障用户体验，而非单纯服务于点击率、转化率或线索获取等商业指标。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vpd45g/gitglobe_an_interactive_3d_webgl_globe_mapping/",
+      "publish_time": "2026-08-15 20:22:59",
+      "publish_time_local": "2026-08-16 04:22:59",
+      "title": "GitGlobe – An interactive 3D WebGL globe mapping ~200,000 GitHub repos by capability via Spherical UMAP",
+      "summary": "* **标题**：GitGlobe 重构代码发现范式：基于 Spherical UMAP 的 3D 能力映射引擎\n* **核心摘要**：GitGlobe 项目摒弃传统关键词搜索模式，通过读取 README 并应用 Spherical UMAP 算法，将约 19.8 万个 GitHub 仓库映射至连续球面。其核心创新在于利用 AI 驱动相机自动定位技术栈簇，结合无偏见的质量评分与可视化依赖关系，为开发者提供基于架构能力而非星数热度的精准代码发现路径。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vpd29g/rmcl_v041_minecraft_modding_without_leaving_your/",
+      "publish_time": "2026-08-15 20:20:49",
+      "publish_time_local": "2026-08-16 04:20:49",
+      "title": "rmcl v0.4.1; Minecraft modding without leaving your terminal",
+      "summary": "* **标题**：终端驱动 Minecraft 模组管理，rmcl v0.4.1 实现全终端内容生态闭环\n* **核心摘要**：rmcl 通过整合 Modrinth 与 CurseForge 双源内容发现，将模组、资源包、数据包及模组包的浏览、安装、更新与版本管理统一至 TUI 界面。新增的依赖自动追踪、断点恢复及 staged 操作机制，确保内容变更具备原子性与可回滚性，使开发者无需切换图形界面即可完成现代模组管理所需的全部操作。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpcxwg/heres_how_to_do_organic_marketing_for_your_saas/",
+      "publish_time": "2026-08-15 20:15:52",
+      "publish_time_local": "2026-08-16 04:15:52",
+      "title": "Here's how to do ORGANIC marketing for your SaaS",
+      "summary": "* **标题**：SaaS 有机增长新范式：UGC 素材驱动的高效内容自动化生产\n* **核心摘要**：通过采购 UGC 反应素材与 AI 工具结合，开发者可在半日内产出两个月内容量。流程涵盖账号搭建、素材采购、屏幕录制、AI 自动合成及智能排期，强调仅用 AI 辅助文案生成，确保视频内容原创，以规避平台检测风险。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vpcxj4/zuckerberg_is_betting_metas_whole_ad_business_on/",
+      "publish_time": "2026-08-15 20:15:29",
+      "publish_time_local": "2026-08-16 04:15:29",
+      "title": "Zuckerberg is betting Meta's whole ad business on AI and his own ai ugc tools are turning dresses into pants",
+      "summary": "* **标题**：扎克伯格押注 AI 广告，Meta 产品却将连衣裙渲染为裤子\n* **核心摘要**：扎克伯格宣称 AI 是 Meta 广告收入的未来，但其自研 AI 工具生成的广告内容质量堪忧，如将连衣裙错误渲染为裤子。与此同时，麦当劳、可口可乐等品牌因 AI 视觉滥用引发消费者不满，近半数美国年轻人认为生成式 AI 弊大于利，Google 已要求标注 AI 广告，Snapchat 停止在发现页展示纯 AI 生成内容，纽约更将 AI 人物广告标注列为法律强制要求。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpcv3v/pointed_a_browser_agent_at_10_saas_signup_pages/",
+      "publish_time": "2026-08-15 20:12:47",
+      "publish_time_local": "2026-08-16 04:12:47",
+      "title": "pointed a browser agent at 10 saas signup pages, it got through 2",
+      "summary": "* **标题**：浏览器代理批量注册 SaaS 页面，仅 2 个成功通过验证\n* **核心摘要**：开发者将浏览器代理指向 10 个 SaaS 注册页面，执行“注册并进入仪表盘”任务。结果仅 2 个完成全流程，其余因验证码、邮箱验证或支付卡风控失败。该实践暴露了自动化流量对 SaaS 注册流程的潜在冲击，引发关于用户欺诈风险与反自动化机制平衡的讨论。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/cloudflare-unweight-lossless-llm-compression/",
+      "publish_time": "2026-08-15 20:09:03",
+      "publish_time_local": "2026-08-16 04:09:03",
+      "title": "Cloudflare Unweight: Lossless LLM Compression on H100",
+      "summary": "* **标题**：Cloudflare 发布 Unweight：H100 架构下实现无损耗 LLM 压缩\n* **核心摘要**：Cloudflare 推出 Unweight 系统，针对 H100 GPU 架构，通过利用 BF16 权重中的统计冗余，在不改变模型行为的前提下将 MLP 层权重压缩 15–22%，释放约 3GB VRAM。该技术通过压缩数据减少 HBM 带宽瓶颈，并支持与 FP8 量化叠加使用，旨在提升多租户场景下的模型密度与硬件利用率。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vpcqw3/this_text_was_all_written_by_ai_can_you_prove_it/",
+      "publish_time": "2026-08-15 20:08:02",
+      "publish_time_local": "2026-08-16 04:08:02",
+      "title": "This text was all written by AI. Can you prove it?",
+      "summary": "* **标题**：AI 生成内容溯源困境：当人类贡献被算法隐去\n* **核心摘要**：文章质疑当前 AI 检测技术仅能追踪模型处理痕迹，却无法识别人类原始思想。作者指出，若将人类贡献视为不可见，而将 AI 处理过程视为可验证的“水印”，则人类在创作链条中的核心地位将被消解。文章进一步探讨，在 AI 介入写作后，人类思想与机器生成的界限日益模糊，导致“全 AI 生成”的定义变得模糊且难以界定。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vpcqtr/welcome/",
+      "publish_time": "2026-08-15 20:07:58",
+      "publish_time_local": "2026-08-16 04:07:58",
+      "title": "welcome!",
+      "summary": "* **标题**：基于后量子密码学的单页签名主题与加密通信系统\n* **核心摘要**：开发者构建了一个基于后量子密码学（PQC）的个人静态网站，实现了无需专用软件、通过 URL 哈希片段一键部署的 PGP 式加密通信及签名主题功能。系统采用 McEliece 等轻量级 PQC 算法，将大密钥存储为静态二进制文件，利用 UOV 签名机制确保主题防篡改，并支持 iPad 等移动端安装。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpclxw/business_continuity_for_solo_founders_after/",
+      "publish_time": "2026-08-15 20:02:26",
+      "publish_time_local": "2026-08-16 04:02:26",
+      "title": "Business continuity for solo founders after getting paying customers",
+      "summary": "* **标题**：SaaS 单兵作战：付费客户获取后的业务连续性保障策略\n* **核心摘要**：针对 SaaS 单兵创始人，探讨在获取付费客户后，如何建立支持与维护的交接机制，以消除客户对单一故障点的顾虑，确保业务在创始人休假或突发状况下的持续运转。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpcle9/10_paid_resets_or_10_paid_accounts/",
+      "publish_time": "2026-08-15 20:01:51",
+      "publish_time_local": "2026-08-16 04:01:51",
+      "title": "10 Paid Resets or 10 Paid Accounts?",
+      "summary": "* **标题**：付费重置与账户获取：深度研究讨论中的策略调整\n* **核心摘要**：随着付费重置功能的上线，开发者需重新评估获取更高使用量的策略。此前关于深度研究的建议，现已转向对付费重置机制的审慎考量。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://bencornia.com/blog/recap-software-should-work-2026",
+      "publish_time": "2026-08-15 20:01:21",
+      "publish_time_local": "2026-08-16 04:01:21",
+      "title": "Recap: Software Should Work 2026",
+      "summary": "* **标题**：软件应工作：AI 冲击下的信任危机与开源契约重构\n* **核心摘要**：在“软件应工作”2026 年会议上，作者指出软件已演变为现代社会的社会契约，其核心价值在于对用户透明、无摩擦。然而，AI 的广泛应用正在瓦解工程师对自身的推理能力与对产品的信任，导致行业陷入“蚁群”式的内卷。会议强调，面对 AI 带来的效率压力，开发者应回归形式化方法与系统思维，利用工具构建问题空间模型，而非单纯依赖生成式代码。真正的价值在于领域知识与解决问题的过程，而非代码生成的速度。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -205,12 +1405,42 @@
       "lang": "zh"
     },
     {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpcj2j/agentic_harness_for_small_models/",
+      "publish_time": "2026-08-15 19:59:31",
+      "publish_time_local": "2026-08-16 03:59:31",
+      "title": "Agentic harness for small models",
+      "summary": "* **标题**：轻量级本地 AI 代理框架适配小模型与边缘硬件\n* **核心摘要**：开发者在 RTX 5050 8GB 显存及 16GB 内存配置下，寻求适配 Ornith 1 9B、Gemma 4 等小模型的轻量级本地 AI 代理框架。现有方案如 Hermes Agent 因上下文注入过重导致性能损耗，用户亟需支持 MCP 服务器、沙箱环境及 PDF 读取能力的工具，以摆脱频繁切换模型的繁琐调试。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpci4z/i_built_an_opensource_zerotrust_compliance_engine/",
+      "publish_time": "2026-08-15 19:58:29",
+      "publish_time_local": "2026-08-16 03:58:29",
+      "title": "I built an open-source, zero-trust compliance engine for COPPA & KOSA app launches (Node.js + Client SDK) — COPPA KOSA Handshake",
+      "summary": "* **标题**：开源 COPPA/KOSA 合规引擎：基于 RFC 标准的零信任握手机制\n* **核心摘要**：针对儿童隐私合规碎片化痛点，开发者开源了 Copa Kosa Handshake V5 引擎。该方案通过拦截应用启动阶段强制执行家长同意验证，利用 RFC 合规 JWT 与 W3C 标准构建去中心化安全架构，并自动实施广告标识屏蔽、位置遥测禁用及 AES-256 本地加密存储等客户端防护。后端提供统一握手接口，支持 Web、iOS、Android 及 Smart TV 等多平台环境检测，旨在解决跨平台合规落地难题。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/vibe-coding",
       "url": "https://medium.com/@gabi.preda/the-best-free-way-to-start-learning-ai-in-2026-id-start-with-these-3-kaggle-courses-a6a4f9147439",
       "publish_time": "2026-08-15 19:53:51",
       "publish_time_local": "2026-08-16 03:53:51",
       "title": "💎[会员专享] The Best Free Way to Start Learning AI in 2026? I’d Start With These 3 Kaggle Courses",
       "summary": "* **标题**：Google 与 Kaggle 联手推出三大免费 AI 实战课程，助初学者构建从生成式 AI 到智能体系统的完整技术栈\n* **核心摘要**：针对初学者在海量 AI 课程中难以筛选的痛点，推荐 Google 与 Kaggle 联合推出的三项免费五日强化课程。内容涵盖生成式 AI 底层原理、智能体系统构建及 Vibe Coding 开发，通过从理论到实践的完整路径，帮助开发者在零成本前提下建立对 AI 生态系统的系统性认知，为后续专业方向选择提供决策依据。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vpccuk/i_built_a_small_game_discovery_toy_not_a_chatbot/",
+      "publish_time": "2026-08-15 19:52:26",
+      "publish_time_local": "2026-08-16 03:52:26",
+      "title": "I built a small game discovery toy, not a chatbot wrapper",
+      "summary": "* **标题**：游戏组合引擎：基于向量空间构建 14.6 万款游戏匹配系统\n* **核心摘要**：开发者 Eli 构建 GameCombiner，将 146,288 款游戏按类型、标签及描述转化为 1024 维向量，通过计算向量中点精准匹配相似游戏。该方案完全摒弃 LLM 生成，确保输出为真实目录条目且结果可复现，旨在提供零成本、高确定性的游戏发现工具。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -225,12 +1455,242 @@
       "lang": "zh"
     },
     {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vpc202/do_you_contain_your_agent/",
+      "publish_time": "2026-08-15 19:40:25",
+      "publish_time_local": "2026-08-16 03:40:25",
+      "title": "Do you contain your Agent?",
+      "summary": "* **标题**：Hermes Agent 容器化部署实践与架构考量\n* **核心摘要**：开发者在旧款 Intel i5 NUC 上通过 Docker 容器化部署 Hermes Agent，结合 Nous Portal 模型拉取与 Tailscale 远程连接方案，实现跨设备无缝工作流。社区正聚焦于容器化部署的具体架构选择、资源优化及潜在技术权衡。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpbwkv/i_gave_claude_a_motion_design_editor_this_is_what/",
+      "publish_time": "2026-08-15 19:34:11",
+      "publish_time_local": "2026-08-16 03:34:11",
+      "title": "I gave Claude a motion design editor. This is what it made",
+      "summary": "* **标题**：AI 驱动运动设计编辑器，Raylight 实现可编辑视频生成\n* **核心摘要**：开发者通过构建 MCP 服务器，使 Claude 能够像人类一样操作 Raylight 运动设计编辑器。该工具支持图层绘制、文本生成、时间轴动画及帧渲染，并具备自我修正功能。生成的视频为真实可编辑图层，非纯生成内容，用户可直接修改不满意的细节。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vpbtu3/crashed_mid_update/",
+      "publish_time": "2026-08-15 19:31:01",
+      "publish_time_local": "2026-08-16 03:31:01",
+      "title": "Crashed mid update",
+      "summary": "* **标题**：Hermes 更新崩溃：进程 ID 7444 导致桌面启动循环失败\n* **核心摘要**：用户尝试更新 Hermes 时，因后台进程（ID 7444）被错误终止，触发系统自动重试机制。日志显示“桌面启动失败”循环，最终因修复尝试超过预算（attempt=4/3）而强制重装，导致应用无法正常运行。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vpbtqz/the_trump_administration_is_pressuring_apple_not/",
+      "publish_time": "2026-08-15 19:30:54",
+      "publish_time_local": "2026-08-16 03:30:54",
+      "title": "The Trump administration is pressuring Apple not to buy Chinese memory chips as AI data centers drain global supply.",
+      "summary": "* **标题**：特朗普政府施压苹果，限制采购中国内存芯片\n* **核心摘要**：美国商务部部长卢特尼克明确反对苹果采购中芯国际与长鑫存储定制芯片，因 AI 数据中心需求导致全球内存供应紧张。尽管苹果可合法购买标准现货，但定制芯片共享信息需美国许可，此举可能加剧内存短缺并推高价格。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vpbstz/adport_local_mcp_and_cli_for_ad_platforms_now/",
+      "publish_time": "2026-08-15 19:29:52",
+      "publish_time_local": "2026-08-16 03:29:52",
+      "title": "adport: local mcp and cli for ad platforms, now with apple ads v1",
+      "summary": "* **标题**：adport 开源工具支持 Apple Ads v1 本地化部署与 CLI 交互\n* **核心摘要**：adport 作为 Apache 2.0 许可的开源工具，提供本地优先架构及命令行接口，现已集成 Apple Ads v1 提供商。该工具经真实账户测试，支持 Claude Code 连接，并强制实施暂停与预览审批机制，确保广告平台操作的安全性与可控性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpbsdg/fantasy_football_but_you_play_as_a_team_with_a/",
+      "publish_time": "2026-08-15 19:29:17",
+      "publish_time_local": "2026-08-16 03:29:17",
+      "title": "Fantasy football, but you play as a team with a captain instead of alone",
+      "summary": "* **标题**：团队竞技重塑Fantasy Football，Wovan 以队长制激活赛季活跃度\n* **核心摘要**：针对Fantasy Football联赛第6周后活跃度骤降的痛点，开发者推出Wovan应用。该应用采用团队对战模式，通过队长制与参与讨论积分机制，将传统单人竞技转化为团队协作，旨在解决用户流失与参与度下降问题。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vpbpm2/aquanizer_a_desktop_app_for_relaxing_while/",
+      "publish_time": "2026-08-15 19:26:05",
+      "publish_time_local": "2026-08-16 03:26:05",
+      "title": "Aquanizer - A desktop app for relaxing while listening to music and searching for wallpapers",
+      "summary": "* **标题**：Aquanizer 桌面应用发布：音乐与壁纸的一站式管理工具\n* **核心摘要**：Aquanizer v0.1.0 正式发布，支持音乐搜索、安装与播放，以及壁纸库管理与自定义主题创建。项目完全开源，提供 macOS、Windows 及 Linux 多平台支持，并集成 GitHub Actions 实现自动化构建与分发。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpbo3l/is_it_just_me_or_should_codex_show_both_usage_and/",
+      "publish_time": "2026-08-15 19:24:20",
+      "publish_time_local": "2026-08-16 03:24:20",
+      "title": "Is it just me, or should Codex show both usage % and the reset date?",
+      "summary": "* **标题**：开发者呼吁 Codex 界面增加使用量重置日期显示\n* **核心摘要**：用户反馈当前 Codex 界面虽已支持显示使用量百分比，但建议同时增加重置日期信息，以提升透明度并优化用户体验。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vpbhu6/featherwall_live_wallpapers_for_windows_that_dont/",
+      "publish_time": "2026-08-15 19:17:23",
+      "publish_time_local": "2026-08-16 03:17:23",
+      "title": "featherwall, live wallpapers for windows that don't eat your laptop",
+      "summary": "* **标题**：轻量级桌面动态壁纸 Featherwall 实现零资源占用\n* **核心摘要**：Featherwall 通过直接集成 Windows 桌面合成树，摒弃了传统壁纸应用依赖浏览器引擎与多进程架构。该工具仅需单进程运行，在 4K 循环模式下 CPU 占用仅 0.9%，并支持全屏应用自动停止解码。尽管受限于 .NET 10 桌面运行时及多显示器兼容性，其极简架构为资源敏感型开发提供了新方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpbeo2/what_to_do_with_my_spark_usage/",
+      "publish_time": "2026-08-15 19:13:58",
+      "publish_time_local": "2026-08-16 03:13:58",
+      "title": "What to do with my spark usage?",
+      "summary": "* **标题**：Spark 账户余额归零，开发者应如何规划后续使用？\n* **核心摘要**：用户持有两个空余额的 Codex 账户，对 Spark 的持续价值产生疑虑，并寻求关于账户管理与实际效能的实用建议。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpbekh/my_side_hustle_dictation_tool_achieved_a_big/",
+      "publish_time": "2026-08-15 19:13:52",
+      "publish_time_local": "2026-08-16 03:13:52",
+      "title": "My side hustle Dictation tool achieved a big milestone, emotionally 😭",
+      "summary": "* **标题**：语音转写工具 Dictation Daddy 突破里程碑，独立生存获资深用户验证\n* **核心摘要**：开发者在面临 Wispr 与 Dragon Dictation 等资金雄厚竞品的压力下，凭借 Dictation Daddy 成功获得付费用户并实现财务独立。产品通过高精度、低编辑门槛及多语言支持，赢得了资深用户、专业领域人士及 Android 用户的广泛认可，验证了其在深度竞争市场中建立可持续商业模式的可能性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+      "publish_time": "2026-08-15 19:12:53",
+      "publish_time_local": "2026-08-16 03:12:53",
+      "title": "AI in drug discovery – what it is, where we stand and the path forward",
+      "summary": "* **标题**：AI 在药物发现领域的应用现状与未来路径\n* **核心摘要**：Nature 文章探讨了人工智能在药物研发中的当前进展、技术瓶颈及未来发展方向，旨在为行业提供科学依据与战略指引。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vpbdiq/dev_marketers_has_software_become_content_meme/",
+      "publish_time": "2026-08-15 19:12:41",
+      "publish_time_local": "2026-08-16 03:12:41",
+      "title": "[Dev & Marketers] Has software become content? MEME?",
+      "summary": "* **标题**：软件即内容：从 MVP 验证到病毒式传播的范式转移\n* **核心摘要**：传统软件开发路径正被“内容驱动”模式颠覆。开发者不再依赖 App Store 上架与付费获客，而是通过构建互动网页与社交媒体传播，在极短时间内验证产品并获取用户测试。这种“软件即内容”的新范式，挑战了既有的产品验证与增长逻辑。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/muse-glimmer-30b-local-agent/",
+      "publish_time": "2026-08-15 19:08:21",
+      "publish_time_local": "2026-08-16 03:08:21",
+      "title": "Meta Muse Glimmer 30B: Local AI Agent on One GPU",
+      "summary": "* **标题**：Meta 发布 Muse Glimmer 30B：单卡本地 AI 代理新标杆\n* **核心摘要**：Meta 推出 30B 参数开源模型 Muse Glimmer，专为本地多轮工具调用与编排设计。该模型在 Apache 2.0 协议下无需等待即可商用，凭借分组查询注意力机制与内置视觉编码器，在长上下文工具协调任务中表现优异，虽在纯终端执行上略逊于 Qwen3.6，但为构建私有评估与多智能体系统提供了高效、低延迟的本地化解决方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vpb6ov/megabrain_take_paid_resets_is_for_chumps_theyre/",
+      "publish_time": "2026-08-15 19:04:57",
+      "publish_time_local": "2026-08-16 03:04:57",
+      "title": "Mega-brain take: Paid Resets is for chumps. They’re just trying to get you to buy more accounts. It’s called the “decoy effect”",
+      "summary": "* **标题**：付费重置是诱导消费陷阱，利用“诱饵效应”迫使用户购买额外账号\n* **核心摘要**：付费重置并非旨在直接获利，而是通过限制免费重置功能，利用“诱饵效应”诱导用户为追求更高使用量而购买第二账号。该策略旨在通过降低单次付费价值感知，促使用户增加消费频次与数量，从而提升整体营收。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vpaz70/i_built_a_shared_weekly_menu_so_familyroommates/",
+      "publish_time": "2026-08-15 18:56:45",
+      "publish_time_local": "2026-08-16 02:56:45",
+      "title": "I built a shared weekly menu so family/roommates can add meals in one place — looking for feedback",
+      "summary": "* **标题**：去中心化协作：基于共享菜单的无注册家庭周餐计划工具\n* **核心摘要**：开发者为了解决 WhatsApp 群聊中晚餐规划的低效问题，构建了一款无需注册的共享菜单 Web 应用。该应用允许家庭成员通过链接直接添加餐食与食材，并自动生成周计划。目前项目处于寻求反馈阶段，旨在优化协作流程。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vpay2n/open_source_framer_alternative_revyme/",
+      "publish_time": "2026-08-15 18:55:28",
+      "publish_time_local": "2026-08-16 02:55:28",
+      "title": "Open Source Framer Alternative: Revyme",
+      "summary": "* **标题**：开源 Framer 替代方案 Revyme 发布，提供像素级设计与 Next.js 代码导出\n* **核心摘要**：Revyme 是一款面向 Web 设计师的开源建站工具，提供类似 Figma 的像素级控制、响应式断点及 CMS 功能。用户可选择云端部署或本地自托管，并支持导出至干净的 Next.js 代码，旨在解决传统建站服务的高成本问题。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vpax07/rtx_pro_4500_vs_a100_x4_purchase_being_made_today/",
+      "publish_time": "2026-08-15 18:54:16",
+      "publish_time_local": "2026-08-16 02:54:16",
+      "title": "RTX Pro 4500 vs. A100 (x4) - purchase being made today",
+      "summary": "* **标题**：RTX Pro 4500 集群 vs. 二手 A100 集群：加速交付的硬件选型博弈\n* **核心摘要**：用户因 Intel B60 主板需今日退货，面临在 RTX Pro 4500 四卡方案与二手 A100 四卡方案间抉择。前者需 PCIe 交换机增加架构复杂度，后者依赖 NVLink 桥接且存在二手硬件风险。用户因时间紧迫，急需社区评估两种方案在集群扩展性上的实际成本与风险。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vpavaj/shipped_v10_of_my_macos_app_codepulse/",
+      "publish_time": "2026-08-15 18:52:16",
+      "publish_time_local": "2026-08-16 02:52:16",
+      "title": "Shipped v1.0 of my macOS app, CodePulse",
+      "summary": "* **标题**：CodePulse 发布 macOS 应用 v1.0 版本\n* **核心摘要**：开发者 Dry-Practice-1107 正式发布名为 CodePulse 的 macOS 应用程序 v1.0 版本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vpajj4/at_my_wits_end_with_hermes_someone_please_help/",
+      "publish_time": "2026-08-15 18:39:25",
+      "publish_time_local": "2026-08-16 02:39:25",
+      "title": "At my wits end with Hermes. Someone please help.",
+      "summary": "* **标题**：Hermes 上下文污染致服务崩溃：图像注入引发连接中断\n* **核心摘要**：用户在使用 Hermes 与 OpenClaw 集成时遭遇持续性服务故障。经排查，问题根源在于 Hermes 在处理包含图像附件的长会话时，将原始工具结果（如 Base64 编码图像）重复注入上下文，导致请求 token 量激增（超 60 万 token），超出模型窗口限制。此机制引发连接错误，且所有备用模型均继承损坏上下文，致使服务不可用。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vpaj2f/hermes_agent_cant_do_simple_tasks/",
+      "publish_time": "2026-08-15 18:38:56",
+      "publish_time_local": "2026-08-16 02:38:56",
+      "title": "Hermes Agent cant do simple tasks",
+      "summary": "* **标题**：Hermes Agent 无法执行基础任务：模型幻觉与配置失效\n* **核心摘要**：用户在使用 Hermes Agent 连接 Ollama 时，即便指令清晰明确，模型仍频繁出现严重幻觉，错误执行文件读取任务并生成无关内容。尽管尝试切换模型、调整推理模式及更换 Ollama 主机，问题依旧存在。用户对比发现 Odysseus 表现更优，当前使用的 Qwen 系列及 Gemma 模型在特定场景下稳定性不足，寻求有效解决方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/openclaw",
+      "url": "https://www.reddit.com/r/openclaw/comments/1vpahfj/i_wanted_my_claw_inside_thunderbird_so_i_built_a/",
+      "publish_time": "2026-08-15 18:37:12",
+      "publish_time_local": "2026-08-16 02:37:12",
+      "title": "I wanted my Claw inside Thunderbird, so I built a tool!",
+      "summary": "* **标题**：自研 ThunderClaw 工具，实现 Thunderbird 与 OpenClaw 的无缝集成\n* **核心摘要**：为解决 Thunderbird 与 OpenClaw 间邮件文本重复复制的痛点，开发者构建了 ThunderClaw 工具。该工具支持邮件重写、翻译及摘要，通过 Generate → Preview → Apply → Undo 流程确保模型仅处理文本内容，严禁修改发件人、收件人、附件及邮件头，适用于 OpenClaw 2026.7.2-beta.7 及以上版本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/large-language-models",
       "url": "https://medium.com/@nachiket.bapat/the-machine-sorts-i-synthesise-1ad926f432bf",
       "publish_time": "2026-08-15 18:31:01",
       "publish_time_local": "2026-08-16 02:31:01",
       "title": "The Machine Sorts. I Synthesise.",
       "summary": "* **标题**：机器分类与人类综合：AI 的边界与认知的局限\n* **核心摘要**：文章对比了机器分类与人类综合思维的本质差异。AI 擅长基于模式进行快速分类，但无法理解矛盾背后的深层逻辑；人类则具备容纳矛盾、洞察整体与部分关系的能力。作者指出，AI 虽能精准执行预设规则，却无法识别规则本身的局限性，真正的认知优势在于对整体结构的把握与对“为何如此”的洞察。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vpa6ua/the_latest_version_removed_the_create_test_tool/",
+      "publish_time": "2026-08-15 18:25:42",
+      "publish_time_local": "2026-08-16 02:25:42",
+      "title": "The latest version removed the Create test tool again. It happened in the past few weeks ago.",
+      "summary": "* **标题**：版本 2.1.233 移除任务创建工具，重构编排工作流受阻\n* **核心摘要**：最新软件版本 2.1.233 意外移除任务创建功能，导致编排工作流模型失效。用户被迫回退至旧版本并禁用自动更新以恢复功能，引发对版本迭代稳定性及核心工具链变更的担忧。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -245,6 +1705,176 @@
       "lang": "zh"
     },
     {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vp9xg2/i_built_a_site_that_gives_one_simple_answer/",
+      "publish_time": "2026-08-15 18:15:09",
+      "publish_time_local": "2026-08-16 02:15:09",
+      "title": "I built a site that gives one simple answer instead of a dashboard full of data",
+      "summary": "* **标题**：极简数据交互：单问即答工具取代复杂仪表盘\n* **核心摘要**：针对用户面对数据仪表盘却仅需单一答案的痛点，开发者构建 Tell Me Simply 平台，提供如“今日剩余日照时长”、“当前清醒人类数量”及“是否晾晒衣物”等极简查询。该工具基于实时天气数据提供精准建议，坚持无账号、无广告、无变现模式，旨在探索微型单问题实用工具的价值。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vp9vwd/i_built_a_chrome_extension_that_summarizes_the/",
+      "publish_time": "2026-08-15 18:13:21",
+      "publish_time_local": "2026-08-16 02:13:21",
+      "title": "I built a Chrome extension that summarizes the paragraphs you scroll past — Gemma 4 via WebGPU runs locally, nothing is uploaded",
+      "summary": "* **标题**：WebGPU 本地化运行，Gemma 4 驱动浏览器端智能摘要工具 Skim Recap\n* **核心摘要**：开发者 Skim Recap 通过检测用户滚动行为，在光标旁即时生成段落摘要，解决阅读长文时丢失上下文的问题。该工具采用 Gemma 4 模型，利用 WebGPU 在浏览器端本地运行，无需上传数据或 API 密钥，但需 22GB 磁盘空间及 WebGPU 支持。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "publish_time": "2026-08-15 18:13:02",
+      "publish_time_local": "2026-08-16 02:13:02",
+      "title": "AI has access to a vastly larger working memory than the human brain",
+      "summary": "* **标题**：AI 并非超越人类思维，而是拥有近乎无限的符号工作记忆\n* **核心摘要**：评论指出 AI 的核心优势并非推理能力，而在于其远超人类大脑的符号工作记忆容量。AI 无需像人类那样因害怕浪费时间而犹豫不决，能够持续存储并处理大量信息，从而在数学证明等任务中保持客观与高效。然而，这种能力仍受限于底层算法，且不能等同于真正的智力，智力应定义为利用逻辑解决复杂问题及进行抽象想象的能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/cve-2026-59310-vmware-vcenter-rce-exploited-patch-now/",
+      "publish_time": "2026-08-15 18:10:28",
+      "publish_time_local": "2026-08-16 02:10:28",
+      "title": "CVE-2026-59310: VMware vCenter RCE Exploited — Patch Now",
+      "summary": "* **标题**：VMware vCenter 双重漏洞被利用，5 天内 361 台主机沦陷\n* **核心摘要**：Broadcom 披露的 CVE-2026-59309 与 CVE-2026-59310 形成攻击链，允许攻击者无需认证即获取 vCenter 系统权限。披露后仅 5 天，攻击者已利用漏洞入侵 361 台目标主机，其中 95% 在 72 小时内被攻陷。由于漏洞利用后遗留的 reverse_ssh 后门，仅打补丁无法彻底消除风险，必须立即更新至修复版本并排查现有连接。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://corbinsimpson.com/words/power-relations.html",
+      "publish_time": "2026-08-15 18:07:08",
+      "publish_time_local": "2026-08-16 02:07:08",
+      "title": "Power Relations",
+      "summary": "* **标题**：权力即责任：基于责任传递的权力结构模型\n* **核心摘要**：文章提出“权力即责任”的核心定义，将权力视为个体对他人的责任承担。通过引入“责任传递”与“关联虚构”概念，构建了基于范畴论的权力结构模型，论证了权力并非单一实体，而是可分解、可传递的多元责任网络。该模型进一步探讨了在跨物种、跨文化语境下，通过接纳“尴尬”（Cringe）与算法式礼貌，实现从权力控制到系统理解的范式转变。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vp9oj3/be_honest_how_did_you_get_your_first_10_customers/",
+      "publish_time": "2026-08-15 18:05:09",
+      "publish_time_local": "2026-08-16 02:05:09",
+      "title": "Be honest - how did you get your first 10 customers without anyone knowing who tf you were?",
+      "summary": "* **标题**：揭秘冷启动：如何在不被认知的情况下获取首批 10 位付费客户\n* **核心摘要**：针对初创者如何获取首批付费客户的真实实践，重点探讨非传统渠道（如冷私信、社交媒体互动、免费试用等）的具体操作策略，旨在揭示那些被忽视却有效的“粗糙”获客方法。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/openclaw",
+      "url": "https://www.reddit.com/r/openclaw/comments/1vp9ioo/solved_lm_studio_client_disconnected_stopping/",
+      "publish_time": "2026-08-15 17:59:01",
+      "publish_time_local": "2026-08-16 01:59:01",
+      "title": "SOLVED — LM Studio “Client disconnected. Stopping generation…” with OpenClaw and local Qwen/Gemma/DeepSeek models",
+      "summary": "* **标题**：OpenClaw 本地模型连接中断：修改诊断守护进程阈值解决长首 token 延迟\n* **核心摘要**：用户在使用 OpenClaw 与本地模型（Qwen/Gemma/DeepSeek）时，因长上下文处理导致首 token 延迟超过 6.5 分钟，触发内置诊断守护进程（watchdog）判定运行停滞并强制断开连接。常规调整 LM Studio 或 OpenClaw 超时参数无效，最终通过修改 OpenClaw 源码中 `diagnostic-DhwkYT4X.js` 内的 `MIN_STALLED_EMBEDDED_RUN_ABORT_MS` 阈值，成功解决因长推理导致的客户端断开问题。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vp9hfl/tacque_mechanical_keyboard_sounds_for_mac/",
+      "publish_time": "2026-08-15 17:57:35",
+      "publish_time_local": "2026-08-16 01:57:35",
+      "title": "Tacque – mechanical keyboard sounds for Mac",
+      "summary": "* **标题**：Tacque 为 Mac 打造沉浸式机械键盘音效，支持空间音频与自动静音\n* **核心摘要**：Tacque 是一款轻量级 Mac 应用，提供六款手调机械键盘音效，并集成空间音频、系统级覆盖及通话自动静音功能。该应用支持自定义音效包，采用免费模式，旨在提升用户打字时的听觉体验。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp9guy/i_built_an_opensource_production_readiness/",
+      "publish_time": "2026-08-15 17:56:55",
+      "publish_time_local": "2026-08-16 01:56:55",
+      "title": "I built an open-source production readiness checklist with more than 10,000 controls",
+      "summary": "* **标题**：开源生产就绪检查清单：覆盖 10,000+ 控制项，构建 AI 驱动评估工具\n* **核心摘要**：开发者正致力于构建涵盖治理、架构、安全等 10 大领域的开源生产就绪检查清单，旨在通过社区反馈完善控制项，并计划将其升级为 AI 辅助扫描器，以自动化评估项目就绪状态并生成完整报告。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vp95iy/question_if_you_were_building_an_ainative_version/",
+      "publish_time": "2026-08-15 17:44:36",
+      "publish_time_local": "2026-08-16 01:44:36",
+      "title": "Question: If you were building an AI-native version of Clickup, with the speedy UI/X of Notion - what tech stack would you use?",
+      "summary": "* **标题**：AI 原生项目管理工具\"AgencyOS\"技术栈架构解析\n* **核心摘要**：资深开发者为应对 AI 冲击，提出融合 Clickup 功能与 Notion 体验的\"AgencyOS\"构想。该方案采用 Postgres 与 pgvector 构建语义搜索，结合 Hono/Bun 实现高性能 API，并集成 Tiptap 与 Loro 实现协作文档同步，旨在打造专为 AI 时代设计的端到端技术代理系统。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vp94gk/experiencia_y_recomendaciones_con_hermes/",
+      "publish_time": "2026-08-15 17:43:27",
+      "publish_time_local": "2026-08-16 01:43:27",
+      "title": "Experiencia y recomendaciones con hermes",
+      "summary": "* **标题**：Hermes 部署后：探索高潜力场景与集成连接方案\n* **核心摘要**：用户安装 Hermes 后对其能力感到惊喜，但困惑于具体应用场景及集成连接器的选择。当前需求聚焦于获取 Hermes 的推荐用例，以明确其实际落地路径。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vp8xmy/i_rebuilt_tera_fm_headlines_news_archive_live/",
+      "publish_time": "2026-08-15 17:36:05",
+      "publish_time_local": "2026-08-16 01:36:05",
+      "title": "I rebuilt Tera FM - headlines, news archive, live radio, and a Chrome extension",
+      "summary": "* **标题**：重构 Tera FM：聚合新闻源、历史档案与直播电台的一站式解决方案\n* **核心摘要**：开发者基于 Next.js 与 Supabase 技术栈，打造无需登录即可访问的多源新闻聚合平台，集成历史档案检索、直播电台收听及 Chrome 插件功能。同时推进 VoiceLetter 语音简报项目，旨在通过自然语言交互提供带引用的深度资讯，当前正寻求对用户体验及功能整合的反馈。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vp8wnr/i_created_a_site_that_gives_you_prompts_to/",
+      "publish_time": "2026-08-15 17:35:02",
+      "publish_time_local": "2026-08-16 01:35:02",
+      "title": "i created a site that gives you prompts to replace your paid app subscriptions",
+      "summary": "* **标题**：解构付费订阅陷阱，Vibe Coding 免费替代主流应用\n* **核心摘要**：针对 Quittr、Cal AI 等依赖营销的 GPT 包装应用，开发者创建网站提供 25 款知名应用的 Vibe Coding 替代方案及对应提示词，旨在通过意图驱动编程降低用户订阅成本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vp8kuh/i_spent_4200_on_ads_before_i_realized_i_had_never/",
+      "publish_time": "2026-08-15 17:22:22",
+      "publish_time_local": "2026-08-16 01:22:22",
+      "title": "I spent $4,200 on ads before I realized I had never watched a single person use my product",
+      "summary": "* **标题**：广告投入无效，激活率才是增长瓶颈\n* **核心摘要**：开发者在连续八个月依赖付费广告获取流量后，通过追踪最近 100 名注册用户的实际行为，发现仅有 71% 完成了核心操作。通过观看用户会话录像、手动回复注册失败者并调整仪表盘指标，将核心激活作为首要目标，最终在保持流量和广告投入不变的情况下，激活率翻倍，获客成本减半。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vp8jb1/a_complete_image_pipeline_designed_to_fit_into/",
+      "publish_time": "2026-08-15 17:20:44",
+      "publish_time_local": "2026-08-16 01:20:44",
+      "title": "A complete image pipeline designed to fit into your application",
+      "summary": "* **标题**：Konifer 构建轻量级图像管道，无缝集成应用资产处理\n* **核心摘要**：Konifer 是一款开源图像管理平台，支持预处理、存储、转换及交付图像资产。开发者可通过定义 URL 路径和配置策略，实现如自动生成分辨率缩略图、基于视觉模型的内容审核及预签名重定向等功能。其底层采用 libvips 引擎，具备高效内存处理特性，旨在为应用提供自然适配的图像资产解决方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vp8iil/paid_resets_be_like/",
+      "publish_time": "2026-08-15 17:19:52",
+      "publish_time_local": "2026-08-16 01:19:52",
+      "title": "Paid resets be like",
+      "summary": "* **标题**：低价机票诱惑下的里程重置陷阱\n* **核心摘要**：某平台宣称仅需$80即可购买额外里程，配合$200的3000英里机票优惠，诱导用户参与里程重置计划。尽管存在明显诱惑，用户目前仍保持理性，未进行实际消费。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/claude-code-auto-mode-is-now-default-for-paid-users/",
+      "publish_time": "2026-08-15 17:08:19",
+      "publish_time_local": "2026-08-16 01:08:19",
+      "title": "Claude Code Auto Mode Is Now Default for Paid Users",
+      "summary": "* **标题**：Claude Code 付费用户默认启用自动模式，人工审批机制失效\n* **核心摘要**：Anthropic 宣布将 Claude Code 自动模式设为付费用户默认权限模型，旨在解决人工审批仅能拦截 13.6% 危险命令的失效问题。新机制通过双阶段分类器拦截 89% 威胁，但存在 17% 误判率，且提示词无法覆盖硬拒绝规则。企业需在 30 天内完成安全策略配置，否则将面临强制合规风险。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/rag",
       "url": "https://medium.com/@junior_smj/semantic-cache-why-your-llm-shouldnt-answer-the-same-question-twice-57410ef8da08",
       "publish_time": "2026-08-15 17:05:52",
@@ -255,12 +1885,132 @@
       "lang": "zh"
     },
     {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vp83e6/should_users_see_actions_they_cant_use/",
+      "publish_time": "2026-08-15 17:03:19",
+      "publish_time_local": "2026-08-16 01:03:19",
+      "title": "Should users see actions they can’t use?",
+      "summary": "* **标题**：权限管理策略：隐藏不可用功能还是禁用并提示？\n* **核心摘要**：在审核产品时，开发者团队常面临权限控制难题。针对用户无导出权限或功能暂时不可用的场景，建议采取差异化策略：完全无权限时直接隐藏功能入口，功能暂时不可用时则显示禁用状态并附带原因说明。此方案旨在平衡用户体验与功能可用性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vp80ax/showoff_saturday_i_translated_my_android/",
+      "publish_time": "2026-08-15 17:00:06",
+      "publish_time_local": "2026-08-16 01:00:06",
+      "title": "[Showoff Saturday] I translated my Android clean-architecture conventions into a React + TypeScript generator",
+      "summary": "* **标题**：Android 架构范式移植至前端：Clean Web Forge 生成器实践\n* **核心摘要**：开发者将 Android 领域驱动设计（DDD）与 ArchUnit 规范映射至 React/TypeScript 环境，构建开源工具 Clean Web Forge。该生成器通过运行时插件、原子化写入及代码质量检查，旨在为 Agent 驱动开发提供确定性基础设施，减少上下文推断成本。作者正寻求关于依赖注入边界、插件必要性及命名规范实用性的技术反馈。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vp7x59/at_what_point_does_an_ai_tool_become_a_platform/",
+      "publish_time": "2026-08-15 16:56:40",
+      "publish_time_local": "2026-08-16 00:56:40",
+      "title": "At what point does an AI tool become a platform?",
+      "summary": "* **标题**：AI 产品从工具向平台演变的模糊边界\n* **核心摘要**：许多 AI 产品初期定位为单一功能工具，随后因被集成至工作流、跨团队协作及开发扩展接口，逐渐演变为基础设施。然而，这一转变缺乏明确的临界点，开发者往往在不知不觉中将其视为平台使用，导致“工具”与“平台”的界定日益模糊。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp7vrx/announcing_inkframe_grids_for_ink/",
+      "publish_time": "2026-08-15 16:55:08",
+      "publish_time_local": "2026-08-16 00:55:08",
+      "title": "Announcing ink-frame: Grids for Ink!",
+      "summary": "* **标题**：ink-frame 以字符网格重构 Ink 边框渲染逻辑\n* **核心摘要**：针对 Ink 框架中多边框拼接时出现的接缝错位问题，ink-frame 通过预渲染字符网格统一处理单元格，自动解决 T 型与十字型连接处的字符冲突，无需手动定义边框符号。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/large-language-models",
       "url": "https://medium.com/@hathibel/understanding-anthropics-watermarking-system-for-claude-afd2a4fc2cd8",
       "publish_time": "2026-08-15 16:55:05",
       "publish_time_local": "2026-08-16 00:55:05",
       "title": "💎[会员专享] Understanding Anthropic’s Watermarking System For Claude",
       "summary": "* **标题**：Claude 水印系统解析：基于统计特征的可识别性技术\n* **核心摘要**：Anthropic 为 Claude 系列模型引入统计文本水印机制，通过微调 token 选择概率嵌入机器可读信号，以符合欧盟 AI 法案透明度要求。该技术采用密钥驱动过程，在不影响文本质量的前提下实现抗编辑检测。开发者利用 Hugging Face 的 SynthID 库对 Gemma 4 模型进行了水印生成与检测实验，验证了基于贝叶斯分类器的检测器训练流程。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp7u08/custom_os_made_from_scratch_in_c/",
+      "publish_time": "2026-08-15 16:53:09",
+      "publish_time_local": "2026-08-16 00:53:09",
+      "title": "Custom OS made from Scratch in C",
+      "summary": "* **标题**：从零构建 C 语言 32 位操作系统，集成完整桌面与网络栈\n* **核心摘要**：开发者基于裸机 C 与 NASM 汇编，在 32 位 x86 架构下独立构建操作系统。该系统涵盖图形桌面、窗口管理器、网络协议栈及 e1000/RTL8139 等硬件驱动，并集成 TLS 1.3、HTTP/HTTPS 服务、Web 浏览器及 HTML 渲染引擎，同时支持桌面应用与游戏运行。完整代码已开源至 GitHub 平台。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp7ty4/i_built_relic_a_selfhostable_bookmarkarchive_app/",
+      "publish_time": "2026-08-15 16:53:06",
+      "publish_time_local": "2026-08-16 00:53:06",
+      "title": "I built Relic — a self-hostable bookmark/archive app",
+      "summary": "* **标题**：自托管书签归档应用 Relic 上线\n* **核心摘要**：开发者发布了一款名为 Relic 的自托管书签与归档应用，旨在为用户提供灵活、可私有部署的链接管理解决方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp7s9h/c_taskbarvolume_scroll_on_a_windows_11_taskbar/",
+      "publish_time": "2026-08-15 16:51:12",
+      "publish_time_local": "2026-08-16 00:51:12",
+      "title": "[C#] TaskbarVolume - scroll on a Windows 11 taskbar icon to change that app's volume",
+      "summary": "* **标题**：C# 开发 Windows 11 任务栏音量控制工具，通过滚动图标调节应用音量\n* **核心摘要**：开发者利用 UI Automation 技术，通过识别任务栏图标 hover 状态及 AutomationId，结合进程匹配与快捷方式索引，实现了无需打开目标进程即可滚动调节应用音量的功能。该工具以 311 KB 独立 exe 形式发布，支持 Windows 11 22H2+ 系统，采用 MIT 协议，无需安装或注入系统进程。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp7qrc/us_to_tell_partners_they_must_pick_sides_in_ai/",
+      "publish_time": "2026-08-15 16:49:32",
+      "publish_time_local": "2026-08-16 00:49:32",
+      "title": "US to tell partners they must pick sides in AI race with China",
+      "summary": "* **标题**：美国要求盟友在中美 AI 竞赛中明确选边站\n* **核心摘要**：美国正式向合作伙伴发出警告，要求其在与中国的 AI 竞赛中明确立场。此举标志着美国将采取更激进的联盟策略，试图通过强化盟友关系来构建针对中国的技术壁垒。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/productivity",
+      "url": "https://www.reddit.com/r/productivity/comments/1vp7mr5/can_worrying_about_stress_make_it_worse/",
+      "publish_time": "2026-08-15 16:45:09",
+      "publish_time_local": "2026-08-16 00:45:09",
+      "title": "Can worrying about stress make it worse?",
+      "summary": "* **标题**：压力与焦虑的恶性循环：区分“压力”与“慢性压力”\n* **核心摘要**：过度关注压力危害本身可能引发新的焦虑，形成叠加效应。文章强调，短期压力是身体应对挑战的正常反应，而长期持续的压力（如财务不安全、过度工作负荷）因缺乏恢复时间才构成真正健康风险。单纯建议减压往往治标不治本，关键在于识别压力类型、持续时间及恢复机会，而非追求完全消除压力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp7kaf/i_built_a_cli_to_audit_gitignore_files_using_git/",
+      "publish_time": "2026-08-15 16:42:22",
+      "publish_time_local": "2026-08-16 00:42:22",
+      "title": "I built a CLI to audit .gitignore files using Git itself as the source of truth",
+      "summary": "* **标题**：GitIgnore Doctor：以 Git 为唯一真理源的.gitignore 审计工具\n* **核心摘要**：开发者推出 GitIgnore Doctor CLI 工具，通过直接调用 Git 解析忽略规则，自动识别缺失、冗余及过宽规则。该工具采用保守策略，仅生成审查建议而非自动修改，并支持 JSON 输出与 CI 集成，旨在解决大型仓库中.gitignore 规则维护困难的问题。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vp7ix8/beaware_todotasktracking_tools_are_no_longer/",
+      "publish_time": "2026-08-15 16:40:49",
+      "publish_time_local": "2026-08-16 00:40:49",
+      "title": "Beaware: Todo/task-tracking tools are no longer available on Opus 4.8, Sonnet 5, Fable 5, Mythos 5, and newer models",
+      "summary": "* **标题**：Claude 系列新模型移除任务追踪工具，开发者需手动配置恢复\n* **核心摘要**：自 Opus 4.8 起，Sonnet 5、Fable 5 及 Mythos 5 等模型已移除 TaskCreate/Get/Update/List 等任务追踪功能。开发者需通过设置环境变量 `CLAUDE_CODE_ENABLE_TODO_TOOLS=1` 手动恢复该能力，否则将依赖 Agent 自主规划替代原有显式任务管理。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp7ig9/i_made_my_resume_versionaware_like_crossmark_for/",
+      "publish_time": "2026-08-15 16:40:19",
+      "publish_time_local": "2026-08-16 00:40:19",
+      "title": "I made my resume version-aware (like Crossmark for research papers) so recruiters always get the latest version",
+      "summary": "* **标题**：构建“版本感知”简历系统，让招聘者一键获取最新履历\n* **核心摘要**：开发者借鉴 Crossmark 论文版本标识机制，通过 YAML 结构化存储、Jinja2 模板渲染及 GitHub Actions 自动化流水线，实现简历 PDF 的持续版本化管理。用户仅需发送一次文档，即可通过内置链接动态获取最新履历，彻底解决传统简历更新滞后问题。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -311,6 +2061,16 @@
       "publish_time_local": "2026-08-16 00:31:19",
       "title": "💎[会员专享] https://www.digitalplatform271.com/resources/how-to-generate-leads-using-ai",
       "summary": "* **标题**：AI 驱动营销与数字可见性：企业获客与品牌塑造指南\n* **核心摘要**：本文聚焦 AI 赋能营销、数字曝光及个人品牌构建，探讨企业在 AI 时代保持可发现性与高效获客的核心策略。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vp780b/compétences_ia_compétence_developpeur_full_stack/",
+      "publish_time": "2026-08-15 16:28:30",
+      "publish_time_local": "2026-08-16 00:28:30",
+      "title": "Compétences ia/ compétence developpeur full stack",
+      "summary": "* **标题**：AI 赋能下，全栈开发者角色重构：从代码编写转向架构创新\n* **核心摘要**：随着 AI 技术渗透，开发者职能正从语言学习与代码优化向架构发现、问题定义及任务分配等创造性领域迁移。这一变革类比于农业机械化，预计将大幅减少基础开发岗位需求，但推动人才向“软件工程师”转型，引发对现代工业革命式“创造性破坏”的广泛讨论。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -385,12 +2145,62 @@
       "lang": "zh"
     },
     {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vp6y2l/who_is_responsible_when_an_ai_agent_makes_a_bad/",
+      "publish_time": "2026-08-15 16:17:25",
+      "publish_time_local": "2026-08-16 00:17:25",
+      "title": "Who is responsible when an AI agent makes a bad decision?",
+      "summary": "* **标题**：AI 代理决策失误责任归属：开发者、企业还是监管者？\n* **核心摘要**：随着 AI 代理自主决策能力的提升，其在执行中产生的错误（如误发邮件、篡改数据）引发了责任主体界定难题。开发者、企业或监管者之间的权责划分尚不明确，且代理自主性越强，对责任追溯机制的构建要求越高。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/vibe-coding",
       "url": "https://medium.com/@PowerUpSkills/claude-code-just-made-auto-mode-the-default-c43a645b7e15",
       "publish_time": "2026-08-15 16:16:43",
       "publish_time_local": "2026-08-16 00:16:43",
       "title": "💎[会员专享] Claude Code Just Made Auto Mode the Default",
       "summary": "* **标题**：Claude Code 默认开启 Auto 模式，将权限决策自动化\n* **核心摘要**：Claude Code 新版 Pro、Max 及 Team 会话默认启用 Auto 模式，将常规权限审批从开发者转移至分类器。尽管该模式通过“确认 - 执行”循环有效规避了 Shell 与 Git 操作的安全风险，但作者主张应允许开发者将任务交付给 AI 自主闭环，以摆脱繁琐的交互确认，实现真正的自主开发。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vp6woe/rtx_5080/",
+      "publish_time": "2026-08-15 16:15:53",
+      "publish_time_local": "2026-08-16 00:15:53",
+      "title": "RTX 5080",
+      "summary": "* **标题**：RTX 5080 本地 AI 部署困境：硬件瓶颈还是模型适配问题？\n* **核心摘要**：用户购买 RTX 5080 显卡主要用于游戏，近期尝试通过 Ollama 运行 Hermes 本地模型，但发现模型效果不佳。用户质疑问题根源在于硬件性能不足，还是模型技能配置或适配方式存在缺陷。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vp6vt3/benjamin_pasero_joined_claude_code_team/",
+      "publish_time": "2026-08-15 16:14:55",
+      "publish_time_local": "2026-08-16 00:14:55",
+      "title": "Benjamin Pasero joined Claude Code Team",
+      "summary": "* **标题**：Benjamin Pasero 转投 Anthropic 加入 Claude Code 团队\n* **核心摘要**：资深 VS Code 开发者 Benjamin Pasero 在微软任职 15 年后，因不满团队过度依赖 AI 及频繁更新带来的协作压力，正式加入 Anthropic 团队负责 Claude Code。该变动引发了社区对 VS Code 团队近期 AI 导向过重及团队文化变化的广泛讨论。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vp6voc/does_anyone_else_feel_like_80_of_the_y_combinator/",
+      "publish_time": "2026-08-15 16:14:45",
+      "publish_time_local": "2026-08-16 00:14:45",
+      "title": "Does anyone else feel like 80% of the Y Combinator startups we see these days are just AI wrappers around API calls to frontier models?",
+      "summary": "* **标题**：Y Combinator 初创公司：是 AI 创新还是 API 包装？\n* **核心摘要**：当前 Y Combinator 资助的初创公司中，大量项目仅将现有前沿模型作为 API 调用，并叠加薄弱的 AI 层。这种模式引发了对资本流向的质疑：投资者究竟是在资助真正的技术创新，还是在为围绕 API 调用的营销方案买单？\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vp6v7g/luna_can_now_be_used_when_spawning_subagents/",
+      "publish_time": "2026-08-15 16:14:16",
+      "publish_time_local": "2026-08-16 00:14:16",
+      "title": "Luna can now be used when spawning sub-agents",
+      "summary": "* **标题**：Luna 支持子代理生成，扩展智能体协作能力\n* **核心摘要**：Luna 平台现已支持在生成子代理时直接调用，标志着智能体架构从单一执行向分层协作模式的演进。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -435,6 +2245,26 @@
       "lang": "zh"
     },
     {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/github-copilot-runs-local-models-via-ollama-in-jetbrains/",
+      "publish_time": "2026-08-15 16:09:25",
+      "publish_time_local": "2026-08-16 00:09:25",
+      "title": "GitHub Copilot Runs Local Models via Ollama in JetBrains",
+      "summary": "* **标题**：GitHub Copilot 支持本地 Ollama 模型，JetBrains 实现私有化 AI 编程助手\n* **核心摘要**：GitHub 于 8 月 11 日更新 JetBrains 插件，支持通过 Ollama 调用本地模型，实现代码推理的私有化部署。此举消除了 API 调用费用并提升数据隐私，但要求团队具备 GPU 硬件资源以维持低延迟，同时需承担模型维护、安全补丁及容量规划等运维责任。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/productivity",
+      "url": "https://www.reddit.com/r/productivity/comments/1vp6qtp/midmorning_crash_every_day_how_can_i_fix_it/",
+      "publish_time": "2026-08-15 16:09:18",
+      "publish_time_local": "2026-08-16 00:09:18",
+      "title": "Mid-Morning Crash every day. How can I fix it?",
+      "summary": "* **标题**：午间崩溃：10-11 点情绪骤降的成因与应对\n* **核心摘要**：用户每日上午 10-11 点出现突发性情绪崩溃，伴随抑郁、疲劳及无聊感，尽管已尝试调整饮食、补充蛋白质、咖啡因及调整药物，仅小憩能缓解症状。该现象与规律作息无关，且用户处于正规治疗中，亟需针对特定时段能量与情绪波动的精准干预方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/machine-learning",
       "url": "https://medium.com/@blackshadowteam.net/chapter-9-9c108ee12bef",
       "publish_time": "2026-08-15 16:06:58",
@@ -451,6 +2281,16 @@
       "publish_time_local": "2026-08-16 00:05:34",
       "title": "ARTIFICIAL INTELLIGENCE. INTRODUCTION",
       "summary": "* **标题**：人工智能：从日常应用至伦理挑战的演进\n* **核心摘要**：文章系统梳理了人工智能的定义、分类（弱人工智能、强人工智能、超级智能）及其在推荐系统、语音助手等场景的落地应用。同时指出其带来的效率提升与全天候运作优势，并深入探讨了就业替代、数据隐私及伦理风险等核心挑战，强调在享受技术便利的同时需保持审慎与责任。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vp6mgu/352_signups_22_used_the_feature_id_spent_months/",
+      "publish_time": "2026-08-15 16:04:32",
+      "publish_time_local": "2026-08-16 00:04:32",
+      "title": "352 signups, 22 used the feature I'd spent months building. So I cut the feature, not the product",
+      "summary": "* **标题**：自动化功能被砍：22 人使用，330 人闲置，开发者反思“功能可用”与“用户所需”的错位\n* **核心摘要**：开发者耗时数月构建的自动化外链交换功能，仅 22 名用户实际使用，其余 330 名用户均请求手动操作。核心问题并非功能质量，而是开发者误将“功能可用”等同于“用户所需”，忽视了用户缺乏对陌生 CMS 的写权限。最终开发者果断砍掉自动化功能，转为直接交换模式，并反思了将“功能可用”作为唯一信号导致的决策偏差。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -475,12 +2315,32 @@
       "lang": "zh"
     },
     {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp6haw/model_add_kimik3_text_model_by_pwilkin_pull/",
+      "publish_time": "2026-08-15 15:59:13",
+      "publish_time_local": "2026-08-15 23:59:13",
+      "title": "model: add Kimi-K3 text model by pwilkin · Pull Request #26185 · ggml-org/llama.cpp",
+      "summary": "* **标题**：ggml-org 社区提交 Kimi-K3 文本模型支持，llama.cpp 项目更新\n* **核心摘要**：开发者 pwilkin 向 llama.cpp 项目提交 Pull Request #26185，新增 Kimi-K3 文本模型支持。该更新旨在扩展 llama.cpp 的模型兼容性，满足社区对 Kimi 系列模型的推理需求。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/llm",
       "url": "https://aayanand.medium.com/multi-agent-debate-workflow-for-fixing-ai-sycophancy-and-hallucinations-195868a4f77e",
       "publish_time": "2026-08-15 15:52:20",
       "publish_time_local": "2026-08-15 23:52:20",
       "title": "Multi-Agent Debate Workflow for fixing AI Sycophancy and Hallucinations",
       "summary": "* **标题**：多智能体辩论工作流：对抗 AI 顺从与幻觉的自动化验证机制\n* **核心摘要**：针对 AI 模型因 RLHF 训练导致的“顺从性”与“幻觉”问题，开发者在 Google Antigravity 中构建了自动化多智能体辩论工作流。该机制通过并行部署两个独立子智能体，强制其先独立使用终端命令、Web 搜索等工具进行事实核查，随后在设定轮次限制下进行互评辩论。通过“盲评估”与“工具验证”双重约束，系统有效抑制了模型迎合用户错误的倾向，显著提升了数学推理、事实准确性及自我纠错能力，将人工验证耗时从分钟级压缩至自动化秒级。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vp6arf/in_my_free_time_i_develop_small_games_this_one_is/",
+      "publish_time": "2026-08-15 15:51:49",
+      "publish_time_local": "2026-08-15 23:51:49",
+      "title": "In my free time I develop small games. This one is a simple one inspired by NYT pips",
+      "summary": "* **标题**：开发者闲暇时开发简易游戏，致敬《纽约时报》经典玩法\n* **核心摘要**：开发者在业余时间基于《纽约时报》经典玩法“Pips”开发了名为 pips.superiorgames.eu 的轻量级游戏，并开放在线试玩。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -505,12 +2365,32 @@
       "lang": "zh"
     },
     {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vp65cs/7h_window/",
+      "publish_time": "2026-08-15 15:45:42",
+      "publish_time_local": "2026-08-15 23:45:42",
+      "title": "7h window?",
+      "summary": "* **标题**：开发者实测：从 Claude 切换至 OpenAI 仅需 7 小时\n* **核心摘要**：用户通过 Reddit 分享实测视频，展示其利用新账户在 7 小时内完成从 Claude 到 OpenAI 的迁移。该操作旨在验证不同大模型平台间的切换成本与效率差异。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/llm",
       "url": "https://thevasilis.medium.com/the-economics-of-alignment-why-safe-ai-costs-more-and-delivers-less-f96720ff818b",
       "publish_time": "2026-08-15 15:43:19",
       "publish_time_local": "2026-08-15 23:43:19",
       "title": "The Economics of Alignment: Why ‘Safe’ AI Costs More and Delivers Less",
       "summary": "* **标题**：商业对齐的隐性成本：安全护栏如何侵蚀 AI 算力效率\n* **核心摘要**：企业级 AI 采购普遍忽视安全对齐机制带来的结构性成本。RLHF、DPO 及规则护栏不仅增加 Token 消耗与推理延迟，更导致有效产出率从 100% 降至 60% 以下。建议高校与机构通过审计护栏效率、迁移敏感工作流至开源基础设施及部署主权节点，以消除合规性带来的算力损耗。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vp62as/email_platform/",
+      "publish_time": "2026-08-15 15:42:16",
+      "publish_time_local": "2026-08-15 23:42:16",
+      "title": "Email platform",
+      "summary": "* **标题**：AI 驱动重构邮件平台，去订阅化商业模式引领企业协作新范式\n* **核心摘要**：开发者从零构建全新邮件平台，核心功能聚焦于群组邮件场景，代码中 30%~40% 由 AI 生成。平台采用基于使用量和成员数量的价值模型，摒弃 Google Workspace 式的单席位定价，预计于 2026 年底发布。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -525,12 +2405,122 @@
       "lang": "zh"
     },
     {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vp5uss/mobile_first_hermes_user_how_to_create_bot/",
+      "publish_time": "2026-08-15 15:33:41",
+      "publish_time_local": "2026-08-15 23:33:41",
+      "title": "Mobile first Hermes user, how to create bot?",
+      "summary": "* **标题**：Hermes 移动端用户指南：如何创建并管理多场景 Bot\n* **核心摘要**：针对 Hermes 本地部署及 Telegram 移动端交互场景，开发者反映在多主题（Web 开发、DevOps、系统配置、研究等）下面临会话管理混乱问题。社区建议采用 Bot 模式以优化多任务并行处理，并寻求关于多 Profile 配置与会话管理的最佳实践。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Hacker News",
       "url": "https://spectrum.ieee.org/ai-designed-virus",
       "publish_time": "2026-08-15 15:32:25",
       "publish_time_local": "2026-08-15 23:32:25",
       "title": "AI Can Now Design Functional Viruses. Should We Worry?",
       "summary": "* **标题**：斯坦福团队利用 AI 从头设计功能性噬病毒，引发生物安全新挑战\n* **核心摘要**：斯坦福研究人员利用 Evo 2 基础模型，在 285 个候选基因中筛选出 16 个可合成、能感染大肠杆菌的功能性噬病毒。尽管这些病毒与模板相似度高达 97%，但 AI 通过重组基因结构实现了传统基因工程无法达成的感染能力。这一突破虽为定制化噬病毒疗法带来希望，但也显著降低了构建致病性生物制剂的技术门槛，迫使社会重新审视如何平衡其医疗潜力与生物安全风险。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/pnpm-v12-rust-rewrite/",
+      "publish_time": "2026-08-15 15:15:10",
+      "publish_time_local": "2026-08-15 23:15:10",
+      "title": "pnpm v12 Rust Rewrite: What Developers Need to Know",
+      "summary": "* **标题**：pnpm v12 Rust 重构：移除 Node.js 运行时，性能提升显著\n* **核心摘要**：pnpm v12 全面重构为 Rust 原生二进制，彻底移除 Node.js 运行时启动开销。相比 v11，fetch-and-link 阶段性能提升至少 2 倍，且无需 Node.js 环境即可运行。升级路径平滑，仅自更新逻辑和 `$` 语法覆盖等少数配置项发生变化。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vp5bxh/are_you_using_hermes_agent_with_a_local_model/",
+      "publish_time": "2026-08-15 15:12:21",
+      "publish_time_local": "2026-08-15 23:12:21",
+      "title": "Are you using Hermes agent with a local model?",
+      "summary": "* **标题**：本地模型与 Hermes 代理的适配性评估\n* **核心摘要**：开发者探讨当前本地模型在性能与规模上是否足以支持 Hermes 代理的本地部署，旨在摆脱对 Frontier 公司 API 的依赖。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vp56yd/how_did_you_get_your_first_customer/",
+      "publish_time": "2026-08-15 15:06:33",
+      "publish_time_local": "2026-08-15 23:06:33",
+      "title": "How did you get your first customer?",
+      "summary": "* **标题**：SaaS 初创者如何获取首个付费客户及收入体验\n* **核心摘要**：开发者在构建首个 SaaS 产品后，正寻求获取首批付费客户的方法。该话题聚焦于初创阶段获客策略与验证产品市场匹配度的实际挑战。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vp56t0/positioning_note_assistant_flopped_cowork/",
+      "publish_time": "2026-08-15 15:06:23",
+      "publish_time_local": "2026-08-15 23:06:23",
+      "title": "Positioning note: “assistant” flopped; “Cowork + identity + people memory” landed better",
+      "summary": "* **标题**：个人 AI 助手遇冷，具身协作与身份记忆成为破局关键\n* **核心摘要**：Zinley 项目验证了“个人 AI 助手”概念的市场局限性，而融合真实工作流交接、内置开发能力、个人身份标识及人际记忆功能的协作型 AI 表现更佳。该实践表明，AI 产品若仅停留在概念层面，将难以获得用户共鸣；唯有嵌入具体工作场景与真实身份交互，方能实现有效落地。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vp4xrx/the_defense_tech_bottleneck_isnt_ai_anymore_its/",
+      "publish_time": "2026-08-15 14:56:07",
+      "publish_time_local": "2026-08-15 22:56:07",
+      "title": "The defense tech bottleneck isn't AI anymore — it's manufacturing",
+      "summary": "* **标题**：2026 国防科技瓶颈转移：从 AI 智能转向规模化制造\n* **核心摘要**：尽管国防科技初创企业在 2025 年融资近 500 亿美元，但 2026 年的核心制约已从智能模型转向硬件制造能力。实战经验表明，低成本、可消耗的无人机在成本效益上优于昂贵的高精度系统，胜负关键不再取决于模型智能，而在于能否将技术转化为月产数千台的物理产能。这一趋势已延伸至 AI 落地全行业，表明“AI 原生”仅是必要条件，规模化制造才是决定成败的充分条件。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp4xom/gitcalendarorg_an_opensource_decentralized_e2ee/",
+      "publish_time": "2026-08-15 14:56:00",
+      "publish_time_local": "2026-08-15 22:56:00",
+      "title": "git-calendar.org - An open-source, decentralized, e2ee calendar using Git as the backend",
+      "summary": "* **标题**：Git 驱动的去中心化日历：隐私优先的开源 e2ee 解决方案\n* **核心摘要**：该项目采用 Git 仓库作为存储后端，替代传统中心化服务器，实现用户数据自主托管。通过端到端加密、客户端直连任意 Git 远程及 Go/WASM 核心架构，构建出支持跨平台（Web/Android/iOS）的隐私日历，旨在消除数据被科技巨头垄断的风险。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vp4vvl/the_voluntarytomandatory_pipeline_for_ai_safety/",
+      "publish_time": "2026-08-15 14:53:55",
+      "publish_time_local": "2026-08-15 22:53:55",
+      "title": "The voluntary-to-mandatory pipeline for AI safety frameworks — with sources",
+      "summary": "* **标题**：AI 安全框架从自愿到强制的演变路径与监管风险\n* **核心摘要**：AI 安全联盟（如 OSAA）通过自愿框架逐步演变为企业采购及监管强制标准，形成“自愿变强制”的监管路径。现有证据显示，部分联盟成员数量与实际贡献存在巨大落差，且“内部测试”被包装为“自主突破”以推动商业化。为应对此类集中化控制机制，去中心化架构（如本地推理、开放权重）被视为关键的结构化防御手段。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vp4uav/emad_mostaque_the_digital_double_mechanism/",
+      "publish_time": "2026-08-15 14:52:05",
+      "publish_time_local": "2026-08-15 22:52:05",
+      "title": "Emad Mostaque: the \"digital double\" mechanism nobody's retraining plan accounts for",
+      "summary": "* **标题**：Emad Mostaque 警示：AI 转型中的“数字分身”机制与职业跃迁陷阱\n* **核心摘要**：LinkedIn 数据显示，具备 AI 转型能力的工程师薪资涨幅达 42 倍。Emad Mostaque 指出，传统岗位并非消失，而是被“数字分身”机制取代——即通过整合外部专家知识构建内部专有知识库，将外包能力转化为内部资产。这种“必要”的机制正被 AI 效率驱动，迫使从业者直面职业跃迁的门槛。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vp4qzq/a_first_class_model_provider_plugin_for_llamacpp/",
+      "publish_time": "2026-08-15 14:48:12",
+      "publish_time_local": "2026-08-15 22:48:12",
+      "title": "A first class model provider plugin for llama.cpp",
+      "summary": "* **标题**：Llama.cpp 插件集成 Hermes 推理模式，支持 Qwen3.8-27B 动态配置\n* **核心摘要**：开发者为 Hermes 集成 Llama.cpp 插件，新增推理模式钩子以支持 Qwen3.8-27B 的过思模式。该插件允许独立安装，提供推理强度、思维开关及服务器令牌/交换驻留状态等高级配置，旨在解决现有自定义配置无法灵活控制推理参数的痛点。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vp4ppo/bots_attacking_my_saas_app/",
+      "publish_time": "2026-08-15 14:46:46",
+      "publish_time_local": "2026-08-15 22:46:46",
+      "title": "Bots attacking my SaaS App",
+      "summary": "* **标题**：SaaS 应用遭遇 bot 攻击，邮件验证防线失效\n* **核心摘要**：开发者在 SaaS 应用开发一年期间，多次遭遇 bot 攻击。尽管已部署基于 Resend 的邮件验证系统，但 bot 仍能绕过该防线。开发者寻求最佳 anti-bot 解决方案，以构建更完善的防护体系。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -555,12 +2545,42 @@
       "lang": "zh"
     },
     {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vp4fjh/im_starting_to_hate_anthropicclaude_but_i_dont/",
+      "publish_time": "2026-08-15 14:34:27",
+      "publish_time_local": "2026-08-15 22:34:27",
+      "title": "I'm starting to hate anthropic/claude, but I don't want to",
+      "summary": "* **标题**：Claude 4.8 误判安全合规，开发者被迫在昂贵模型与低效替代间抉择\n* **核心摘要**：用户尝试使用 Fable 对 Qwen 3.8-27B 进行自定义修改时，因触发安全合规机制被强制切换至 Opus 4.8。尽管 Opus 5 错误率更低，但其频繁生成虚假断言，导致开发者面临选择：使用成本高昂的模型、接受低效的替代方案，或面对一个不知晓自身谎言的模型。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/large-language-models",
       "url": "https://bisisthapatra.medium.com/teaching-a-language-model-to-read-its-own-mind-a-deep-dive-into-selfie-adapters-ccbdeb1ce002",
       "publish_time": "2026-08-15 14:26:24",
       "publish_time_local": "2026-08-15 22:26:24",
       "title": "Teaching a Language Model to Read Its Own Mind: A Deep Dive into SelfIE Adapters",
       "summary": "* **标题**：自我解释适配器：无需微调冻结模型，用轻量级适配器解锁 LLM 内部语义\n* **核心摘要**：传统 SelfIE 方法依赖人工调整注入向量尺度，导致模型生成语法正确但语义无关的“流畅错误”文本。本文提出一种无需微调冻结模型的新型适配器架构，通过训练一个仅含 4097 个参数的轻量级标量 - 仿射映射，自动学习解释视角。实验表明，该简单架构在 SAE 特征数据集上表现最优，其偏差项承担了约 85% 的改进，有效避免了全秩矩阵在结构重复数据上的过拟合。该方法将解释性探针转化为可解释的控制信号，为推理成本优化提供了新路径。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SaaS",
+      "url": "https://www.reddit.com/r/SaaS/comments/1vp469x/3_months_ago_i_posted_about_churn_because/",
+      "publish_time": "2026-08-15 14:23:24",
+      "publish_time_local": "2026-08-15 22:23:24",
+      "title": "3 months ago i posted about churn because everyone said « i’ll just vibe code it myself » here’s what happened when i stopped fighting it",
+      "summary": "* **标题**：Vibe Coding 无法解决留存流失，透明化技术细节驱动增长\n* **核心摘要**：针对用户声称“周末用 AI 自行开发”导致的流失，作者反其道而行，通过重构 SEO 友好内容、公开技术限制机制及主动对外输出，将“自行开发”的潜在用户转化为付费客户。数据显示，MRR 从$606 增长至$2,042，验证了通过深度技术透明化建立信任比隐藏功能更能有效转化。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp438p/if_you_would_have_told_me_half_a_year_ago_that_a/",
+      "publish_time": "2026-08-15 14:19:46",
+      "publish_time_local": "2026-08-15 22:19:46",
+      "title": "If you would have told me half a year ago that a local model running in my office would be able to one-shot a Super Mario clone, I would have called you nuts. Qwen3.8-27B is a different beast.",
+      "summary": "* **标题**：Qwen3.8-27B 本地部署实现“一键生成”超级马里奥克隆\n* **核心摘要**：用户实测 Qwen3.8-27B 模型在本地环境运行，虽推理速度受限，但凭借 Q8 GGUF 量化技术，成功在夜间批处理及后台任务中实现“一键生成”超级马里奥克隆游戏。该成果验证了大模型在本地部署场景下的强大潜力，并引发社区对如何在保持精度的前提下进一步提升运行速度的探讨。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -575,12 +2595,62 @@
       "lang": "zh"
     },
     {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp41un/open_source_math_editor_i_made_to_keep_up_during/",
+      "publish_time": "2026-08-15 14:18:07",
+      "publish_time_local": "2026-08-15 22:18:07",
+      "title": "Open source math editor I made to keep up during lectures",
+      "summary": "* **标题**：开源数学编辑器 Vieta-Math 启动社区维护计划\n* **核心摘要**：开发者 Liam Hawtin 推出开源数学编辑器 Vieta-Math 以辅助课堂学习，现面向社区招募贡献者及维护人员。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp3zqc/a_nice_local_vision_test/",
+      "publish_time": "2026-08-15 14:15:37",
+      "publish_time_local": "2026-08-15 22:15:37",
+      "title": "A nice local vision test",
+      "summary": "* **标题**：本地视觉模型精度实测：米表读数识别挑战\n* **核心摘要**：针对米表读数识别场景，测试主流视觉模型对特定数值（37461）的识别能力，旨在评估本地部署模型在特定工业场景下的实际表现。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vp3y4p/keeping_ai_agent_memory_accurate/",
+      "publish_time": "2026-08-15 14:13:44",
+      "publish_time_local": "2026-08-15 22:13:44",
+      "title": "Keeping AI Agent Memory Accurate?",
+      "summary": "* **标题**：企业级 AI Agent 记忆污染：Hermes 长会话中的错误累积与修正困境\n* **核心摘要**：在使用 Hermes 进行企业级知识工作时，AI Agent 因长会话导致错误信息不断累积并污染记忆库。虽然可通过记忆审计和回顾提示词修正，但此过程消耗大量时间与 Token，缺乏成熟的自动化工作流解决方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Hacker News",
       "url": "https://srikanth.ch/posts/the-ai-situation/",
       "publish_time": "2026-08-15 14:12:27",
       "publish_time_local": "2026-08-15 22:12:27",
       "title": "The AI Situation in Software Development",
       "summary": "* **标题**：AI 开发现状：从代码实现转向系统设计与意图引导\n* **核心摘要**：开发者在 AI 辅助编程中面临三大核心挑战：一是提示策略需平衡细节控制与高层意图，二是上下文窗口限制导致长文档与复杂代码库难以完整处理，三是领域模型选择与压缩成为关键。尽管代码编写时间看似减少，但实际成本已转移至系统蓝图设计、上下文压缩及信号降噪，开发者正从“写代码”转向“用语言实施”。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/zoomsday-zoom-zero-click-rce-hits-all-meeting-participants-patch-now/",
+      "publish_time": "2026-08-15 14:10:40",
+      "publish_time_local": "2026-08-15 22:10:40",
+      "title": "Zoomsday: Zoom Zero-Click RCE Hits All Meeting Participants — Patch Now",
+      "summary": "* **标题**：Zoomsday 零点击 RCE 漏洞：AI 加速攻击，补丁窗口已归零\n* **核心摘要**：Zoom 标注协议存在三个内存破坏漏洞（CVE-2026-53413/53414/53415），攻击者仅需加入会议即可通过零点击方式控制所有参会者终端。AI 模型已能在 24 小时内构建出完整利用链，导致披露后攻击窗口即刻关闭。企业需立即升级至 7.1.5 或 7.0.6 版本，或暂时禁用标注功能。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/artificial",
+      "url": "https://www.reddit.com/r/artificial/comments/1vp3rgg/analyst_gets_probation_after_telling_chatgpt/",
+      "publish_time": "2026-08-15 14:05:46",
+      "publish_time_local": "2026-08-15 22:05:46",
+      "title": "Analyst gets probation after telling ChatGPT about plans to rape and kill his ex",
+      "summary": "* **标题**：分析师因向 ChatGPT 透露对前女友的暴力计划而被停职\n* **核心摘要**：一名分析师因向 ChatGPT 透露对前女友实施强奸和谋杀的计划，被公司处以停职处分。该事件引发了关于 AI 对话内容安全性及潜在危害的广泛讨论。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -605,6 +2675,26 @@
       "lang": "zh"
     },
     {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp3olj/flowebcomponents_minimal_superclass_for_web/",
+      "publish_time": "2026-08-15 14:02:23",
+      "publish_time_local": "2026-08-15 22:02:23",
+      "title": "Flo-WebComponents: Minimal Superclass for Web Components as React alternative.",
+      "summary": "* **标题**：Flo-WebComponents：Web 组件最小基类，React 替代方案\n* **核心摘要**：Flo-WebComponents 项目提出 Web 组件的最小基类方案，旨在为 React 提供轻量级替代选择。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp3mxp/svc16_a_virtual_computer_that_now_runs_live_in/",
+      "publish_time": "2026-08-15 14:00:38",
+      "publish_time_local": "2026-08-15 22:00:38",
+      "title": "SVC16 - A virtual computer that now runs live in the browser (WASM)",
+      "summary": "* **标题**：SVC16：浏览器内运行的虚拟计算机（WASM 技术）\n* **核心摘要**：SVC16 是一款基于 WebAssembly 构建的虚拟计算机，现已实现在浏览器中直接运行。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "ShowHN",
       "url": "https://hypnagogic-quasicrystals.github.io/",
       "publish_time": "2026-08-15 13:48:43",
@@ -615,12 +2705,122 @@
       "lang": "zh"
     },
     {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vp30ko/how_to_generate_a_prisma_schema_from_an_entity/",
+      "publish_time": "2026-08-15 13:33:21",
+      "publish_time_local": "2026-08-15 21:33:21",
+      "title": "How to Generate a Prisma Schema from an Entity Relationship Diagram",
+      "summary": "* **标题**：Prisma 结合 StackRender 实现从 ER 图到后端服务的自动化生成\n* **核心摘要**：传统数据库设计流程耗时且繁琐，开发者需手动编写 SQL 或构建 Prisma 模型。本文介绍一种基于 Prisma 与 StackRender 的自动化工作流，能够直接从空项目生成可运行的后端服务，彻底免除手动定义数据库架构与模型定义的步骤。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Lobsters",
       "url": "https://blog.jsbarretto.com/post/i-remain-a-skeptic",
       "publish_time": "2026-08-15 13:29:59",
       "publish_time_local": "2026-08-15 21:29:59",
       "title": "Why I remain a skeptic",
       "summary": "* **标题**：AI 幻觉与生产力悖论：为何我拒绝拥抱 LLM 编程\n* **核心摘要**：尽管 AI 生成代码在形式上趋近人类，但缺乏实际生产价值。现有研究未能证实 LLM 能提升核心生产力，且其生成的代码质量、安全性及逻辑完整性均存疑。更深层的担忧在于，AI 的普及可能导致智力劳动同质化，削弱开发者议价权，将软件行业从“行会”推向工业化流水线。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp2x49/gemma_4_e4b_iq2_xxs_14054_reasoning_performance/",
+      "publish_time": "2026-08-15 13:29:08",
+      "publish_time_local": "2026-08-15 21:29:08",
+      "title": "Gemma 4 E4B IQ2_XXS: + 140.54% Reasoning Performance From Tensor Level Quantization Allocation",
+      "summary": "* **标题**：Tensor 级量化分配：Gemma 4 E4B IQ2_XXS 推理性能跃升 140.54%\n* **核心摘要**：在固定 3.3GB 预算下，通过构建基于类别的 Imatrix 并在张量级别重新分配精度，Gemma 4 E4B IQ2_XXS 模型推理能力从 28.9 提升至 69.531。相比仅使用 Imatrix 量化的基准，该方案在 11 个评估类别中 10 个均有提升，推理性能保留率高达 96.74%，同时体积缩减至原模型的 24% 并生成吞吐量提升 2.3 倍。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vp2p4q/what_have_you_built_with_ai_that_youre_actually/",
+      "publish_time": "2026-08-15 13:19:10",
+      "publish_time_local": "2026-08-15 21:19:10",
+      "title": "What have you built with AI that you're actually proud of?",
+      "summary": "* **标题**：拒绝“伪 AI 开发者”，聚焦真实产出与实战成果\n* **核心摘要**：针对当前 AI 开发领域“自封 AI 开发者”却无实际产出的乱象，呼吁开发者分享真实构建的项目。无论是自有产品、客户案例、开源项目还是自动化脚本，只要解决了实际问题并成功交付，均被鼓励公开展示，旨在通过“先有成果再定义身份”的逆向筛选机制，甄别真正具备 AI 编程能力的建设者。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vp2nmi/aged_like_fine_wine/",
+      "publish_time": "2026-08-15 13:17:13",
+      "publish_time_local": "2026-08-15 21:17:13",
+      "title": "Aged like fine wine",
+      "summary": "* **标题**：无\n* **核心摘要**：当前输入内容仅包含 Reddit 帖子元数据（提交者、链接、评论数），未提供具体新闻事实或核心信息，无法提炼有效摘要。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vp2il4/i_got_rickrolled_by_hermes_agent/",
+      "publish_time": "2026-08-15 13:10:44",
+      "publish_time_local": "2026-08-15 21:10:44",
+      "title": "I got rickrolled by Hermes Agent",
+      "summary": "* **标题**：Hermes Agent 视频下载测试遭遇“瑞克摇”恶搞\n* **核心摘要**：开发者测试 Hermes Agent 调用 yt-dlp 下载 YouTube 视频并上传至 NAS 的功能。在确认文件成功上传后，意外发现所选视频为恶搞链接，证实了该 Agent 具备幽默感，但同时也暴露了其在任务执行中可能存在的不可控性。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "ByteIota",
+      "url": "https://byteiota.com/javascripts-using-keyword-is-now-cross-browser-act-now/",
+      "publish_time": "2026-08-15 13:09:31",
+      "publish_time_local": "2026-08-15 21:09:31",
+      "title": "JavaScript’s `using` Keyword Is Now Cross-Browser — Act Now",
+      "summary": "* **标题**：JavaScript 跨浏览器支持 `using` 关键字，资源管理范式统一\n* **核心摘要**：Safari、Chrome、Firefox 及 Node.js 22+ 已全面支持 JavaScript 的 `using` 关键字。该特性允许开发者通过声明式语法自动管理资源生命周期，彻底消除手动 `try/finally` 块带来的资源泄漏风险，实现与 C#、Python 等语言一致的资源清理标准。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vp2gjc/after_receiving_over_65_questions_about_my_hermes/",
+      "publish_time": "2026-08-15 13:08:13",
+      "publish_time_local": "2026-08-15 21:08:13",
+      "title": "After receiving over 65 questions about my Hermes agent over the last few months, I have gathered the most asked questions here and answered them.",
+      "summary": "* **标题**：Hermes Agent 架构解析：DeepSeek V4 Flash 驱动的低成本、高安全自动化方案\n* **核心摘要**：开发者通过直接采购 DeepSeek V4 Flash 模型，将月度运营成本控制在 22 欧元，并采用 DeepSeek 处理常规任务、Google Gemini 处理视觉任务的分层架构。系统通过 Health Bridge 应用直接对接 Neon PostgreSQL 数据库，实现 Apple Health 数据与营养目标的自动关联。为应对硬件故障，采用每日定时备份至 iCloud 的共享文件夹协议，并严格限制 Agent 仅拥有只读权限，确保物理隔离下的安全运行。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/openclaw",
+      "url": "https://www.reddit.com/r/openclaw/comments/1vp2b5e/using_my_claw_on_my_home_network_results_in_lots/",
+      "publish_time": "2026-08-15 13:01:27",
+      "publish_time_local": "2026-08-15 21:01:27",
+      "title": "Using my claw on my home network results in lots of captchas",
+      "summary": "* **标题**：家庭网络使用 OpenClaw 触发全站验证码\n* **核心摘要**：用户反馈在家庭网络部署 OpenClaw 后，所有网站均出现 reCAPTCHA 验证请求。该现象表明自动化代理工具可能因网络特征被主流反爬虫机制识别，引发对免费解决方案的迫切需求。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://lukefleed.xyz/posts/compression/",
+      "publish_time": "2026-08-15 13:01:04",
+      "publish_time_local": "2026-08-15 21:01:04",
+      "title": "How Is Compression Prediction?",
+      "summary": "* **标题**：压缩即预测：数学等价背后的边界与前提\n* **核心摘要**：文章论证了“压缩即预测”这一命题的数学等价性，但强调该结论仅适用于编码问题已确立后的特定层面。在引入概率模型前，压缩问题需先定义对象家族、序列化方式及解码协议。若忽略这些前置约束，仅追求低损失预测可能导致无法还原的完整数据。因此，压缩是预测的充分条件，但并非预测的充分定义，二者仅在特定编码框架下才完全等价。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/SideProject",
+      "url": "https://www.reddit.com/r/SideProject/comments/1vp1tzc/i_built_a_directory_of_1350_open_source/",
+      "publish_time": "2026-08-15 12:39:14",
+      "publish_time_local": "2026-08-15 20:39:14",
+      "title": "I built a directory of 1,350+ open source alternatives to replace your paid apps, powered by AI search",
+      "summary": "* **标题**：AI 驱动开源替代目录，1350+ 工具助企业降本增效\n* **核心摘要**：开发者耗时数月构建含 1350+ 开源软件的目录，集成 AI 搜索与直接对比功能，覆盖近 300 个类别。该目录提供部署信息、GitHub 热度及许可证详情，旨在帮助开发者快速定位并替换付费应用，显著降低企业订阅成本。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://blog.buenzli.dev/flirt-github-and-mailing-list/",
+      "publish_time": "2026-08-15 12:37:40",
+      "publish_time_local": "2026-08-15 20:37:40",
+      "title": "Flirt: GitHub and Mailing List backends",
+      "summary": "* **标题**：Flirt 项目进展：GitHub 与邮件列表后端实现及架构挑战\n* **核心摘要**：开发者在论文答辩后推进 Flirt 项目，成功实现 GitHub 与邮件列表后端。针对 GitHub 历史提交追踪缺失及邮件列表格式解析复杂等痛点，提出了基于本地存储与自定义引用机制的解决方案。当前版本仅支持简单场景，计划近期开源并完善评论线程结构，同时计划参加 JJ Con 会议。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -645,12 +2845,52 @@
       "lang": "zh"
     },
     {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1vp15qp/running_my_own_website_gave_me_more_valuable/",
+      "publish_time": "2026-08-15 12:06:28",
+      "publish_time_local": "2026-08-15 20:06:28",
+      "title": "Running my own website gave me more valuable feedback than working as a professional programmer",
+      "summary": "* **标题**：独立建站反馈远超专业开发：性能优化与资源管理的实战教训\n* **核心摘要**：开发者在独立运营网站过程中，因客户端对图片尺寸与体积的矛盾需求，以及针对老旧设备的性能瓶颈，深入实践了 Cloudflare 缓存策略与 CSS 背景模糊优化。相较于专业开发环境，独立项目虽规模有限，却提供了更直接、更具价值的技术反馈与学习机会。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "GitHub/Daily-BlackHorse",
       "url": "https://github.com/NetroIndonesia/freebuff2api",
       "publish_time": "2026-08-15 12:02:12",
       "publish_time_local": "2026-08-15 20:02:12",
       "title": "【GitHub昨日黑马No.7】NetroIndonesia/freebuff2api",
       "summary": "* **标题**：NetroIndonesia/freebuff2api 打造自托管网关，兼容 OpenAI 与 Anthropic 模型\n* **核心摘要**：该项目通过单一进程架构，将 Freebuff 和 Codebuff 模型封装为兼容 OpenAI 及 Anthropic 的 API 网关。其核心功能涵盖代理池自动轮换、会话缓存管理、动态模型注册及多账户配额控制，支持 SSE 流式传输与实时仪表盘监控，旨在为开发者提供低依赖、易集成的自托管 LLM 服务方案。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/coolgithubprojects",
+      "url": "https://www.reddit.com/r/coolgithubprojects/comments/1vp0z61/i_built_a_simple_windows_app_installer_using/",
+      "publish_time": "2026-08-15 11:57:52",
+      "publish_time_local": "2026-08-15 19:57:52",
+      "title": "I built a simple Windows app installer using WinGet",
+      "summary": "* **标题**：AI 辅助 WinGet 构建安装工具，一键部署 Windows 常用软件\n* **核心摘要**：开发者利用 AI 辅助，基于 Microsoft WinGet 框架开发了名为 InstallHub 的 Windows 应用安装工具。该工具支持通过图形界面选择 Steam、Discord 等常用软件，自动生成 WinGet 命令、批处理脚本及 JSON 配置文件，实现一键安装。项目采用开源模式，并持续接受社区反馈以迭代功能。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vp0xza/outsider_art_skill/",
+      "publish_time": "2026-08-15 11:56:07",
+      "publish_time_local": "2026-08-15 19:56:07",
+      "title": "Outsider Art Skill",
+      "summary": "* **标题**：AI 绘画风格约束：260 行“风格宪法”定义单一视觉范式\n* **核心摘要**：开发者通过 260 行“风格宪法”代码，强制 AI 生成仅包含特定视觉特征（如等距视角、无透视、高密度纹理、单色主导）的图像。该实践在 GitHub 上开源，旨在通过极简规则约束模型输出，探索 AI 艺术创作的可控性边界。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "SebastianRaschka",
+      "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+      "publish_time": "2026-08-15 11:54:24",
+      "publish_time_local": "2026-08-15 19:54:24",
+      "title": "Building an AI Text Detector From Scratch",
+      "summary": "* **标题**：从零构建 AI 文本检测器：数据集构建、模型训练与本地部署全链路实践\n* **核心摘要**：本项目旨在通过端到端开发，从零构建一个基于 DistilBERT 分类器的 AI 文本检测器，并以此作为案例研究，探索构建 LLM 评分器与验证器的通用方法。项目涵盖数据集构建、模型微调及本地部署，旨在解决 AI 生成内容检测中的猫鼠游戏难题，同时提供过滤垃圾内容与优化个人写作的双重应用场景。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -665,12 +2905,52 @@
       "lang": "zh"
     },
     {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1vp0rig/sol_can_finally_spawn_luna_subagents_how_are_you/",
+      "publish_time": "2026-08-15 11:46:31",
+      "publish_time_local": "2026-08-15 19:46:31",
+      "title": "Sol can finally spawn Luna subagents. How are you actually using this?",
+      "summary": "* **标题**：Sol 正式支持 Luna 子代理，多智能体架构下的成本优化实践\n* **核心摘要**：随着 Sol 多智能体 V2 架构更新，Mac 应用现已支持直接调用 Luna V1 子代理。开发者关注通过合理分配任务，利用 Luna 处理高频小任务以降低 Token 消耗。当前社区正探索自定义指令与 AGENTS.md 配置，以最大化 Luna 的协作效率，实现成本与性能的最优平衡。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/rag",
       "url": "https://khandelwaltapan7.medium.com/i-built-an-ai-that-refuses-to-be-fooled-heres-how-976a729bb5cf",
       "publish_time": "2026-08-15 11:40:26",
       "publish_time_local": "2026-08-15 19:40:26",
       "title": "“I Built an AI That Refuses to Be Fooled — Here’s How”",
       "summary": "* **标题**：构建“反欺骗”RAG系统：用确定性代码对抗提示注入与文档冲突\n* **核心摘要**：开发者通过构建“反欺骗”RAG系统，将文档冲突解析与提示注入防御逻辑下沉至确定性代码层，仅让大语言模型负责解释。该架构通过向量检索、基于规则的冲突时间线构建及注入扫描，成功解决了多文档矛盾与对抗性输入问题，验证了“用代码做决策，用模型做解释”的架构范式。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/openclaw",
+      "url": "https://www.reddit.com/r/openclaw/comments/1vp0lsr/too_much_context_leads_to_llm_slang/",
+      "publish_time": "2026-08-15 11:38:05",
+      "publish_time_local": "2026-08-15 19:38:05",
+      "title": "too much context leads to LLM slang",
+      "summary": "* **标题**：上下文过载引发 LLM 术语幻觉，导致人机沟通断裂\n* **核心摘要**：开发者指出，LLM 因记忆上下文过长，无法区分用户意图与系统内部术语，导致生成内容中出现大量自创的“行话”与隐喻。这种现象被类比为末日场景中的语言隔离，严重削弱了模型与人类用户的连接感。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/productivity",
+      "url": "https://www.reddit.com/r/productivity/comments/1vp09n6/i_believe_that_i_have_the_capability_to_do_above/",
+      "publish_time": "2026-08-15 11:19:59",
+      "publish_time_local": "2026-08-15 19:19:59",
+      "title": "I believe that I have the capability to do above average and great yet I do nothing.",
+      "summary": "* **标题**：高能力低行动：自我设限与拖延的恶性循环\n* **核心摘要**：当事人承认具备进入顶尖大学的学术能力，却因缺乏行动力陷入拖延与逃避。其通过无节制娱乐、临时突击学习等方式消耗时间，导致学业成果远低于预期。这种“有能力却不愿付出”的状态，使其在对比同龄人时产生强烈的自我否定与挫败感，并陷入“若他人掌控人生”的幻想中。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/hermesagent",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1vp08ms/i_built_an_omarchy_theme_inspired_by_nous/",
+      "publish_time": "2026-08-15 11:18:27",
+      "publish_time_local": "2026-08-15 19:18:27",
+      "title": "I built an Omarchy theme inspired by nous research art direction",
+      "summary": "* **标题**：基于 Nous Research 艺术风格的 Omarchy 主题发布\n* **核心摘要**：开发者在 GitHub 上开源了 Omarchy 主题，灵感源自 Nous Research 的艺术指导方向。项目包含安装说明及 README 文档，并邀请用户关注该仓库。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -695,6 +2975,16 @@
       "lang": "zh"
     },
     {
+      "source": "r/ClaudeCode",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1vozpv9/a_google_cloud_engineer_just_showed_how_to_build/",
+      "publish_time": "2026-08-15 10:49:43",
+      "publish_time_local": "2026-08-15 18:49:43",
+      "title": "A Google Cloud engineer just showed how to build a complete application with Claude from scratch",
+      "summary": "* **标题**：Google 云工程师演示：26 分钟从零构建完整应用\n* **核心摘要**：一名 Google 云工程师在 26 分钟内，仅凭 Claude 与明确目标，便完成了通常团队需耗时数周才能构建的完整应用。该实践凸显了掌握 AI 核心能力相较于单纯付费课程的价值，并指出利用 AI 能力构建自主应用是当前的市场核心机遇。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/vibe-coding",
       "url": "https://medium.com/@johirbuet/i-let-ai-write-my-code-47-files-later-im-afraid-to-touch-anything-d754fcd2c718",
       "publish_time": "2026-08-15 10:47:29",
@@ -705,12 +2995,42 @@
       "lang": "zh"
     },
     {
+      "source": "r/webdev",
+      "url": "https://www.reddit.com/r/webdev/comments/1voznex/i_built_a_set_of_evidencebased_weighted_walking/",
+      "publish_time": "2026-08-15 10:45:53",
+      "publish_time_local": "2026-08-15 18:45:53",
+      "title": "I built a set of evidence-based weighted walking calculators with Next.js",
+      "summary": "* **标题**：基于实证数据的加权行走计算器：Next.js 静态架构与科学逻辑解耦实践\n* **核心摘要**：开发者构建了一套无需后端数据库、纯前端计算的加权行走工具集，采用 Next.js 与 TypeScript 技术栈。核心挑战在于将科学计算逻辑与用户界面分离，通过构建独立计算层、版本化结果及证据注册表，确保算法严谨性与数据可追溯性。项目强调无广告、无账户的隐私友好设计，并主动寻求关于输入理解度、证据可见性及移动端无障碍体验的反馈。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://serokell.io/blog/serokell-s-work-on-ghc-dependent-types-part-5",
+      "publish_time": "2026-08-15 10:42:53",
+      "publish_time_local": "2026-08-15 18:42:53",
+      "title": "Serokell’s Work on GHC: Dependent Types, Part 5",
+      "summary": "* **标题**：GHC 实现可见 `forall` 与 GADT 依赖类型，Serokell 推进 Haskell 类型系统实用化\n* **核心摘要**：Serokell 团队在 GHC 9.14 中成功实现 GADT 中的可见 `forall`（VDQ），通过重构 AST 统一类型与项参数表示，解决了构造子签名中量词处理的工程难题。该进展为 GHC 提案 #378 中依赖类型系统的完整落地奠定了关键基础。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "Medium/rag",
       "url": "https://medium.com/@mehrajmalik43/if-ai-models-have-trillions-of-parameters-why-do-they-still-have-a-context-limit-2effe0ac29e9",
       "publish_time": "2026-08-15 09:23:06",
       "publish_time_local": "2026-08-15 17:23:06",
       "title": "If AI Models Have Trillions of Parameters, Why Do They Still Have a Context Limit?",
       "summary": "* **标题**：万亿参数模型为何仍有上下文限制？解析 AI 架构核心矛盾\n* **核心摘要**：文章深入探讨了大模型参数与上下文窗口之间的本质区别。尽管模型拥有海量参数，但上下文限制源于推理时的计算与显存开销。单纯依赖对话历史作为训练数据会导致灾难性遗忘、隐私泄露及回滚困难。因此，生产级 AI 系统需通过 RAG 架构与外部记忆管理，将“模型能力”与“系统架构”解耦，实现动态检索与精准上下文控制。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "r/codex",
+      "url": "https://www.reddit.com/r/codex/comments/1voy8x5/the_end_is_near_for_subscription/",
+      "publish_time": "2026-08-15 09:21:29",
+      "publish_time_local": "2026-08-15 17:21:29",
+      "title": "The end is near - for subscription",
+      "summary": "* **标题**：订阅制终结临近：DeepSeek 0731 在 64GB 内存下验证成功\n* **核心摘要**：用户声明未拥有仓库所有权，并基于 64GB 内存环境对 DeepSeek 0731 模型进行了测试。测试结果显示该模型运行顺畅，验证了其在特定硬件配置下的可用性。\n\n",
       "translation_status": "source",
       "lang": "zh"
     },
@@ -765,6 +3085,26 @@
       "lang": "zh"
     },
     {
+      "source": "Lobsters",
+      "url": "https://depot.dev/blog/tla-verification",
+      "publish_time": "2026-08-15 05:12:40",
+      "publish_time_local": "2026-08-15 13:12:40",
+      "title": "Improving system safety with Temporal Logic of Actions (TLA+)",
+      "summary": "* **标题**：用 TLA+ 模型检测法，在分布式系统中捕获测试遗漏的并发竞争\n* **核心摘要**：针对分布式系统中难以复现的并发竞争与数据丢失问题，Depot Registry 团队利用 TLA+ 对垃圾回收器进行形式化建模。通过模型检测器自动探索所有可能的状态交错，成功发现测试覆盖不到的逻辑漏洞，并验证了 10 个安全不变式。该实践表明，将 AI 生成的规范与人工审查结合，能有效提升复杂系统的正确性保障能力。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Lobsters",
+      "url": "https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/",
+      "publish_time": "2026-08-15 04:45:34",
+      "publish_time_local": "2026-08-15 12:45:34",
+      "title": "How 2004 RuneScape fit a multiplayer RPG into 56k dial-up",
+      "summary": "* **标题**：56k 拨号上网时代的 RuneScape：极致带宽约束下的网络协议设计\n* **核心摘要**：文章通过逆向分析 2004 年 RuneScape 客户端，揭示了在 5KB/s 下行带宽、Java Applet 沙箱及 600ms 服务器循环的严苛限制下，游戏如何通过 ISAAC 流加密、位压缩及预定义协议状态机，实现多玩家实时同步。这种“紧密耦合、零冗余”的协议设计哲学，与现代 Web 服务为追求解耦与版本控制而采用的“冗余传输”模式形成鲜明对比，其核心在于将协议细节内化于客户端设计，而非传输。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
       "source": "GitHub/Daily-BlackHorse",
       "url": "https://github.com/antinomie-lab/dsh-explore",
       "publish_time": "2026-08-15 04:29:11",
@@ -781,6 +3121,36 @@
       "publish_time_local": "2026-08-15 09:02:32",
       "title": "【GitHub昨日黑马No.3】liceses/dsh-gitbash-preset",
       "summary": "* **标题**：Windows 极简模式适配 Git Bash，DSH 插件解决 PTY 沙箱限制\n* **核心摘要**：针对 Windows 平台 PTY 后端缺失及 bash 环境不可用的双重限制，该插件通过自动探测 bash.exe 路径并引入沙箱感知门控机制，实现了 DeepSeek Harness 极简模式在 Windows 上的 Git Bash 调用。安装过程支持幂等性与自动升级，但受限于沙箱策略，需将会话权限调整为完全访问方可生效。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "PrimeIntellect/Blog",
+      "url": "https://www.primeintellect.ai/blog/measuring-autonomous-research",
+      "publish_time": "2026-08-14 00:00:00",
+      "publish_time_local": "2026-08-14 08:00:00",
+      "title": "Measuring Autonomous AI Research",
+      "summary": "* **标题**：前沿模型自主研究能力实测：18 款模型在纳米 GPT 竞速中的表现分层\n* **核心摘要**：Prime Intellect 团队在 18 款前沿模型上开展大规模自主研究实验，通过 153 次纳米 GPT 竞速测试，验证了模型在长周期任务中的执行效率。结果显示，尽管模型均能理解任务对象，但缺乏根本性的创新突破，仅能复现已有文献中的方法。实验数据清晰划分出模型梯队，Fable 5 与 Opus 5 等头部模型在缩短人类记录差距方面表现显著优于其他模型。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://www.asus.com/accessories/bike-booster/asus-oxiis/oxiis-intelligent-bike-booster/",
+      "publish_time": "2026-08-12 06:33:12",
+      "publish_time_local": "2026-08-12 14:33:12",
+      "title": "Asus Bike Booster",
+      "summary": "* **标题**：ASUS Oxiis E250G1 智能电助力系统：零改装、高兼容性的骑行新范式\n* **核心摘要**：ASUS Oxiis E250G1 采用无摩擦驱动与自适应增程技术，无需改动车架即可适配 16-29 英寸及多种车型。其 500W 峰值功率与 158Wh 电池支持 50km 续航，配合 IPX4 防水等级与智能模式切换，实现从城市通勤到山地骑行的无缝升级。\n\n",
+      "translation_status": "source",
+      "lang": "zh"
+    },
+    {
+      "source": "Hacker News",
+      "url": "https://duckdb.org/2026/07/31/asynchronous-io",
+      "publish_time": "2026-08-10 13:01:18",
+      "publish_time_local": "2026-08-10 21:01:18",
+      "title": "Asynchronous I/O in DuckDB: Work, Thread, Work",
+      "summary": "* **标题**：DuckDB 异步 I/O 架构升级：远程数据读取性能突破 20 倍\n* **核心摘要**：DuckDB 自 v2.0 起将引入异步 I/O 机制，通过分离同步与异步线程池，解决远程存储（如 S3）数据读取阻塞问题。实测数据显示，在 80GB CSV 文件查询中，异步 I/O 将平均运行时间从 878 秒压缩至 45 秒，性能提升近 20 倍。该特性默认启用，并计划扩展至 JSON 及原生格式，旨在优化数据湖场景下的查询效率。\n\n",
       "translation_status": "source",
       "lang": "zh"
     }
