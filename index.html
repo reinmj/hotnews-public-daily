@@ -1493,9 +1493,27 @@
             return window.open(intentUrl, '_blank', 'noopener,noreferrer');
         }
 
+        function trackPostClick(item, actionType, metadata = {}) {
+            if (!item || !item.url) return;
+            fetch('/api/post_click', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    post_id: null,
+                    url: item.url,
+                    action_type: actionType,
+                    metadata: { page: 'daily', language: LANG_KEY, ...metadata }
+                }),
+                keepalive: true
+            }).catch(err => {
+                console.warn('[点击记录] 上报失败，不影响分享流程:', err);
+            });
+        }
+
         async function shareItem(index, button) {
             const item = currentItems[index];
             if (!item) return;
+            trackPostClick(item, 'share_to_x');
             const xWindow = window.open('about:blank', '_blank');
             if (!window.htmlToImage || typeof window.htmlToImage.toBlob !== 'function') {
                 openXComposer(item, xWindow);
