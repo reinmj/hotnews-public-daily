@@ -592,6 +592,40 @@
             transform: none;
         }
 
+        .share-status {
+            position: fixed;
+            right: 20px;
+            bottom: max(20px, env(safe-area-inset-bottom));
+            z-index: 1200;
+            display: none;
+            width: min(480px, calc(100% - 40px));
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+            border: 1px solid #bfdbfe;
+            border-radius: 10px;
+            background: #eff6ff;
+            color: #1e3a8a;
+            padding: 14px 16px;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 1.5;
+            box-shadow: 0 18px 45px rgba(15, 23, 42, 0.16);
+        }
+        .share-status.is-visible { display: block; }
+        .share-status button {
+            display: block;
+            margin-top: 10px;
+            min-height: 40px;
+            border: 0;
+            border-radius: 8px;
+            background: #2563eb;
+            color: #fff;
+            padding: 8px 12px;
+            font: inherit;
+            cursor: pointer;
+        }
+        .share-status button:hover { background: #1d4ed8; }
+
         .share-stage {
             position: fixed;
             left: -10000px;
@@ -936,6 +970,7 @@
             </svg>
         </a>
     </footer>
+    <div id="shareStatus" class="share-status" role="status" aria-live="polite"></div>
     <div id="shareStage" class="share-stage" aria-hidden="true"></div>
 
     <script>
@@ -993,6 +1028,11 @@
                 sourceCurrentOne: '{source} · {count} 篇',
                 filteredStatus: '显示 {shown} / {total} 篇',
                 shareToX: '分享到 X',
+                openX: '打开 X',
+                shareOpened: '已打开 X 草稿。',
+                shareBlocked: '浏览器拦截了新窗口，请点“打开 X”。',
+                shareNoImage: '图片组件未加载，仅分享链接。',
+                shareImageFailed: '图片生成失败，仅分享链接。',
                 shareHint: '图片就绪后打开 X；若已复制，到发帖框按 ⌘V / Ctrl+V 粘贴。',
                 shareGenerating: '生成图片中',
                 shareCopied: '已复制图片',
@@ -1029,6 +1069,11 @@
                 sourceCurrentOne: '{source} · {count} items',
                 filteredStatus: 'Showing {shown} / {total} items',
                 shareToX: 'Share to X',
+                openX: 'Open X',
+                shareOpened: 'X draft opened.',
+                shareBlocked: 'The popup was blocked. Select “Open X” to continue.',
+                shareNoImage: 'Image component unavailable; sharing the link only.',
+                shareImageFailed: 'Image generation failed; sharing the link only.',
                 shareHint: 'Opens X when the image is ready. If copied, paste it with ⌘V / Ctrl+V.',
                 shareGenerating: 'Making image',
                 shareCopied: 'Image copied',
@@ -1065,6 +1110,11 @@
                 sourceCurrentOne: '{source} · {count} 件',
                 filteredStatus: '{shown} / {total} 件を表示',
                 shareToX: 'X に共有',
+                openX: 'X を開く',
+                shareOpened: 'X の下書きを開きました。',
+                shareBlocked: 'ポップアップがブロックされました。「X を開く」を押してください。',
+                shareNoImage: '画像コンポーネントを読み込めないため、リンクのみ共有します。',
+                shareImageFailed: '画像生成に失敗したため、リンクのみ共有します。',
                 shareHint: '画像の準備後に X を開きます。コピー済みなら ⌘V / Ctrl+V で貼り付けてください。',
                 shareGenerating: '画像生成中',
                 shareCopied: '画像をコピー済み',
@@ -1470,27 +1520,43 @@
             }
         }
 
-        async function copyImagePromiseToClipboard(blobPromise) {
-            if (!navigator.clipboard || typeof ClipboardItem === 'undefined') return false;
-            try {
-                await navigator.clipboard.write([
-                    new ClipboardItem({ 'image/png': blobPromise })
-                ]);
-                return true;
-            } catch (err) {
-                console.warn('图片 Promise 写入剪贴板失败，回退为下载。', err && (err.name || err.message) ? `${err.name || ''}: ${err.message || ''}` : err);
-                return false;
+        let shareStatusTimer = null;
+
+        function showShareStatus(message, action = null) {
+            const status = document.getElementById('shareStatus');
+            window.clearTimeout(shareStatusTimer);
+            shareStatusTimer = null;
+            status.textContent = message;
+            if (action) {
+                const button = document.createElement('button');
+                button.type = 'button';
+                button.textContent = action.label;
+                button.addEventListener('click', () => {
+                    if (action.onClick()) status.classList.remove('is-visible');
+                });
+                status.appendChild(button);
+            }
+            status.classList.add('is-visible');
+            // A blocked popup needs a fresh user gesture; keep that action available.
+            if (!action) {
+                shareStatusTimer = window.setTimeout(() => status.classList.remove('is-visible'), 5000);
             }
         }
 
-        function openXComposer(item, targetWindow = null) {
+        function openXComposer(item) {
             const url = item.url || window.location.href;
             const intentUrl = `https://x.com/intent/post?url=${encodeURIComponent(url)}`;
-            if (targetWindow && !targetWindow.closed) {
-                targetWindow.location.href = intentUrl;
-                return targetWindow;
-            }
-            return window.open(intentUrl, '_blank', 'noopener,noreferrer');
+            const opened = window.open(intentUrl, '_blank');
+            if (opened) opened.opener = null;
+            return opened;
+        }
+
+        function finishXShare(item, imageStatus) {
+            const opened = openXComposer(item);
+            showShareStatus(`${imageStatus} ${opened ? UI.shareOpened : UI.shareBlocked}`, opened ? null : {
+                label: UI.openX,
+                onClick: () => openXComposer(item),
+            });
         }
 
         function trackPostClick(item, actionType, metadata = {}) {
@@ -1514,9 +1580,8 @@
             const item = currentItems[index];
             if (!item) return;
             trackPostClick(item, 'share_to_x');
-            const xWindow = window.open('about:blank', '_blank');
             if (!window.htmlToImage || typeof window.htmlToImage.toBlob !== 'function') {
-                openXComposer(item, xWindow);
+                finishXShare(item, UI.shareNoImage);
                 return;
             }
 
@@ -1525,39 +1590,31 @@
                 button.disabled = true;
                 button.textContent = UI.shareGenerating;
             }
+            showShareStatus(UI.shareGenerating);
 
             try {
                 shareStageEl.innerHTML = '';
                 const card = buildShareCard(item);
                 shareStageEl.appendChild(card);
-                const blobPromise = window.htmlToImage.toBlob(card, {
+                const blob = await window.htmlToImage.toBlob(card, {
                     pixelRatio: 2,
                     backgroundColor: '#fbfbf7',
                     cacheBust: true
-                }).then((blob) => {
-                    if (!blob) throw new Error('卡片图片生成失败');
-                    return blob;
                 });
+                if (!blob) throw new Error('卡片图片生成失败');
 
                 const filename = `ai-news-daily-${todayLocal()}-${fileSafeName(item.source)}-${index + 1}.png`;
-                const copied = await copyImagePromiseToClipboard(blobPromise);
+                const copied = await copyImageToClipboard(blob);
                 if (!copied) {
-                    const blob = await blobPromise;
-                    const copiedAfterRender = await copyImageToClipboard(blob);
-                    if (copiedAfterRender) {
-                        if (button) button.textContent = UI.shareCopied;
-                        openXComposer(item, xWindow);
-                        return;
-                    }
                     downloadBlob(blob, filename);
                     if (button) button.textContent = UI.shareDownloaded;
                 } else if (button) {
                     button.textContent = UI.shareCopied;
                 }
-                openXComposer(item, xWindow);
+                finishXShare(item, copied ? UI.shareCopied : UI.shareDownloaded);
             } catch (err) {
                 console.error(err);
-                openXComposer(item, xWindow);
+                finishXShare(item, UI.shareImageFailed);
             } finally {
                 shareStageEl.innerHTML = '';
                 if (button) {
